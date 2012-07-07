@@ -1,4 +1,4 @@
 greedmud
 ========
 
-GreedMud
+Greed Mud
