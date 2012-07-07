@@ -1,0 +1,71 @@
+GreedMud Release 1.0 GOLD
+Thursday, 8th May 2003
+
+Zen             <greedmud@yahoogroups.com>
+
+
+
+=== Introduction
+
+GreedMud is based on Ultra Envy Merc Diku Mud with many enhancements 
+and contributions.  See 'contrib.txt' and 'help greed' for acknowledgements.
+Send me your contribution, and you'll be in there too!
+
+Enjoy the mud.  May your visit here be ... Profitable.
+
+An ANSI C compiler is required. GCC works fine.
+
+I decided to put the areas back in the distribution and drop the ANSI C++ code
+due to popular demand. Hence the GOLD.
+
+
+=== Contents of the Release
+
+	archive	Archive files.
+	area	Area files.
+	backup	Divided into subdirectories for player files (initially empty).
+	clans	Clan files.
+	classes	Class files.
+	dict	Dictionary files.
+	doc	Documentation.
+	log	Log files    (initially empty).
+	mobprog	MobPrograms.
+	notes	Note files.
+	player	Divided into subdirectories for player files (initially empty).
+	src	Source files.
+	sys	System files.
+
+Each directory contains a README file that is designed to explain the contents
+and purpose of that particular directory.  Please READ them!
+
+
+
+=== Support
+
+First, read the documentation in the 'doc' directory.  I have mostly been
+keeping the documentation files up-to-date (ahem).
+
+Also check the 'wizhelp' command and read the 'help' descriptions for the
+individual immortal commands.
+
+(Immortal commands are considered now and must be edited into
+ playerfiles manually.  See 'pfile.txt' for more details)
+
+GreedMud has a mailing list, at <greedmud@yahoogroups.com>.  Send mail to
+<greedmud-subscribe@yahoogroups.com> to join the list.
+
+When you write, I need to know what kind of machine you're running on.  If
+you can give me specific information about the problem, that helps too.
+
+Specific information means: a gdb stack trace (if you're reporting a crash),
+or a syslog with the relevant commands logged.  The player files are ascii
+files -- dump them into your mail message too.
+
+If your e-mail is too vague, I'm likely to bounce it back.  There is one
+of me and hundreds of you -- I simply can't engage in long-distance debugging,
+on unknown platforms, with the added factor of more code that you've dropped in
+since the release.
+Then again, some of the other folks in the mailing-list may be able to help you.
+
+
+Enjoy!

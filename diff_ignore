@@ -1,0 +1,7 @@
+*.o
+envy
+core
+*.log
+BUGS.TXT
+CLANS.TXT
+SHUTDOWN.TXT

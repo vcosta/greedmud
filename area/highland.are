@@ -1,0 +1,4489 @@
+#AREADATA
+Name        The HighLands~
+Author      Karl~
+Levels      15 25
+Security    1
+VNUMs       11500 11700
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#11500
+Name        Frog~
+Short       A gigantic frog~
+Long
+The Frog jumps about a bit.
+~
+Descr
+It's over 6 meters long and you wonder what something so big eats to 
+stay alive.
+~
+Act         aggressive~
+AffectBy    ~
+Alignment   -230
+Level       15
+Race        Animal~
+Sex         neutral~
+End
+
+#11501
+Name        Barbarian~
+Short       A Barbarian~
+Long
+The Barbarian stinks and sweats.
+~
+Descr
+The Barbarian looks like he could eat a horse but he will
+consider you also.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   -100
+Level       14
+Race        Giant~
+Sex         male~
+End
+
+#11502
+Name        Barbarian Warrior~
+Short       A barbarian warrior~
+Long
+The warrior looks at you.
+~
+Descr
+The warrior looks suspiciously around for anyone he thinks
+he wants to kill.
+~
+Act         ~
+AffectBy    ~
+Alignment   -200
+Level       16
+Race        Giant~
+Sex         male~
+End
+
+#11503
+Name        Barbarian Guard~
+Short       A Barbarian Guard~
+Long
+The guard is standing still like a marble bust.
+~
+Descr
+The Guard will let nobody in who isn's supposed to get in.
+They also guard the lord's cleric and mage.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -350
+Level       18
+Race        Giant~
+Sex         male~
+End
+
+#11504
+Name        Barbarian Elite~
+Short       An Elite barbarian~
+Long
+The barbarian is waiting for you to do something.
+~
+Descr
+The Elite of the army they will protect their Lord at all cost
+even death they don NOT fear.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -600
+Level       21
+Race        Giant~
+Sex         male~
+End
+
+#11505
+Name        Highlander~
+Short       A Highlander~
+Long
+The highlander walks by and greets you.
+~
+Descr
+An man who lives in these harsh lands. He knows is way around here.
+He walks around playing his bagpipes.
+~
+Act         ~
+AffectBy    detect_evil sanctuary~
+Alignment   700
+Level       25
+Race        Human~
+Sex         male~
+End
+
+#11506
+Name        Barbarian Lord~
+Short       The Barbarian Lord~
+Long
+The Lord has the words to kill you on his lips.
+~
+Descr
+He rules this district. He is a very harsh ruler all his subjects
+fear him. He has teeth like a boar, man what is he ugly.
+~
+Act         sentinel~
+AffectBy    sanctuary~
+Alignment   -1000
+Level       25
+Race        Giant~
+Sex         male~
+End
+
+#11507
+Name        Wife~
+Short       The wife of the Lord~
+Long
+The Wife is looking at a cracked mirror.
+~
+Descr
+She is a ugliest looking example of the feminine sex, you wonder
+how he can stand the sight of her even in absolute darkness.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   -900
+Level       20
+Race        Ogre~
+Sex         female~
+End
+
+#11508
+Name        Holy Slayer~
+Short       The Holy Slayer~
+Long
+The Slayer isn't aware of your presence.
+~
+Descr
+It's a ghostlike swirling mass which resembles somewhat a knight.
+He murmurs something of making a big mistake and now having to roam the 
+lands without peace.
+~
+Act         ~
+AffectBy    invisible sanctuary infrared~
+Alignment   0
+Level       35
+Race        Undead~
+Sex         neutral~
+End
+
+#11509
+Name        sheep~
+Short       A sheep~
+Long
+The sheep is eating grass.
+~
+Descr
+It looks like a sheep, it sounds like a sheep and what'd ya know it's
+even a sheep.
+~
+Act         ~
+AffectBy    ~
+Alignment   200
+Level       10
+Race        Animal~
+Sex         neutral~
+End
+
+#11510
+Name        mage lord mardonna~
+Short       The Lord's Mage Mardonna~
+Long
+The mage eyes you conspiciously.
+~
+Descr
+She is the personal mage for the Lord just like the Cleric is.
+She is doing some sort of an experiment here. Beter watch out it
+might explode in your face.
+~
+Act         sentinel~
+AffectBy    detect_invis detect_magic sanctuary~
+Alignment   -800
+Level       18
+Race        Halfelf~
+Sex         female~
+Spec        spec_cast_mage~
+End
+
+#11511
+Name        cleric lord boldar~
+Short       The Lord's Cleric Boldar~
+Long
+The cleric doesnt notice you.
+~
+Descr
+He is the house cleric. He sees to it that the Lord stays healthy
+in body and mind. Presently he is meditating on something, so he
+is deep in thought and hasn't noticed you enter yet.
+~
+Act         sentinel~
+AffectBy    sanctuary~
+Alignment   -350
+Level       18
+Race        Elf~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#11512
+Name        Keeper~
+Short       The Keeper of the Tower~
+Long
+The keeper greets you.
+~
+Descr
+His sole duty is that his Beacon stays lit. It's the only thing he cares for.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   0
+Level       16
+Race        Hobbit~
+Sex         male~
+End
+
+#11513
+Name        Nessy~
+Short       Nessy~
+Long
+Nessy grins.
+~
+Descr
+Before you you see a reptilian monster of enormous size, you better not
+get into a fight with her.
+~
+Act         sentinel~
+AffectBy    sanctuary~
+Alignment   200
+Level       24
+Race        Snake~
+Sex         female~
+Spec        spec_breath_any~
+End
+
+#11514
+Name        Child kid Nessy~
+Short       Nessy's Child.~
+Long
+A small Nessy is sleeping here.
+~
+Descr
+A smaller replica of Nessy lies here sleeping contently. Don't disturb her
+even kids of a reptilian need their sleep.
+~
+Act         sentinel~
+AffectBy    infrared~
+Alignment   300
+Level       20
+Race        Snake~
+Sex         male~
+Spec        spec_breath_any~
+End
+
+#11515
+Name        Guardian~
+Short       A Fire Elemental~
+Long
+A fire elemental is here.
+~
+Descr
+It's a elemental called down here probably by the mage herself to protect
+this exit. The guardians will attack anybody that comes here and isn't the 
+mage.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis detect_hidden infrared flying~
+Alignment   -1000
+Level       20
+Race        Elemental~
+Sex         neutral~
+End
+
+#11516
+Name        Guard~
+Short       A guard~
+Long
+A guard is here.
+~
+Descr
+The guards here are cleaning their equipement or sleeping or whatever. Normally
+they would be on duty but they are just on-call now.
+They are not very tall but look quite though.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -400
+Level       17
+Race        Giant~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#11500
+Name        Claymore~
+Short       an Enormous claymore~
+Descr
+Its an claymore made of laen a rare metal lies here.~
+Type        weapon~
+Extra       glow evil magic anti-good~
+Wear        take wield~
+Values      0~ 0~ 0~ 3~ 0~
+Weight      24
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#11501
+Name        barbed barbarian sword~
+Short       a Barbarian sword~
+Descr
+A barbed sword lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 0~ 0~ 6~ 0~
+Weight      12
+Affect      intelligence~ -2 ~
+End
+
+#11502
+Name        kilt~
+Short       a Highlanders Kilt~
+Descr
+A skirt lies on the ground.~
+Type        armor~
+Extra       anti-evil~
+Wear        take waist~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      7
+Affect      ac~ -10 ~
+Affect      move~ 10 ~
+End
+
+#11503
+Name        plate suit~
+Short       a suit of Laen Plate~
+Descr
+A heap of plate lies on the ground.~
+Type        armor~
+Extra       glow evil magic anti-good~
+Wear        take body~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      42
+Affect      ac~ -10 ~
+Affect      damroll~ 2 ~
+Affect      dexterity~ -2 ~
+End
+
+#11504
+Name        boots~
+Short       a pair of laen Boots~
+Descr
+A pair of boots lies here.~
+Type        armor~
+Extra       glow evil magic anti-good~
+Wear        take feet~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      16
+Affect      move~ 20 ~
+Affect      intelligence~ -2 ~
+End
+
+#11505
+Name        helmet~
+Short       a laen helmet~
+Descr
+A helmet made of laen lies here.~
+Type        armor~
+Extra       glow hum lock evil anti-good~
+Wear        take head~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      27
+Affect      constitution~ 2 ~
+Affect      saving-spell~ -1 ~
+End
+
+#11506
+Name        gauntlets~
+Short       a pair of laen gauntlets~
+Descr
+A pair of queer looking gauntlets lie here.~
+Type        armor~
+Extra       glow hum lock evil anti-good~
+Wear        take arms~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      14
+Affect      strength~ 2 ~
+Affect      dexterity~ -1 ~
+End
+
+#11507
+Name        sword~
+Short       a highlanders sword~
+Descr
+A sword of a highlander lies here.~
+Type        weapon~
+Extra       anti-evil~
+Wear        take wield~
+Values      0~ 0~ 0~ 3~ 0~
+Weight      5
+Affect      hitroll~ 5 ~
+Affect      damroll~ 2 ~
+End
+
+#11508
+Name        rod~
+Short       a Rod of OmniScience~
+Descr
+A strange rod lies here.~
+Type        wand~
+Extra       dark~
+Wear        take hold~
+Values      18~ 10~ 9~ flamestrike~ 0~
+Weight      1
+Affect      intelligence~ 1 ~
+Affect      constitution~ -1 ~
+End
+
+#11509
+Name        cloak~
+Short       the cloak of Magus~
+Descr
+A cloak with constantly changing colors lies here.~
+Type        armor~
+Extra       glow~
+Wear        take neck~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      saving-spell~ -2 ~
+End
+
+#11510
+Name        mace~
+Short       the mace of oblivion~
+Descr
+A dark mace lies here.~
+Type        weapon~
+Extra       glow evil nodrop~
+Wear        take wield~
+Values      0~ 0~ 0~ 7~ 0~
+Weight      12
+Affect      mana~ 20 ~
+End
+
+#11511
+Name        boots~
+Short       the boots of necromany~
+Descr
+A pair of blackish boots lies here.~
+Type        armor~
+Extra       evil anti-good~
+Wear        take feet~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      mana~ 15 ~
+Affect      wisdom~ 2 ~
+End
+
+#11512
+Name        holy basher~
+Short       the Holy Basher~
+Descr
+A weapon of some sort lies here.~
+Type        weapon~
+Extra       hum bless anti-evil~
+Wear        take wield~
+Values      0~ 0~ 0~ 8~ 0~
+Weight      19
+Affect      strength~ 2 ~
+Affect      hitroll~ 9 ~
+Affect      damroll~ 4 ~
+End
+
+#11513
+Name        armor~
+Short       the holy armor~
+Descr
+A pile of armor lies here.~
+Type        armor~
+Extra       hum bless anti-evil~
+Wear        take body~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      45
+Affect      ac~ -30 ~
+Affect      saving-spell~ -4 ~
+Affect      hitroll~ 2 ~
+Affect      dexterity~ -1 ~
+End
+
+#11514
+Name        potion lady~
+Short       potion of the lady~
+Descr
+A potion stands here.~
+Type        potion~
+Extra       nodrop~
+Wear        take~
+Values      13~ curse~ cure blindness~ cure poison~  ~
+Weight      1
+End
+
+#11515
+Name        dagger~
+Short       a dagger~
+Descr
+A plain simple dagger lies here.~
+Type        weapon~
+Extra       anti-good~
+Wear        take wield~
+Values      0~ 0~ 0~ 1~ 0~
+Weight      2
+End
+
+#11516
+Name        sword notched~
+Short       a notched sword~
+Descr
+A worn sword lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 0~ 0~ 3~ 0~
+Weight      10
+End
+
+#11517
+Name        dark key~
+Short       a dark key~
+Descr
+A key lies here on the ground.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#11518
+Name        tower key~
+Short       a key of the tower~
+Descr
+A key lies here on the ground.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#11519
+Name        tower key~
+Short       a key of the tower~
+Descr
+A key lies here on the ground.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#11520
+Name        tower key~
+Short       a key of the tower~
+Descr
+A key lies here on the ground.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#11521
+Name        tower key~
+Short       a key of the tower~
+Descr
+A key lies here on the ground.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#11522
+Name        shield~
+Short       a laen shield~
+Descr
+A dark shield lies here.~
+Type        armor~
+Extra       glow hum lock evil anti-good~
+Wear        take shield~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      18
+Affect      ac~ -10 ~
+End
+
+#11523
+Name        bag pipes bagpipes~
+Short       a bagpipe~
+Descr
+A bagpipe has been carelessly tosed on the ground here.~
+Type        treasure~
+Extra       anti-evil~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      saving-spell~ -5 ~
+End
+
+#11524
+Name        claymore~
+Short       a Claymore~
+Descr
+A Claymore lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 0~ 0~ 6~ 0~
+Weight      12
+Affect      constitution~ 1 ~
+Affect      hitroll~ 2 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#11500
+Name        Entrance to a Valley in the Highlands.~
+Descr
+Before you the path just stops. It doesn't go any further. A mysterious bog 
+begins here, if you dare entering it's at your own risk. 
+Also in the distance you see a vague contour of hills. On the top of 
+the hills you see lights.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 11501
+~
+~
+Door        up~ ~ 0 4036
+~
+~
+End
+
+#11501
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11509
+~
+~
+Door        east~ ~ 0 11502
+~
+~
+Door        south~ ~ 0 11500
+~
+~
+Door        west~ ~ 0 11506
+~
+~
+End
+
+#11502
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11510
+~
+~
+Door        east~ ~ 0 11503
+~
+~
+Door        south~ ~ 0 11516
+~
+~
+Door        west~ ~ 0 11501
+~
+~
+End
+
+#11503
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11511
+~
+~
+Door        south~ ~ 0 11515
+~
+~
+Door        west~ ~ 0 11502
+~
+~
+End
+
+#11504
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11512
+~
+~
+Door        east~ ~ 0 11505
+~
+~
+Door        south~ ~ 0 11518
+~
+~
+End
+
+#11505
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11507
+~
+~
+Door        east~ ~ 0 11506
+~
+~
+Door        south~ ~ 0 11513
+~
+~
+Door        west~ ~ 0 11504
+~
+~
+End
+
+#11506
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11508
+~
+~
+Door        east~ ~ 0 11501
+~
+~
+Door        south~ ~ 0 11514
+~
+~
+Door        west~ ~ 0 11505
+~
+~
+End
+
+#11507
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11513
+~
+~
+Door        east~ ~ 0 11508
+~
+~
+Door        south~ ~ 0 11505
+~
+~
+Door        west~ ~ 0 11512
+~
+~
+End
+
+#11508
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11514
+~
+~
+Door        east~ ~ 0 11509
+~
+~
+Door        south~ ~ 0 11506
+~
+~
+Door        west~ ~ 0 11507
+~
+~
+End
+
+#11509
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11515
+~
+~
+Door        east~ ~ 0 11510
+~
+~
+Door        south~ ~ 0 11501
+~
+~
+Door        west~ ~ 0 11508
+~
+~
+End
+
+#11510
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        south~ ~ 0 11502
+~
+~
+Door        west~ ~ 0 11509
+~
+~
+End
+
+#11511
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11517
+~
+~
+Door        east~ ~ 0 11512
+~
+~
+Door        south~ ~ 0 11503
+~
+~
+Door        west~ ~ 0 11510
+~
+~
+End
+
+#11512
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11518
+~
+~
+Door        east~ ~ 0 11507
+~
+~
+Door        south~ ~ 0 11504
+~
+~
+Door        west~ ~ 0 11511
+~
+~
+End
+
+#11513
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11505
+~
+~
+Door        east~ ~ 0 11514
+~
+~
+Door        south~ ~ 0 11507
+~
+~
+Door        west~ ~ 0 11518
+~
+~
+End
+
+#11514
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11506
+~
+~
+Door        east~ ~ 0 11515
+~
+~
+Door        south~ ~ 0 11508
+~
+~
+Door        west~ ~ 0 11513
+~
+~
+End
+
+#11515
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11503
+~
+~
+Door        east~ ~ 0 11516
+~
+~
+Door        south~ ~ 0 11509
+~
+~
+Door        west~ ~ 0 11514
+~
+~
+End
+
+#11516
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11502
+~
+~
+Door        east~ ~ 0 11517
+~
+~
+Door        south~ ~ 0 11510
+~
+~
+Door        west~ ~ 0 11515
+~
+~
+End
+
+#11517
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11519
+~
+~
+Door        east~ ~ 0 11518
+~
+~
+Door        south~ ~ 0 11511
+~
+~
+Door        west~ ~ 0 11516
+~
+~
+End
+
+#11518
+Name        The Bog.~
+Descr
+Nothing, only bog is here.
+~
+Flags       dark~
+Sector      desert~
+Regen       100 100
+Door        north~ ~ 0 11504
+~
+~
+Door        east~ ~ 0 11513
+~
+~
+Door        south~ ~ 0 11512
+~
+~
+Door        west~ ~ 0 11517
+~
+~
+End
+
+#11519
+Name        A path.~
+Descr
+On solid ground again. You have entered a valley, in the distance you hear 
+sheep. Also you hear the distinct sound of a bagpipe.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 11520
+~
+~
+Door        south~ ~ 0 11517
+~
+~
+End
+
+#11520
+Name        A path.~
+Descr
+You are walking on a path leading into the valley. You can see the rugged landscape
+also you notice the weather must always be rainy in these regions.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 11521
+~
+~
+Door        south~ ~ 0 11519
+~
+~
+End
+
+#11521
+Name        A path.~
+Descr
+You are approaching to a crossroad in the valley. The ground gets noticably level
+here so you must be coming to the lowest point of the valley.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 11522
+~
+~
+Door        south~ ~ 0 11520
+~
+~
+End
+
+#11522
+Name        The Crossroads.~
+Descr
+The guards here look nasty, better not make any trouble. There is a roadsign
+planted in the center of the crossing. To the north you see a lake.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+ExtraDescr  sign roadsign~
+North -> Loch
+East  -> Southeastern Beacon Tower
+West  -> Southwestern Beacon Tower
+~
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Door        north~ ~ 0 11537
+~
+~
+Door        east~ ~ 0 11523
+~
+~
+Door        south~ ~ 0 11521
+~
+~
+Door        west~ ~ 0 11531
+~
+~
+End
+
+#11523
+Name        Path to the southeastern Beacon Tower.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. many big rocks lie on the way
+making it harder to get on.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11524
+~
+~
+Door        west~ ~ 0 11522
+~
+~
+End
+
+#11524
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. It's getting slippery you might
+fall on your face and hurt yourself.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11525
+~
+~
+Door        west~ ~ 0 11523
+~
+~
+End
+
+#11525
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. But the tower is getting more
+distinct.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11526
+~
+~
+Door        west~ ~ 0 11524
+~
+~
+End
+
+#11526
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. Almost there.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11527
+~
+~
+Door        west~ ~ 0 11525
+~
+~
+End
+
+#11527
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. A bit further still.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Door        east~ ~ 0 11528
+~
+~
+Door        west~ ~ 0 11526
+~
+~
+End
+
+#11528
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. Almost there.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11529
+~
+~
+Door        west~ ~ 0 11527
+~
+~
+End
+
+#11529
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        south~ ~ 0 11530
+~
+~
+Door        west~ ~ 0 11528
+~
+~
+End
+
+#11530
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. The tower is nearby.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11512 4 100
+Reset       E 11518 -1 100
+Door        north~ ~ 0 11529
+~
+~
+Door        south~ door closed locked~ 11518 11592
+~
+door~
+End
+
+#11531
+Name        The path to the southwestern Beacon Tower.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. You also see some scorch marks
+on the vegetation.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11522
+~
+~
+Door        west~ ~ 0 11532
+~
+~
+End
+
+#11532
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. Again a steep trail on a hill.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11531
+~
+~
+Door        west~ ~ 0 11533
+~
+~
+End
+
+#11533
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. Watch the rocks they're 
+slippery.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11532
+~
+~
+Door        west~ ~ 0 11534
+~
+~
+End
+
+#11534
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. A light rabbit is sitting on 
+the trail watching you intently.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11533
+~
+~
+Door        west~ ~ 0 11535
+~
+~
+End
+
+#11535
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. Almost there.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Door        east~ ~ 0 11534
+~
+~
+Door        west~ ~ 0 11536
+~
+~
+End
+
+#11536
+Name        A path uphill.~
+Descr
+The path is getting steeper and steeper while it continues uphill. Also the
+terrain is getting more difficult to handle. The tower is before you.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11512 4 100
+Reset       E 11519 -1 100
+Door        north~ door closed~ 11519 11593
+~
+door~
+Door        east~ ~ 0 11535
+~
+~
+End
+
+#11537
+Name        A muddy path.~
+Descr
+The path is getting muddier towards the lake. In front of you can see
+a big lake and also almost not to be seen in the middle of the lake 
+is a small turf of land.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 11538
+~
+~
+Door        south~ ~ 0 11522
+~
+~
+End
+
+#11538
+Name        A muddy path~
+Descr
+The muddy path continues. It's getting more and more muddy, you wonder
+if you will be able to get our boots clean again they are muddy all over.
+The sound of bagpipes is getting much more clearer now.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11539
+~
+~
+Door        south~ ~ 0 11537
+~
+~
+End
+
+#11539
+Name        Crossroads at the Lake.~
+Descr
+You stand on a crossroads in front of you is a lake. A highlander is here
+he says 'Ay mi lads the loch is not safe, turn back lads, much safer.' 
+his wife says:
+'Mind you don't go to the castle it is not safe.' The man goes on playing 
+his bagpipes.
+A barely readable roadsign is here.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+ExtraDescr  sign roadsign~
+E.st Ro.d a...ng L.ch and Nor..ea.... To...
+West R..d al.... Loch ... No.t.w.st... To.er
+North .och a.d N.ss.'s Is..
+south O.t of ... va..ey
+~
+Reset       M 11505 1 100
+Reset       E 11502 13 100
+Reset       E 11507 16 100
+Reset       E 11523 17 100
+Door        north~ ~ 0 11573
+~
+~
+Door        east~ ~ 0 11540
+~
+~
+Door        south~ ~ 0 11538
+~
+~
+Door        west~ ~ 0 11572
+~
+~
+End
+
+#11540
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11541
+~
+~
+Door        west~ ~ 0 11539
+~
+~
+End
+
+#11541
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11542
+~
+~
+Door        west~ ~ 0 11540
+~
+~
+End
+
+#11542
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11543
+~
+~
+Door        south~ ~ 0 11541
+~
+~
+End
+
+#11543
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11544
+~
+~
+Door        west~ ~ 0 11542
+~
+~
+End
+
+#11544
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11545
+~
+~
+Door        south~ ~ 0 11543
+~
+~
+End
+
+#11545
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11546
+~
+~
+Door        west~ ~ 0 11544
+~
+~
+End
+
+#11546
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11547
+~
+~
+Door        south~ ~ 0 11545
+~
+~
+End
+
+#11547
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Reset       M 11500 5 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Door        south~ ~ 0 11546
+~
+~
+Door        west~ ~ 0 11548
+~
+~
+End
+
+#11548
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11547
+~
+~
+Door        west~ ~ 0 11549
+~
+~
+End
+
+#11549
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11550
+~
+~
+Door        east~ ~ 0 11548
+~
+~
+End
+
+#11550
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11551
+~
+~
+Door        south~ ~ 0 11549
+~
+~
+End
+
+#11551
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11552
+~
+~
+Door        south~ ~ 0 11550
+~
+~
+End
+
+#11552
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+Also the path branches of to the east up a hill.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Door        east~ ~ 0 11585
+~
+~
+Door        south~ ~ 0 11551
+~
+~
+Door        west~ ~ 0 11553
+~
+~
+End
+
+#11553
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11554
+~
+~
+Door        east~ ~ 0 11552
+~
+~
+End
+
+#11554
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        south~ ~ 0 11553
+~
+~
+Door        west~ ~ 0 11555
+~
+~
+End
+
+#11555
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Door        east~ ~ 0 11554
+~
+~
+Door        west~ ~ 0 11556
+~
+~
+End
+
+#11556
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You don't hear
+bagpipes and sheep. It's so quiet you dont't even can hear the quietness.
+The birds have completely stopped singing and you get a feeling of 
+total dread. This place must inhabit some kind of great evil 
+and it surrounds you. Towards the north you see castle, it looks 
+quite evil.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+ExtraDescr  castle~
+It is a big black castle. It radiates evil like nothing you have seen 
+before. Surely the man who rules here must be some satanic ego-tripper.
+~
+Door        east~ ~ 0 11555
+~
+~
+Door        west~ ~ 0 11557
+~
+~
+End
+
+#11557
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11556
+~
+~
+Door        west~ ~ 0 11558
+~
+~
+End
+
+#11558
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11557
+~
+~
+Door        south~ ~ 0 11559
+~
+~
+End
+
+#11559
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11558
+~
+~
+Door        west~ ~ 0 11560
+~
+~
+End
+
+#11560
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11559
+~
+~
+Door        south~ ~ 0 11561
+~
+~
+End
+
+#11561
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+To the west a path branches off up hill.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11560
+~
+~
+Door        south~ ~ 0 11562
+~
+~
+Door        west~ ~ 0 11578
+~
+~
+End
+
+#11562
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11561
+~
+~
+Door        south~ ~ 0 11563
+~
+~
+End
+
+#11563
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11562
+~
+~
+Door        west~ ~ 0 11564
+~
+~
+End
+
+#11564
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11563
+~
+~
+Door        south~ ~ 0 11565
+~
+~
+End
+
+#11565
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Reset       M 11500 5 100
+Door        north~ ~ 0 11564
+~
+~
+Door        south~ ~ 0 11566
+~
+~
+End
+
+#11566
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11565
+~
+~
+Door        south~ ~ 0 11567
+~
+~
+End
+
+#11567
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11566
+~
+~
+Door        east~ ~ 0 11568
+~
+~
+End
+
+#11568
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Reset       M 11516 8 100
+Reset       M 11516 8 100
+Reset       M 11516 8 100
+Reset       M 11516 8 100
+Door        south~ ~ 0 11569
+~
+~
+Door        west~ ~ 0 11567
+~
+~
+End
+
+#11569
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 11568
+~
+~
+Door        east~ ~ 0 11570
+~
+~
+End
+
+#11570
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        south~ ~ 0 11571
+~
+~
+Door        west~ ~ 0 11569
+~
+~
+End
+
+#11571
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Reset       M 11516 8 100
+Reset       M 11516 8 100
+Reset       M 11516 8 100
+Reset       M 11516 8 100
+Door        north~ ~ 0 11570
+~
+~
+Door        east~ ~ 0 11572
+~
+~
+End
+
+#11572
+Name        Path along lake.~
+Descr
+This path is muddy in the muddiest sense of the word. You still hear
+bagpipes and sheep but its quieter now, you would say too quiet.
+The birds have stopped singing and you get a feeling of dread.
+This place must inhabit some kind of evil and it surrounds you.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11539
+~
+~
+Door        west~ ~ 0 11571
+~
+~
+End
+
+#11573
+Name        Near the shore.~
+Descr
+You're on the Lake. The water is calmer then it looks suprisingly. You like
+to the shore the Highlander waves at you like he won't be seeing again
+this life.
+~
+Flags       no_mob~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ 0 11574
+~
+~
+Door        south~ ~ 0 11539
+~
+~
+End
+
+#11574
+Name        On the Lake.~
+Descr
+You are on the lake heading towards the island.
+~
+Flags       no_mob~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ 0 11575
+~
+~
+Door        south~ ~ 0 11573
+~
+~
+End
+
+#11575
+Name        Near the Isle.~
+Descr
+You are on the lake near the Isle. You are nearing the shore.
+~
+Flags       no_mob~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ 0 11576
+~
+~
+Door        south~ ~ 0 11574
+~
+~
+End
+
+#11576
+Name        On Nessy's Isle.~
+Descr
+Your on the Isle, It's just a small Isle, there seems to be little vegetation
+or anything really. It's just god forsaken place where probably nothing
+worthwhile is to be gotten. To the north is another bit of Isle maybe
+something is there.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Reset       M 11509 20 100
+Door        north~ ~ 0 11577
+~
+~
+Door        south~ ~ 0 11575
+~
+~
+End
+
+#11577
+Name        On Nessy's Isle.~
+Descr
+Nothing here also but a hole in the ground.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Door        south~ ~ 0 11576
+~
+~
+Door        down~ ~ 0 11596
+~
+~
+End
+
+#11578
+Name        A path into the hills.~
+Descr
+Your are facing a hill upon which the northwestern tower is built.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 11561
+~
+~
+Door        west~ ~ 0 11579
+~
+~
+End
+
+#11579
+Name        A path.~
+Descr
+You enter a forest. It's extremely dark in there so mind your 
+step and don't trip over any tree stumps.
+~
+Flags       indoors~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11578
+~
+~
+Door        west~ ~ 0 11580
+~
+~
+End
+
+#11580
+Name        At a cliff.~
+Descr
+In front of you is a cliff. The cliff goes straight up. On closer examination
+you find there a steps carved out of the cliffwall.
+~
+Flags       dark no_mob~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 11579
+~
+~
+Door        west~ ~ 0 11581
+~
+~
+End
+
+#11581
+Name        On top of the cliff.~
+Descr
+Your climbed the cliff and are quite exhausted. The tower stands clear now
+since there is virtually nothing here, a bloody barren place.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 11580
+~
+~
+Door        west~ ~ 0 11582
+~
+~
+End
+
+#11582
+Name        In a hilltop.~
+Descr
+Your on the top of the hill, the tower is only a bit further now.
+~
+Flags       no_mob~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 11581
+~
+~
+Door        west~ ~ 0 11583
+~
+~
+End
+
+#11583
+Name        Near the tower.~
+Descr
+You almost have reached the tower. You can see the lake from up here, the 
+other towers are also visible so far goes your sight. If this was
+a valley full of trees and birds and such it would have been a magnificent 
+sight but alas the reality is different it is a dead and barren place
+like Gorgoroth is in the Lord of the Rings.
+But enough sightseeing concentrate on the problems before you, you 
+reluctantly decide to continue your travels.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 11584
+~
+~
+Door        east~ ~ 0 11582
+~
+~
+End
+
+#11584
+Name        In front of the tower.~
+Descr
+The keeper greets you stiffly warmly and takes another tug from his bottle of scotch.
+'A that makes the stomach burn,' the keeper says. You think you could
+use some of the drought too the cold weather chill to the bone.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11512 4 100
+Reset       E 11520 -1 100
+Door        north~ door closed~ 11520 11594
+~
+door~
+Door        south~ ~ 0 11583
+~
+~
+End
+
+#11585
+Name        A path along a cliff.~
+Descr
+Watch out here there are mountain goats up the cliff they will
+once in a while kick ricks down, if they fall on your head you
+are history.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 11586
+~
+~
+Door        west~ ~ 0 11552
+~
+~
+End
+
+#11586
+Name        A path along a cliff.~
+Descr
+WATCH IT a rock just fell down, missing you by a few centimeters.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 11587
+~
+~
+Door        west~ ~ 0 11585
+~
+~
+End
+
+#11587
+Name        A steep climb.~
+Descr
+A steep hill forcing you to much exertion to get up the hill. 
+A feeling of dread comes over you but you have no idea where it comes form.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 11588
+~
+~
+Door        west~ ~ 0 11586
+~
+~
+End
+
+#11588
+Name        On the hill.~
+Descr
+You are on a hill, just to see you are on the wrong one.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 11589
+~
+~
+Door        south~ ~ 0 11587
+~
+~
+End
+
+#11589
+Name        Down hill.~
+Descr
+You are walking down hill with so much speed you can will probably
+break some bone if you are not carefull and fall over a rock or
+something.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Reset       M 11509 20 100
+Door        north~ ~ 0 11590
+~
+~
+Door        south~ ~ 0 11588
+~
+~
+End
+
+#11590
+Name        On another path up hill.~
+Descr
+Again you must force yourself to great exertion. The terrain changed
+suddenly from some plants and rocks to a barren place.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 11591
+~
+~
+Door        south~ ~ 0 11589
+~
+~
+End
+
+#11591
+Name        On a hill.~
+Descr
+You are again on a hill. This time it's the correct one.
+The tower is to the east.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11501 10 100
+Reset       E 11501 16 100
+Reset       M 11512 4 100
+Reset       E 11521 -1 100
+Door        east~ door closed locked~ 11521 11595
+~
+door~
+Door        south~ ~ 0 11590
+~
+~
+End
+
+#11592
+Name        In the southeastern tower.~
+Descr
+The room is in disorder, the keeper must be a lousy housekeeper, the way
+things look, broken chairs, tables, cabinets and the sort. Also
+there is a crate of bottles upon closer inspection it seem the
+bottles are filled with scotch.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed locked~ 11518 11530
+~
+door~
+Door        up~ ~ 0 11606
+~
+~
+Door        down~ ~ 0 11605
+~
+~
+End
+
+#11593
+Name        In the southwestern tower.~
+Descr
+The room is totally clean not a atom of dust to be seen. The keeper must
+be a terrific housekeeper quite the opposite of some of his fellow-keepers.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ door closed locked~ 11519 11536
+~
+door~
+Door        up~ ~ 0 11610
+~
+~
+Door        down~ ~ 0 11609
+~
+~
+End
+
+#11594
+Name        In the northwestern tower.~
+Descr
+The Keeper must be a real scrouge only the minimal requirements of
+a room has he one simple chair, one simple table, one plate, one spoon
+and even for a bed does he use a bit of straw in the corner.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ door closed locked~ 11520 11584
+~
+~
+Door        up~ ~ 0 11616
+~
+~
+Door        down~ ~ 0 11615
+~
+~
+End
+
+#11595
+Name        In the northeastern tower.~
+Descr
+The Keeper must be a rose lover everywere are rosey stuff. Roses painted on
+everything the plates, the chairs, the bed in short on everything.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ door closed~ 11521 11591
+~
+door~
+Door        up~ ~ 0 11620
+~
+~
+Door        down~ ~ 0 11619
+~
+~
+End
+
+#11596
+Name        In Nessy's cave.~
+Descr
+A dark place is this, nothing grows, nothing lives here.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11597
+~
+~
+Door        up~ ~ 0 11577
+~
+~
+End
+
+#11597
+Name        In Nessy's cave.~
+Descr
+You hear faint sounds coming from the west. And a light shines towards the 
+south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11598
+~
+~
+Door        west~ ~ 0 11602
+~
+~
+End
+
+#11598
+Name        In Nessy's cave.~
+Descr
+The light grows stronger. You also begin to hear queer noices form the south
+maybe she's awake.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11597
+~
+~
+Door        south~ ~ 0 11599
+~
+~
+End
+
+#11599
+Name        In Nessy's cave.~
+Descr
+The light just went out, strange very strange. Is it possible she heard you,
+you tried to be as silent as possible.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11598
+~
+~
+Door        south~ ~ 0 11600
+~
+~
+End
+
+#11600
+Name        Near Nessy's cave.~
+Descr
+You are just outside her cave, you can see a big creature rising in
+the shadows.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11599
+~
+~
+Door        west~ ~ 0 11601
+~
+~
+End
+
+#11601
+Name        In Nessy's nest.~
+Descr
+You see a big hulking form smiling at you. Beware she might smile freindly
+but don't let looks deceive you, she can easily kill you and devour you.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11513 1 100
+Door        east~ ~ 0 11600
+~
+~
+End
+
+#11602
+Name        In Nessy cave.~
+Descr
+The snoring gets more and more louder the more you walk in this direction.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11597
+~
+~
+Door        west~ ~ 0 11603
+~
+~
+End
+
+#11603
+Name        In Nessy's cave.~
+Descr
+The snoring gets louder towards the south, you think you see some small
+DRAGONlike creature there.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11602
+~
+~
+Door        south~ ~ 0 11604
+~
+~
+End
+
+#11604
+Name        The cave of Nessy's kid.~
+Descr
+In the cave here you see a smaller replica of her mother, she will awake soon
+and then it will be really hungry, dragonlike hungry.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11514 1 100
+Door        north~ ~ 0 11603
+~
+~
+End
+
+#11605
+Name        In the Cellar.~
+Descr
+You entered a cellar, there is nothing here but a few supllies, they prob-
+ably belong to the keeper.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ 0 11592
+~
+~
+End
+
+#11606
+Name        On the first floor.~
+Descr
+You went up, the sleepingroom is here it's as much a disorder here as
+the livingroom was.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ 0 11607
+~
+~
+Door        down~ ~ 0 11592
+~
+~
+End
+
+#11607
+Name        On the second floor.~
+Descr
+You are not yet on the top, you have still to open the trap-door to get up.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ door pickproof~ 0 11608
+You see a trap-door.
+~
+trap door trapdoor~
+Door        down~ ~ 0 11606
+~
+~
+End
+
+#11608
+Name        On the top of the tower.~
+Descr
+There is a bright light here, this must be the light the keeper keeps.
+You can look in all directions here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  north~
+You can see another tower to the north.
+~
+ExtraDescr  east~
+You see nothing, nothing at all.
+~
+ExtraDescr  south~
+Nothing there absolutely nothing.
+~
+ExtraDescr  west~
+You see the lake, there appears to be a Isle in the middle of the lake.
+In the distance you see another tower.
+~
+ExtraDescr  up~
+The sky.
+~
+Reset       M 11502 6 100
+Reset       E 11516 16 100
+Reset       M 11502 6 100
+Reset       E 11516 16 100
+Door        down~ door~ 0 11607
+~
+~
+End
+
+#11609
+Name        In the cellar.~
+Descr
+The supllies of the keeper are stacked here neatly, everything but a
+shelf, it sticks out strangely.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ 0 11613
+You see a shelf with supplies on it but the shelf lies wrong.
+~
+shelf north~
+Door        up~ ~ 0 11593
+~
+~
+End
+
+#11610
+Name        On the first floor.~
+Descr
+The bedroom is like you expected just like the livingroom totally clean.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ 0 11611
+~
+~
+Door        down~ ~ 0 11593
+~
+~
+End
+
+#11611
+Name        On the secondfloor.~
+Descr
+You are almost on the top. Looking around you see that there is nothing here
+as if to keep them from possible harm from above.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ door pickproof~ 0 11612
+There is a trap-door above you.
+~
+trap trap-door up door~
+Door        down~ ~ 0 11610
+~
+~
+End
+
+#11612
+Name        On the top of the tower.~
+Descr
+You see a mage saying some arcane words, making strange jestures and stuff.
+You reluctantly come closer to look hoping the bright light from the beacon
+will cover your approach.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  north~
+You see another tower on another hill.
+~
+ExtraDescr  east~
+You see the valley, the lake the path you walked on and another tower.
+~
+ExtraDescr  south~
+Nothing there.
+~
+ExtraDescr  west~
+A somber void is there.
+~
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Reset       M 11510 1 100
+Reset       E 11508 17 100
+Reset       E 11509 3 100
+Reset       E 11517 -1 100
+Door        down~ door pickproof~ 0 11611
+There is a trap-door here.
+~
+trap door down trap-door~
+End
+
+#11613
+Name        In a secret walkway.~
+Descr
+You find yourself in a moist walkway, it seems to be man made.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11626
+~
+~
+Door        south~ door closed~ 0 11609
+The backside of something is blocking the way.
+~
+door cabinet backside something~
+End
+
+#11614
+Name        A dead end.~
+Descr
+The walkway ends here in front of a large rock.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ 0 11615
+A rock blocks the way.
+~
+rock north~
+Door        south~ ~ 0 11640
+~
+~
+End
+
+#11615
+Name        In the cellar.~
+Descr
+There is nothing here but some supllies in a few racks.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door closed~ 0 11625
+A rack blocks the way.
+~
+rack east~
+Door        south~ door closed~ 0 11614
+A rock stands in your way.
+~
+rock south~
+Door        up~ ~ 0 11594
+~
+~
+End
+
+#11616
+Name        On the first floor.~
+Descr
+This room servs as a bedroom. The bed is a mess he must making beds and
+cleaning blankets the way that place stinks and looks.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ 0 11617
+~
+~
+Door        down~ ~ 0 11594
+~
+~
+End
+
+#11617
+Name        On the second floor.~
+Descr
+Nothing here worth you while you already feel the heat of the beaconlight on 
+the top.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ door pickproof~ 0 11618
+a trap-door is above you.
+~
+up trap door trapdoor~
+Door        down~ ~ 0 11616
+~
+~
+End
+
+#11618
+Name        On the top of the tower.~
+Descr
+The beacon burns brightly. It makes the air surrounding it very warm
+You feel good here it's nice to feel some kind of warmness.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 11502 6 100
+Reset       E 11516 16 100
+Reset       M 11502 6 100
+Reset       E 11516 16 100
+Door        down~ door pickproof~ 0 11617
+A trap-door is here.
+~
+door trap trapdoor down~
+End
+
+#11619
+Name        In the cellar.~
+Descr
+A fine mess the keeper made of this room, how he can find anything here
+is a complete mistery, food bottle scotch everything lies through another.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ 0 11624
+A big heap of mess blocks the way.
+~
+mess north~
+Door        west~ door~ 0 11623
+A big cabinet blocks the way.
+~
+cabinet west~
+Door        up~ ~ 0 11595
+~
+~
+End
+
+#11620
+Name        On the first floor.~
+Descr
+Everything is here rosey too, you get nuts looking at those roses.
+A easal stands in the middle of the room, when you look at it
+you see it's a half finished painting of a rose.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ 0 11621
+~
+~
+Door        down~ ~ 0 11595
+~
+~
+End
+
+#11621
+Name        On the second floor.~
+Descr
+The walls are covered with paintings and as you already figured they are of 
+roses, christ small rose, big roses, a bunch of roses, a single rose, 
+a rose in a field of petunias, a rose in a vase, a rose on a table, a rose
+in a hand and lot's more of them.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ door pickproof~ 0 11622
+A trap-door is above you.
+~
+door trapdoor up~
+Door        down~ ~ 0 11620
+~
+~
+End
+
+#11622
+Name        On the top of a tower.~
+Descr
+The light shines brightly here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  north~
+A big forest stretches before as far as you can see.
+~
+ExtraDescr  east~
+A void through which you can discern nothing.
+~
+ExtraDescr  south~
+You look at another tower.
+~
+ExtraDescr  west~
+You see a large castle it's totally black. Also a bit further is an-
+other tower.
+~
+Reset       M 11502 6 100
+Reset       E 11516 16 100
+Reset       M 11502 6 100
+Reset       E 11516 16 100
+Door        down~ door pickproof~ 0 11621
+A trapdoor is here.
+~
+door trapdoor down~
+End
+
+#11623
+Name        A dead end~
+Descr
+A dead end, the secret gangway stops abruptly.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door closed~ 0 11619
+A big rock stands in your way.~
+rock east big~
+Door        west~ ~ 0 11656
+~
+~
+End
+
+#11624
+Name        Another gangway.~
+Descr
+This gangway is finely carved and it's smooth, must be a master
+who made it.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11657
+~
+~
+Door        south~ door closed~ 0 11619
+Something is blocking your way.
+~
+something south~
+End
+
+#11625
+Name        In a secret gangway.~
+Descr
+The gangway is carved out of rock. The rocks are slippery and covered with a
+strange vegetation.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11641
+~
+~
+Door        west~ door closed~ 0 11615
+The wooden backside of somekind of furniture is here.
+~
+backside furniture west~
+End
+
+#11626
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11613
+~
+~
+Door        west~ ~ 0 11627
+~
+~
+End
+
+#11627
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11628
+~
+~
+Door        east~ ~ 0 11626
+~
+~
+End
+
+#11628
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11500 5 100
+Door        north~ ~ 0 11629
+~
+~
+Door        south~ ~ 0 11627
+~
+~
+End
+
+#11629
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11630
+~
+~
+Door        south~ ~ 0 11628
+~
+~
+End
+
+#11630
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11629
+~
+~
+Door        west~ ~ 0 11631
+~
+~
+End
+
+#11631
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11630
+~
+~
+Door        west~ ~ 0 11632
+~
+~
+End
+
+#11632
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11631
+~
+~
+Door        south~ ~ 0 11633
+~
+~
+End
+
+#11633
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11632
+~
+~
+Door        west~ ~ 0 11634
+~
+~
+End
+
+#11634
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11635
+~
+~
+Door        east~ ~ 0 11633
+~
+~
+End
+
+#11635
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11636
+~
+~
+Door        south~ ~ 0 11634
+~
+~
+End
+
+#11636
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11500 5 100
+Door        north~ ~ 0 11637
+~
+~
+Door        south~ ~ 0 11635
+~
+~
+End
+
+#11637
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11638
+~
+~
+Door        south~ ~ 0 11636
+~
+~
+End
+
+#11638
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11639
+~
+~
+Door        south~ ~ 0 11637
+~
+~
+End
+
+#11639
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11640
+~
+~
+Door        south~ ~ 0 11638
+~
+~
+End
+
+#11640
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11614
+~
+~
+Door        south~ ~ 0 11639
+~
+~
+End
+
+#11641
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11642
+~
+~
+Door        west~ ~ 0 11625
+~
+~
+End
+
+#11642
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11643
+~
+~
+Door        west~ ~ 0 11641
+~
+~
+End
+
+#11643
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11644
+~
+~
+Door        west~ ~ 0 11642
+~
+~
+End
+
+#11644
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11645
+~
+~
+Door        west~ ~ 0 11643
+~
+~
+End
+
+#11645
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11646
+~
+~
+Door        west~ ~ 0 11644
+~
+~
+End
+
+#11646
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11647
+~
+~
+Door        south~ ~ 0 11645
+~
+~
+End
+
+#11647
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11648
+~
+~
+Door        west~ ~ 0 11646
+~
+~
+End
+
+#11648
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11500 5 100
+Door        east~ ~ 0 11649
+~
+~
+Door        west~ ~ 0 11647
+~
+~
+End
+
+#11649
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11650
+~
+~
+Door        west~ ~ 0 11648
+~
+~
+End
+
+#11650
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11651
+~
+~
+Door        west~ ~ 0 11649
+~
+~
+End
+
+#11651
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11652
+~
+~
+Door        west~ ~ 0 11650
+~
+~
+End
+
+#11652
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11653
+~
+~
+Door        west~ ~ 0 11651
+~
+~
+End
+
+#11653
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11654
+~
+~
+Door        west~ ~ 0 11652
+~
+~
+End
+
+#11654
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11655
+~
+~
+Door        west~ ~ 0 11653
+~
+~
+End
+
+#11655
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11656
+~
+~
+Door        south~ ~ 0 11654
+~
+~
+End
+
+#11656
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11623
+~
+~
+Door        south~ ~ 0 11655
+~
+~
+End
+
+#11657
+Name        In a secret gangway.~
+Descr
+You can barely see something in front of you so dark is it,
+even with a light it's difficult to look ahead.
+But it's smooth here so you needn't be afraid of stumbling 
+over something.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11658
+~
+~
+Door        south~ ~ 0 11624
+~
+~
+End
+
+#11658
+Name        In a secret gangway.~
+Descr
+You can see a light over a porch to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11657
+~
+~
+Door        west~ ~ 0 11659
+~
+~
+End
+
+#11659
+Name        In a secret gangway.~
+Descr
+The light brightens but doen't help much yet. Above you you think you
+that it is raining again.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11658
+~
+~
+Door        west~ ~ 0 11660
+~
+~
+End
+
+#11660
+Name        In a secret gangway.~
+Descr
+You see better now. You can even discern a some strangely shaped
+something ahead but as of yet you can't make anything of it.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11659
+~
+~
+Door        west~ ~ 0 11661
+~
+~
+End
+
+#11661
+Name        In a secret gangway.~
+Descr
+You can clearly see what is ahead of you now you can also see that
+the porch is guarded by some creatures. You think you have seen them 
+before in a nightmare or something. They appear not to be moving
+could it be that they are statues just to scare people of.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11660
+~
+~
+Door        west~ ~ 0 11662
+~
+~
+End
+
+#11662
+Name        At the porch.~
+Descr
+You see a porch in front of you. It appears locked but some
+weird dust lies here probably from the mage who passed here
+some time back. Maybe this is the way into the castle.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11515 2 100
+Reset       M 11515 2 100
+Door        east~ ~ 0 11661
+~
+~
+Door        west~ door closed~ 11517 11663
+You see a porch.
+~
+porch west door~
+End
+
+#11663
+Name        In a sleeping room.~
+Descr
+The porch slams shut behind you, so there'll be no going back.
+You entered the mage's room. Everywhere are he signs of it, potions,
+dried leaves, examples of animals and stuff. The mage doesn't appear
+to be home. (no wonder since you killed her)
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ door pickproof~ 0 11665
+A door.~
+door~
+End
+
+#11665
+Name        In a hallway.~
+Descr
+Just another hallway leading from someplace to someplace, nothing peculiar
+about this one either. The mage was kept here for good reason the evil
+witch. Compared to her even a satanic demon would be of extreme good
+alignment.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11666
+~
+~
+Door        east~ door pickproof~ 0 11663
+A door.
+~
+door~
+End
+
+#11666
+Name        In the hallway.~
+Descr
+You notice some noise coming from the north. It appears there is some
+kind of party going on, and where a party is you want to be there.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11667
+~
+~
+Door        south~ ~ 0 11665
+~
+~
+End
+
+#11667
+Name        In the hallway.~
+Descr
+A door is to the north, from behind comes the noise, some party must it be.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door pickproof~ 0 11668
+A heavy door.
+~
+door~
+Door        south~ ~ 0 11666
+~
+~
+Door        west~ ~ 0 11669
+~
+~
+End
+
+#11668
+Name        The guard barracks.~
+Descr
+OOOOOOOOOOOOOooops, the barracks of the guards, they fall silent and
+look at you, they snarl at you for intruding upon them and attack.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ door pickproof~ 0 11667
+A heavy door.
+~
+door~
+End
+
+#11669
+Name        In a hallway.~
+Descr
+You are in a hallway a bit further on you can see a flight of stairs.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11667
+~
+~
+Door        west~ ~ 0 11670
+~
+~
+End
+
+#11670
+Name        In a hallway.~
+Descr
+A heavy door is to the north. But from the outward you can't find a clue
+about it's occupants.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door pickproof~ 0 11671
+A heavy door.
+~
+door~
+Door        east~ ~ 0 11669
+~
+~
+Door        west~ ~ 0 11672
+~
+~
+End
+
+#11671
+Name        A guard barracks.~
+Descr
+A troop of guards is in here busy with the upkeep of their equipment.
+At first they don't notice you but then one looks up and screams
+an alarm, they all look up and attack you on sight. It was
+not very smart move coming in here.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ door pickproof~ 0 11670
+A heavy door.
+~
+door~
+End
+
+#11672
+Name        At a flight of stairs.~
+Descr
+You can go up towards the ground floor of the castle.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11670
+~
+~
+Door        up~ ~ 0 11673
+~
+~
+End
+
+#11673
+Name        At a flight of stairs.~
+Descr
+You are on the ground floor of the castle. You can go to the foyer
+or take the stairs down. In the foyer you see the shimmering of many
+teleporters.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11677
+~
+~
+Door        down~ ~ 0 11672
+~
+~
+End
+
+#11674
+Name        In the northwestern corner of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        east~ ~ 0 11677
+~
+~
+Door        south~ ~ 0 11675
+~
+~
+End
+
+#11675
+Name        In the west of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11674
+~
+~
+Door        east~ ~ 0 11678
+~
+~
+Door        south~ ~ 0 11676
+~
+~
+End
+
+#11676
+Name        In the southwestern corner of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11675
+~
+~
+Door        east~ ~ 0 11679
+~
+~
+End
+
+#11677
+Name        In the north of the foyer.  To the north, you see stairs.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11673
+~
+~
+Door        east~ ~ 0 11681
+~
+~
+Door        south~ ~ 0 11678
+~
+~
+Door        west~ ~ 0 11674
+~
+~
+End
+
+#11678
+Name        In the Center of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11677
+~
+~
+Door        east~ ~ 0 11682
+~
+~
+Door        south~ ~ 0 11679
+~
+~
+Door        west~ ~ 0 11675
+~
+~
+End
+
+#11679
+Name        In the south of the foyer.  To the south, you see some stairs.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11678
+~
+~
+Door        east~ ~ 0 11683
+~
+~
+Door        south~ ~ 0 11680
+~
+~
+Door        west~ ~ 0 11676
+~
+~
+End
+
+#11680
+Name        A flight of stairs.~
+Descr
+You can go up here or north to the foyer.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11679
+~
+~
+Door        up~ ~ 0 11684
+~
+~
+End
+
+#11681
+Name        In the northeastern corner of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        south~ ~ 0 11682
+~
+~
+Door        west~ ~ 0 11677
+~
+~
+End
+
+#11682
+Name        In the east of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11681
+~
+~
+Door        south~ ~ 0 11683
+~
+~
+Door        west~ ~ 0 11678
+~
+~
+End
+
+#11683
+Name        In the southeastern corner of the foyer.~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 11682
+~
+~
+Door        west~ ~ 0 11679
+~
+~
+End
+
+#11684
+Name        At a flight of stairs.~
+Descr
+You can go down here to the foyer and to the south is a hallway.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11685
+~
+~
+Door        down~ ~ 0 11680
+~
+~
+End
+
+#11685
+Name        A hallway on the first floor.~
+Descr
+In the hall lies a red carpet. There are tapestries on the walls between
+the doors, all in a pleasant hall one would say.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11684
+~
+~
+Door        south~ ~ 0 11687
+~
+~
+End
+
+#11686
+Name        In an unused room.~
+Descr
+Nothing here but cobwebs and dust.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11508 1 100
+Reset       E 11512 16 100
+Reset       E 11513 5 100
+Door        east~ ~ 0 11687
+~
+~
+End
+
+#11687
+Name        In a hallway.~
+Descr
+There are doors here to the left and to the right but they appear to be
+OPEN.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11685
+~
+~
+Door        east~ ~ 0 11688
+~
+~
+Door        south~ ~ 0 11689
+~
+~
+Door        west~ ~ 0 11686
+~
+~
+End
+
+#11688
+Name        In the Lord's bedroom.~
+Descr
+Just a normal bedroom is here. The Lord of the castle himself
+appears to be absent, so look around and see how the nobility
+sleep.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ 0 11687
+~
+~
+End
+
+#11689
+Name        In a hallway.~
+Descr
+A painting picturing a ugly man is on the left and an even uglier
+painting of a woman is to the right, God almighty these guys are 
+ugly. The note beneath the paintings have only one numeral on them
+so the man and the woman must be still alive (you silently hope
+never to encounter them).
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11687
+~
+~
+Door        south~ ~ 0 11691
+~
+~
+End
+
+#11690
+Name        A bedroom.~
+Descr
+The cleric's room, but this time the occupant is home. The cleric turns
+around to look at you upon recognizing you as intruders he charges forth.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Reset       M 11511 1 100
+Reset       E 11510 16 100
+Reset       E 11511 8 100
+Door        east~ ~ 0 11691
+~
+~
+End
+
+#11691
+Name        In a hallway.~
+Descr
+To the left and to the right are doors, both seem open. On the door
+to the east you see a pentagon and on the door to the west you see
+a picture of a woman, just like the one on the painting.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11689
+~
+~
+Door        east~ ~ 0 11692
+~
+~
+Door        south~ ~ 0 11693
+~
+~
+Door        west~ ~ 0 11690
+~
+~
+End
+
+#11692
+Name        The Lady's bedroom.~
+Descr
+You entered the bedroom of the Lady of the castle. She has her eyes
+fixed on the mirror before her. God is she awful to look upon.
+You accidently move a quarter of an inch and she notices you
+and without thinking charges forth.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11504 6 100
+Reset       E 11524 16 100
+Reset       M 11504 6 100
+Reset       E 11524 16 100
+Reset       M 11507 1 100
+Reset       E 11514 -1 100
+Reset       E 11514 -1 100
+Reset       E 11515 16 100
+Door        west~ ~ 0 11691
+~
+~
+End
+
+#11693
+Name        In a hallway.~
+Descr
+The tapestries here depict battles in long forgotten years in long
+forgotten lands for long forgotten causes.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11691
+~
+~
+Door        south~ ~ 0 11694
+~
+~
+End
+
+#11694
+Name        A bend in the hallway.~
+Descr
+The hallway turns eastwards. Nothing further here but paintings of animals
+and plants, strangly as you look closer all the lifeforms are carnivorous.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11693
+~
+~
+Door        east~ ~ 0 11695
+~
+~
+End
+
+#11695
+Name        In a hallway.~
+Descr
+In front of you is a flight of stairs.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 11696
+~
+~
+Door        west~ ~ 0 11694
+~
+~
+End
+
+#11696
+Name        At a flight of stairs.~
+Descr
+You can go up here or go west to the hallway.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ 0 11695
+~
+~
+Door        up~ ~ 0 11697
+~
+~
+End
+
+#11697
+Name        At a flight of stairs.~
+Descr
+You can go down here or continue on to the ante-room. You see
+a farmer waiting in the room.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 11698
+~
+~
+Door        down~ ~ 0 11696
+~
+~
+End
+
+#11698
+Name        In the Ante-Room.~
+Descr
+A bench is here where you can sit on. presently just a farmer is sitting on  
+it. The farmer doesn't even glance in your direction.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Reset       M 11503 7 100
+Reset       E 11516 16 100
+Door        north~ ~ 0 11697
+~
+~
+Door        south~ ~ 0 11699
+~
+~
+End
+
+#11699
+Name        A room in between the throne and the ante-room.~
+Descr
+Here you are searched for weapons and the likes so that the Lord is safe
+but the guards look at ou and decide yo cannot possibly have good intentions
+so they decide to kill you on the spot. 
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 11698
+~
+~
+Door        south~ ~ 0 11700
+~
+~
+End
+
+#11700
+Name        The throne room.~
+Descr
+At last you found the Lord of this region. He's sits on his throne
+and looks at you while his elite guards attack you.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 11504 6 100
+Reset       E 11524 16 100
+Reset       M 11504 6 100
+Reset       E 11524 16 100
+Reset       M 11504 6 100
+Reset       E 11524 16 100
+Reset       M 11504 6 100
+Reset       E 11524 16 100
+Reset       M 11506 1 100
+Reset       E 11500 16 100
+Reset       E 11503 5 100
+Reset       E 11504 8 100
+Reset       E 11505 6 100
+Reset       E 11506 10 100
+Reset       E 11522 11 100
+Door        north~ ~ 0 11699
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

@@ -1,0 +1,1712 @@
+#AREADATA
+Name        Great Eastern Desert~
+Author      Anon~
+Levels      10 20
+Security    1
+VNUMs       5000 5070
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#5000
+Name        dervish raggity~
+Short       the dervish~
+Long
+The raggity dervish walks on aimlessly.
+~
+Descr
+Dressed in loose fitting rags, this man looks like he could use
+some rest.
+~
+Act         scavenger stay_area wimpy~
+AffectBy    sneak~
+Alignment   900
+Level       5
+Race        Human~
+Sex         male~
+End
+
+#5001
+Name        dervish large~
+Short       the dervish~
+Long
+The large dervish watches for signs of trouble.
+~
+Descr
+Dressed in loose fitting rags, this man looks like he could use
+LOTS of rest.
+~
+Act         aggressive stay_area~
+AffectBy    sneak~
+Alignment   650
+Level       8
+Race        Human~
+Sex         male~
+End
+
+#5002
+Name        snake coral~
+Short       the coral snake~
+Long
+A brightly colored snake slithers along the sands.
+~
+Descr
+This relatively harmless snake has bright alternating bands of red, yellow
+and black.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   -10
+Level       4
+Race        Snake~
+Sex         neutral~
+End
+
+#5003
+Name        scorpion small~
+Short       the small scorpion~
+Long
+A small, red scorpion scuttles away at your approach.
+~
+Descr
+The little tail is mighty dangerous for such a small creature.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   -50
+Level       3
+Race        Insect~
+Sex         neutral~
+End
+
+#5004
+Name        worm giant~
+Short       the giant, purple sand worm~
+Long
+A giant, purple sand worm thrusts up out of the sand and attacks!
+~
+Descr
+He's big, mean, and purple. Watch out!
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -100
+Level       18
+Race        Worm~
+Sex         neutral~
+End
+
+#5005
+Name        dragon brass~
+Short       the brass dragon~
+Long
+The brass dragon steps out of the darkness and says 'Hello'.
+Then adds to it, 'Prepare to die, have a nice day!'
+~
+Descr
+~
+Act         sentinel scavenger aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   450
+Level       30
+Race        Dragon~
+Sex         female~
+Spec        spec_breath_any~
+End
+
+#5006
+Name        nomad leader~
+Short       the nomad leader~
+Long
+The nomad leader sits silently in prayer.
+~
+Descr
+He is clad in silk robes lined with gold thread. At his side
+is a large, engraved cutlass. He has an especially haughty air
+about him.
+~
+Act         stay_area wimpy~
+AffectBy    ~
+Alignment   950
+Level       14
+Race        Hobbit~
+Sex         male~
+End
+
+#5007
+Name        nomad commander~
+Short       the nomad commander~
+Long
+The nomad commander stands here staring suspiciously at you.
+~
+Descr
+This is the nomad leader's second in command. His clothes are richly
+woven of silk and gold thread. A nasty cutlass hangs at his side.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   900
+Level       12
+Race        Hobbit~
+Sex         male~
+End
+
+#5008
+Name        nomad warrior~
+Short       the nomad warrior~
+Long
+A proud nomad warrior stands here.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   700
+Level       10
+Race        Hobbit~
+Sex         male~
+End
+
+#5009
+Name        slave young~
+Short       the slave~
+Long
+A young slave sits here staring at you with pleading eyes.
+~
+Descr
+~
+Act         sentinel wimpy~
+AffectBy    ~
+Alignment   1000
+Level       3
+Race        Human~
+Sex         female~
+End
+
+#5010
+Name        dracolich lich~
+Short       the dracolich~
+Long
+A pile of bones rises up to form a skeletal dracolich.
+~
+Descr
+The dracolich is now only bone with pieces of flesh hanging from it.
+Obviously it no longer fears death.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       20
+Race        Undead~
+Sex         neutral~
+Spec        spec_breath_fire~
+End
+
+#5011
+Name        drider drow~
+Short       the drider~
+Long
+The drider looks at you viciously while it draws its sword.
+~
+Descr
+This half-spider, half-drow creature is a formidable opponent.
+~
+Act         aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       8
+Race        Arachnid~
+Sex         female~
+End
+
+#5012
+Name        duergar dwarf~
+Short       the dark dwarf~
+Long
+A duergar is here mining precious stones with his pick.
+~
+Descr
+The duergar could crush your head as easily as it does those rocks.
+~
+Act         aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   -850
+Level       5
+Race        Dwarf~
+Sex         male~
+End
+
+#5013
+Name        myconoid~
+Short       the myconoid~
+Long
+A myconoid lumbers along peacefully.
+~
+Descr
+The myconoid looks something like a giant mushroom (and probably
+has the same effect).
+~
+Act         stay_area wimpy~
+AffectBy    detect_invis~
+Alignment   850
+Level       6
+Race        Plant~
+Sex         male~
+End
+
+#5014
+Name        myconoid shaman~
+Short       the myconoid shaman~
+Long
+A rather large myconoid stands here chanting in a strange tongue.
+~
+Descr
+The shaman shoots spores into the air.
+~
+Act         sentinel wimpy~
+AffectBy    detect_invis sanctuary~
+Alignment   850
+Level       8
+Race        Plant~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#5015
+Name        dustdigger~
+Short       the dustdigger~
+Long
+A small oasis invites you to dive in.
+~
+Descr
+~
+Act         sentinel scavenger aggressive~
+AffectBy    hide~
+Alignment   -200
+Level       7
+Race        Object~
+Sex         neutral~
+End
+
+#5017
+Name        camel~
+Short       the rabid camel~
+Long
+A very dangerous rabid camel snorts at you.
+~
+Descr
+Don't mess with this animal.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -351
+Level       5
+Race        Animal~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#5000
+Name        pick~
+Short       a small mining pick~
+Descr
+A small mining pick made of what appears to be silver lies on the ground.~
+Type        weapon~
+Extra       anti-good~
+Wear        take wield~
+Values      0~ 1~ 9~ 11~ 0~
+Weight      3
+End
+
+#5001
+Name        banded mail~
+Short       a glowing suit of banded mail~
+Descr
+A glowing suit of banded mail lies on the ground.~
+Type        armor~
+Extra       glow magic~
+Wear        take body~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      0
+Affect      dexterity~ 2 ~
+Affect      ac~ -4 ~
+End
+
+#5002
+Name        halberd~
+Short       the halberd~
+Descr
+A mighty halberd lies against the wall.~
+Type        weapon~
+Extra       magic bless~
+Wear        take wield~
+Values      0~ 3~ 7~ 2~ 0~
+Weight      16
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#5003
+Name        amulet~
+Short       the amulet~
+Descr
+A mushroom shaped amulet lies on the ground.~
+Type        armor~
+Extra       magic~
+Wear        take neck~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      constitution~ 2 ~
+End
+
+#5005
+Name        bone~
+Short       a large leg bone~
+Descr
+A large leg bone rests on the ground.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 4~ 7~ 0~
+Weight      5
+End
+
+#5006
+Name        cactus~
+Short       a small cactus cup~
+Descr
+A small cactus cup lies on the ground.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      5~ 5~ 0~ 0~ 0~
+Weight      6
+End
+
+#5007
+Name        basket~
+Short       a small wicker basket~
+Descr
+A small wicker basket sits on the ground.~
+Type        container~
+Extra       ~
+Wear        take~
+Values      100~ 5~ -1~ 0~ 0~
+Weight      50
+End
+
+#5008
+Name        basket~
+Short       a small wicker basket~
+Descr
+A small wicker basket sits on the ground.~
+Type        container~
+Extra       ~
+Wear        take~
+Values      100~ 5~ -1~ 0~ 0~
+Weight      50
+End
+
+#5009
+Name        basket~
+Short       a small wicker basket~
+Descr
+A small wicker basket sits on the ground.~
+Type        container~
+Extra       ~
+Wear        take~
+Values      100~ 5~ -1~ 0~ 0~
+Weight      50
+End
+
+#5010
+Name        basket~
+Short       a small wicker basket~
+Descr
+A small wicker basket sits on the ground.~
+Type        container~
+Extra       ~
+Wear        ~
+Values      100~ 5~ -1~ 0~ 0~
+Weight      50
+End
+
+#5011
+Name        rope~
+Short       a coil of rope~
+Descr
+A long coil of rope lies on the ground.~
+Type        furniture~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      12
+End
+
+#5012
+Name        stakes~
+Short       a bunch of stakes~
+Descr
+A small bundle of stakes lies here.~
+Type        furniture~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      6
+End
+
+#5013
+Name        map~
+Short       an old, tattered map~
+Descr
+An old, tattered, and much faded map lies here.~
+Type        furniture~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#5014
+Name        turban~
+Short       a thick padded turban~
+Descr
+A thick padded turban lies here.~
+Type        armor~
+Extra       glow~
+Wear        take head~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      ac~ 1 ~
+End
+
+#5015
+Name        coins~
+Short       a great pile of treasure~
+Descr
+A great, gleaming pile of treasure lies at your feet.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      46270~ 0~ 0~ 0~ 0~
+Weight      0
+End
+
+#5016
+Name        sabre~
+Short       a long, curved sabre~
+Descr
+A long, curved sabre stands upright in the ground.~
+Type        weapon~
+Extra       anti-neutral~
+Wear        take wield~
+Values      0~ 2~ 8~ 3~ 0~
+Weight      7
+Affect      hitroll~ 2 ~
+End
+
+#5017
+Name        scimitar~
+Short       a curved scimitar~
+Descr
+A curved scimitar lies at your feet.~
+Type        weapon~
+Extra       anti-neutral~
+Wear        take wield~
+Values      0~ 2~ 7~ 3~ 0~
+Weight      6
+Affect      hitroll~ 1 ~
+End
+
+#5018
+Name        cutlass~
+Short       a long, pointed cutlass~
+Descr
+A long, pointed cutlass lies here.~
+Type        weapon~
+Extra       anti-neutral~
+Wear        take wield~
+Values      0~ 2~ 7~ 3~ 0~
+Weight      5
+End
+
+#5019
+Name        potion pink~
+Short       a pink potion~
+Descr
+A pink potion stands here.~
+Type        potion~
+Extra       ~
+Wear        take~
+Values      25~ heal~ remove curse~  ~  ~
+Weight      6
+End
+
+#5020
+Name        wand platinum~
+Short       a platinum wand~
+Descr
+A platinum wand lies here.~
+Type        wand~
+Extra       hum~
+Wear        take hold~
+Values      30~ 10~ 10~ magic missile~ 0~
+Weight      8
+End
+
+#5021
+Name        bow energy strange~
+Short       a strange energy bow~
+Descr
+A strange energy bow lies here.~
+Type        weapon~
+Extra       glow hum magic bless~
+Wear        take wield~
+Values      0~ 4~ 5~ 6~ 0~
+Weight      20
+Affect      damroll~ 5 ~
+End
+
+#5022
+Name        scroll encrypted~
+Short       an encrypted scroll~
+Descr
+An encrypted scroll lies at your feet.~
+Type        scroll~
+Extra       ~
+Wear        take~
+Values      22~ cure blindness~ remove curse~ cure poison~  ~
+Weight      7
+End
+
+#5023
+Name        chest~
+Short       an iron bound chest~
+Descr
+An iron bound chest with a shiny lock sits here.~
+Type        container~
+Extra       ~
+Wear        ~
+Values      200~ 13~ 5024~ 0~ 0~
+Weight      200
+End
+
+#5024
+Name        key golden~
+Short       a golden key~
+Descr
+A shiny golden key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#5025
+Name        bracelet copper~
+Short       a copper bracelet~
+Descr
+A tarnished copper bracelet lies at your feet.~
+Type        armor~
+Extra       magic nodrop~
+Wear        take wrist~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      hp~ 10 ~
+Affect      damroll~ 2 ~
+End
+
+#5026
+Name        gem ruby~
+Short       a large ruby~
+Descr
+A large ruby lies on the ground collecting dust.~
+Type        treasure~
+Extra       magic~
+Wear        take~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      9
+End
+
+#5027
+Name        gem diamond~
+Short       a glittering diamond~
+Descr
+A glittering diamond lies at your feet.~
+Type        treasure~
+Extra       magic~
+Wear        take~
+Values      21~ 0~ 0~ 0~ 0~
+Weight      10
+End
+
+#5028
+Name        gem sapphire~
+Short       a brilliant sapphire~
+Descr
+A brilliant sapphire lies here twinkling.~
+Type        treasure~
+Extra       magic~
+Wear        take~
+Values      22~ 0~ 0~ 0~ 0~
+Weight      7
+End
+
+#5029
+Name        gem lapis~
+Short       a deep blue lapis lazuli~
+Descr
+A deep blue lapis lazuli gem lies here.~
+Type        treasure~
+Extra       magic~
+Wear        take~
+Values      24~ 0~ 0~ 0~ 0~
+Weight      11
+End
+
+#5030
+Name        jewel tiger~
+Short       the tiger jewel~
+Descr
+The Tiger Jewel lies here blazing.~
+Type        treasure~
+Extra       bless~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      23
+Affect      dexterity~ 1 ~
+End
+
+#5031
+Name        jewel red-eyed~
+Short       the red-eyed jewel~
+Descr
+The red-eyed jewel glares at you greedily.~
+Type        treasure~
+Extra       ~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      intelligence~ 2 ~
+End
+
+#5032
+Name        gem emerald~
+Short       a fiery green emerald~
+Descr
+A fiery green emerald sits here.~
+Type        warp_stone~
+Extra       magic~
+Wear        take~
+Values      23~ 0~ 0~ 0~ 0~
+Weight      7
+End
+
+#0
+
+
+
+#ROOMDB
+#5001
+Name        A long tunnel~
+Descr
+You encounter some rapids as you enter this tunnel cut out of
+the mountains by the river.
+~
+Flags       dark indoors~
+Sector      water_noswim~
+Regen       100 100
+Door        east~ ~ 0 5002
+~
+~
+Door        west~ ~ 0 3205
+~
+~
+End
+
+#5002
+Name        A long tunnel~
+Descr
+The tunnel branches off north.
+~
+Flags       dark indoors~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ 0 5008
+~
+~
+Door        east~ ~ 0 5003
+~
+~
+Door        west~ ~ 0 5001
+~
+~
+End
+
+#5003
+Name        A long tunnel~
+Descr
+The tunnel branches off south.
+~
+Flags       dark indoors~
+Sector      water_noswim~
+Regen       100 100
+Door        east~ ~ 0 5004
+~
+~
+Door        south~ ~ 0 5017
+~
+~
+Door        west~ ~ 0 5002
+~
+~
+End
+
+#5004
+Name        A long tunnel~
+Descr
+The tunnel branches off to the south.
+~
+Flags       dark indoors~
+Sector      water_noswim~
+Regen       100 100
+Door        east~ ~ 0 5005
+~
+~
+Door        south~ ~ 0 5018
+~
+~
+Door        west~ ~ 0 5003
+~
+~
+End
+
+#5005
+Name        An underground lake~
+Descr
+You are floating on a jet-black underground lake fed by dripping
+water and lime from above. The tunnel continues to the east and the river
+leads back west. To the north is a roughly-hewn hallway. There is also
+a tunnel south.
+~
+Flags       dark indoors~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ 0 5016
+~
+~
+Door        east~ ~ 0 5006
+~
+~
+Door        south~ ~ 0 5023
+~
+~
+Door        west~ ~ 0 5004
+~
+~
+End
+
+#5006
+Name        A long narrow tunnel~
+Descr
+The tunnel rises sharply to the east.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 5007
+~
+~
+Door        west~ ~ 0 5005
+~
+~
+End
+
+#5007
+Name        A wide tunnel~
+Descr
+The tunnel continues east and west. To the east the tunnel dives
+down into a bright light.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 5027
+~
+~
+Door        west~ ~ 0 5006
+~
+~
+End
+
+#5008
+Name        Cave-in~
+Descr
+You stand at the edge of a large pile of rubble created from the last
+rockslide.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ 0 5002
+~
+~
+Door        down~ ~ 0 5009
+You can easily slide down the rocks without getting hurt.~
+~
+End
+
+#5009
+Name        At the foot of the rubble~
+Descr
+You are at the bottom of a large pile of rubble. A tunnel branches
+off to the north and east.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 5011 3 100
+Reset       E 3022 16 100
+Door        north~ ~ 0 5010
+~
+~
+Door        east~ ~ 0 5012
+~
+~
+Door        up~ ~ 0 5008
+~
+~
+End
+
+#5010
+Name        Cave entrance~
+Descr
+You stand in the middle of a large and beautiful cave. A path leads
+deeper into the darkness.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ 0 5009
+~
+~
+Door        down~ ~ 0 5011
+You look down into the cave. Bones are strewn about everywhere.~
+~
+End
+
+#5011
+Name        Giant cave~
+Descr
+This cavern overwhelms you. The walls and ceiling seem miles away.
+Bones of previous adventurers lie strewn on the cavern floor.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 5010 1 100
+Reset       E 5001 5 100
+Reset       E 5002 16 100
+Reset       O 5005 0 100
+Door        up~ ~ 0 5010
+~
+~
+End
+
+#5012
+Name        Narrow bend~
+Descr
+The tunnel turns to the south and west.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ 0 5013
+~
+~
+Door        west~ ~ 0 5009
+~
+~
+End
+
+#5013
+Name        Large cave~
+Descr
+You are standing in a large cave. Many furs are spread out on the floor.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5012
+~
+~
+Door        east~ ~ 0 5014
+~
+~
+End
+
+#5014
+Name        Damp hallway~
+Descr
+The walls here are extremely damp, as well as the floor.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 5012 3 100
+Reset       E 5000 16 100
+Door        east~ ~ 0 5015
+You hear drops of water.~
+~
+Door        west~ ~ 0 5013
+~
+~
+End
+
+#5015
+Name        Underground pool~
+Descr
+You are wading in a knee deep pool of lime-water.
+~
+Flags       dark indoors~
+Sector      water_swim~
+Regen       100 100
+Door        south~ ~ 0 5016
+~
+~
+Door        west~ ~ 0 5014
+~
+~
+End
+
+#5016
+Name        Damp hallway~
+Descr
+The walls of the tunnel are extremely damp here. You hear the faint
+sound of running water to the south.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5015
+You hear drops of water.~
+~
+Door        south~ ~ 0 5005
+~
+~
+End
+
+#5017
+Name        Narrow crawlway~
+Descr
+This crawlway is just big enough for a human to crawl through or a
+halfling to walk through.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5003
+~
+~
+Door        east~ ~ 0 5018
+~
+~
+Door        south~ ~ 0 5019
+You smell the fragrant odor of fungus.~
+~
+End
+
+#5018
+Name        Large cavern~
+Descr
+You have entered a very large cavern. The rock formations would amaze
+almost any dwarf.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5004
+~
+~
+Door        west~ ~ 0 5017
+~
+~
+End
+
+#5019
+Name        Fungus patch~
+Descr
+As you walk through the fungus patch, you are shot at by many millions of
+spores. You can hardly breathe.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5017
+~
+~
+Door        east~ ~ 0 5020
+The fragrant smell of fungus spores continues to the east~
+~
+End
+
+#5020
+Name        Fungus path~
+Descr
+As you walk along the path, millions of spores are shot at you. You can
+hardly breathe.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ 0 5021
+A giant mushroom temple stands to the south.~
+~
+Door        west~ ~ 0 5019
+The fragrant smell of spores continues to the west.~
+~
+End
+
+#5021
+Name        Fungus temple~
+Descr
+You find yourself standing inside of a giant mushroom. The inside
+is decorated in the fashion of a temple.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 5013 4 100
+Reset       M 5014 1 100
+Reset       E 5003 3 100
+Door        north~ ~ 0 5020
+~
+~
+Door        east~ ~ 0 5022
+~
+~
+End
+
+#5022
+Name        Sloping passage~
+Descr
+You follow a path sloping down from the fungus temple.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        west~ ~ 0 5021
+~
+~
+Door        down~ ~ 0 5023
+~
+~
+End
+
+#5023
+Name        Sloping passage~
+Descr
+You are on a path that gently slopes up from the underground pool.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5005
+You hear sounds of trickling water.~
+~
+Door        up~ ~ 0 5022
+~
+~
+End
+
+#5024
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5015 1 100
+Door        north~ ~ 0 5030
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5025
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5027
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5026
+Sand as far as the eye can see.
+~
+~
+End
+
+#5025
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5000 3 100
+Reset       E 3021 16 100
+Door        north~ ~ 0 5056
+You see a nomad camp by an oasis.
+~
+~
+Door        east~ ~ 0 5026
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5028
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5024
+Sand as far as the eye can see.
+~
+~
+End
+
+#5026
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5015 1 100
+Door        north~ ~ 0 5032
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5024
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5029
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5025
+Sand as far as the eye can see.
+~
+~
+End
+
+#5027
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5000 3 100
+Reset       E 3021 16 100
+Door        north~ ~ 0 5024
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5028
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5030
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5007
+You see a river flowing into the mountain.
+~
+~
+End
+
+#5028
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5003 5 100
+Reset       M 5004 1 100
+Reset       E 5019 -1 100
+Reset       E 5020 -1 100
+Reset       E 5021 -1 100
+Door        north~ ~ 0 5025
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5029
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5031
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5027
+Sand as far as the eye can see.
+~
+~
+End
+
+#5029
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.  To the east, you see a big mirage of a city!  You MUST be
+hallucinating!
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5000 3 100
+Reset       E 3021 16 100
+Door        north~ ~ 0 5026
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5062
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5032
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5028
+Sand as far as the eye can see.
+~
+~
+End
+
+#5030
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5015 1 100
+Door        north~ ~ 0 5027
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5031
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5024
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5032
+Sand as far as the eye can see.
+~
+~
+End
+
+#5031
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5001 1 100
+Reset       E 3022 16 100
+Reset       M 5002 5 100
+Door        north~ ~ 0 5028
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5032
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5063
+You see a tiny ledge.
+~
+~
+Door        west~ ~ 0 5030
+Sand as far as the eye can see.
+~
+~
+End
+
+#5032
+Name        The Great Eastern Desert~
+Descr
+A vast desert stretches for miles, the sand constantly shifting around you.
+You feel lost.
+~
+Flags       no_recall~
+Sector      desert~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 5015 1 100
+Door        north~ ~ 0 5029
+Sand as far as the eye can see.
+~
+~
+Door        east~ ~ 0 5030
+Sand as far as the eye can see.
+~
+~
+Door        south~ ~ 0 5026
+You see a tiny ledge.
+~
+~
+Door        west~ ~ 0 5031
+Sand as far as the eye can see.
+~
+~
+End
+
+#5056
+Name        A nomad camp~
+Descr
+This small group of desert nomads has stopped for the day to rest
+and refresh themselves beside this beautiful oasis. Three tents and some
+camels make up the party. From within two of the tents you hear muffled
+voices, obviously surprised at your visit.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 5058
+You see ill-tempered camels.
+~
+~
+Door        east~ ~ 0 2600
+Sand as far as the eye can see... and a pyramid in the distance.
+~
+~
+Door        south~ ~ 0 5025
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5057
+You see inside one of the tents a huddled mass of people, probably slaves.
+~
+~
+End
+
+#5057
+Name        Inside a small tent~
+Descr
+This is a small and simple tent with few possessions in sight. Lying
+here and there are young-looking men and women, possibly slaves to the
+leader of this band.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 5009 10 100
+Door        east~ ~ 0 5056
+You see the center of the nomad camp.~
+~
+End
+
+#5058
+Name        Beside the camels~
+Descr
+Here stand about ten camels, all hitched to some stakes plugged into
+the ground. To the east you see a small tent while to the north you see a
+larger, fancier tent.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 5017 1 100
+Door        north~ ~ 0 5060
+This tent seems to be the temporary abode of the nomad leader. You make a
+mental note to visit it before you leave.~
+~
+Door        east~ ~ 0 5059
+In this tent there are very large men, all carrying weapons.~
+~
+Door        south~ ~ 0 5056
+You see the center of the nomad camp.~
+~
+End
+
+#5059
+Name        The warrior's tent.~
+Descr
+This tent has a few furnishings, but mainly it holds the band's
+protectors. They all stare at you coldly as you enter.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 5008 5 100
+Reset       E 5018 16 100
+Door        west~ ~ 0 5058
+Outside you see some peaceful camels.~
+~
+End
+
+#5060
+Name        The main tent~
+Descr
+This tent is as lavishly decorated on the inside as it is on the
+outside. A fancy carpet lies on the sand and numerous baskets line the
+walls.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 5007 1 100
+Reset       E 5017 16 100
+Reset       O 5007 0 100
+Reset       P 5012 5007 100
+Reset       P 5011 5007 100
+Door        east~ ~ 0 5061
+~
+~
+Door        south~ ~ 0 5058
+You see some peaceful camels.~
+~
+End
+
+#5061
+Name        The main tent~
+Descr
+This is where the leader of this band of nomads resides. He is
+definitely rich as you inspect the tapestries, baskets, and a few
+paintings as well.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 5006 1 100
+Reset       E 5016 16 100
+Reset       O 5008 0 100
+Reset       P 5014 5008 100
+Reset       O 5009 0 100
+Reset       O 5010 0 100
+Reset       P 5013 5010 100
+Door        west~ ~ 0 5060
+You see the entrance to this tent.~
+~
+End
+
+#5062
+Name        Upon a small hill.~
+Descr
+You crest a small hill, and to the south, you see some glowing sands, and more
+of this mirage of a city!
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ 0 8001
+You see some glowing sands to the south!
+~
+~
+End
+
+#5063
+Name        The wind-swept ledge~
+Descr
+Being very careful not to lose your balance, you look around and
+find that this canyon is about a half a kilometer deep. To the west is
+a dark cave leading under the desert sands.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5031
+Sand as far as the eye can see.
+~
+~
+Door        west~ ~ 0 5064
+~
+~
+End
+
+#5064
+Name        The cave mouth~
+Descr
+The air in here is MUCH cooler than outside. From the west you hear
+strange sounds, but can see nothing. The cave slopes down into the
+darkness.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 5063
+Outside is lighter and very windy.~
+~
+Door        west~ ~ 0 5065
+~
+~
+End
+
+#5065
+Name        The mysterious lair.~
+Descr
+You have stumbled upon the home of something. From the treasure
+haphazardly strewn about and the rotting carcasses, you would guess that
+this is a dragon's lair. As to what type, you can't really say. The cave
+narrows out into a tunnel to the west.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 5005 1 100
+Reset       E 5024 -1 100
+Reset       E 5022 -1 100
+Door        east~ ~ 0 5064
+~
+~
+Door        west~ door closed locked pickproof~ 5024 5066
+~
+door~
+End
+
+#5066
+Name        A wide tunnel~
+Descr
+This tunnel seems to go on forever into the darkness. You carefully
+feel your way along the walls.
+~
+Flags       dark no_mob indoors~
+Sector      mountain~
+Regen       100 100
+Door        east~ door closed locked pickproof~ 5024 5065
+~
+door~
+Door        west~ ~ 0 5067
+~
+~
+End
+
+#5067
+Name        A narrower tunnel~
+Descr
+The tunnel becomes very narrow and you fight to squeeze your way through.
+The floor seems to level off a little.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 5066
+~
+~
+Door        south~ ~ 0 5068
+~
+~
+End
+
+#5068
+Name        A narrow crack~
+Descr
+This part of the tunnel is the hardest to move through as the walls
+move in to meet you.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5067
+~
+~
+Door        west~ ~ 0 5069
+~
+~
+End
+
+#5069
+Name        A small cavern.~
+Descr
+It is dark and damp and bats hang from the ceiling. A narrow crack is
+in the east wall. The floor now slopes upwards.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 5070
+~
+~
+Door        east~ ~ 0 5068
+~
+~
+End
+
+#5070
+Name        A small shaft~
+Descr
+From within this shaft you can see a narrow hole in the roof just
+large enough for one person. Back east is the cavern.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       O 5023 0 100
+Reset       P 5025 5023 100
+Reset       P 5026 5023 100
+Reset       P 5027 5023 100
+Reset       P 5028 5023 100
+Reset       P 5029 5023 100
+Reset       P 5030 5023 100
+Reset       P 5031 5023 100
+Reset       P 5032 5023 100
+Reset       O 5015 0 100
+Door        south~ ~ 0 5069
+~
+~
+Door        up~ ~ 0 5009
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

@@ -1,0 +1,87 @@
+GreedMud Release 1.0
+Thursday, 8th May 2003
+
+Zen             <greedmud@yahoogroups.com>
+
+
+
+OBS: A couple of people have been using GreedMud source, whole or pieces 
+of it, and not mentioning anywhere its origin. Neither on source, online 
+help or programmer docs. You know who you are. Shame on you.
+
+This release is dedicated to all the people who have contributed code, bug 
+reports or thoughts that helped improve GreedMud. To the players: I hope 
+you enjoy playing the game as much as I did developing it.
+
+=== Copyright and License Terms
+
+GreedMud 0.99.16 is a derivative of EnvyMud, version 2.2, and is subject to 
+the copyright and license agreements for Diku Mud, Merc Diku Mud and Envy Mud.
+The modifications and improvements from EnvyMud version 2.2 contained 
+in GreedMud are copyright (C) 1997-2002 by Vasco Costa.
+
+In order to use GreedMud you must follow the Diku license, the Merc license,
+the Envy license and my license.  The exact terms of the Diku license are in the
+file 'license.doc'.  A summary of these terms is:
+
+        -- No resale or operation for profit.
+        -- Original author's names must appear in login sequence.
+        -- The 'credits' command must report original authors.
+        -- You must notify the Diku creators that you are operating a Diku mud.
+
+The exact terms of the Merc license are in the file 'license.txt'.  A 
+summary of these terms is:
+
+        -- Copyrights must remain in original source.
+        -- 'Help merc' must report Merc help text, as shipped.
+
+The exact terms of the Envy license are in the file 'license.nvy'.  A 
+summary of these terms is:
+
+        -- Copyrights must remain in original source.
+        -- 'Help envy' must report Envy help text, as shipped.
+
+My terms are:
+        -- Copyrights must remain in original source.
+        -- 'Help greed' must report Greed help text, as shipped.
+        -- Don't forget to follow the Envy, Merc and Diku licenses. You should
+	   find them in the 'doc' directory.
+
+Neither the Merc, EnvyMud nor GreedMud license terms require keeping author
+names in the 'greeting' text.  If you want to include a reference to Merc and
+its authors (Furey, Hatchet, and Kahn), EnvyMud and its authors (Kahn and
+Hatchet) or GreedMud author (Zen), they would appreciate it, but do not
+require it.  However, you must keep the original Diku authors in the login
+sequence.
+
+
+
+
+                            NO WARRANTY
+
+BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE
+PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  THE COPYRIGHT HOLDERS
+AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND,
+EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.
+SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY
+SERVICING, REPAIR OR CORRECTION.
+
+IN NO EVENT WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY
+AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR
+DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT
+LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED
+BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+
+
+
+These are very generous terms for any software.  If you don't want to accept
+them, feel free to run some other software, or write your own.
+
+
+- Zen

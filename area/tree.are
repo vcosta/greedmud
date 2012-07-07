@@ -1,0 +1,936 @@
+#AREADATA
+Name        Yggdrasil~
+Author      Glop~
+Levels      15 50
+Security    1
+VNUMs       9900 9923
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#9900
+Name        hollyphant~
+Short       a Hollyphant~
+Long
+A Hollyphant is delivering a message here.
+~
+Descr
+It looks like a large, winged, furry elephant.  It emits an
+aura of goodness.
+~
+Act         stay_area~
+AffectBy    detect_invis~
+Alignment   1000
+Level       16
+Race        Animal~
+Sex         neutral~
+Spec        spec_cast_cleric~
+End
+
+#9901
+Name        planetar~
+Short       a planetar~
+Long
+A planetar is here watching out for his master's interest.
+~
+Descr
+Humanoid in appearance, the planetar has wings and is
+hairless.  He is on a mission from his deity.
+~
+Act         sentinel stay_area~
+AffectBy    detect_evil detect_invis sanctuary~
+Alignment   900
+Level       30
+Race        God~
+Sex         neutral~
+Spec        spec_cast_mage~
+End
+
+#9902
+Name        shedu~
+Short       a Shedu~
+Long
+A Shedu is here fighting evil.
+~
+Descr
+Half man, half beast.  The Shedu is out looking for evil
+anywhere it may be and it will hunt down until death is the
+result.
+~
+Act         stay_area~
+AffectBy    detect_hidden mute~
+Alignment   850
+Level       25
+Race        Animal~
+Sex         neutral~
+End
+
+#9903
+Name        dretch demon~
+Short       a dretch~
+Long
+A dretch is here slobbering on you.
+~
+Descr
+A pathetic, slobbering thing.  The dretch is constantly
+picked on by its more powerful, demon brothers.
+~
+Act         scavenger stay_area wimpy~
+AffectBy    detect_invis detect_hidden~
+Alignment   -800
+Level       10
+Race        Undead~
+Sex         male~
+End
+
+#9904
+Name        chasme fly demon~
+Short       a chasme~
+Long
+A chasme is flying around here.
+~
+Descr
+The chasme or fly demon is half-human and half-fly.  They
+don't like anyone, not even other demons.
+~
+Act         scavenger stay_area~
+AffectBy    detect_invis detect_hidden~
+Alignment   -900
+Level       20
+Race        Undead~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#9905
+Name        babau ebony~
+Short       a babau~
+Long
+A babau is standing here looking for food.
+~
+Descr
+The babau or one-horned horror is a demon of considerable
+fright.  He appears a skeleton with a black leather jumpsuit
+on.  He is constantly searching for flesh to eat.
+~
+Act         stay_area~
+AffectBy    sanctuary~
+Alignment   -1000
+Level       15
+Race        Undead~
+Sex         neutral~
+End
+
+#9906
+Name        yagnodemon demon~
+Short       a yagnodemon~
+Long
+A yagnodemon is here flexing his giant-sized arm.
+~
+Descr
+The yagnodemon has one man-sized and one giant-sized arm. 
+With the giant-sized arm it can wield huge weapons.  He is
+not in a good mood right now.
+~
+Act         scavenger stay_area~
+AffectBy    detect_invis detect_magic detect_hidden~
+Alignment   -950
+Level       25
+Race        Undead~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#9907
+Name        kostchtchie demon kost~
+Short       Kostchtchie~
+Long
+Kostchtchie is here resting on his journey of evil.
+~
+Descr
+Kostchtchie a powerful demon lord is here.  Obviously
+derived from giant stock, he is very powerful.  And he does
+not like to be interrupted.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis detect_hidden sanctuary~
+Alignment   -1000
+Level       40
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#9908
+Name        nabassu demon~
+Short       a nabassu~
+Long
+A nabassu is here looking to upgrade his status.
+~
+Descr
+A tall, thin demon, the nabassu are very bat-like in
+appearance.  He seems to have an intense interest in you.
+~
+Act         scavenger stay_area~
+AffectBy    detect_invis~
+Alignment   -950
+Level       15
+Race        Undead~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#9909
+Name        dragon cloud~
+Short       a cloud dragon~
+Long
+A cloud dragon is here wanting to be left alone.
+~
+Descr
+This dragon is as large as a red dragon, but does not like
+to get involved in the struggle between good and evil.  It
+wants to be left alone.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden sanctuary~
+Alignment   0
+Level       35
+Race        Dragon~
+Sex         neutral~
+Spec        spec_breath_gas~
+End
+
+#9910
+Name        solar~
+Short       a solar~
+Long
+A solar is here contemplating the fight against evil.
+~
+Descr
+A beautiful being, the solar is totally dedicated to the
+continuation of the good beings.
+~
+Act         sentinel stay_area~
+AffectBy    detect_evil detect_invis detect_hidden sanctuary~
+Alignment   1000
+Level       35
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9911
+Name        wemic~
+Short       a wemic~
+Long
+A wemic is hunting here.
+~
+Descr
+Part man, part lion, and part horse; the wemic is a creature
+not to be taken lightly.
+~
+Act         scavenger stay_area~
+AffectBy    detect_hidden~
+Alignment   100
+Level       10
+Race        Animal~
+Sex         male~
+Spec        spec_thief~
+End
+
+#9912
+Name        frost giant~
+Short       a frost giant~
+Long
+A frost giant is here looking for treasure.
+~
+Descr
+Large members of the giant family, the frost giants are
+ravenous collectors of treasure.  They don't like to share
+this treasure with anyone.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis detect_hidden~
+Alignment   -300
+Level       25
+Race        Giant~
+Sex         male~
+End
+
+#9913
+Name        gorgimera~
+Short       a gorgimera~
+Long
+A gorgimera is here flexing its wings.
+~
+Descr
+This three-headed monster is waiting to rip the head off of
+its latest victim to add to its collection.  Watch out for
+that breath attack.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   -750
+Level       20
+Race        Dragon~
+Sex         neutral~
+Spec        spec_breath_any~
+End
+
+#9914
+Name        ratatosk~
+Short       Ratatosk~
+Long
+Ratatosk is here delivering the Gods' messages.
+~
+Descr
+You see a giant squirrel carrying greetings and tidings from
+the various deities residing in these realms.  He does not
+want to be delayed in his task.
+~
+Act         scavenger stay_area~
+AffectBy    detect_evil detect_invis detect_hidden sanctuary~
+Alignment   200
+Level       35
+Race        Animal~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#9900
+Name        polearm body wrecker~
+Short       a body-wrecker~
+Descr
+A body-wrecker polearm lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 4~ 6~ 11~ 0~
+Weight      27
+End
+
+#9901
+Name        hammer iron~
+Short       a huge hammer of cold iron~
+Descr
+A hammer of iron with silver and nickel detail lies here.~
+Type        weapon~
+Extra       evil anti-good~
+Wear        take wield~
+Values      0~ 3~ 10~ 7~ 0~
+Weight      25
+End
+
+#9902
+Name        bastard sword~
+Short       a holy bastard sword~
+Descr
+A beautiful sword lies on the ground here.~
+Type        weapon~
+Extra       glow magic anti-evil~
+Wear        take wield~
+Values      0~ 4~ 5~ 3~ 0~
+Weight      19
+Affect      hp~ 25 ~
+Affect      saving-spell~ 2 ~
+End
+
+#9903
+Name        looking glass~
+Short       a looking glass~
+Descr
+A looking glass lies here.~
+Type        staff~
+Extra       magic~
+Wear        take hold~
+Values      10~ 10~ 10~ detect invis~ 0~
+Weight      2
+End
+
+#9904
+Name        cloudy staff~
+Short       a cloudy glass staff~
+Descr
+A staff made of cloudy glass lies here.~
+Type        staff~
+Extra       invis~
+Wear        take hold~
+Values      10~ 8~ 4~ sleep~ 0~
+Weight      4
+End
+
+#9905
+Name        crystal sleeves~
+Short       a set of sleeves of crystal~
+Descr
+Some sleeves made of crystal lie here.~
+Type        armor~
+Extra       invis~
+Wear        take arms~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      damroll~ 2 ~
+End
+
+#9906
+Name        sparkling green potion~
+Short       a sparkling green potion~
+Descr
+A green potion is lying here sparkling.~
+Type        potion~
+Extra       glow magic~
+Wear        take~
+Values      10~ detect evil~ detect invis~ detect magic~  ~
+Weight      1
+End
+
+#9907
+Name        paper triangle~
+Short       a paper triangle~
+Descr
+A piece of paper in the shape of a triangle is here.~
+Type        scroll~
+Extra       invis~
+Wear        take~
+Values      50~ armor~ bless~  ~  ~
+Weight      1
+End
+
+#9908
+Name        hollyphant tusk~
+Short       a hollyphant tusk~
+Descr
+A tusk of a hollyphant lies here.~
+Type        wand~
+Extra       glow anti-evil~
+Wear        take hold~
+Values      10~ 15~ 10~ dispel evil~ 0~
+Weight      1
+End
+
+#9909
+Name        girth cast iron~
+Short       a cast iron girth~
+Descr
+A cast iron girth lies here.~
+Type        armor~
+Extra       hum~
+Wear        take waist~
+Values      45~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      intelligence~ -4 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#9900
+Name        The Entrance to Yggdrasil~
+Descr
+This is the entrance to Yggdrasil, the World Ash.  Through
+this tree are conduits to many other planes of existence.  The way back
+to the forest is to the north.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 10030
+You see the way back to the forest.
+~
+~
+Door        up~ ~ -1 9901
+You see the trunk rising up into the sky.
+~
+~
+Door        down~ ~ -1 9907
+You see the trunk descending down into the depths of the
+earth.
+~
+~
+End
+
+#9901
+Name        The Trunk of Yggdrasil~
+Descr
+You are traveling in Yggdrasil, the World Ash.  Who knows
+what other travelers you may encounter.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9911 10 100
+Reset       E 9903 -1 100
+Door        up~ ~ -1 9902
+The trunk continues to go up here.
+~
+~
+Door        down~ ~ -1 9900
+The entrance to the tree is below.
+~
+~
+End
+
+#9902
+Name        The Lower Trunk of Yggrasil~
+Descr
+You are in the lower reaches of Yggdrasil.  The tree top
+cannot be seen.  Lesser astral travelers can be seen moving
+about.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 9903
+A limb branches off in this direction.
+~
+~
+Door        east~ ~ -1 9906
+A limb branches off in this direction.
+~
+~
+Door        south~ ~ -1 9911
+A limb branches off in this direction.
+~
+~
+Door        west~ ~ -1 9905
+A limb branches off in this direction.
+~
+~
+Door        up~ ~ -1 9917
+The trunk continues up the tree.
+~
+~
+Door        down~ ~ -1 9901
+The way down the tree is this way.
+~
+~
+End
+
+#9903
+Name        A Lower Branch of Yggdrasil~
+Descr
+You are on a limb on the lower level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9905 10 100
+Reset       M 9905 10 100
+Door        south~ ~ -1 9902
+The main trunk is in this direction.
+~
+~
+End
+
+#9904
+Name        The Crest of Yggdrasil~
+Descr
+You are on the top of the World Ash.  You can see in the
+distance many realms and dimensions.  This is definitely a
+crossroads to the gods.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        down~ ~ -1 9918
+The way down the trunk of Yggdrasil lies this way.
+~
+~
+End
+
+#9905
+Name        A Lower Branch of Yggdrasil~
+Descr
+You are on a limb on the lower level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ -1 9902
+The main trunk is in this direction.
+~
+~
+End
+
+#9906
+Name        A Lower Branch of Yggdrasil~
+Descr
+You are on a limb on the lower level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9904 8 100
+Reset       M 9904 8 100
+Door        west~ ~ -1 9902
+The main trunk is in this direction.
+~
+~
+End
+
+#9907
+Name        The Roots of Yggdrasil~
+Descr
+You are under the ground among the roots of Yggdrasil.  You
+sense a greater preponderance of evil in this area.  Your
+fellow travelers also tend to be of the evil persuasion.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9903 10 100
+Reset       M 9903 10 100
+Door        north~ ~ -1 9923
+The roots lead off in this direction.
+~
+~
+Door        east~ ~ -1 9909
+The roots lead off in this direction.
+~
+~
+Door        south~ ~ -1 9908
+The roots lead off in this direction.
+~
+~
+Door        west~ ~ -1 9910
+The roots lead off in this direction.
+~
+~
+Door        up~ ~ -1 9900
+The entrance to the tree is in this direction.
+~
+~
+Door        down~ ~ -1 9912
+The deepest part of the tree is down here.
+~
+~
+End
+
+#9908
+Name        The Roots of Yggdrasil~
+Descr
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9907 1 100
+Reset       E 9901 16 100
+Door        north~ ~ -1 9907
+The roots continue in this direction.
+~
+~
+End
+
+#9909
+Name        The Roots of Yggdrasil~
+Descr
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        west~ ~ -1 9907
+The roots continue in this direction.
+~
+~
+End
+
+#9910
+Name        The Roots of Yggdrasil~
+Descr
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9912 6 100
+Reset       E 9909 -1 100
+Reset       M 9912 6 100
+Door        east~ ~ -1 9907
+The roots continue in this direction.
+~
+~
+End
+
+#9911
+Name        A Lower Branch of Yggdrasil~
+Descr
+You are on a limb on the lower level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9908 8 100
+Reset       E 9906 -1 100
+Reset       M 9908 8 100
+Door        north~ ~ -1 9902
+The main trunk is in this direction.
+~
+~
+End
+
+#9912
+Name        The Deepest Roots of Yggdrasil~
+Descr
+You are at the tree's deepest point.  Looking down from here
+you can almost see the foul and evil realms of the followers
+of evil.  You can faintly hear the screams of their tortured
+victims.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9913 2 100
+Door        up~ ~ -1 9907
+You see the roots of the tree continue in this direction.
+~
+~
+End
+
+#9913
+Name        A Middle Branch of Yggdrasil~
+Descr
+You are on a limb on the middle level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9902 6 100
+Door        east~ ~ -1 9917
+The main trunk is in this direction.
+~
+~
+End
+
+#9914
+Name        A Middle Branch of Yggdrasil~
+Descr
+You are on a limb on the middle level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9900 6 100
+Reset       E 9908 -1 100
+Reset       M 9900 6 100
+Reset       E 9908 -1 100
+Door        south~ ~ -1 9917
+The main trunk is in this direction.
+~
+~
+End
+
+#9915
+Name        A Middle Branch of Yggdrasil~
+Descr
+You are on a limb on the middle level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9909 1 100
+Door        west~ ~ -1 9917
+The main trunk is in this direction.
+~
+~
+End
+
+#9916
+Name        A Middle Branch of Yggdrasil~
+Descr
+You are on a limb on the middle level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9912 6 100
+Reset       E 9907 -1 100
+Reset       M 9912 6 100
+Door        north~ ~ -1 9917
+The main trunk is in this direction.
+~
+~
+End
+
+#9917
+Name        The Middle Trunk of Yggrasil~
+Descr
+You are in the middle parts of Yggdrasil.  The tree top
+still cannot be seen.  Many travelers are passing you in
+fulfillment of their quests.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9911 10 100
+Door        north~ ~ -1 9914
+A limb branches off in this direction.
+~
+~
+Door        east~ ~ -1 9915
+A limb branches off in this direction.
+~
+~
+Door        south~ ~ -1 9916
+A limb branches off in this direction.
+~
+~
+Door        west~ ~ -1 9913
+A limb branches off in this direction.
+~
+~
+Door        up~ ~ -1 9918
+The trunk continues towards the heavens.
+~
+~
+Door        down~ ~ -1 9902
+The way down the tree is this way.
+~
+~
+End
+
+#9918
+Name        The Upper Trunk of Yggrasil~
+Descr
+You are in the topmost section of Yggdrasil.  The tree top
+is just above you.  Great power can be sensed in this area. 
+There is also goodness here.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9914 1 100
+Door        north~ ~ -1 9921
+A limb branches off in this direction.
+~
+~
+Door        east~ ~ -1 9922
+A limb branches off in this direction.
+~
+~
+Door        south~ ~ -1 9919
+A limb branches off in this direction.
+~
+~
+Door        west~ ~ -1 9920
+A limb branches off in this direction.
+~
+~
+Door        up~ ~ -1 9904
+The top of the tree can be seen here.
+~
+~
+Door        down~ ~ -1 9917
+The way down the tree is this way.
+~
+~
+End
+
+#9919
+Name        An Upper Branch of Yggdrasil~
+Descr
+You are on a limb on the upper level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 9918
+The main trunk is in this direction.
+~
+~
+End
+
+#9920
+Name        An Upper Branch of Yggdrasil~
+Descr
+You are on a limb on the upper level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9902 6 100
+Reset       E 9904 -1 100
+Door        east~ ~ -1 9918
+The main trunk is in this direction.
+~
+~
+End
+
+#9921
+Name        An Upper Branch of Yggdrasil~
+Descr
+You are on a limb on the upper level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9910 1 100
+Reset       E 9905 -1 100
+Door        south~ ~ -1 9918
+The main trunk is in this direction.
+~
+~
+End
+
+#9922
+Name        An Upper Branch of Yggdrasil~
+Descr
+You are on a limb on the upper level of Yggdrasil.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9901 1 100
+Reset       E 9902 16 100
+Door        west~ ~ -1 9918
+The main trunk is in this direction.
+~
+~
+End
+
+#9923
+Name        The Roots of Yggdrasil~
+Descr
+You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9906 4 100
+Reset       E 9900 16 100
+Reset       M 9906 4 100
+Reset       E 9900 16 100
+Door        south~ ~ -1 9907
+The roots continue in this direction.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

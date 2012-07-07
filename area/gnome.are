@@ -1,0 +1,2617 @@
+#AREADATA
+Name        Gnome Village~
+Author      Vougon~
+Levels      5 15
+Security    1
+VNUMs       1500 1590
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#HELPS
+
+-1 GNOME~
+GNOMEs are small peaceloving creatures much like a mix of DWARVES and HOBBITs.
+Not relatives of either race, GNOMEs do not carry the same number of negative
+feelings toward other races.  Having on average less strength than many other
+races, they make up this deficiency through a higher than average
+wisdom, as well as the ability to recover quickly from using magic.
+Also agile, GNOMEs regularly rival HOBBITs in the inter-racial Olympics.
+GNOMEs have certain abilities available to them.
+.	* Infravision.
+~
+
+0 $~
+
+
+
+#MOBDB
+#1500
+Name        child gnome~
+Short       a gnome child~
+Long
+A gnome child is playing around here.
+~
+Descr
+The little tyke looks so innocent playing with his boomerang that you 
+just want to pick him up and hug him.
+~
+Act         scavenger~
+AffectBy    ~
+Alignment   600
+Level       3
+Race        Gnome~
+Sex         male~
+End
+
+#1501
+Name        woman gnome~
+Short       a gnome woman~
+Long
+A gnome woman is standing here, trying to look beautiful.
+~
+Descr
+The woman is short and gnarled, but acts like a woman several times her beauty.
+She's starting to look pretty attractive to you ...
+~
+Act         scavenger~
+AffectBy    ~
+Alignment   600
+Level       5
+Race        Gnome~
+Sex         female~
+End
+
+#1502
+Name        man gnome~
+Short       a gnome man~
+Long
+A gnome man is walking here, on his way to work.
+~
+Descr
+This is a prime example of a gnome.  He looks short and weak, but at the
+same time an intelligent creature who could outsmart you.
+~
+Act         scavenger~
+AffectBy    ~
+Alignment   500
+Level       6
+Race        Gnome~
+Sex         male~
+End
+
+#1503
+Name        scientist gnome~
+Short       a gnome scientist~
+Long
+A scientist wanders around deep in thought.
+~
+Descr
+You see a gnome who is lost deep into some invention that he is about
+to make.  His hair is white, but he looks fairly strong.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   500
+Level       7
+Race        Gnome~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#1504
+Name        guard gnome~
+Short       a gnome guard~
+Long
+A gnome guard stands here guarding something.
+~
+Descr
+This is a well trained gnome.  He might not have a lot of strength but
+he makes up for it with his weapons skill.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   400
+Level       8
+Race        Gnome~
+Sex         male~
+End
+
+#1505
+Name        chief gnome~
+Short       the chief gnome~
+Long
+A powerful looking gnome stands here wearing ornate clothes.
+~
+Descr
+The Chief looks like he could whap you hard.  He looks not only powerful
+but wise and resourceful.  You better not mess with him.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   550
+Level       15
+Race        Gnome~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#1507
+Name        troll small~
+Short       a small troll~
+Long
+A small troll grunts as he takes a swing at you.
+~
+Descr
+The small troll is a short and stocky beast with a human-like face
+but with the eyes and fangs of a wild beast.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    ~
+Alignment   -900
+Level       8
+Race        Troll~
+Sex         male~
+End
+
+#1508
+Name        mouse field~
+Short       a field mouse~
+Long
+A small mouse runs across your foot.
+~
+Descr
+The Mouse is a cute little creature.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   100
+Level       1
+Race        Rat~
+Sex         male~
+End
+
+#1509
+Name        rat~
+Short       a rat~
+Long
+A small rat shrieks and runs around.
+~
+Descr
+The rat is a little evil creature that deserves death.
+~
+Act         scavenger~
+AffectBy    ~
+Alignment   -200
+Level       2
+Race        Rat~
+Sex         male~
+Spec        spec_poison~
+End
+
+#1510
+Name        rat large~
+Short       a large rat~
+Long
+A large rat runs up to you and nibbles on your boots.
+~
+Descr
+You have the urge to kill this vile creature.
+~
+Act         scavenger~
+AffectBy    ~
+Alignment   -200
+Level       4
+Race        Rat~
+Sex         male~
+Spec        spec_poison~
+End
+
+#1511
+Name        rat giant~
+Short       a giant rat~
+Long
+A giant rat growls at you and prepares to attack.
+~
+Descr
+This rat has grown up to be the size of an average dog.
+~
+Act         scavenger~
+AffectBy    ~
+Alignment   -200
+Level       6
+Race        Rat~
+Sex         male~
+Spec        spec_poison~
+End
+
+#1512
+Name        troll~
+Short       the troll~
+Long
+A giant troll lumbers around.
+~
+Descr
+You see before you a huge mass of living flesh.  You cringe in fear as
+he lifts his powerful arm to bludgeon you.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -800
+Level       14
+Race        Troll~
+Sex         male~
+End
+
+#1513
+Name        bat black~
+Short       a black bat~
+Long
+A black bat hangs from the ceiling.
+~
+Descr
+The bat is a grotesque little creature with large wings and fangs.
+~
+Act         ~
+AffectBy    ~
+Alignment   -500
+Level       5
+Race        Bat~
+Sex         neutral~
+Spec        spec_breath_acid~
+End
+
+#1514
+Name        zombie gnome~
+Short       the zombie gnome~
+Long
+A zombie gnome shuffles his way towards you.
+~
+Descr
+This is a creature which has passed away long ago.  His body has been
+pulled out of its resting place by some evil force.
+~
+Act         ~
+AffectBy    ~
+Alignment   -700
+Level       7
+Race        Undead~
+Sex         neutral~
+Spec        spec_cast_undead~
+End
+
+#1515
+Name        bat fire~
+Short       the fire bat~
+Long
+The fire bat flames brightly and prepares to attack.
+~
+Descr
+You see a huge flame which resembles the shape of a bat.  The creature
+hangs from the ceiling and bites at you.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    detect_invis~
+Alignment   -900
+Level       12
+Race        Bat~
+Sex         male~
+Spec        spec_breath_fire~
+End
+
+#1516
+Name        guard hobgoblin~
+Short       the hobgoblin guard~
+Long
+The hobgoblin guard attacks first, thinks later.
+~
+Descr
+This is an extra large, extra ugly goblin like creature.  He grins evilly
+as he attempts to brain you.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -700
+Level       6
+Race        Hobgoblin~
+Sex         male~
+End
+
+#1517
+Name        soldier hobgoblin~
+Short       the hobgoblin soldier~
+Long
+A hobgoblin soldier stands here.
+~
+Descr
+This is just a low life hobgoblin, who couldn't make it to the ranks
+of the elite guards.  He looks pissed.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -600
+Level       3
+Race        Hobgoblin~
+Sex         male~
+End
+
+#1518
+Name        bodyguard hobgoblin~
+Short       the hobgoblin bodyguard~
+Long
+A hobgoblin bodyguard guards the king with his life.
+~
+Descr
+This is one of the elite hobgoblin guards.  He stands tall for his short
+stature.  He grins a toothy grin as he prepares to attack.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -500
+Level       7
+Race        Hobgoblin~
+Sex         male~
+End
+
+#1519
+Name        king hobgoblin~
+Short       the king of the hobgoblins~
+Long
+There is a great king here, sitting in his throne.
+~
+Descr
+The king is a silly looking hobgoblin whose muscles bulge out of his robes,
+destroying the sophisticated effect he was trying to create.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -500
+Level       12
+Race        Hobgoblin~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#1520
+Name        miner hobgoblin~
+Short       a hobgoblin miner~
+Long
+A hobgoblin miner stands here looking for gold.
+~
+Descr
+The miner is totally covered in dust.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   -400
+Level       5
+Race        Hobgoblin~
+Sex         male~
+End
+
+#1521
+Name        treasurer hobgoblin~
+Short       the treasurer~
+Long
+A treasurer is here counting out money.
+~
+Descr
+The hobgoblin treasurer is an old goblin with glasses.  It appears that he
+can only see a couple feet in front of him.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   -200
+Level       10
+Race        Hobgoblin~
+Sex         male~
+End
+
+#1522
+Name        prisoner gnome~
+Short       a gnome prisoner~
+Long
+A gnome prisoner is here resting in the straw.
+~
+Descr
+The prisoner is just barely alive.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   100
+Level       3
+Race        Gnome~
+Sex         male~
+End
+
+#1523
+Name        prisoner human~
+Short       a human prisoner~
+Long
+A human prisoner is here resting in the straw.
+~
+Descr
+The prisoner is just barely alive.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   100
+Level       3
+Race        Human~
+Sex         female~
+End
+
+#1524
+Name        hermit crab~
+Short       a hermit~
+Long
+A hermit crab crawls towards you.
+~
+Descr
+The hermit crab is about 5 feet high and looks mad that you had the nerve
+to wake it up.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    ~
+Alignment   -10
+Level       5
+Race        Animal~
+Sex         male~
+End
+
+#1526
+Name        cook hobgoblin~
+Short       the cook~
+Long
+A hobgoblin cook stands here cooking something.
+~
+Descr
+The cook is a dirty and fat hobgoblin.  He burps as he stirs up something
+in a pot.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   -300
+Level       7
+Race        Hobgoblin~
+Sex         male~
+End
+
+#0
+
+
+
+#OBJDB
+#1500
+Name        key bloody~
+Short       a bloody key~
+Descr
+A bloody key is stuck to the floor.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#1501
+Name        key dirty~
+Short       a dirty key~
+Descr
+A dirty key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#1502
+Name        toy boomerang~
+Short       a toy boomerang~
+Descr
+A toy boomerang wants to be picked up.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 2~ 4~ 7~ 0~
+Weight      5
+End
+
+#1503
+Name        staff gnarled~
+Short       a gnarled staff~
+Descr
+A gnarled staff is here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 9~ 7~ 0~
+Weight      15
+End
+
+#1504
+Name        sword gnome~
+Short       a gnome sword~
+Descr
+A gnome sword catches your eye.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 3~ 3~ 3~ 0~
+Weight      15
+End
+
+#1505
+Name        shield studded~
+Short       a studded shield~
+Descr
+A studded wooden shield lies here.~
+Type        armor~
+Extra       ~
+Wear        take shield~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      16
+End
+
+#1506
+Name        potion bloody~
+Short       a bloody potion~
+Descr
+A bloody potion lies here.~
+Type        potion~
+Extra       ~
+Wear        take~
+Values      5~ cure blindness~ cure critical~ giant strength~  ~
+Weight      22
+End
+
+#1507
+Name        cloak bloody~
+Short       a bloody cloak~
+Descr
+A bloody cloak lies in a corner.~
+Type        armor~
+Extra       magic~
+Wear        take neck~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      15
+End
+
+#1508
+Name        ring bat~
+Short       a bat ring~
+Descr
+A ring in the shape of a bat lies here.~
+Type        armor~
+Extra       magic~
+Wear        take finger~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      move~ 15 ~
+End
+
+#1509
+Name        necklace bead~
+Short       a bead necklace~
+Descr
+A string of beads is here.~
+Type        armor~
+Extra       ~
+Wear        take neck~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      8
+Affect      hitroll~ 2 ~
+End
+
+#1510
+Name        sword electrum~
+Short       an electrum sword~
+Descr
+An electrum sword lies here.~
+Type        weapon~
+Extra       glow magic~
+Wear        take wield~
+Values      0~ 4~ 3~ 3~ 0~
+Weight      20
+End
+
+#1511
+Name        basket wicker~
+Short       a wicker basket~
+Descr
+A wicker basket sits here.~
+Type        container~
+Extra       ~
+Wear        take~
+Values      90~ 0~ -1~ 0~ 0~
+Weight      5
+End
+
+#1512
+Name        peanuts~
+Short       some peanuts~
+Descr
+Peanuts lie here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      16~ 0~ 0~ 0~ 0~
+Weight      9
+End
+
+#1513
+Name        grain~
+Short       some grain~
+Descr
+There is some grain here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#1514
+Name        skiff~
+Short       a skiff~
+Descr
+A small skiff is here.~
+Type        boat~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      24
+End
+
+#1515
+Name        boots gnome~
+Short       a pair of gnome boots~
+Descr
+You notice a pair of gnome boots.~
+Type        armor~
+Extra       ~
+Wear        take feet~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      12
+Affect      move~ 10 ~
+End
+
+#1516
+Name        coins~
+Short       a pile of coins~
+Descr
+A pile of coins.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      1000~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#1517
+Name        coins~
+Short       a pile of coins~
+Descr
+A pile of coins.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      5000~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#1518
+Name        coins~
+Short       a pile of coins~
+Descr
+A pile of coins.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      1000~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#1519
+Name        shield stone~
+Short       a stone shield~
+Descr
+A stone slab lies here.~
+Type        armor~
+Extra       ~
+Wear        take shield~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      strength~ 2 ~
+End
+
+#1520
+Name        mail heavy banded~
+Short       heavy banded mail~
+Descr
+A large suit of heavy banded mail is here~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      30
+End
+
+#1521
+Name        club large~
+Short       a large club~
+Descr
+A large club sits here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 4~ 3~ 7~ 0~
+Weight      22
+End
+
+#1522
+Name        banana~
+Short       a banana~
+Descr
+There is a banana here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#1523
+Name        life potion~
+Short       a potion of life healing~
+Descr
+A potion of life healing has left here.~
+Type        potion~
+Extra       nodrop~
+Wear        take~
+Values      32~ cure poison~ bless~  ~  ~
+Weight      1
+End
+
+#0
+
+
+
+#ROOMDB
+#1501
+Name        Entrance to Gnome Village~
+Descr
+You stand on a dusty path that leads north and east.  To the east you hear
+the sounds of a small village.
+~
+Flags       no_mob~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 3503
+~
+~
+Door        east~ ~ -1 1502
+You see a dusty path.
+~
+~
+End
+
+#1502
+Name        A Dusty Path~
+Descr
+This is a path leading into the village.  It continues east and west and
+there is a small house to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 1509
+You see a small house.
+~
+~
+Door        east~ ~ -1 1503
+You see a road.
+~
+~
+Door        west~ ~ -1 1501
+You see a path.
+~
+~
+End
+
+#1503
+Name        A Road in the Village~
+Descr
+This road runs north and south through the center of the village.  There
+are a few people moving around, but not many.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 1502 3 100
+Reset       E 1503 16 100
+Door        north~ ~ -1 1505
+You see a road.
+~
+~
+Door        east~ ~ -1 1504
+You see a path.
+~
+~
+Door        south~ ~ -1 1507
+You see a road.
+~
+~
+Door        west~ ~ -1 1502
+You see a road.
+~
+~
+End
+
+#1504
+Name        A Dusty Path~
+Descr
+You are on a dusty path on the far side of the village.  Houses are to the
+north and south, while the path continues east.  There is a sign here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+Warning:  The area to the east was written mostly by Vougon
+                    (giggle)    - Sandman
+~
+Door        north~ ~ -1 1512
+You see a house.
+~
+~
+Door        east~ ~ -1 1559
+You see a path.
+~
+~
+Door        south~ ~ -1 1513
+You see a house.
+~
+~
+Door        west~ ~ -1 1503
+You see a road.
+~
+~
+End
+
+#1505
+Name        A Road in the Village~
+Descr
+This road runs north and south through the center of the village.  There
+are a few people moving around, but not many.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 1502 3 100
+Reset       E 1503 16 100
+Door        north~ ~ -1 1506
+You see a road.
+~
+~
+Door        east~ ~ -1 1511
+You see a house.
+~
+~
+Door        south~ ~ -1 1503
+You see a road.
+~
+~
+Door        west~ ~ -1 1510
+You see a house.
+~
+~
+End
+
+#1506
+Name        A Road in the Village~
+Descr
+This road runs north and south through the center of the village.  There
+are a few people moving around, but not many.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 1502 3 100
+Reset       E 1503 16 100
+Door        north~ ~ -1 1526
+You see a road.
+~
+~
+Door        south~ ~ -1 1505
+You see a road.
+~
+~
+End
+
+#1507
+Name        A Road in the Village~
+Descr
+This road runs north and south through the center of the village.  There
+are a few people moving around, but not many.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 1503
+You see a road.
+~
+~
+Door        south~ ~ -1 1508
+You see a road.
+~
+~
+Door        west~ ~ -1 1514
+You see a shop.
+~
+~
+End
+
+#1508
+Name        A Road in the Village~
+Descr
+This road runs north and south through the center of the village.  There
+are a few people moving around, but not many.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 1507
+You see a road.
+~
+~
+Door        east~ ~ -1 1516
+You see a shop.
+~
+~
+Door        south~ ~ -1 1517
+You see a small path.
+~
+~
+Door        west~ ~ -1 1515
+You see a shop.
+~
+~
+End
+
+#1509
+Name        A Small Gnome House~
+Descr
+This is a small suburban house made from quality wood.  You can see the
+expert workmanship that went into making it, but it lacks creativity.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1500 3 100
+Reset       E 1502 16 100
+Reset       M 1501 3 100
+Door        south~ ~ -1 1502
+You see a path.
+~
+~
+End
+
+#1510
+Name        A Small Gnome House~
+Descr
+This is a small suburban house made from quality wood.  You can see the
+expert workmanship that went into making it, but it lacks creativity.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1500 3 100
+Reset       E 1502 16 100
+Reset       M 1501 3 100
+Door        east~ ~ -1 1505
+You see a path.
+~
+~
+End
+
+#1511
+Name        A Small Gnome House~
+Descr
+This is a small suburban house made from quality wood.  You can see the
+expert workmanship that went into making it, but it lacks creativity.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1500 3 100
+Reset       E 1502 16 100
+Reset       M 1501 3 100
+Door        west~ ~ -1 1505
+You see a path.
+~
+~
+End
+
+#1512
+Name        A Small Gnome House~
+Descr
+This is a small suburban house made from quality wood.  You can see the
+expert workmanship that went into making it, but it lacks creativity.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 1504
+You see a path.
+~
+~
+End
+
+#1513
+Name        A Small Gnome House~
+Descr
+This is a small suburban house made from quality wood.  You can see the
+expert workmanship that went into making it, but it lacks creativity.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1503 1 100
+Reset       E 1511 -1 100
+Reset       P 1513 1511 100
+Reset       P 1512 1511 100
+Door        north~ ~ -1 1504
+You see a path.
+~
+~
+End
+
+#1514
+Name        A Gnome Shop~
+Descr
+You are in one of the several shops of this fine town.  The wares look fine,
+but unfortunately the gnomes don't do business with outsiders.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1503 1 100
+Reset       E 1511 -1 100
+Door        east~ ~ -1 1507
+You see a road.
+~
+~
+End
+
+#1515
+Name        A Gnome Shop~
+Descr
+You are in one of the several shops of this fine town.  The wares look fine,
+but unfortunately the gnomes don't do business with outsiders.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1503 1 100
+Reset       E 1514 16 100
+Door        east~ ~ -1 1508
+You see a road.
+~
+~
+End
+
+#1516
+Name        A Gnome Shop~
+Descr
+You are in one of the several shops of this fine town.  The wares look fine,
+but unfortunately the gnomes don't do business with outsiders.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 1508
+You see a road.
+~
+~
+End
+
+#1517
+Name        Path by a Stream~
+Descr
+You are on a small path leading north and west, that is surrounded on the
+other two sides by a small stream.  The water looks mighty cold.
+~
+Flags       no_mob~
+Sector      field~
+Regen       100 100
+ExtraDescr  stream~
+The stream is pretty small, but it looks too cold to swim.
+~
+Door        north~ ~ -1 1508
+You see a road.
+~
+~
+Door        south~ ~ -1 1520
+You see the stream.
+~
+~
+Door        west~ ~ -1 1518
+You see a small path.
+~
+~
+End
+
+#1518
+Name        Path by a Stream~
+Descr
+You are on a small east-west path.  The path shows new grass, as if it
+has stopped being used sometime in the recent past.  A river is to the south,
+and a small hut is to the west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  stream~
+The stream is pretty small, but it looks too cold to swim.
+~
+ExtraDescr  hut~
+The hut looks well built, but it seems to have taken some damage.
+~
+Door        east~ ~ -1 1517
+You see a small path.
+~
+~
+Door        south~ ~ -1 1521
+You see the stream.
+~
+~
+Door        west~ ~ -1 1519
+You see a small hut that is starting to fall apart.
+~
+~
+End
+
+#1519
+Name        A Small Hut~
+Descr
+The hut is a mess!  Blood has stained the grass walls into a dark rich
+crimson color.  Torn clothes and trash lie all around, and you think you
+see a skeleton in the corner.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  skeleton~
+The skeleton still has a little flesh clinging to it and it is definitely
+humanoid.  The skull has been cracked open, but it is otherwise undamaged,
+except by time.
+~
+Reset       M 1504 1 100
+Reset       E 1500 -1 100
+Reset       E 1506 -1 100
+Reset       E 1507 3 100
+Door        east~ ~ -1 1518
+You see a small path.
+~
+~
+End
+
+#1520
+Name        On the Stream~
+Descr
+The stream is cold and frigid, yet it supports plenty of life beneath its
+surface.  The current trickles west and there is a field to the south.
+~
+Flags       ~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ -1 1517
+You see a small path.
+~
+~
+Door        south~ ~ -1 1522
+You see a grassy field.
+~
+~
+Door        west~ ~ -1 1521
+You see a small stream.
+~
+~
+End
+
+#1521
+Name        On the Stream~
+Descr
+The current here flows from the east, but a logjam blocks you from 
+continuing onward.
+~
+Flags       ~
+Sector      water_noswim~
+Regen       100 100
+Door        north~ ~ -1 1518
+You see a small path.
+~
+~
+Door        east~ ~ -1 1520
+You see a small stream.
+~
+~
+End
+
+#1522
+Name        The Field of Mice's Dreams~
+Descr
+This is a large green field of waist high grass.  You feel something
+scurry over your feet.  There is a cave to the east.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 1508 1 100
+Reset       M 1508 1 100
+Door        north~ ~ -1 1520
+You see a small stream.
+~
+~
+Door        east~ ~ -1 1523
+You see a dark mysterious cave.
+~
+~
+End
+
+#1523
+Name        The Dark Cave~
+Descr
+The cave gleams as your light reflects off of it.  As you squint your eyes
+and try to look ahead, you think you see something move.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 1524
+~
+~
+Door        west~ ~ -1 1522
+You see a grassy field.
+~
+~
+End
+
+#1524
+Name        Darker Cave~
+Descr
+The cave gets even darker as your terror grows stronger.  You fear for your
+life as something emerges out of the shadows.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+Reset       M 1507 1 100
+Door        south~ ~ -1 1523
+~
+~
+End
+
+#1526
+Name        A Dusty Path~
+Descr
+You are on a well traveled path that leads in many directions.  To the north
+is a large house, and to the west is a fortress.
+~
+Flags       no_mob~
+Sector      city~
+Regen       100 100
+ExtraDescr  fortress~
+The fortress is a large gnome stronghold to defend the city.
+~
+Door        north~ ~ -1 1558
+You see a large white house.
+~
+~
+Door        south~ ~ -1 1506
+You see a road.
+~
+~
+Door        west~ ~ -1 1527
+You see the gateway to a large fortress.
+~
+~
+End
+
+#1527
+Name        The Iron Gateway~
+Descr
+You stand at the entrance to the gnome fortress.  The place seems to be
+well fortified.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 1504 1 100
+Reset       E 1504 16 100
+Door        east~ ~ -1 1526
+You see a small path.
+~
+~
+Door        west~ ~ -1 1528
+You see a long hallway.
+~
+~
+End
+
+#1528
+Name        A Long Hallway~
+Descr
+You are now inside of the fortress; you must be lucky that the guards 
+haven't killed you.  As you glance around, you notice that the walls and
+floors are spotlessly cleaned.  The barracks are to the north and a
+storage room is to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 1530
+You see the barracks.
+~
+~
+Door        east~ ~ -1 1527
+You see the gateway.
+~
+~
+Door        south~ ~ -1 1532
+You see a storage room.
+~
+~
+Door        west~ ~ -1 1529
+You see a long hallway.
+~
+~
+End
+
+#1529
+Name        A Long Hallway~
+Descr
+You are now inside of the fortress; you must be lucky that the guards 
+haven't killed you.  As you glance around, you notice that the walls and
+floors are spotlessly cleaned.  A mess hall is to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 1528
+You see a long hallway.
+~
+~
+Door        south~ ~ -1 1534
+You see the mess hall.
+~
+~
+Door        west~ ~ -1 1535
+You see a small room.
+~
+~
+End
+
+#1530
+Name        The Barracks~
+Descr
+You now stand in the sleeping quarters of the gnome guards.  Every bed is
+made perfectly, and not single article of clothing is on the floor.  There
+is a small storage room to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1504 1 100
+Reset       E 1504 16 100
+Reset       M 1504 1 100
+Reset       E 1504 16 100
+Door        east~ ~ -1 1531
+You see a small storage room.
+~
+~
+Door        south~ ~ -1 1528
+You see a long hallway.
+~
+~
+End
+
+#1531
+Name        A Small Storage Room~
+Descr
+This is where the gnomes store all their spare clothing and armor.
+There is not much here, but you might come up with something.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 1530
+You see the barracks.
+~
+~
+End
+
+#1532
+Name        A Small Storage Room~
+Descr
+This is where the gnomes store all their spare weapons.  A door leads off
+to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 1528
+You see a long hallway.
+~
+~
+Door        east~ ~ -1 1533
+You see a small room.
+~
+~
+End
+
+#1533
+Name        A Small Storage Room~
+Descr
+This is yet another room for storing gnome stuff.  Maps and battle plans
+are stored in neat stacks on the shelves.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 1532
+You see a small room.
+~
+~
+End
+
+#1534
+Name        The Mess Hall~
+Descr
+You are in the room where the guards come to get their grub.  The benches 
+and tables are neatly cleaned and straightened, while shiny plates line
+the walls.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1504 1 100
+Reset       E 1504 16 100
+Door        north~ ~ -1 1529
+You see a long hallway.
+~
+~
+End
+
+#1535
+Name        A Small Room~
+Descr
+This is a small plain room.  Its only interesting feature is a ladder down.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 1529
+You see a long hallway.
+~
+~
+Door        down~ ~ -1 1536
+You see darkness.
+~
+~
+End
+
+#1536
+Name        A Small Unused Room~
+Descr
+You stand in a small room in an unused section of the fortress.  The whole
+room is coated with dust and cobwebs.  The ladder leads back up, and
+a rusty door is to the east.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Door        east~ door closed locked pickproof~ 1500 1537
+You see a rusty door.
+~
+rusty door~
+Door        up~ ~ -1 1535
+You see a small room.
+~
+~
+End
+
+#1537
+Name        Dark Hallway~
+Descr
+You find yourself in a very old section of the fortress.  You must be the
+first person to pass through here in years.  The hallway continues south
+and a door leads off to the east.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 1538
+~
+~
+Door        south~ ~ -1 1539
+~
+~
+Door        west~ door pickproof~ 1500 1536
+You see a rusty door.
+~
+door~
+End
+
+#1538
+Name        Torture Chamber~
+Descr
+This is a room that was once used to extract lies out of helpless victims.
+The machines look unused, but could still work.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+ExtraDescr  machine~
+The machine consists of a large rack with winches on each end.  You can 
+almost feel them pulling your arms out of their sockets.
+~
+Door        west~ ~ -1 1537
+~
+~
+End
+
+#1539
+Name        Dark Hallway~
+Descr
+The hall continues in a north-south direction.  The floor is coated with
+some kind of molded slime.  Doors lead east and west.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1537
+~
+~
+Door        east~ ~ -1 1542
+~
+~
+Door        south~ ~ -1 1540
+~
+~
+Door        west~ ~ -1 1541
+~
+~
+End
+
+#1540
+Name        Dark Hallway~
+Descr
+The hall continues in a north-south direction.  The floor is coated with
+some kind of molded slime.  Doors lead east and west.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1539
+~
+~
+Door        east~ ~ -1 1544
+~
+~
+Door        south~ ~ -1 1543
+~
+~
+Door        west~ ~ -1 1545
+~
+~
+End
+
+#1541
+Name        Prison Cell~
+Descr
+You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+an unbearable stench.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1509 3 100
+Reset       E 1505 11 100
+Door        east~ ~ -1 1539
+~
+~
+End
+
+#1542
+Name        Prison Cell~
+Descr
+You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+an unbearable stench.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1510 3 100
+Reset       E 1503 16 100
+Door        west~ ~ -1 1539
+~
+~
+End
+
+#1543
+Name        Prison Cell~
+Descr
+You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+an unbearable stench.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1511 3 100
+Door        north~ ~ -1 1540
+~
+~
+End
+
+#1544
+Name        Prison Cell~
+Descr
+You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+an unbearable stench.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        west~ ~ -1 1540
+~
+~
+End
+
+#1545
+Name        End of the Dark Hallway~
+Descr
+You have reached the end of the dark hallway and maybe the end of your puny
+life.  Something lumbers its way out of the shadows.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1512 1 100
+Reset       E 1501 -1 100
+Door        east~ ~ -1 1540
+~
+~
+Door        west~ door closed locked pickproof~ 1501 1546
+You see a decaying door.
+~
+door~
+End
+
+#1546
+Name        A Ladder~
+Descr
+You have come into a vertical tunnel with a ladder.
+~
+Flags       dark indoors~
+Sector      forest~
+Regen       100 100
+Door        east~ door closed locked pickproof~ 1501 1545
+You see a decaying door.
+~
+door~
+Door        down~ ~ -1 1547
+~
+~
+End
+
+#1547
+Name        Lair~
+Descr
+You have entered a new lair in the fortress.  Anything could be lurking
+around the corner.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        south~ ~ -1 1548
+~
+~
+Door        up~ ~ -1 1546
+~
+~
+End
+
+#1548
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 1513 10 100
+Reset       M 1514 10 100
+Door        north~ ~ -1 1547
+~
+~
+Door        east~ ~ -1 1549
+~
+~
+Door        west~ ~ -1 1551
+~
+~
+End
+
+#1549
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        south~ ~ -1 1550
+~
+~
+Door        west~ ~ -1 1548
+~
+~
+End
+
+#1550
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 1513 10 100
+Reset       M 1514 10 100
+Door        north~ ~ -1 1549
+~
+~
+Door        south~ ~ -1 1555
+~
+~
+End
+
+#1551
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 1513 10 100
+Reset       M 1514 10 100
+Door        east~ ~ -1 1548
+~
+~
+Door        south~ ~ -1 1552
+~
+~
+End
+
+#1552
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ -1 1551
+~
+~
+Door        south~ ~ -1 1553
+~
+~
+End
+
+#1553
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 1513 10 100
+Reset       M 1514 10 100
+Door        north~ ~ -1 1552
+~
+~
+Door        east~ ~ -1 1554
+~
+~
+End
+
+#1554
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ -1 1556
+~
+~
+Door        east~ ~ -1 1555
+~
+~
+Door        west~ ~ -1 1553
+~
+~
+End
+
+#1555
+Name        A Damp Hallway~
+Descr
+You are wandering in a dark, damp, twisting hallway.  The temperature
+seems to be greater here, as well as your fear.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Reset       M 1513 10 100
+Reset       M 1514 10 100
+Door        north~ ~ -1 1550
+~
+~
+Door        west~ ~ -1 1554
+~
+~
+End
+
+#1556
+Name        The End of the Hallway~
+Descr
+You make your way out of the hallway, just to find yourself in greater
+danger.  Before you looms the source of the great heat.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       M 1515 1 100
+Reset       E 1505 -1 100
+Reset       E 1512 -1 100
+Reset       E 1516 -1 100
+Door        east~ ~ -1 1557
+~
+~
+Door        south~ ~ -1 1554
+~
+~
+End
+
+#1557
+Name        The Altar~
+Descr
+You finally reach the end of the maze.  There is a great altar here in the
+shape of a bat.  A passageway leads off to the west.
+~
+Flags       dark indoors no_recall~
+Sector      field~
+Regen       100 100
+Reset       O 1517 0 100
+Reset       O 1518 0 100
+Door        west~ ~ -1 1556
+~
+~
+End
+
+#1558
+Name        The Chief's House~
+Descr
+You enter into a large and luxurious house.  The floor is coated with carpets
+and the walls are covered in paintings.  You feel privileged just for stepping
+inside.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1505 1 100
+Reset       E 1508 1 100
+Reset       E 1509 3 100
+Reset       E 1510 16 100
+Door        south~ ~ -1 1526
+You see a path.
+~
+~
+End
+
+#1559
+Name        The Unused Path~
+Descr
+You are now on a fairly unused path that leads east out of the village.  
+You wonder what could be out this way.
+~
+Flags       no_mob~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 1560
+You see a path.
+~
+~
+Door        west~ ~ -1 1504
+You see a path.
+~
+~
+End
+
+#1560
+Name        The Overgrown Path~
+Descr
+As the path continues on, the grass grows higher.  You can't imagine
+what could possibly be out this way.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 1561
+You see a clearing.
+~
+~
+Door        west~ ~ -1 1559
+You see a path.
+~
+~
+End
+
+#1561
+Name        The Clearing~
+Descr
+Your progress is suddenly stopped by mountains on all sides.  The path leads
+back to the west, and there appears to be an old mine shaft to the north.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1562
+You see a mine shaft.
+~
+~
+Door        west~ ~ -1 1560
+You see a path.
+~
+~
+End
+
+#1562
+Name        Entrance to the Mine Shaft~
+Descr
+As you enter the mine shaft, you get a sudden fear of the walls closing
+in on you.  You are surprised to notice that you don't need a light.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 1563
+You see the shaft.
+~
+~
+Door        south~ ~ -1 1561
+You see the clearing.
+~
+~
+End
+
+#1563
+Name        Mine Shaft~
+Descr
+This mine shaft looks stable, at least in this area.  The wooden supports are
+thick and strong.  Torches line the walls.  Exits lead in all directions.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1520 1 100
+Door        north~ ~ -1 1582
+You see a small mine shaft.
+~
+~
+Door        east~ ~ -1 1564
+You see the shaft.
+~
+~
+Door        south~ ~ -1 1574
+You see the shaft.
+~
+~
+Door        west~ ~ -1 1562
+You see the entrance.
+~
+~
+End
+
+#1564
+Name        Mine Shaft~
+Descr
+This mine shaft looks stable, at least in this area.  The wooden supports are
+thick and strong.  Torches line the walls.  Exits lead in all directions.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1583
+You see a large room.
+~
+~
+Door        east~ ~ -1 1565
+You see the shaft.
+~
+~
+Door        south~ ~ -1 1573
+You see a large room.
+~
+~
+Door        west~ ~ -1 1563
+You see the shaft.
+~
+~
+End
+
+#1565
+Name        Mine Shaft~
+Descr
+This mine shaft looks stable, at least in this area.  The wooden supports are
+thick and strong.  Torches line the walls.  Exits lead in all directions
+except north.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1520 1 100
+Door        east~ ~ -1 1566
+You see the walkway.
+~
+~
+Door        south~ ~ -1 1572
+You see a large room.
+~
+~
+Door        west~ ~ -1 1564
+You see the shaft.
+~
+~
+End
+
+#1566
+Name        Walkway~
+Descr
+You are on a well built path in the middle of a mountain.  You sense something
+great up ahead, considering the hard work that must have gone into creating
+this passage.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        south~ ~ -1 1567
+You see the walkway.
+~
+~
+Door        west~ ~ -1 1565
+You see the shaft.
+~
+~
+End
+
+#1567
+Name        Walkway~
+Descr
+You are on a well built path in the middle of a mountain.  You sense something
+great up ahead, considering the hard work that must have gone into creating
+this passage.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 1566
+You see the walkway.
+~
+~
+Door        south~ ~ -1 1568
+You see a large hall.
+~
+~
+End
+
+#1568
+Name        The Grand Hall~
+Descr
+You have stepped into the Grand Hall of the hobgoblin kingdom; your luck
+must be running low by now.  Golden pillars span the hallway, and you
+notice a red carpet beneath your feet.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 1567
+You see the walkway.
+~
+~
+Door        south~ ~ -1 1569
+You see a large room.
+~
+~
+End
+
+#1569
+Name        The Throne Room~
+Descr
+This is large bright room filled with Hobgoblins.  To the south there is
+a large golden throne against the wall.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1518 2 100
+Reset       E 1521 16 100
+Reset       M 1518 2 100
+Reset       E 1521 16 100
+Reset       M 1518 2 100
+Reset       E 1521 16 100
+Reset       M 1518 2 100
+Reset       E 1521 16 100
+Reset       M 1518 2 100
+Reset       E 1521 16 100
+Reset       M 1519 2 100
+Reset       E 1520 5 100
+Door        north~ ~ -1 1568
+You see a large hall.
+~
+~
+End
+
+#1570
+Name        The Treasury~
+Descr
+You are inside the hobgoblin's treasury.  Your eyes are almost blinded by the
+gold, silver and copper coins.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 1521 1 100
+Reset       O 1516 0 100
+Reset       O 1517 0 100
+Door        north~ ~ -1 1571
+You see a large room.
+~
+~
+End
+
+#1571
+Name        Guarded Room~
+Descr
+You are inside a well guarded room.  The place is slightly better built than
+the mine shafts, and is lit by lanterns.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Door        north~ ~ -1 1572
+You see a large room.
+~
+~
+Door        south~ ~ -1 1570
+You see a large room.
+~
+~
+End
+
+#1572
+Name        Guarded Room~
+Descr
+You are inside a well guarded room.  The place is slightly better built than
+the mine shafts, and is lit by lanterns.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Reset       M 1517 3 100
+Reset       E 1521 16 100
+Door        north~ ~ -1 1565
+You see a large room.
+~
+~
+Door        south~ ~ -1 1571
+You see a large room.
+~
+~
+End
+
+#1573
+Name        Hobgoblin Armory~
+Descr
+The guards store their spare weapons and armor here.  There are rusty swords
+on rotting shelves, and armor hanging from hooks or laying on the floor.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       O 1521 0 100
+Door        north~ ~ -1 1564
+You see the shaft.
+~
+~
+End
+
+#1574
+Name        Mine Shaft~
+Descr
+You enter a part of the mine shaft where the torches have grown dim
+and are almost ready to go out.  From what you can see, there are plenty
+of cobwebs on the walls and rats at your feet.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1563
+You see the shaft.
+~
+~
+Door        south~ ~ -1 1575
+You see a dark and nasty room.
+~
+~
+End
+
+#1575
+Name        Entrance to a Dungeon~
+Descr
+The floor dips slightly as you walk into this dark and nasty place.  Your
+skin crawls as you look at the filth on the walls and see it move.  Most
+of the exits lead into jail cells.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1574
+You see the shaft.
+~
+~
+Door        east~ ~ -1 1577
+You see a cell.
+~
+~
+Door        south~ ~ -1 1576
+You see a dark and nasty room.
+~
+~
+Door        west~ ~ -1 1581
+You see a cell.
+~
+~
+End
+
+#1576
+Name        A Dungeon~
+Descr
+You are in the deepest and darkest part of the mine shafts.  The light from
+the torches barely reaches to where you are.  Most directions from here
+lead to jail cells.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1575
+You see a dark and nasty room.
+~
+~
+Door        east~ ~ -1 1578
+You see a cell.
+~
+~
+Door        south~ ~ -1 1579
+You see a cell.
+~
+~
+Door        west~ ~ -1 1580
+You see a cell.
+~
+~
+End
+
+#1577
+Name        A Jail Cell~
+Descr
+You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+The walls glisten with slime.  You see something stir in the straw.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1522 3 100
+Door        west~ ~ -1 1575
+You see a dark and nasty room.
+~
+~
+End
+
+#1578
+Name        The Jail Cell~
+Descr
+You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+The walls glisten with slime.  You see something stir in the straw.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1522 3 100
+Door        west~ ~ -1 1576
+You see a dark and nasty room.
+~
+~
+End
+
+#1579
+Name        The Jail Cell~
+Descr
+You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+The walls glisten with slime.  You see something stir in the straw.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1522 3 100
+Door        north~ ~ -1 1576
+You see a dark and nasty room.
+~
+~
+End
+
+#1580
+Name        The Jail Cell~
+Descr
+You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+The walls glisten with slime.  You see something stir in the straw.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1523 3 100
+Door        east~ ~ -1 1576
+You see a dark and nasty room.
+~
+~
+End
+
+#1581
+Name        The Jail Cell~
+Descr
+You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+The walls glisten with slime.  You see something stir in the straw.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1523 3 100
+Door        east~ ~ -1 1575
+You see a dark and nasty room.
+~
+~
+End
+
+#1582
+Name        Small Mine Shaft~
+Descr
+You are in a small extension of the mine shaft.  The dust on the floor is
+undisturbed by footprints.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1588
+You see a small mine shaft.
+~
+~
+Door        south~ ~ -1 1563
+You see the shaft.
+~
+~
+End
+
+#1583
+Name        Hobgoblin Barracks~
+Descr
+You are suddenly surrounded by a small army of hobgoblin guards.  The room
+itself is a mess with clothes and armor everywhere.  The beds are unmade and
+stained.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1517 3 100
+Reset       M 1517 3 100
+Door        north~ ~ -1 1584
+You see a large room.
+~
+~
+Door        east~ ~ -1 1585
+You see the mess hall.
+~
+~
+Door        south~ ~ -1 1564
+You see the mine shaft.
+~
+~
+End
+
+#1584
+Name        Hobgoblin Barracks~
+Descr
+Yech!  As you continue forward, the smell just keeps getting worse.
+What are you DOING here?
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1517 3 100
+Reset       M 1517 3 100
+Door        south~ ~ -1 1583
+You see a large room~
+~
+End
+
+#1585
+Name        Mess Hall~
+Descr
+You stand in the hobgoblin eating area.  There are a few rotting tables
+and many broken dishes scattered around the room.  You almost slip on a
+rotten piece of meat, but catch yourself just in time.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1586
+You see a small room.
+~
+~
+Door        east~ ~ -1 1587
+You see a kitchen.
+~
+~
+Door        west~ ~ -1 1583
+You see a large room.
+~
+~
+End
+
+#1586
+Name        A Store Room~
+Descr
+You stand in a small room filled with flour, grain, fruit, and bat droppings.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        south~ ~ -1 1585
+You see the mess hall.
+~
+~
+End
+
+#1587
+Name        The Kitchen~
+Descr
+This kitchen hasn't been cleaned since the creation of humans.  The trash and
+spoiled food laying on the floor reach up to your knees.  Off to the side a
+pot is boiling over.  A human hand floats in it.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1526 1 100
+Door        west~ ~ -1 1585
+You see the mess hall.
+~
+~
+End
+
+#1588
+Name        A Small Mine Shaft~
+Descr
+You come to a place in the mine shaft where a tunnel leads down.  The
+small passage continues north and south.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 1589
+You see an almost caved in area.
+~
+~
+Door        south~ ~ -1 1582
+You see a small mine shaft.
+~
+~
+Door        down~ ~ -1 1590
+You see a hole.
+~
+~
+End
+
+#1589
+Name        Hermit's Lair~
+Descr
+You are in a small section where the mine wall has collapsed to reveal a
+tiny one-room cave.  The area is barely lit, but you can make out something
+moving towards you.
+~
+Flags       indoors~
+Sector      field~
+Regen       100 100
+Reset       M 1524 1 100
+Door        south~ ~ -1 1588
+You see a small mine shaft.
+~
+~
+End
+
+#1590
+Name        A Hole~
+Descr
+You are in a hole.
+~
+Flags       indoors~
+Sector      forest~
+Regen       100 100
+Reset       M 1520 2 100
+Door        up~ ~ -1 1588
+You see a small mine shaft.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

@@ -1,0 +1,1007 @@
+#AREADATA
+Name        Graveyard~
+Author      Alfa~
+Levels      5 10
+Security    1
+VNUMs       3600 3651
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#3600
+Name        henry gardener~
+Short       Henry the Gardener~
+Long
+Henry the Gardener is sitting here, looking drunk.
+~
+Descr
+He is a tall but bulky man in his late fifties.  His features are worn with
+decades of hard work and his somewhat crouched expression is one of deep
+sorrow and depression.  He is haunted by a memory of a lost paradise.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   350
+Level       4
+Race        Human~
+Sex         male~
+End
+
+#3601
+Name        zombie~
+Short       the rotting zombie~
+Long
+A rotting zombie is staggering towards you with outstretched hands.
+~
+Descr
+Maggots crawl all over its decaying body.
+~
+Act         sentinel aggressive~
+AffectBy    infrared~
+Alignment   -750
+Level       4
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#3602
+Name        ghoul~
+Short       the ghastly ghoul~
+Long
+A ghastly ghoul is here.
+~
+Descr
+It is a walking corpse with long fangs and long, sharp nails that most of
+resemble claws.  Its eyes are a dark yellow colour and glare hungrily at you.
+~
+Act         sentinel aggressive~
+AffectBy    infrared~
+Alignment   -750
+Level       6
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#3603
+Name        skeleton~
+Short       a dusty skeleton~
+Long
+A dusty skeleton lies here.
+~
+Descr
+The dusty bones are almost brown.  It must have been buried for a very long
+time.
+~
+Act         sentinel aggressive~
+AffectBy    infrared~
+Alignment   -750
+Level       3
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#3604
+Name        skeleton~
+Short       a dusty skeleton~
+Long
+A dusty skeleton lies here.
+~
+Descr
+The dusty bones are almost brown.  It must have been buried for a very long
+time.
+~
+Act         aggressive~
+AffectBy    infrared~
+Alignment   -750
+Level       3
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#3605
+Name        zombie~
+Short       the rotting zombie~
+Long
+A rotting zombie is staggering towards you with outstretched hands.
+~
+Descr
+Maggots crawl all over its decaying body.
+~
+Act         aggressive~
+AffectBy    infrared~
+Alignment   -750
+Level       4
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#0
+
+
+
+#OBJDB
+#3600
+Name        candlestick~
+Short       a candlestick~
+Descr
+A pewter candlestick is standing here.~
+Type        light~
+Extra       ~
+Wear        take hold~
+Values      0~ 0~ 24~ 0~ 0~
+Weight      5
+ExtraDescr  candlestick~
+It is a rather old-looking three-armed candlestick made from pewter.  Its
+candles are a yellowish white colour.
+~
+End
+
+#3601
+Name        brandy bottle~
+Short       a brandy bottle~
+Descr
+A brandy bottle is lying here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      10~ 10~ 5~ 0~ 0~
+Weight      2
+ExtraDescr  brandy bottle~
+The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
+like a small dragon's head.  Bottles like these are often worth a small
+amount money, even when empty.
+~
+End
+
+#3602
+Name        brandy bottle~
+Short       a brandy bottle~
+Descr
+A brandy bottle is lying here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      10~ 0~ 5~ 0~ 0~
+Weight      2
+ExtraDescr  brandy bottle~
+The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
+like a small dragon's head.  Bottles like these are often worth some money,
+even when empty.
+~
+End
+
+#3603
+Name        wheelbarrow~
+Short       a wheelbarrow~
+Descr
+A green-painted wheelbarrow is standing here.~
+Type        boat~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      100
+ExtraDescr  wheelbarrow~
+It is a heavy wheelbarrow made from solid oaken planks that have been painted
+a dark, green colour.
+~
+End
+
+#3604
+Name        shovel~
+Short       a shovel~
+Descr
+A shovel is lying here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 5~ 7~ 0~
+Weight      8
+ExtraDescr  shovel~
+It is a large metal shovel with a solid wooden handle.
+~
+End
+
+#3605
+Name        rake~
+Short       a rake~
+Descr
+A rake is lying here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 4~ 5~ 0~
+Weight      8
+ExtraDescr  rake~
+It is a large metal rake with a solid wooden handle.
+~
+End
+
+#3610
+Name        skeleton~
+Short       a dusty skeleton~
+Descr
+A dusty skeleton lies here.~
+Type        furniture~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      15
+ExtraDescr  skeleton~
+The dusty bones are almost brown.  It must have been buried for a very long
+time.
+A dusty skeleton is in an excellent condition.
+~
+End
+
+#3611
+Name        amethyst gem~
+Short       a amethyst~
+Descr
+A large, beautifully polished amethyst has been left here.~
+Type        treasure~
+Extra       ~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+ExtraDescr  amethyst~
+It has a very deep purple colour.
+~
+End
+
+#3612
+Name        pendant silver~
+Short       a silver pendant~
+Descr
+A silver pendant has been left here.~
+Type        armor~
+Extra       ~
+Wear        take neck~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      1
+ExtraDescr  pendant silver~
+It resembles Thor's hammer and appears to be made of solid silver.
+~
+End
+
+#3613
+Name        dagger silver~
+Short       a silver dagger~
+Descr
+A long silver dagger is lying here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 2~ 4~ 11~ 0~
+Weight      1
+Affect      damroll~ 1 ~
+ExtraDescr  dagger silver~
+It has a long, sharp blade that is made entirely from silver.  A small rune
+has been engraved on the blade next to the hilt.
+~
+End
+
+#0
+
+
+
+#ROOMDB
+#3600
+Name        A Gravel Road on the Graveyard~
+Descr
+You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.  An iron
+grate is to the north and narrow gravel paths lead east and west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ door closed locked~ 3121 3129
+Through the solid iron bars you see the Concourse.
+~
+grate~
+Door        east~ ~ -1 3650
+The gravel path leads eastwards between the dark evergreen trees.
+~
+~
+Door        south~ ~ -1 3601
+The gravel road continues southwards.
+~
+~
+Door        west~ ~ -1 3606
+The gravel path leads westwards between the dark evergreen trees.
+~
+~
+End
+
+#3601
+Name        A Gravel Road on the Graveyard~
+Descr
+You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 3600
+The gravel road continues northwards.
+~
+~
+Door        south~ ~ -1 3602
+The gravel road continues southwards.
+~
+~
+End
+
+#3602
+Name        A Gravel Road on the Graveyard~
+Descr
+You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 3601
+The gravel road continues northwards.
+~
+~
+Door        south~ ~ -1 3603
+The gravel road continues southwards.
+~
+~
+End
+
+#3603
+Name        A Gravel Road on the Graveyard~
+Descr
+You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road grow dark evergreen trees.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 3602
+The gravel road continues northwards.
+~
+~
+Door        south~ ~ -1 3604
+The gravel road continues southwards to an open space before a small
+building.
+~
+~
+End
+
+#3604
+Name        In front of the Chapel~
+Descr
+You are on an open space before a small chapel.  A gravel road leads north
+through the graveyard and the chapel entrance is to the south.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 3604 4 100
+Door        north~ ~ -1 3603
+The gravel road continues northwards.
+~
+~
+Door        east~ ~ -1 3638
+The gravel path leads eastwards between the dark evergreen trees.
+~
+~
+Door        south~ door closed~ -1 3405
+The chapel door is made of dark wood.
+~
+door~
+Door        west~ ~ -1 3618
+The gravel path leads westwards between the dark evergreen trees.
+~
+~
+End
+
+#3606
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Reset       M 3604 4 100
+Door        east~ ~ -1 3600
+The gravel path continues eastwards towards a gravel road.
+~
+~
+Door        south~ ~ -1 3608
+The gravel path continues southwards.
+~
+~
+Door        down~ door closed~ -1 3607
+~
+tomb stone~
+End
+
+#3607
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       O 3610 0 100
+Door        up~ door closed~ -1 3606
+~
+tomb stone~
+End
+
+#3608
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and west.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        north~ ~ -1 3606
+The gravel path continues northwards.
+~
+~
+Door        west~ ~ -1 3610
+The gravel path continues westwards.
+~
+~
+Door        down~ door closed~ -1 3609
+~
+tomb stone~
+End
+
+#3609
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3603 5 100
+Door        up~ door closed~ -1 3608
+~
+tomb stone~
+End
+
+#3610
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads east and south.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        east~ ~ -1 3608
+The gravel path continues eastwards.
+~
+~
+Door        south~ ~ -1 3612
+The gravel path continues southwards.
+~
+~
+Door        down~ door closed~ -1 3611
+~
+tomb stone~
+End
+
+#3611
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3603 5 100
+Reset       O 3613 0 100
+Door        up~ door closed~ -1 3610
+~
+tomb stone~
+End
+
+#3612
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and east.  A small shed is to the west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 3604 4 100
+Door        north~ ~ -1 3610
+The gravel path continues northwards.
+~
+~
+Door        east~ ~ -1 3614
+The gravel path continues eastwards.
+~
+~
+Door        west~ door closed~ -1 3613
+It is a small black-painted shed with a wooden door.
+~
+door~
+End
+
+#3613
+Name        In a shed on the Graveyard~
+Descr
+You are in a small shed that looks as if it is used to store all sorts of
+gardening equipment.  The only exit appears to be through a door to the east.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3600 1 100
+Reset       E 3601 -1 100
+Reset       O 3602 0 100
+Reset       O 3603 0 100
+Reset       O 3604 0 100
+Reset       O 3605 0 100
+Door        east~ door closed~ -1 3612
+~
+door~
+End
+
+#3614
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads south and west.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        south~ ~ -1 3616
+The gravel path continues southwards.
+~
+~
+Door        west~ ~ -1 3612
+The gravel path continues westwards.
+~
+~
+Door        down~ door closed~ -1 3615
+~
+tomb stone~
+End
+
+#3615
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       O 3610 0 100
+Door        up~ door closed~ -1 3614
+~
+tomb stone~
+End
+
+#3616
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and south.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        north~ ~ -1 3614
+The gravel path continues northwards.
+~
+~
+Door        south~ ~ -1 3618
+The gravel path continues southwards.
+~
+~
+Door        down~ door closed~ -1 3617
+~
+tomb stone~
+End
+
+#3617
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3602 1 100
+Reset       E 3612 -1 100
+Door        up~ door closed~ -1 3616
+~
+tomb stone~
+End
+
+#3618
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and east.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        north~ ~ -1 3616
+The gravel path continues northwards.
+~
+~
+Door        east~ ~ -1 3604
+The gravel path continues eastwards towards a building of some sort.
+~
+~
+Door        down~ door closed~ -1 3619
+~
+tomb stone~
+End
+
+#3619
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       O 3610 0 100
+Door        up~ door closed~ -1 3618
+~
+tomb stone~
+End
+
+#3638
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and west.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Reset       M 3605 3 100
+Door        north~ ~ -1 3640
+The gravel path continues northwards.
+~
+~
+Door        west~ ~ -1 3604
+The gravel path continues westwards towards a building of some sort.
+~
+~
+Door        down~ door closed~ -1 3639
+~
+tomb stone~
+End
+
+#3639
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3603 5 100
+Door        up~ door closed~ -1 3638
+~
+tomb stone~
+End
+
+#3640
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and south.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Reset       M 3604 4 100
+Door        north~ ~ -1 3642
+The gravel path continues northwards.
+~
+~
+Door        south~ ~ -1 3638
+The gravel path continues southwards.
+~
+~
+Door        down~ door closed~ -1 3641
+~
+tomb stone~
+End
+
+#3641
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       O 3610 0 100
+Door        up~ door closed~ -1 3640
+~
+tomb stone~
+End
+
+#3642
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads east and south.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        east~ ~ -1 3644
+The gravel path continues eastwards.
+~
+~
+Door        south~ ~ -1 3640
+The gravel path continues southwards.
+~
+~
+Door        down~ door closed~ -1 3643
+~
+tomb stone~
+End
+
+#3643
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       O 3603 0 100
+Door        up~ door closed~ -1 3642
+~
+tomb stone~
+End
+
+#3644
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and west.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Reset       M 3605 3 100
+Door        north~ ~ -1 3646
+The gravel path continues northwards.
+~
+~
+Door        west~ ~ -1 3642
+The gravel path continues westwards.
+~
+~
+Door        down~ door closed~ -1 3645
+~
+tomb stone~
+End
+
+#3645
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3601 1 100
+Reset       E 3611 -1 100
+Door        up~ door closed~ -1 3644
+~
+tomb stone~
+End
+
+#3646
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads south and west.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        south~ ~ -1 3644
+The gravel path continues southwards.
+~
+~
+Door        west~ ~ -1 3648
+The gravel path continues westwards.
+~
+~
+Door        down~ door closed~ -1 3647
+~
+tomb stone~
+End
+
+#3647
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       O 3610 0 100
+Door        up~ door closed~ -1 3646
+~
+tomb stone~
+End
+
+#3648
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads north and east.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        north~ ~ -1 3650
+The gravel path continues northwards.
+~
+~
+Door        east~ ~ -1 3646
+The gravel path continues eastwards.
+~
+~
+Door        down~ door closed~ -1 3649
+~
+tomb stone~
+End
+
+#3649
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3603 5 100
+Door        up~ door closed~ -1 3648
+~
+tomb stone~
+End
+
+#3650
+Name        A Gravel Path on the Graveyard~
+Descr
+You are on a gravel path winding its way between dark evergreen trees on
+the graveyard.  The path leads south and west.  An old tomb is here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  tomb stone~
+It is a large rectangular slab of dark grey stone that has been placed face
+up in the ground.  The name has been erased by the ravages of time.
+~
+Door        south~ ~ -1 3648
+The gravel path continues southwards.
+~
+~
+Door        west~ ~ -1 3600
+The gravel path continues westwards towards a gravel road.
+~
+~
+Door        down~ door closed~ -1 3651
+~
+tomb stone~
+End
+
+#3651
+Name        In a dusty Tomb~
+Descr
+You are in a dark burial chamber beneath a large tomb stone.
+The only exit appears to be up.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3605 3 100
+Door        up~ door closed~ -1 3650
+~
+tomb stone~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

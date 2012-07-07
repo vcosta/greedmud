@@ -1,0 +1,5360 @@
+#AREADATA
+Name        Descent to Hell~
+Author      Strahd~
+Levels      5 20
+Security    1
+VNUMs       10401 10541
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#10401
+Name        Guardian guard~
+Short       the Guardian of Hell~
+Long
+A Guardian of Hell stands here keeping you the hell out.
+~
+Descr
+The guardian is a stone devil. A hideous creation from the dark laboratories
+of hell. Its black eyes stare into you soul with a hunger that makes you
+shiver. The guardian stands motionless before you, its rough grey skin
+looks impervious to normal weapons.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_magic detect_hidden infrared~
+Alignment   -900
+Level       35
+Race        Undead~
+Sex         neutral~
+Spec        spec_cast_judge~
+End
+
+#10402
+Name        pile coins~
+Short       the pile of gold coins~
+Long
+A pile of gold coins lies on the ground.
+~
+Descr
+A large sparkly pile of gold coins.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       15
+Race        Object~
+Sex         neutral~
+Spec        spec_thief~
+End
+
+#10403
+Name        male dee demon~
+Short       the male Dee~
+Long
+The male demon Dee lies on the bed here waiting to please you.
+~
+Descr
+This is the most handsome male you have ever seen. His naked body
+makes your mouth water.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       26
+Race        Undead~
+Sex         male~
+End
+
+#10404
+Name        female dee demon~
+Short       the female Dee~
+Long
+The female demon Dee lies on the bed here waiting to please you.
+~
+Descr
+This is the most beautiful female you have ever seen. The curves of her
+naked body make you sweat, and babble uncontrollably.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       25
+Race        Undead~
+Sex         female~
+End
+
+#10405
+Name        bar gold~
+Short       the gold bar~
+Long
+A shiny gold bar lies on the ground.
+~
+Descr
+This gold bar must be worth bucks!
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       17
+Race        Object~
+Sex         neutral~
+Spec        spec_thief~
+End
+
+#10406
+Name        chicken pot pie~
+Short       a scrumpious chicken pot pie~
+Long
+A yummy looking chicken pot pie is here on the ground.
+~
+Descr
+You see a golden crusted pot pie filled with chicken and vegetables.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       22
+Race        Object~
+Sex         neutral~
+End
+
+#10407
+Name        beef pot pie~
+Short       a yummy beef pot pie~
+Long
+A yummy looking beef pot pie is here on the ground.
+~
+Descr
+You see a golden crusted pot pie filled with beef and vegetables.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       22
+Race        Object~
+Sex         neutral~
+End
+
+#10408
+Name        vegetable pot pie~
+Short       a yummy vegetable pot pie~
+Long
+A yummy looking vegetable pot pie is here on the ground.
+~
+Descr
+You see a golden crusted pot pie filled with vegetables.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       22
+Race        Object~
+Sex         neutral~
+End
+
+#10409
+Name        damned soul~
+Short       a damned soul~
+Long
+A damned soul wanders aimlessly here.
+~
+Descr
+You see a faint silhouette of a person. Looking closely at it you can barely 
+make out features that would identify it as the person it was in life.
+~
+Act         stay_area~
+AffectBy    infrared~
+Alignment   -700
+Level       12
+Race        Undead~
+Sex         neutral~
+End
+
+#10410
+Name        tortured soul~
+Short       a tortured soul~
+Long
+A tortured soul screams out in pain.
+~
+Descr
+You see a unrecognizable person going through unheard of and
+indescribable torture. It screams out at you in pain and terror.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       14
+Race        Undead~
+Sex         neutral~
+End
+
+#10411
+Name        half-eaten person~
+Short       the half-eaten person~
+Long
+A half-eaten person lies here writhing in agony.
+~
+Descr
+This poor soul looks as if he has been chewed on and been spit out.
+It writhes in agony and pain as it gasps frantically for Death to answer
+its desperate plea...
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -757
+Level       6
+Race        Undead~
+Sex         neutral~
+Spec        spec_cast_undead~
+End
+
+#10412
+Name        living wall~
+Short       the living wall~
+Long
+A wall stands here. Its surface seems to move and come to life...
+~
+Descr
+The wall consist of greying and sinewy flesh - faces, hands,
+broken bones, feet, and toes jutting from the surface. You hear low moans
+of horror, pain, and sorrow issuing from the walls.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       40
+Race        Undead~
+Sex         neutral~
+Spec        spec_cast_undead~
+End
+
+#10413
+Name        skeletal warrior~
+Short       skeletal warrior~
+Long
+A skeletal warrior wanders the planes of hell.
+~
+Descr
+Rotting flesh and gore drops from the bones of this creature.
+Its decaying eyes stare at you intently as it sees only you
+delicious and juicy brain.
+~
+Act         stay_area~
+AffectBy    infrared~
+Alignment   -743
+Level       20
+Race        Undead~
+Sex         neutral~
+End
+
+#10414
+Name        bloody severed arm~
+Short       bloody severed arm~
+Long
+A bloody severed arm lies here.
+~
+Descr
+The blood arm of some poor luckless indivudual. The stench of the 
+gore covered limb makes you want to retch.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -884
+Level       13
+Race        Undead~
+Sex         neutral~
+End
+
+#10415
+Name        bloody severed foot~
+Short       bloody severed foot~
+Long
+A bloody severed foot lies here.
+~
+Descr
+This bloody foot definitely wasn't a lucky one.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       13
+Race        Undead~
+Sex         neutral~
+End
+
+#10416
+Name        bloody severed nose~
+Short       bloody severed nose~
+Long
+A bloody severed nose lies here.
+~
+Descr
+I wonder how the person that lost this smells...hopefully not as bad as
+this nose does...
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       3
+Race        Undead~
+Sex         neutral~
+End
+
+#10417
+Name        blood~
+Short       the blood from the fountain~
+Long
+The blood in the fountain gurgles merrily.
+~
+Descr
+You see gallons and gallons of thick red blood gurgling in the fountian.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -950
+Level       5
+Race        Undead~
+Sex         neutral~
+End
+
+#10418
+Name        Lost soul~
+Short       the lost soul~
+Long
+A lost soul stands here looking lost.
+~
+Descr
+This soul is definetely clueless to where it is. He holds a ticket
+that reads #14349023402342039840293481234900049.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -500
+Level       4
+Race        Undead~
+Sex         neutral~
+End
+
+#10419
+Name        crispy critter~
+Short       crispy critter~
+Long
+A crispy critter is here being burned to death.
+~
+Descr
+This once used to be a person. Now it is only a charred and smoking
+hulk that is being burned for eternity...I screams out as the flames lick
+at its body and devour its flesh...
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       4
+Race        Undead~
+Sex         neutral~
+End
+
+#10420
+Name        pile bones skeleton~
+Short       pile of bones~
+Long
+A decaying pile of bones lies here on the ground.
+~
+Descr
+Stringy bits of flesh blow gently in the breeze. The bones rattle as you walk
+by them.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -700
+Level       7
+Race        Undead~
+Sex         neutral~
+End
+
+#10421
+Name        manes sub-demon~
+Short       the manes~
+Long
+A manes is here wandering the planes of hell looking for something to kill.
+~
+Descr
+A gruesome sub-demon who used to be a mortal. It is a semi-intelligent
+creature who attacks anyone they encounter with nails and teeth. They are
+often feed apon by Demon lords and princes. there green and red blotched
+skin gives them a diseased and decaying look. They somewhat resemble
+shadows or ghasts.
+~
+Act         aggressive stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       12
+Race        Undead~
+Sex         neutral~
+Spec        spec_fido~
+End
+
+#10422
+Name        prisoner raiden~
+Short       the prisoner Raiden~
+Long
+The prisoner of hell, Raiden sits here for eternity.
+~
+Descr
+This is a sad individual. He smells strongly of the rotten food that has been
+thrown at him. He sits here chained to the wall; banished to hell forever by
+the God.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       5
+Race        Undead~
+Sex         male~
+Spec        spec_fido~
+End
+
+#10423
+Name        prisoner hell~
+Short       a prisoner in hell~
+Long
+A sad looking individual sits here awaiting torture.
+~
+Descr
+She is sad looking indeed. Cuts and scraps all over her. Many scars
+and burns cover her face and arms.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       8
+Race        Human~
+Sex         female~
+End
+
+#10424
+Name        prisoner hell~
+Short       a prisoner in hell~
+Long
+A sad looking individual sits here awaiting torture.
+~
+Descr
+He is sad looking indeed. Cuts and scraps all over him. Many scars
+and burns cover her face and arms. One of his arms is broken at the
+forearm and hangs limply by his side.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       8
+Race        Human~
+Sex         male~
+End
+
+#10425
+Name        demonguard demon guard~
+Short       demonguard~
+Long
+A demonguard patrols the planes of hell.
+~
+Descr
+This very large demon stands before you licking its daggerlike teeth.
+Yellow spittle runs down the scales of his blackened skin.
+~
+Act         stay_area~
+AffectBy    infrared~
+Alignment   -800
+Level       20
+Race        Undead~
+Sex         neutral~
+Spec        spec_poison~
+End
+
+#10426
+Name        burning fool~
+Short       the burning fool~
+Long
+A burning fool is here, crisping away.
+~
+Descr
+You can barely make out anything on it. All you can make out is the flames 
+of hell consuming it and the smell of burning flesh.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       2
+Race        Undead~
+Sex         neutral~
+End
+
+#10427
+Name        construction worker male~
+Short       male construction worker~
+Long
+A construction worker is here welding pipework.
+~
+Descr
+He is the typical contruction worker. T-shirt, jeans, yellow hard hat.
+As you look closer at the hard hat you notice 
+it says, '4th DEMONsion Construction Co.'
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -666
+Level       5
+Race        Undead~
+Sex         male~
+End
+
+#10428
+Name        construction worker female~
+Short       female construction worker~
+Long
+A construction worker is here working riviting framework.
+~
+Descr
+He is the typical contruction worker. T-shirt, jeans, yellow hard hat.
+As you look closer at the hard hat you notice 
+it says, '4th DEMONsion Construction Co.'
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -666
+Level       6
+Race        Undead~
+Sex         female~
+End
+
+#10429
+Name        construction worker female~
+Short       female construction worker~
+Long
+A construction worker is here working cutting structural steel.
+~
+Descr
+She is the typical contruction worker. T-shirt, jeans, yellow hard hat.
+As you look closer at the hard hat you notice 
+it says, '4th DEMONsion Construction Co.'
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -666
+Level       6
+Race        Undead~
+Sex         female~
+End
+
+#10430
+Name        fire devil~
+Short       fire devil~
+Long
+A fire devil stands here with a box of matches lighting up poor souls.
+~
+Descr
+It is an undescribly grotesque creature. Its pale green-yellow skin erupts
+with blisters and puss. As you look at it, it smiles at you with sharp blood
+covered teeth. This is definetly a face only a mother could love.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       18
+Race        Undead~
+Sex         neutral~
+End
+
+#10431
+Name        wall fire~
+Short       wall of fire~
+Long
+A wall of fire is here, creeping slowly across the room.
+~
+Descr
+It is simply a large door sized wall of fire. It slowly inches across the room
+burning everything in its path; Including the poor souls that are chained to
+various posts around the room.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -600
+Level       26
+Race        Undead~
+Sex         neutral~
+End
+
+#10432
+Name        hell hound~
+Short       hell hound~
+Long
+A hell hound runs free through the halls of hell.
+~
+Descr
+This freak of a canine is rusty red to red brown in color. Its eyes glow an
+ghastly red. Its sooty black teeth and tongue are covered with green spittle
+that runs down its  dung covered coat.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis detect_hidden infrared hide~
+Alignment   -900
+Level       15
+Race        Undead~
+Sex         neutral~
+Spec        spec_breath_fire~
+End
+
+#10433
+Name        frozen body~
+Short       frozen body~
+Long
+A frozen body lies here on the ground.
+~
+Descr
+As you look at the corpse you recoil as you notice its eyes still move.
+They stare intently from its bluish face as if pleading for your help.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       7
+Race        Undead~
+Sex         neutral~
+End
+
+#10434
+Name        ice devil~
+Short       ice devil~
+Long
+A Greater Ice Devil stands here cheerfully freezing souls..
+~
+Descr
+This devil is a mix of bug, bird, humanoid, and who knows what else.
+Its multifaceted eyes stare everywhere. It goes about its business of 
+slowly and painfully freezing the damned souls, quickly thawing them
+and then starting over. Every couple of minutes it takes time out to 
+break an apendage off of a nearby soul and beat the soul with it.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       32
+Race        God~
+Sex         neutral~
+Spec        spec_breath_frost~
+End
+
+#10435
+Name        trapped soul ice~
+Short       soul trapped under the ice~
+Long
+A soul trapped under the ice gasps desperately for air.
+~
+Descr
+This poor soul has been incased in ice; almost as if it is caught under an
+iceflow. It desperatly gasps for air for a few minutes and then seems to
+die for a second before it is restored and begins thrashing about again.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -789
+Level       9
+Race        Undead~
+Sex         neutral~
+End
+
+#10436
+Name        half frozen body~
+Short       half frozen body~
+Long
+A half frozen body hangs here on a meat hook.
+~
+Descr
+A large meat hook is imbedded deep withing the back of the body. You
+see small white maggots eating away at the body. The flesh seems to
+move and wriggle with a life of its own...
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -876
+Level       11
+Race        Undead~
+Sex         neutral~
+End
+
+#10437
+Name        killer penguin~
+Short       killer penguin~
+Long
+A small penguin waddles around here on the ice.
+~
+Descr
+What a cute little penguin....wait why is it looking at you that way...
+HEY! penguins don't have teeth!
+~
+Act         sentinel aggressive stay_area~
+AffectBy    infrared~
+Alignment   -876
+Level       12
+Race        Undead~
+Sex         neutral~
+End
+
+#10438
+Name        I-scream worker~
+Short       I-scream worker~
+Long
+An I-scream worker runs from machine to machine.
+~
+Descr
+It moves about so frantically you can't really get a chance to look at it.
+It runs about screaming, 'I SCREAM, YOU SCREAM!
+
+WE ALL SCREAM FOR I SCREAM!!!'
+
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -706
+Level       22
+Race        Undead~
+Sex         neutral~
+End
+
+#10439
+Name        Ice Screamer~
+Short       Ice Screamer~
+Long
+An Ice Screamer is here yelling into empty cartons.
+~
+Descr
+He is dressing in a white jumpsuit with the words,
+
+'Eye Splean I Screamery'
+
+written on it in large yellow letters.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -706
+Level       22
+Race        Undead~
+Sex         neutral~
+Spec        spec_breath_frost~
+End
+
+#10440
+Name        Construction Foreman Demonic~
+Short       Demonic Foreman~
+Long
+A Demonic Foreman sits here looking at blueprints.
+~
+Descr
+This huge demon has somehow managed to fit himself into
+a oversized orange jumpsuit. The words,
+
+'4th DEMONsion Construction Co.' are written on the 
+back in large black letters.
+He seems none to happy to see you.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       23
+Race        Undead~
+Sex         male~
+End
+
+#10441
+Name        Secretary of Hell~
+Short       Secretary of Hell~
+Long
+The Secretary of Hell sits here watching the phones ring.
+~
+Descr
+This very sexy secretary seems to be just sitting here amusing herself
+by watching the little lights on the telephone blink. She is oblivious
+to your presence and seems fascinated by the phones.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -700
+Level       23
+Race        Undead~
+Sex         female~
+End
+
+#10442
+Name        office worker hell~
+Short       office worker from hell~
+Long
+An office worker from hell is here looking for a boss to piss off.
+~
+Descr
+Just looking at them makes your blood boil. 
+AAAAAAAAAAaaaaaaaaaaaarrrrrrrrgggggghhhhh!!!!!!!!!!!
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       23
+Race        Undead~
+Sex         neutral~
+Spec        spec_thief~
+End
+
+#10443
+Name        records worker~
+Short       records worker~
+Long
+A records worker is here filing bad reports.
+~
+Descr
+You see a rather plain looking office personel here filing a file on someone.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       21
+Race        Undead~
+Sex         neutral~
+End
+
+#10444
+Name        santa claus~
+Short       Santa Claus~
+Long
+Santa Claus is here checking who has been naughty...
+~
+Descr
+Its a jolly old man, with red cheeks and a rolly poley belly and a laugh
+as jolly as you can get.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   1000
+Level       23
+Race        Human~
+Sex         male~
+End
+
+#10445
+Name        high priest hell~
+Short       High Priest of Hell~
+Long
+The High Priest of Hell is here eating 'I Scream'.
+~
+Descr
+The dark black robes hide most of his features, but you can barely make
+out his emaciated face beneath his hood.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       33
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#10446
+Name        bowl blood~
+Short       a bowl of blood~
+Long
+A bowl of blood sits here on the altar.
+~
+Descr
+Its is a wooden bowl filled with blood and bits of flesh.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -900
+Level       8
+Race        Object~
+Sex         neutral~
+End
+
+#10447
+Name        jury member~
+Short       jury member~
+Long
+A jury member sits here with a guilty sign, waiting for a trial to begin.
+~
+Descr
+It seems to be a lesser demon disguised as mortal. Fair trial...not likely.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -800
+Level       20
+Race        Undead~
+Sex         neutral~
+End
+
+#10448
+Name        Judge Whopper~
+Short       Judge Whopper~
+Long
+Judge Whopper sits here trying to think of a painful sentence.
+~
+Descr
+This is the High Judge of Hell. He has never found anyone innocent,
+and is notorious for his painful and harsh punishments.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       32
+Race        Undead~
+Sex         neutral~
+Spec        spec_cast_judge~
+End
+
+#10449
+Name        lawyer hell~
+Short       Lawyer from Hell~
+Long
+The Lawyer from Hell sits here playing games on his laptop computer.
+~
+Descr
+Slimy, sleezy and has very sharp teeth...a lawyer all right...
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       33
+Race        Undead~
+Sex         neutral~
+End
+
+#10450
+Name        complaints officer~
+Short       Complaints Officer~
+Long
+The Complaints Officer is here watching her favorite soap opera.
+~
+Descr
+She seems not to notice you; But is absorbed in her favorite soap,
+
+'As The Hell Burns'
+
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       21
+Race        Undead~
+Sex         female~
+End
+
+#10451
+Name        bastard hiramoto~
+Short       bastard hiramoto~
+Long
+The Bastard Hiramoto stands here trying to learn Kung Fu from a book.
+~
+Descr
+He looks at you and says, 'I think my Kung Fu is no good'
+and then goes back to practicing.
+
+He is known to buy anything....and sell anything people sell him.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -600
+Level       21
+Race        Human~
+Sex         male~
+Shop        ~ ~ ~ ~ ~ 110 75 0 23
+End
+
+#10452
+Name        maintenance worker~
+Short       maintenance worker~
+Long
+A maintenance worker is here fixing stuff.
+~
+Descr
+He is in a yellow jumpsuit with a large nuclear warning symbol on the back.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -750
+Level       20
+Race        Ogre~
+Sex         neutral~
+End
+
+#10453
+Name        weeds~
+Short       weeds~
+Long
+A weed is growing out of the cement here.
+~
+Descr
+You see a nasty yellow and purple weed.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -1000
+Level       10
+Race        Plant~
+Sex         neutral~
+End
+
+#10454
+Name        stanley~
+Short       Stanley~
+Long
+Stanley stands here waiting to sell you one of his wonderful figurines.
+~
+Descr
+He is a crafty old fart who looks about 1000 years old. But his figurines
+are pretty well known. He was rumored to disappear around Solace
+100 years ago.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -700
+Level       24
+Race        Undead~
+Sex         male~
+End
+
+#10455
+Name        half eaten horse carcass~
+Short       half eaten horse carcass~
+Long
+A half eaten horse carcass is here being digested.
+~
+Descr
+This is what used to be a horse....maybe...its hard to tell; half of it has
+been digested already.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -800
+Level       7
+Race        Undead~
+Sex         neutral~
+End
+
+#10456
+Name        stomach dragon~
+Short       stomach dragon~
+Long
+A stomach dragon is here digesting Big Mouth's food.
+~
+Descr
+A large brown and green slime covered reptile. It seems to move around
+to each food item and proceed to barf acid all over it.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -900
+Level       23
+Race        Dragon~
+Sex         neutral~
+Spec        spec_breath_acid~
+End
+
+#10457
+Name        rancid turkey leg~
+Short       rancid turkey leg~
+Long
+A rancid turkey leg sits in a pool of slime here.
+~
+Descr
+Its one of those really nasty pieces of food in the refrigerator that 
+disappears and you wonder if it just walked away....
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis detect_hidden infrared~
+Alignment   -900
+Level       1
+Race        Object~
+Sex         neutral~
+End
+
+#10458
+Name        reactor specialist~
+Short       reactor specialist~
+Long
+A reactor specialist sits here checking on the reactor core.
+~
+Descr
+He is dressed in a black jumpsuit with a large nuclear warning symbol on
+the back.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       22
+Race        Ogre~
+Sex         male~
+End
+
+#10459
+Name        reactor worker~
+Short       reactor worker~
+Long
+A reactor worker sits here monitoring various screens.
+~
+Descr
+He is dressed in a black jumpsuit with a large lighting bolt symbol on
+the back.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       17
+Race        Ogre~
+Sex         male~
+End
+
+#10460
+Name        homer simpson~
+Short       Homer Simpson~
+Long
+Homer Simpson sits here eating donuts.
+~
+Descr
+A balding fat man with jelly stains on his uniform.
+He suddenly spills his coffee and shouts out, 'DOH!'
+Warning lights blink rapidly as the coffee shorts out the control panel.
+Homer calmly stands up and unplugs the control panel and sits down
+for a nap.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       22
+Race        Ogre~
+Sex         male~
+End
+
+#10461
+Name        Devils food cake~
+Short       devils food cake~
+Long
+A nice slice of devils food cake is here waiting to be eaten.
+~
+Descr
+Mmmmmm...don't you just want to take a bite?
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       12
+Race        Object~
+Sex         neutral~
+End
+
+#10462
+Name        mad cook~
+Short       mad cook~
+Long
+A mad cook is here cooking up a storm.
+~
+Descr
+You spots you and screams, 'Git awa froom mi food!'
+
+'I'll kill you!'
+~
+Act         sentinel aggressive stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       22
+Race        Troll~
+Sex         male~
+End
+
+#10463
+Name        frantic lady~
+Short       frantic lady~
+Long
+A frantic lady is here tearing her hair out looking for a sale.
+~
+Descr
+~
+Act         stay_area~
+AffectBy    infrared~
+Alignment   -600
+Level       19
+Race        Ogre~
+Sex         female~
+End
+
+#10464
+Name        nuclear technician~
+Short       nuclear technician~
+Long
+A nuclear technician is here fiddling with his rad suit.
+~
+Descr
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -850
+Level       22
+Race        Ogre~
+Sex         male~
+End
+
+#10465
+Name        stray proton~
+Short       stray proton~
+Long
+A stray proton is here wizzing about.
+~
+Descr
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -850
+Level       12
+Race        Object~
+Sex         neutral~
+End
+
+#10466
+Name        radiation~
+Short       radiation~
+Long
+Radiation is here doing unknown things to you.
+~
+Descr
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       23
+Race        Object~
+Sex         neutral~
+End
+
+#10467
+Name        chief engineer hell~
+Short       the Chief Engineer of Hell~
+Long
+The Chief Engineer of Hell is here playing with the panic button.
+~
+Descr
+He kinda reminds you a an old Bart Simpson. He seems to be enjoying
+the panic button at the moment; Chuckling happily as workers below on
+the reactor floor frantically check dials and gauges while flashing lights
+and sirens sound.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       34
+Race        Ogre~
+Sex         male~
+End
+
+#10468
+Name        Greater Fire Demon~
+Short       Greater Fire Demon~
+Long
+A Greater Fire Demon stands here laughing at each scream he hears..
+~
+Descr
+This large black scaled demon laughs merrily as he watches poor souls
+scream out in pain. He pokes and picks at the flesh of the damned who
+were unlucky enough to be tortured close to him. His black taloned 
+nails rip slowly through their flesh, as he cackles with glee at the
+sounds of their unending pain...
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -1000
+Level       40
+Race        God~
+Sex         neutral~
+Spec        spec_breath_fire~
+End
+
+#10469
+Name        frozen side beef~
+Short       side of frozen beef~
+Long
+A frozen side of beef hangs here on a hook.
+~
+Descr
+This enormous carcass looks as if it came from a small dragon or a very
+large cow.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -675
+Level       9
+Race        Object~
+Sex         neutral~
+End
+
+#10470
+Name        guard dog~
+Short       guard dog~
+Long
+A guard dog sits here guarding the break room.
+~
+Descr
+A vicious looking pit bull / demon dog mix is here slobering on the donuts.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       15
+Race        Animal~
+Sex         neutral~
+Spec        spec_fido~
+End
+
+#10471
+Name        juicy steak~
+Short       juicy steak~
+Long
+A mouth watering juicy steak is here steaming.
+~
+Descr
+Mmmmmmm.....steak....mmmmmm...you feel your mouth start to water.
+~
+Act         sentinel stay_area~
+AffectBy    infrared~
+Alignment   -900
+Level       12
+Race        Object~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#10401
+Name        wicked trident~
+Short       a wicked looking trident~
+Descr
+A wicked looking trident is stuck into the ground here.~
+Type        weapon~
+Extra       glow evil magic anti-good~
+Wear        take wield~
+Values      0~ 10~ 75~ 2~ 0~
+Weight      7
+End
+
+#10402
+Name        black leather whip~
+Short       a black leather whip~
+Descr
+A black leather whip lies on the ground here.~
+Type        weapon~
+Extra       hum evil anti-good~
+Wear        take wield~
+Values      0~ 10~ 50~ 4~ 0~
+Weight      7
+End
+
+#10403
+Name        hickey maker~
+Short       hickey maker~
+Descr
+A hickey maker lies on the ground here making a soft sucking sound.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 10~ 80~ 12~ 0~
+Weight      7
+End
+
+#10404
+Name        sword farslayer~
+Short       a black hilted sword called, "Farslayer"~
+Descr
+A black hilted sword with engravings on the blade lies here.~
+Type        weapon~
+Extra       hum invis magic nodrop anti-good noremove~
+Wear        take wield~
+Values      0~ 1~ 100~ 11~ 0~
+Weight      7
+Affect      hp~ -10 ~
+Affect      move~ -20 ~
+Affect      hitroll~ 7 ~
+Affect      damroll~ 7 ~
+ExtraDescr  sword~
+The blade of the sword is a full meter long, and straight as an arrow, with
+lightly fluted sides. Both edges keened down to perfect lines, invisibly
+sharp. Perfection like this could of only been forged by a god. The black
+hilt is contrasted only by the faint symbol of a white arrow.
+Upon the blade is engraved a poem:
+
+                      Farslayer howls across the world
+                      For thy heart, for thy heart, who hast wronged me!
+                      Vengeance is his who casts the blade
+                      Yet he will in the end no triumph see.
+
+~
+End
+
+#10405
+Name        angel's skull~
+Short       angel's skull~
+Descr
+An angel's skull lies here on the ground.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      4
+End
+
+#10406
+Name        rotting flesh~
+Short       rotting flesh~
+Descr
+Some rotting flesh lies here in a pile.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      3
+End
+
+#10407
+Name        sword vorpal blade~
+Short       vorpal blade~
+Descr
+A magnificently crafted blade lies here humming softly.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 40~ 14~ 0~
+Weight      6
+End
+
+#10408
+Name        flaming claw~
+Short       flaming claw~
+Descr
+A flaming claw lies here burning brightly.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 70~ 5~ 0~
+Weight      4
+End
+
+#10409
+Name        Demonskin~
+Short       demonskin~
+Descr
+A black scaley pile of demonskin lies here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      17~ 0~ 0~ 0~ 0~
+Weight      4
+End
+
+#10410
+Name        demon teeth~
+Short       demon teeth~
+Descr
+A bunch of very sharp slimy teeth lie here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 73~ 10~ 0~
+Weight      1
+End
+
+#10411
+Name        burning flesh~
+Short       burning flesh~
+Descr
+A pile of burning flesh lies here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      14~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10412
+Name        rivet gun~
+Short       rivet gun~
+Descr
+A rivet gun loaded with hot rivets lies here.~
+Type        wand~
+Extra       ~
+Wear        take hold~
+Values      4~ 3~ 3~ general purpose~ 0~
+Weight      7
+End
+
+#10413
+Name        circular saw~
+Short       circular saw~
+Descr
+A circular saw lies here humming.~
+Type        weapon~
+Extra       hum~
+Wear        take wield~
+Values      0~ 1~ 78~ 1~ 0~
+Weight      7
+End
+
+#10414
+Name        box matches~
+Short       box of matches~
+Descr
+A box of matches lies here ready to light something.~
+Type        staff~
+Extra       glow~
+Wear        take hold~
+Values      4~ 10~ 10~ flamestrike~ 0~
+Weight      2
+End
+
+#10415
+Name        bloody black talon~
+Short       bloody black talon~
+Descr
+A severed bloody black talon lies here.~
+Type        weapon~
+Extra       evil magic~
+Wear        take wield~
+Values      0~ 1~ 85~ 5~ 0~
+Weight      6
+End
+
+#10416
+Name        jar of blood~
+Short       jar of blood~
+Descr
+A dark jar of blood lies here.~
+Type        potion~
+Extra       ~
+Wear        take~
+Values      50~ teleport~ remove curse~ refresh~  ~
+Weight      1
+End
+
+#10417
+Name        hell hound teeth~
+Short       hell hound teeth~
+Descr
+The bloody teeth of a hell hound sit here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 80~ 10~ 0~
+Weight      2
+End
+
+#10418
+Name        icy bottle~
+Short       icy bottle~
+Descr
+An icy bottle sits here sits on the floor.~
+Type        potion~
+Extra       ~
+Wear        take~
+Values      47~ create water~ create spring~ faerie fog~  ~
+Weight      1
+End
+
+#10419
+Name        ice spear~
+Short       ice spear~
+Descr
+A spear made out of ice lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 90~ 11~ 0~
+Weight      5
+End
+
+#10420
+Name        large meat hook~
+Short       large meat hook~
+Descr
+A large meat hook is stuck into the ground.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 84~ 4~ 0~
+Weight      3
+End
+
+#10421
+Name        meat~
+Short       meat~
+Descr
+A chuck of meat lies here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      30~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10422
+Name        blueprint~
+Short       blueprint~
+Descr
+A construction blueprint lies on the ground.~
+Type        food~
+Extra       ~
+Wear        take hold~
+Values      31~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#10423
+Name        electric eraser~
+Short       electric eraser~
+Descr
+A electric eraser lies on the ground waiting an erasermate.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 83~ 0~ 0~
+Weight      1
+End
+
+#10424
+Name        spectacles~
+Short       spectacles~
+Descr
+A set of spectacles lies here on the ground. Don't step on them.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      intelligence~ 2 ~
+End
+
+#10425
+Name        unholy symbol~
+Short       unholy symbol~
+Descr
+A sinistar looking symbol of evil lies here smoldering.~
+Type        wand~
+Extra       ~
+Wear        take hold~
+Values      53~ 100~ 100~ cure poison~ 0~
+Weight      2
+End
+
+#10426
+Name        unholy robe pile cloth~
+Short       unholy robe~
+Descr
+A stinking pile of cloth lies here.~
+Type        armor~
+Extra       evil anti-good~
+Wear        take about~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      4
+Affect      mana~ 100 ~
+End
+
+#10427
+Name        sharp teeth lawyer~
+Short       sharp teeth of a lawyer~
+Descr
+A set of sharp evil looking teeth lie here. Probably a lawyer's.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 10~ 90~ 0~ 0~
+Weight      2
+End
+
+#10428
+Name        golden ring~
+Short       golden ring~
+Descr
+A golden ring lies on the ground here.~
+Type        money~
+Extra       ~
+Wear        take finger~
+Values      5000~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#10429
+Name        engagement ring~
+Short       engagement ring~
+Descr
+An engagement ring lies here.~
+Type        money~
+Extra       ~
+Wear        take finger~
+Values      7000~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#10430
+Name        prenuptial agreement~
+Short       prenuptial agreement~
+Descr
+A prenuptial agreement lies here.~
+Type        scroll~
+Extra       ~
+Wear        take~
+Values      51~ cure blindness~ detect evil~ shield~  ~
+Weight      1
+End
+
+#10431
+Name        ionic torque wrench~
+Short       ionic torque wrench~
+Descr
+You see an ionic torque wrench on the ground.~
+Type        weapon~
+Extra       ~
+Wear        take~
+Values      0~ 1~ 67~ 7~ 0~
+Weight      3
+End
+
+#10432
+Name        figurine horse~
+Short       figurine of a horse~
+Descr
+You see a small figurine of a horse on the ground.~
+Type        armor~
+Extra       glow magic~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      move~ 20 ~
+End
+
+#10433
+Name        figurine winged horse pegasus~
+Short       figurine of a winged horse~
+Descr
+You see a small figurine of a winged horse on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 50~ 50~ fly~ 0~
+Weight      3
+Affect      move~ 25 ~
+End
+
+#10434
+Name        figurine dark horse nightmare~
+Short       figurine of a nightmare~
+Descr
+You see a small figurine of a dark horse on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 50~ 50~ teleport~ 0~
+Weight      3
+Affect      move~ 30 ~
+End
+
+#10435
+Name        figurine black dragon~
+Short       figurine of a black dragon~
+Descr
+You see a small figurine of a black dragon on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 10~ 10~ weaken~ 0~
+Weight      3
+Affect      move~ 35 ~
+End
+
+#10436
+Name        figurine red dragon~
+Short       figurine of a red dragon~
+Descr
+You see a small figurine of a red dragon on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 10~ 10~ mass invis~ 0~
+Weight      3
+Affect      move~ 35 ~
+End
+
+#10437
+Name        figurine white dragon~
+Short       figurine of a white dragon~
+Descr
+You see a small figurine of a white dragon on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 10~ 10~ acid blast~ 0~
+Weight      3
+Affect      move~ 35 ~
+End
+
+#10438
+Name        figurine green dragon~
+Short       figurine of a green dragon~
+Descr
+You see a small figurine of a green dragon on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 10~ 10~ gas breath~ 0~
+Weight      3
+Affect      move~ 35 ~
+End
+
+#10439
+Name        figurine blue dragon~
+Short       figurine of a blue dragon~
+Descr
+You see a small figurine of a blue dragon on the ground.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      54~ 10~ 10~ faerie fire~ 0~
+Weight      3
+Affect      move~ 35 ~
+End
+
+#10440
+Name        geiger counter~
+Short       geiger counter~
+Descr
+You see a geiger counter here.~
+Type        wand~
+Extra       glow~
+Wear        take hold~
+Values      52~ 10~ 10~ remove curse~ 0~
+Weight      2
+End
+
+#10441
+Name        photon displacement matrix~
+Short       photon displacement matrix~
+Descr
+You see a photon displacement matrix on the ground.~
+Type        weapon~
+Extra       glow hum~
+Wear        take wield~
+Values      0~ 10~ 90~ 6~ 0~
+Weight      7
+End
+
+#10442
+Name        black jumpsuit~
+Short       black jumpsuit~
+Descr
+You see a black jumpsuit on the ground.~
+Type        armor~
+Extra       glow~
+Wear        take body~
+Values      25~ 0~ 0~ 0~ 0~
+Weight      4
+End
+
+#10443
+Name        antacid pill~
+Short       antacid pill~
+Descr
+You see an antacid pill here.~
+Type        pill~
+Extra       ~
+Wear        take~
+Values      54~ pass door~ refresh~  ~  ~
+Weight      1
+End
+
+#10444
+Name        manes claw claws~
+Short       mane's claws~
+Descr
+The severed claws of a sub-demon lie here, twitching.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 40~ 5~ 0~
+Weight      4
+End
+
+#10445
+Name        welding torch~
+Short       welding torch~
+Descr
+A welding torch sits on the ground here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 78~ 0~ 0~
+Weight      7
+End
+
+#10446
+Name        blond wig~
+Short       blond wig~
+Descr
+A blond wig lies on the ground.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      12~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10447
+Name        yellow jumpsuit nuclear symbol~
+Short       yellow jumpsuit~
+Descr
+You see a yellow jumpsuit with a nuclear warning symbol.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      3
+End
+
+#10448
+Name        cleaver~
+Short       cleaver~
+Descr
+You see a nasty looking cleaver stuck in the ground.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 20~ 80~ 1~ 0~
+Weight      6
+End
+
+#10449
+Name        fire opal gem~
+Short       a precious fire opal~
+Descr
+A flaming red gem lies on the ground.~
+Type        warp_stone~
+Extra       ~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      6
+ExtraDescr  fire opal gem~
+The fire opal is a nicely-polished round gem, with orange, gold, and red
+mixed together like the heart of flame.  You can almost feel the hellfire
+from whence it came.
+~
+End
+
+#10450
+Name        hellstone hell stone~
+Short       a hellstone~
+Descr
+An evil black gem rests here, hoping to seduce you with its evil.~
+Type        warp_stone~
+Extra       ~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      6
+ExtraDescr  hellstone hell stone~
+The hellstones are mined from the deepest pits of Hell at the cost of the
+blood, sweat, and pain of hundreds of damned souls.  You feel vaguely ill
+as you gaze into its lustrous black heart.
+~
+End
+
+#0
+
+
+
+#ROOMDB
+#10401
+Name        Stone Archway~
+Descr
+This is a ancient stone archway. Various faces of demons and other grim
+pictures are painted onto it. Stone gargoyles and demons glare down at
+you from atop the arch.
+There is a bronze plaque above the archway.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  plaque~
+************
+Descent to Hell
+************
+
+You just GO TO HELL!!!!
+*chuckle*
+
+Made for levels 30-50
+
+Brought to you by Strahd
+~
+Door        north~ ~ -1 10082
+You see a closet.
+~
+~
+Door        west~ ~ -1 10402
+It's too dark to see.
+~
+~
+End
+
+#10402
+Name        Ancient Room~
+Descr
+You are standing in a large stone room. Feels like a crypt. Ancient murals
+of Hell and punishment cover the walls.In the middle of the room are stairs
+that lead down in to the darkness. From the stairway you can smell
+brimstone and sulfur.
+To the west it looks as if there is a shrine.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10401
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10418
+You see an ancient shrine.
+~
+~
+Door        down~ ~ -1 10403
+You see a dark stairway.
+~
+~
+End
+
+#10403
+Name        Dark Stairway~
+Descr
+You are standing at the bottom of  long dark stairway. The smell of
+brimstone and sulfur choke you. Screams of pain and terror fill the air.
+Stone faces carved into the walls seem to laugh at you.
+Maybe this is not such a good idea after all....
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 10404
+Its too dark to see.
+~
+~
+Door        up~ ~ -1 10402
+You see a dark stairway.
+~
+~
+End
+
+#10404
+Name        Landing~
+Descr
+This landing has been scorched as if a large brushfire swept through it.
+Bits of ash and burnt vegetation covers everything. The walls and floor are
+flawlessly smooth and the ceiling is covered with carved faces and ancient
+symbols and runes.
+A large black iron gates tower over you to the west.
+You see a large gateway to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  gates~
+These black iron gates are covered with grotesque faces and other
+creatures in various poses and acts of violence and lust. The gates
+seem to make your blood run cold...
+~
+Door        east~ ~ -1 10403
+Its too dark to see.
+~
+~
+Door        west~ door closed~ -1 10405
+You see the Gates of Hell
+~
+gates~
+End
+
+#10405
+Name        Gateway to Hell~
+Descr
+You stand next to the very gateway of Hell. You are surrounded by 
+the sounds of torture and pain. Screams pierce the air and rattle your
+nerves. Displays of the treats of Hell are in all directions.
+A large black iron gates tower over you to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  gates~
+These black iron gates are covered with grotesque faces and other
+creatures in various poses and acts of violence and lust. The gates
+seem to make your blood run cold...
+~
+Reset       M 10401 2 100
+Reset       E 10401 16 100
+Reset       M 10401 2 100
+Reset       E 10401 16 100
+Door        north~ ~ -1 10416
+Its too smoky to see.
+~
+~
+Door        east~ door closed~ -1 10404
+The Gates of Hell
+~
+gates~
+Door        south~ ~ -1 10426
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10406
+Its too smoky to see.
+~
+~
+End
+
+#10406
+Name        Hall of the Damned~
+Descr
+This hallway is a monument to the millions of damned souls in hell.
+The walls are made up of various body parts and other unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10409 6 100
+Door        north~ ~ -1 10415
+Its too smoky to see.
+~
+~
+Door        east~ ~ -1 10405
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10425
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10407
+Its too smoky to see.
+~
+~
+End
+
+#10407
+Name        Hall of the Damned~
+Descr
+This hallway is a monument to the millions of damned souls in hell.
+The walls are made up of various body parts and other unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10414
+Its too smoky to see.
+~
+~
+Door        east~ ~ -1 10406
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10424
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10408
+Its too smoky to see.
+~
+~
+End
+
+#10408
+Name        Hall of the Damned~
+Descr
+This hallway is a monument to the millions of damned souls in hell.
+The walls are made up of various body parts and other unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10409 6 100
+Door        north~ ~ -1 10413
+Its too smoky to see.
+~
+~
+Door        east~ ~ -1 10407
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10423
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10409
+Its too smoky to see.
+~
+~
+End
+
+#10409
+Name        Hall of the Damned~
+Descr
+This hallway is a monument to the millions of damned souls in hell.
+The walls are made up of various body parts and other unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10412
+Its too smoky to see.
+~
+~
+Door        east~ ~ -1 10408
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10422
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10410
+Its too smoky to see.
+~
+~
+Door        down~ ~ -1 10421
+You see a dark stairway leading down.
+~
+stairs~
+End
+
+#10410
+Name        Hall of the Damned~
+Descr
+This hallway is a monument to the millions of damned souls in hell.
+The walls are made up of various body parts and other unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10409 6 100
+Door        north~ ~ -1 10411
+Its too smoky to see.
+~
+~
+Door        east~ ~ -1 10409
+Its too smoky to see.
+~
+~
+End
+
+#10411
+Name        Mural of the Dead~
+Descr
+You stand before a large mural. The mural depicts mountains of dead
+bodies piled up to the sky. The mural covers the whole north wall from
+floor to ceiling. You can almost smell the stench of decaying flesh.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10412
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10410
+Its too smoky to see.
+~
+~
+End
+
+#10412
+Name        Living Walls~
+Descr
+The walls here actually consist of greying and sinewy flesh - faces, hands,
+broken bones, feet, and toes jutting from the surface. You hear low moans
+of horror, pain, and sorrow issuing from the walls.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10412 1 100
+Reset       E 10405 -1 100
+Door        east~ ~ -1 10413
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10409
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10411
+Its too smoky to see.
+~
+~
+End
+
+#10413
+Name        Trapped souls~
+Descr
+There are many souls trapped behind the walls of this room. Almost as if
+trapped beneath the surface of a frozen lake. Even the floor and ceiling
+show the screaming faces behind them.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10410 2 100
+Door        east~ ~ -1 10414
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10408
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10412
+Its too smoky to see.
+~
+~
+End
+
+#10414
+Name        Tortured Beings~
+Descr
+This room is filled with instruments of torture. Beings of all shapes and
+sizes are being brought to the thresholds of pain and beyond. Some are
+being sliced into thousands of pieces. Others stretched until it seems as if
+they are made of rubber. All caught in an unending play of agony.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10411 1 100
+Door        east~ ~ -1 10415
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10407
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10413
+Its too smoky to see.
+~
+~
+End
+
+#10415
+Name        Gluttony~
+Descr
+Before you is a room filled with all sorts of food. The smell of pastries and
+Hamburger assault your senses. All sorts of food lay everywhere you look.
+Cookies, twinkies, steak, prime rib, almost anything you can think of, call
+out to you. You suddenly feel VERY hungry.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10406 1 100
+Reset       M 10407 1 100
+Reset       M 10408 1 100
+Door        east~ ~ -1 10416
+Its too smoky to see.
+~
+~
+Door        south~ ~ -1 10406
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10414
+Its too smoky to see.
+~
+~
+End
+
+#10416
+Name        Greed~
+Descr
+What luck! A room full of treasure. Gold, diamonds, riches beyond
+imagination! Wait! You suddenly feel as if it is all slowly disappearing.
+Someone is taking your treasure. They have no right! It is yours! You
+found it first. Let them go get thier own treasures!
+You see a door to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10402 1 100
+Reset       M 10405 1 100
+Door        east~ door closed~ -1 10417
+You see a bedroom door.
+~
+door~
+Door        south~ ~ -1 10405
+Its too smoky to see.
+~
+~
+Door        west~ ~ -1 10415
+Its too smoky to see.
+~
+~
+End
+
+#10417
+Name        Bedroom.~
+Descr
+This is a small bedroom. It is well furnished and a drastic change from
+the room you just stepped out of. A bed stands against the far wall.
+Upon the headboard of the bed are carved two cherub looking figures,
+with the words 'DEE & DEE' written below them.
+The door to the bedroom is to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10403 1 100
+Reset       E 10402 16 100
+Reset       M 10404 1 100
+Reset       E 10403 16 100
+Door        west~ door closed~ -1 10416
+You see a bedroom door.
+~
+door~
+End
+
+#10418
+Name        Ancient Shrine~
+Descr
+This is an ancient abandon shrine of some unknown god. It has been
+vandalized and torn apart. What used to be the shrine has been reduced to
+a large pile of stone and other debris. Various runes and demonic faces
+have been spray painted on the walls and floor. Nailed to the ceiling are
+an assortement of skeletons. All seem to have been dead for a very long
+time. All surfaces of the room are covered with dried blood and dust. 
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10402
+It is too dark to see.
+~
+~
+End
+
+#10419
+Name        Room full of Body Parts.~
+Descr
+The room is filled with piles of arms, legs, heads, and other unidentifiable
+parts of many different creatures. The stench is overwhelming. The body
+parts seem to wiggle and scream as you get closer. They are still alive!!
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10414 1 100
+Reset       M 10415 1 100
+Reset       M 10416 1 100
+Door        east~ ~ -1 10420
+It is too dark to see.
+~
+~
+Door        south~ ~ -1 10429
+It is too dark to see.
+~
+~
+End
+
+#10420
+Name        Fountain of Blood.~
+Descr
+This room is made of a rough black stone. The walls seem to ooze black
+sludge. In the middle of the room stands a stone fountain of a demon spitting
+blood.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10417 1 100
+Door        south~ ~ -1 10430
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10419
+It is too dark to see.
+~
+~
+End
+
+#10421
+Name        Bloody Stairway.~
+Descr
+You are standing on a very slippy stairway. The walls and stairs are
+covered with blood and gore. Pieces of goo and ooze drip from the
+ceiling overhead. You almost slip a couple times on the stairway.
+The stench here is overwhelming.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ -1 10409
+It is too dark to see.
+~
+~
+Door        down~ ~ -1 10431
+It is too dark to see.
+~
+~
+End
+
+#10422
+Name        Ancient Room~
+Descr
+This is a very old and dusty room. It looks empty except for a few shards
+or bone and flesh.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10409
+It is too dark to see.
+~
+~
+Door        east~ ~ -1 10423
+It is too dark to see.
+~
+~
+End
+
+#10423
+Name        Room of Lost Souls~
+Descr
+This looks like a waiting room or sorts. Dust and cobwebs are everywhere.
+Wooden benches line the walls. A digital number sign is posted on the wall.
+It currently reads, 'Now Serving Number 1'.
+A ticket dispenser is bolted to the wall.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  dispenser~
+This is one of those red ticket dispensers that never seem to work right.
+~
+Reset       M 10418 1 100
+Door        north~ ~ -1 10408
+It is too dark to see.
+~
+~
+Door        east~ ~ -1 10424
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10422
+It is too dark to see.
+~
+~
+End
+
+#10424
+Name        Room of Lost Souls~
+Descr
+This looks like a waiting room or sorts. Dust and cobwebs are everywhere.
+Wooden benches line the walls. A digital number sign is posted on the wall.
+It currently reads, 'Now Serving Number 1'.
+A ticket dispenser is bolted to the wall.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  dispenser~
+This is one of those red ticket dispensers that never seem to work right.
+~
+Reset       M 10418 1 100
+Door        north~ ~ -1 10407
+It is too dark to see.
+~
+~
+Door        east~ ~ -1 10425
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10423
+It is too dark to see.
+~
+~
+End
+
+#10425
+Name        Pit of Fire~
+Descr
+You enter a plain stone room with a large fire pit in the center of it.
+As you look closer at the pit you realize that hundreds of people are being
+burned inside it. They Scream out to you. The noise is deafening. Several
+minor imps and workers push more people into the pit, whistling while
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10419 1 100
+Reset       E 10408 16 100
+Door        north~ ~ -1 10406
+It is too dark to see.
+~
+~
+Door        east~ ~ -1 10426
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10424
+It is too dark to see.
+~
+~
+End
+
+#10426
+Name        Blackened Hallway~
+Descr
+This dark hallway looks as if it was made by a lavaworm...All the surfaces
+in it are melted and burnt. The smell of brimstone and sulfur fill the air.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10413 2 100
+Reset       E 10406 5 100
+Reset       E 10407 16 100
+Door        north~ ~ -1 10405
+It is too dark to see.
+~
+~
+Door        east~ ~ -1 10427
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10425
+It is too dark to see.
+~
+~
+End
+
+#10427
+Name        Blackened Hallway~
+Descr
+This dark hallway looks as if it was made by a lavaworm...All the surfaces
+in it are melted and burnt. The smell of brimstone and sulfur fill the air.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10428
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10426
+It is too dark to see.
+~
+~
+End
+
+#10428
+Name        Blood Room~
+Descr
+You enter the room and are immediately assaulted by the smell of rotting
+flesh and blood. The walls are covered with the crimson fluid as it runs
+down from the ceiling.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10413 2 100
+Reset       E 10406 5 100
+Reset       E 10407 16 100
+Door        east~ ~ -1 10429
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10427
+It is too dark to see.
+~
+~
+End
+
+#10429
+Name        Living Walls~
+Descr
+The walls here actually consist of greying and sinewy flesh - faces, hands,
+broken bones, feet, and toes jutting from the surface. You hear low moans
+of horror, pain, and sorrow issuing from the walls.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10412 1 100
+Reset       E 10404 -1 100
+Door        north~ ~ -1 10419
+It is too dark to see.
+~
+~
+Door        east~ ~ -1 10430
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10428
+It is too dark to see.
+~
+~
+End
+
+#10430
+Name        Skeleton Factory~
+Descr
+This is probably where they make all the skeletons for nightmares and
+graveyards. The room is simply littered with bones. A poster on the
+wall reads, "Remember ....the head bone is connected to the neck bone.."
+The poster continues on...but it seems to get very technical and boring..
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10420 1 100
+Door        north~ ~ -1 10420
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10429
+It is too dark to see.
+~
+~
+End
+
+#10431
+Name        Bottom of Stairway~
+Descr
+You are standing at the bottom of a bloody stairway. Or at least you
+thought it was a stairway. It seems to be just a painting the the wall.
+This roughly carved room with evil runes carved  in to the stone floor.
+There is a hallway to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10432
+It is too dark to see.
+~
+~
+End
+
+#10432
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hall continues to the south and the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 10442
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10431
+It is too dark to see.
+~
+~
+End
+
+#10433
+Name        Cell~
+Descr
+The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10422 1 100
+Door        south~ door closed~ -1 10443
+You see bars
+~
+bars~
+End
+
+#10434
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway continues to the east and the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10435
+It is too dark to see.
+~
+~
+Door        south~ ~ -1 10444
+It is too dark to see.
+~
+~
+End
+
+#10435
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+To the south you see the steel bars of a cell.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10436
+It is too dark to see.
+~
+~
+Door        south~ door closed~ -1 10445
+You see the steel bars of a cell.
+~
+bars~
+Door        west~ ~ -1 10434
+It is too dark to see.
+~
+~
+End
+
+#10436
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the south and the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10425 3 100
+Reset       E 10409 5 100
+Reset       E 10410 16 100
+Door        south~ ~ -1 10446
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10435
+It is too dark to see.
+~
+~
+End
+
+#10437
+Name        Cell~
+Descr
+The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10423 1 100
+Door        south~ door closed~ -1 10447
+You see bars
+~
+bars~
+End
+
+#10438
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the south and the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10425 3 100
+Reset       E 10409 5 100
+Reset       E 10410 16 100
+Door        east~ ~ -1 10439
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10448
+It is too dark to see.
+~
+~
+End
+
+#10439
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door closed~ -1 10440
+You see the steel bars to a cell.
+~
+bars~
+Door        south~ door closed~ -1 10449
+You see the steel bars to a cell.
+~
+bars~
+Door        west~ ~ -1 10438
+It is too dark to see.
+~
+~
+Door        down~ ~ -1 10450
+You see a dark stairway down....
+~
+~
+End
+
+#10440
+Name        Cell~
+Descr
+The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10421 2 100
+Reset       E 10444 16 100
+Door        west~ door closed~ -1 10439
+You see bars
+~
+bars~
+End
+
+#10441
+Name        Hidden Room~
+Descr
+This is a long forgotten room. Ancient torture equipment stands around
+collecting dust. Most of this stuff was probably replace with modern
+hi tech torture devices and for sentimental reasons wasn't thrown away.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 10451
+Its too dark to see.
+~
+~
+End
+
+#10442
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10425 3 100
+Reset       E 10409 5 100
+Reset       E 10410 16 100
+Door        north~ ~ -1 10432
+Its too dark to see.
+~
+~
+Door        east~ ~ -1 10443
+Its too dark to see.
+~
+~
+End
+
+#10443
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the east and west.
+The bars to a cell are to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ -1 10433
+You see bars to a cell.
+~
+bars~
+Door        east~ ~ -1 10444
+Its too dark to see.
+~
+~
+Door        west~ ~ -1 10442
+Its too dark to see.
+~
+~
+End
+
+#10444
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10434
+Its too dark to see.
+~
+~
+Door        west~ ~ -1 10443
+Its too dark to see.
+~
+~
+End
+
+#10445
+Name        Cell~
+Descr
+The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10421 2 100
+Reset       E 10444 16 100
+Door        north~ door closed~ -1 10435
+You see bars
+~
+bars~
+End
+
+#10446
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10436
+Its too dark to see.
+~
+~
+Door        east~ ~ -1 10447
+Its too dark to see.
+~
+~
+End
+
+#10447
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the east and west.
+You see bars to a cell to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ -1 10437
+You see bars to a cell.
+~
+bars~
+Door        east~ ~ -1 10448
+Its too dark to see.
+~
+~
+Door        west~ ~ -1 10446
+Its too dark to see.
+~
+~
+End
+
+#10448
+Name        Stone Hall~
+Descr
+This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10438
+Its too dark to see.
+~
+~
+Door        west~ ~ -1 10447
+Its too dark to see.
+~
+~
+End
+
+#10449
+Name        Cell~
+Descr
+The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10424 1 100
+Door        north~ door closed~ -1 10439
+You see bars
+~
+bars~
+End
+
+#10450
+Name        Hot Stairs~
+Descr
+You are standing on a long stairway. The air around you is heavy and hot.
+The stone walls are hot to the touch and your sweat sizzles as it hits the
+ground. Cool air flows out from a crack in the wall to the east.
+The smell of brimstone and smoke is all around you.
+The stairs continue down.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ -1 10439
+It is too dark to see.
+~
+~
+Door        down~ ~ -1 10461
+It is too dark to see.
+~
+~
+End
+
+#10451
+Name        Crack in Wall~
+Descr
+This is a rather large crack in the wall. On closer inspection it appears to be
+a passageway that was closed off long ago. It was probably reopened by
+an earthquake or something.
+An ancient passageway continues to the north.
+Hot gusts of air come from the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10441
+It is too dark to see.
+~
+~
+Door        west~ ~ -1 10450
+It is too dark to see.
+~
+~
+End
+
+#10452
+Name        Stone Arch~
+Descr
+Before you stands the a large stone arch decorated with many runes you
+cannot decifer. It looks as though it has been closed up for a long time.
+To the east is a hallway of fire.
+To the south you see a large metal door with the words, 'FOREMAN'
+written on the door.
+There is a dark stairway down in the corner of the room.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10453
+You see a hall of fire.
+~
+~
+Door        south~ door closed~ -1 10462
+You see the Foreman's office.
+~
+~
+Door        down~ ~ -1 10463
+You see a dark stairway down.
+~
+~
+End
+
+#10453
+Name        Hall of Fire~
+Descr
+You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the east.
+You see a stone archway to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10454
+You see a hall of fire.
+~
+~
+Door        west~ ~ -1 10452
+You see a stone archway.
+~
+~
+End
+
+#10454
+Name        Hall of Fire~
+Descr
+You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the south and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10432 1 100
+Reset       E 10417 16 100
+Door        south~ ~ -1 10464
+You see a hall of fire.
+~
+~
+Door        west~ ~ -1 10453
+You see a stone archway.
+~
+~
+End
+
+#10455
+Name        Construction Area~
+Descr
+This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10456
+You see a construction area.
+~
+~
+Door        south~ ~ -1 10465
+You see a construction area.
+~
+~
+End
+
+#10456
+Name        Construction Area~
+Descr
+This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the east and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10427 1 100
+Reset       E 10445 16 100
+Reset       M 10428 1 100
+Reset       E 10412 16 100
+Reset       M 10428 1 100
+Reset       E 10412 16 100
+Door        east~ ~ -1 10457
+You see a construction area.
+~
+~
+Door        south~ ~ -1 10455
+You see a construction area.
+~
+~
+End
+
+#10457
+Name        Construction Area~
+Descr
+This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the south and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 10467
+You see a construction area.
+~
+~
+Door        west~ ~ -1 10456
+You see a construction area.
+~
+~
+End
+
+#10458
+Name        Hall of Fire~
+Descr
+You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10459
+You see a hall of fire.
+~
+~
+Door        south~ ~ -1 10468
+You see a hall of fire.
+~
+~
+End
+
+#10459
+Name        Hall of Fire~
+Descr
+You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the west.
+A room full of fire pits lies to the east.
+A wall of fire crackles merrily to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10460
+You see a room full of fire pits.
+~
+~
+Door        south~ ~ -1 10469
+You see a wall of fire.
+~
+~
+Door        west~ ~ -1 10458
+You see a hall of fire.
+~
+~
+End
+
+#10460
+Name        Fire Pits of Hades~
+Descr
+This room is filled with many small fire pits. Countless damned souls are
+being burnt and roasted within the the white flames that erupt from the
+many pits. Wailing and screams of pain chill your bones in this hot room.
+To the south you see a lake of fire.
+A fire hall lies to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10426 1 100
+Reset       E 10411 10 100
+Reset       M 10468 1 100
+Reset       E 10415 16 100
+Reset       E 10416 -1 100
+Door        south~ ~ -1 10470
+You see a lake of fire.
+~
+~
+Door        west~ ~ -1 10459
+You see a hall of fire.
+~
+~
+End
+
+#10461
+Name        Fire Mural~
+Descr
+Apon all the walls of this room is an enormous mural. Pictures of burning
+bodies and tortured souls seem to be the main theme of the art. Bright reds
+and hot blues are enphasized throughout the mural. As you stare at it the
+characters within it seem to move and struggle in pain. The hot air around
+you smells of sulfur and methane. To the south you see a stone hallway.
+Hot air blows in at you from the doorway. The air stirs up the methane and
+steals your breath. You choke and gag...
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 10471
+You see a stone hallway.
+~
+~
+End
+
+#10462
+Name        Foreman's Office~
+Descr
+You stand in a crudly constructed office. Blueprints and change orders are
+scattered everywhere. A metal filing cabinet stands in the corner. Before
+you stands a stone table covered with blueprints. On the wall is a 
+construction plaque that reads, "4th DEMONsion Contruction"
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10440 1 100
+Reset       E 10422 -1 100
+Door        north~ door closed~ -1 10452
+You see the door to the office.
+~
+~
+End
+
+#10463
+Name        Cold Stairway~
+Descr
+You stand apon a cold stone stairway. Hot air blows down on you from
+higher up the stairwell. From below you a freezing gusts bite at your skin
+and make you shiver. Icicles drip slowly from the ceiling onto the frosted
+stone floor.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        up~ ~ -1 10452
+It is too dark to see.
+~
+~
+Door        down~ ~ -1 10476
+It is too dark to see.
+~
+~
+End
+
+#10464
+Name        Hall of Fire~
+Descr
+You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the north and east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10454
+You see a hall of fire.
+~
+~
+Door        east~ ~ -1 10465
+You see a wall of fire.
+~
+~
+End
+
+#10465
+Name        Construction Area~
+Descr
+This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the north and east.
+A hall of fire is to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10429 1 100
+Reset       E 10413 16 100
+Door        north~ ~ -1 10455
+You see a construction area.
+~
+~
+Door        east~ ~ -1 10466
+You see a construction area.
+~
+~
+Door        west~ ~ -1 10464
+You see a Hall of fire.
+~
+~
+End
+
+#10466
+Name        Construction Area~
+Descr
+This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the east and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10467
+You see a construction area.
+~
+~
+Door        west~ ~ -1 10465
+You see a construction area.
+~
+~
+End
+
+#10467
+Name        Construction Area~
+Descr
+This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the north and west.
+A hall of fire lies to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10427 1 100
+Reset       E 10445 16 100
+Reset       M 10428 1 100
+Reset       E 10412 16 100
+Door        north~ ~ -1 10457
+You see a construction area.
+~
+~
+Door        east~ ~ -1 10468
+You see a hall of fire.
+~
+~
+Door        west~ ~ -1 10466
+You see a construction area.
+~
+~
+End
+
+#10468
+Name        Hall of Fire~
+Descr
+You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the north.
+There are loud noises of contruction to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10458
+You see a hall of fire.
+~
+~
+Door        west~ ~ -1 10467
+You see a construction area.
+~
+~
+End
+
+#10469
+Name        Wall of Fire~
+Descr
+This large room is cut in into sections by small walls of fire. The walls
+to move slowly changing the layout of the room. As you examine the room
+further you notice various posts around the room to which people are
+chained to. The firewalls seem to move in patterns that leave the poor
+people directly in the path of the oncoming fire. The walls seem to creep
+ever so slowly towards them. The people blister and scream as the fire gets
+closer. Thier deaths seem like minutes of agony and pain, and even as they
+burst into flames they seem incapable of grasping the merciful attention of
+death...
+To the north you see a hall of fire.
+To the east you see a lake of fire.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10431 1 100
+Door        north~ ~ -1 10459
+You see a hall of fire.
+~
+~
+Door        east~ ~ -1 10470
+You see a Lake of fire.
+~
+~
+End
+
+#10470
+Name        Lake of Fire~
+Descr
+You stand one the shore of a large lake of fire. The smoke and heat fill this
+enormous room. You can barely make out shapes of something moving
+withing the dancing flames of blue and gold..
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10426 1 100
+Reset       E 10411 10 100
+Reset       M 10430 1 100
+Reset       E 10414 16 100
+Reset       E 10449 -1 100
+Door        north~ ~ -1 10460
+It is too smoky to see.
+~
+~
+Door        east~ ~ -1 10471
+It is too smoky to see.
+~
+~
+Door        west~ ~ -1 10469
+It is too smoky to see.
+~
+~
+End
+
+#10471
+Name        Hot Hall~
+Descr
+The stone floor below you heats your feet uncomfortably. The ceiling and
+walls glow a dull red and you sweat uncomfortably under the heat.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10461
+You see a Mural Room.
+~
+~
+Door        west~ ~ -1 10470
+It is too smoky to see.
+~
+~
+End
+
+#10472
+Name        Icy Landing~
+Descr
+This landing is made entirely of ice. Its walls bear carvings of battle and
+hunting scenes in bas-relief. These carved scenes show ice devils slaying
+angels, hunting mortals and other gruesome pictures.
+To the east you see a room of ice.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10541
+You see a room of ice.
+~
+~
+End
+
+#10473
+Name        Ice Room~
+Descr
+You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+To the south you see more of the frozen room.
+To the west you see an Icy landing.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10435 1 100
+Door        south~ ~ -1 10483
+You see a room of ice.
+~
+~
+Door        west~ ~ -1 10541
+You see a room of ice.
+~
+~
+End
+
+#10474
+Name        Meat Locker~
+Descr
+You are standing in what looks like a meat locker. Rows of beef and other
+meats hang from large steel hooks. You also notice that many of the
+things hanging from the hooks are corpses of people. They reach out to
+you as you pass them as if to plead for help from their frozen mouths. 
+The meat locker continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10469 1 100
+Reset       E 10421 -1 100
+Door        east~ ~ -1 10475
+You see more of the Meat locker
+~
+~
+Door        south~ ~ -1 10484
+You see more of the Meat locker
+~
+~
+End
+
+#10475
+Name        Meat Locker~
+Descr
+Rows of beef and other meats hang from large steel hooks. You notice that 
+many of the things hanging from the hooks are corpses of people. They 
+reach out to you as you pass them as if to plead for help from their frozen 
+mouths. 
+The meat locker continues to the south and west.
+There is a freezer door to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10436 1 100
+Reset       E 10420 16 100
+Door        east~ door closed~ -1 10476
+You see a freezer door.
+~
+freezer~
+Door        south~ ~ -1 10485
+You see more of the Meat locker
+~
+~
+End
+
+#10476
+Name        Penguin Room~
+Descr
+This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the south and east.
+There is a freezer door to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10437 1 100
+Door        east~ ~ -1 10477
+You see lots and lots of ice.
+~
+~
+Door        south~ ~ -1 10486
+You see lots and lots of ice.
+~
+~
+Door        west~ door closed~ -1 10475
+You see a freezer door.
+~
+door freezer~
+End
+
+#10477
+Name        Penguin Room~
+Descr
+This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the south and east.
+There is a freezer door to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10437 1 100
+Door        south~ ~ -1 10487
+You see lots and lots of ice.
+~
+~
+Door        west~ ~ -1 10476
+You see lots and lots of ice.
+~
+~
+End
+
+#10478
+Name        Ice Creamery~
+Descr
+You appear to be standing in a ice-creamery. Many ice-cream workers run
+frantically around tending to the various machines.
+The factory continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10438 1 100
+Door        east~ ~ -1 10479
+You see lots of ice-cream machines.
+~
+~
+Door        south~ ~ -1 10488
+You see lots of ice-cream machines.
+~
+~
+End
+
+#10479
+Name        Ice Creamery~
+Descr
+You appear to be standing in a ice-creamery. There seems to be a
+group of people here shouting into containers and then quickly covering 
+them. How odd...
+The factory continues to the south and west.
+There is a steel door to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10439 1 100
+Door        east~ door closed~ -1 10480
+You see a steel door.
+~
+door steel~
+Door        south~ ~ -1 10489
+You see lots of ice-cream machines.
+~
+~
+Door        west~ ~ -1 10478
+You see lots of ice-cream machines.
+~
+~
+End
+
+#10480
+Name        White Marble Hall~
+Descr
+You are standing in a white marble hallway. It is dry and clean. Many
+portraits of demons and devils in business suits adorn the walls on either
+side of you.
+The hall continues to the south.
+To the west is a steel door.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 10490
+You see a marble hallway.
+~
+~
+Door        west~ door closed~ -1 10479
+You see a steel door.
+~
+door steel~
+End
+
+#10481
+Name        Refrigerator Room~
+Descr
+This room is filled with giant refrigerators. All of them have no doors and
+their contents have spilled onto the floor.
+The only exit is east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10482
+You see a room of ice.
+~
+~
+End
+
+#10482
+Name        Ice Room~
+Descr
+You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+To the north and east you see more of the frozen room.
+To the west you see a room full of refrigerators.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10541
+You see a room of ice.
+~
+~
+Door        east~ ~ -1 10483
+You see a room of ice.
+~
+~
+Door        west~ ~ -1 10481
+You see a room full of refrigerators.
+~
+~
+End
+
+#10483
+Name        Ice Room~
+Descr
+You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+To the north and west you see more of the frozen room.
+To the east you see a freezer door.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10434 1 100
+Reset       E 10419 16 100
+Door        north~ ~ -1 10473
+You see a room of ice.
+~
+~
+Door        east~ door closed~ -1 10484
+You see a freezer door.
+~
+door freezer~
+Door        west~ ~ -1 10482
+You see a room of ice.
+~
+~
+End
+
+#10484
+Name        Meat Locker~
+Descr
+You stand in a large meat locker. Chunks of meat hang on the wall and 
+larger corpses hang from steel hooks. Frozen blood and other 
+unrecognizable pieces are littered on the floor.
+The meat locker continues to the north and east.
+There is a freezer door to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10436 1 100
+Reset       E 10420 16 100
+Door        north~ ~ -1 10474
+You see more of the Meat locker
+~
+~
+Door        east~ ~ -1 10485
+You see more of the Meat locker
+~
+~
+Door        west~ door closed~ -1 10483
+You see a freezer door.
+~
+door freezer~
+End
+
+#10485
+Name        Meat Locker~
+Descr
+Rows of beef and other meats hang from large steel hooks. 
+The meat locker continues to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10469 1 100
+Reset       E 10421 -1 100
+Door        north~ ~ -1 10475
+You see more of the Meat locker
+~
+~
+Door        west~ ~ -1 10484
+You see more of the Meat locker
+~
+~
+End
+
+#10486
+Name        Penguin Room~
+Descr
+This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the north and east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10437 1 100
+Door        north~ ~ -1 10476
+You see lots and lots of ice.
+~
+~
+Door        east~ ~ -1 10487
+You see lots and lots of ice.
+~
+~
+End
+
+#10487
+Name        Penguin Room~
+Descr
+This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the north and west.
+You can hear sounds of machinery to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10437 1 100
+Door        north~ ~ -1 10477
+You see lots and lots of ice.
+~
+~
+Door        east~ ~ -1 10488
+You see a dark passageway.
+~
+~
+End
+
+#10488
+Name        Ice-Creamery~
+Descr
+You walk into part of an ice-cream factory. Many different types of
+ice-cream and other deserts are made by these machines. Above one
+of the machines a sign reads, 'Eye Splean I Screamery'.
+The factory continues to the north and east.
+You can hear sounds of penguins to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10438 1 100
+Door        north~ ~ -1 10478
+You see lots of ice-cream machines.
+~
+~
+Door        east~ ~ -1 10489
+You see lots of ice-cream machines.
+~
+~
+Door        west~ ~ -1 10487
+You see a dark passageway.
+~
+~
+End
+
+#10489
+Name        Ice-Creamery~
+Descr
+You stand amidst dozens of ice-cream machines. Workers rush about
+for machine to machine, adjusting dials and checking gauges.
+The factory continues to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10479
+You see lots of ice-cream machines.
+~
+~
+Door        west~ ~ -1 10488
+You see lots of ice-cream machines.
+~
+~
+End
+
+#10490
+Name        Marble Hall~
+Descr
+You are walking down a white marble hallway. Large portraits of demons
+and devils adorn the walls on either side of you. As you look again you
+realize that they aren't demons and devils after all, but lawyers....well ok...
+depends on your point of view...
+The hallway continues to the north.
+There is an office to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10480
+You see a white marble hallway.
+~
+~
+Door        south~ ~ -1 10500
+You see an office.
+~
+~
+End
+
+#10491
+Name        Records Hall~
+Descr
+This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10443 1 100
+Door        east~ ~ -1 10492
+You see rows and rows of records.
+~
+~
+End
+
+#10492
+Name        Records Hall~
+Descr
+This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the east and west.
+There is another hallway to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10443 1 100
+Door        east~ ~ -1 10493
+You see rows and rows of records.
+~
+~
+Door        south~ ~ -1 10502
+You see the Halls of Judgement.
+~
+~
+Door        west~ ~ -1 10491
+You see rows and rows of records.
+~
+~
+End
+
+#10493
+Name        Records Hall~
+Descr
+This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the east and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10443 1 100
+Door        east~ ~ -1 10494
+You see rows and rows of records.
+~
+~
+Door        west~ ~ -1 10492
+You see rows and rows of records.
+~
+~
+End
+
+#10494
+Name        Records Hall~
+Descr
+This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10444 1 100
+Reset       E 10424 6 100
+Door        west~ ~ -1 10493
+You see rows and rows of records.
+~
+~
+End
+
+#10495
+Name        Small Altar~
+Descr
+This is the private prayer room of the high priest. a small altar stands
+against the west wall. Evil symbols and pictures are plastered everywhere.
+The new propaganda posters for hell are posted behind the altar.
+You see a blackened hall to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  poster~
+Don't go to heaven....They're boring....
+
+***GO TO HELL!!!****
+
+You'll be damned if you don't  ;)
+~
+Reset       M 10446 1 100
+Door        east~ ~ -1 10496
+You see a blackened hallway.
+~
+~
+End
+
+#10496
+Name        Blackened Hall~
+Descr
+This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'. 
+The hall continues to the south.
+There is a stone door to the east and a prayer room to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door closed~ -1 10497
+You see a stone door.
+~
+door stone~
+Door        south~ ~ -1 10506
+You see a blackened hall.
+~
+~
+Door        west~ ~ -1 10495
+You see a prayer room.
+~
+~
+End
+
+#10497
+Name        Office of the High Priest~
+Descr
+This is the office of the High Priest of Hell. A black stone desk stands
+before you. The office is lavishly furnished with gold, gems and many
+antiques. A large portrait of a demons face is on the wall behind his desk.
+You see a stone door to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10445 1 100
+Reset       E 10425 17 100
+Reset       E 10426 12 100
+Reset       E 10450 -1 100
+Door        west~ door closed~ -1 10496
+You see a stone door.
+~
+door stone~
+End
+
+#10498
+Name        Blackened Hall~
+Descr
+This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'. 
+The hall continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10442 1 100
+Reset       E 10423 16 100
+Door        east~ ~ -1 10499
+You see a blackened hall.
+~
+~
+Door        south~ ~ -1 10508
+You see a blackened hall.
+~
+~
+End
+
+#10499
+Name        Blackened Hall~
+Descr
+This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+The hall continues to the west.
+A glass door is to the east. 
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door closed~ -1 10500
+You see a glass door.
+~
+door glass~
+Door        west~ ~ -1 10498
+You see a blackened hall.
+~
+~
+End
+
+#10500
+Name        Administration of Hell~
+Descr
+This is the entrance to the Administration offices of Hell. The secretaries
+desk sits quietly in the middle of the room. To the south is a metal door
+labeled, 'Authorized Personnel Only'
+To the west is a large glass door.
+There is a stairway down on the opposite side of the room.
+There is a sign posted next to the stairs.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  sign~
+****ATTENTION***
+The Abyss is CLOSED for construction.
+
+We will open for your painful pleasures
+
+soon....
+
+-Strahd-
+~
+Reset       M 10441 1 100
+Reset       E 10446 6 100
+Door        north~ ~ -1 10490
+You see a marble hall.
+~
+~
+Door        south~ door closed~ -1 10510
+You see a metal door.
+~
+door metal~
+Door        west~ door closed~ -1 10499
+You see a glass door.
+~
+door glass~
+Door        down~ ~ -1 10509
+You see a stairway down.
+~
+stairway~
+End
+
+#10501
+Name        Halls of Judgement~
+Descr
+You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. On the wall a plaque reads, 'If you are here...You are
+Guilty...You have been judged...sound fair? Too bad..'
+The hall continues to the east.
+The Courtroom is to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10502
+You see the Halls of Judgement.
+~
+~
+Door        south~ ~ -1 10511
+You see the Court of Hell.
+~
+~
+End
+
+#10502
+Name        Halls of Judgement~
+Descr
+You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+The hall of records is to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10492
+You see the Hall of Records.
+~
+~
+Door        east~ ~ -1 10503
+You see the Halls of Judgement.
+~
+~
+Door        west~ ~ -1 10501
+You see the Halls of Judgement.
+~
+~
+End
+
+#10503
+Name        Halls of Judgement~
+Descr
+You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+The Office of Complaints is to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10504
+You see the Halls of Judgement.
+~
+~
+Door        south~ ~ -1 10513
+You see the Office of Complaints.
+~
+~
+Door        west~ ~ -1 10502
+You see the Halls of Judgement.
+~
+~
+End
+
+#10504
+Name        Halls of Judgement~
+Descr
+You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10505
+You see the Halls of Judgement.
+~
+~
+Door        west~ ~ -1 10503
+You see the Halls of Judgement.
+~
+~
+End
+
+#10505
+Name        Halls of Judgement~
+Descr
+You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10506
+You see the Halls of Judgement.
+~
+~
+Door        west~ ~ -1 10504
+You see the Halls of Judgement.
+~
+~
+End
+
+#10506
+Name        Blackened Hall~
+Descr
+This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+There are exits in all directions.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10442 1 100
+Reset       E 10423 16 100
+Door        north~ ~ -1 10496
+You see a blackened hall.
+~
+~
+Door        east~ ~ -1 10507
+You see a blackened hall.
+~
+~
+Door        south~ ~ -1 10516
+You see the hallway of the Mall from Hell .
+~
+~
+Door        west~ ~ -1 10505
+You see the Halls of Judgement.
+~
+~
+End
+
+#10507
+Name        Blackened Hall~
+Descr
+This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+The hallway continues to the east and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10508
+You see a blackened hall.
+~
+~
+Door        west~ ~ -1 10506
+You see a blackened hall.
+~
+~
+End
+
+#10508
+Name        Blackened Hall~
+Descr
+This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+The hallway continues to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10498
+You see a blackened hall.
+~
+~
+Door        west~ ~ -1 10507
+You see a blackened hall.
+~
+~
+End
+
+#10509
+Name        Stairs to the Abyss~
+Descr
+These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        down~ ~ -1 10518
+You see the eternal darkness of the Abyss.
+~
+~
+End
+
+#10510
+Name        Maintenance Walkway~
+Descr
+This is a maintence accessway. You walk on a metal catwalk hundreds of 
+feet above the floor. The catwalk sways unsteadily as you walk on it.
+The catwalk continues to the south.
+To the north is a steel door.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ -1 10500
+You see a steel door.
+~
+door steel~
+Door        south~ ~ -1 10520
+You see a maintenance walkway.
+~
+~
+End
+
+#10511
+Name        Court Room~
+Descr
+This is the Courts of Hell. Here you are convicted, sentenced and punished.
+An no...you don't get a trial. You don't deserve one. The courtroom is
+filled with spectators and jury members. They seem to have no real reason
+to be here since there isn't going to be a trial. They jeer and boo you as you
+stand in the middle of the courtroom.
+To the north is the Halls of Judgement.
+Behind the judges bench is a wooden door.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10447 6 100
+Reset       M 10447 6 100
+Reset       M 10447 6 100
+Reset       M 10447 6 100
+Reset       M 10447 6 100
+Reset       M 10447 6 100
+Door        north~ ~ -1 10501
+You see the Halls of Judgement.
+~
+~
+Door        south~ ~ -1 10521
+You see a large wooden door.
+~
+~
+End
+
+#10512
+Name        Lawyers Office~
+Descr
+As you look around you, you realize you've entered a lawyers office. Now
+you know you are in Hell....Everything in this office seems to be made of
+snakeskin. This is the only lawyers office in hell, so if you don't  like them
+you're out of luck. But then again...if you are in hell...you must've run
+out of luck a while ago.
+To the east is the Office of Complaints.
+To the south you see a courtyard.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10449 1 100
+Reset       E 10427 16 100
+Door        east~ ~ -1 10513
+You see the Office of Complaints.
+~
+~
+Door        south~ ~ -1 10522
+You see a courtyard.
+~
+~
+End
+
+#10513
+Name        Office of Complaints~
+Descr
+This is a relatively small office. There is a large hole in the wall where a 
+clerk usually sits and takes complaints about hell. As you peek behind
+the counter you see a large paper shredder and alot of shredded complaints.
+a sign over the clerks desk reads, 'Hours: 12:00am - 12:01am'
+To the west is a lawyers office.
+To the north you see the Halls of Judgement.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10450 1 100
+Door        north~ ~ -1 10503
+You see the Halls of Judgement.
+~
+~
+Door        west~ ~ -1 10512
+You see a lawyers office
+~
+~
+End
+
+#10514
+Name        Pawn Shop~
+Descr
+You are standing in Hiramoto's Buy & Sell. This poor bastard has
+been damned to hell to serve the public for eternity. He will buy most
+anything you have, since business is slow. Not many people visit
+Hell. The store is filled with worthless junk. Piles of aluminum balls,
+and bottle cap collections fill the corners of the room. Thing of
+every description lie about the store.
+To the east you see the Mall from Hell.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10451 1 100
+Reset       E 10428 -1 100
+Reset       E 10429 -1 100
+Reset       E 10430 -1 100
+Door        east~ ~ -1 10515
+You see the Mall from Hell.
+~
+~
+End
+
+#10515
+Name        Hallway of The Mall from Hell~
+Descr
+This is definetly the Mall from hell...there are no stores!
+Only in hell would they have a mall with no stores.
+To the east you see the Mall from Hell.
+To the west you see Hiramoto's Buy & Sell.
+The hall continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10463 2 100
+Door        east~ ~ -1 10516
+You see the Mall from Hell.
+~
+~
+Door        south~ ~ -1 10525
+You see the Mall from Hell.
+~
+~
+Door        west~ ~ -1 10514
+You see Hiramoto's Buy & Sell.
+~
+~
+End
+
+#10516
+Name        Hallway of The Mall from Hell~
+Descr
+This is definetly the Mall from hell...there are no stores!
+Only in hell would they have a mall with no stores.
+To the north you see a blackened hallway.
+To the east you see the office of Big Mouth.
+The hallway continues to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10506
+You see a blackened hall.
+~
+~
+Door        east~ ~ -1 10517
+You see the office of Big Mouth.
+~
+~
+Door        west~ ~ -1 10515
+You see the hallways of the Mall from Hell.
+~
+~
+End
+
+#10517
+Name        The Office of Big Mouth~
+Descr
+This is the office of Big Mouth, head demon of Hell's Administration.
+The room is decorated posters of naked women and autographed pictures
+of famous tortured souls. Behind a large oaken desk sleeps Big Mouth.
+This mouth looks large enough to step into if it were open. You wonder
+what this guy eats...
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 10516
+You see the hallways of the Mall from Hell.
+~
+~
+Door        down~ door~ -1 10526
+You see Big Mouth's mouth.
+~
+mouth big mouth's~
+End
+
+#10518
+Name        Stairs to the Abyss~
+Descr
+These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        down~ ~ -1 10527
+You see the eternal darkness of the Abyss.
+~
+~
+End
+
+#10519
+Name        Maintenance Walkway~
+Descr
+This is a maintence accessway. You walk on a metal catwalk hundreds of 
+feet above the floor. The catwalk sways unsteadily as you walk on it.
+The catwalk continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10452 1 100
+Reset       E 10431 16 100
+Reset       E 10447 5 100
+Door        east~ ~ -1 10520
+You see a maintenance walkway.
+~
+~
+Door        south~ ~ -1 10529
+You see a maintenance walkway.
+~
+~
+End
+
+#10520
+Name        Maintenance Walkway~
+Descr
+This is a maintence accessway. You walk on a metal catwalk hundreds of 
+feet above the floor. The catwalk sways unsteadily as you walk on it.
+The catwalk continues to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10452 1 100
+Reset       E 10431 16 100
+Reset       E 10447 5 100
+Door        north~ ~ -1 10510
+You see a maintenance walkway.
+~
+~
+Door        west~ ~ -1 10519
+You see a maintenance walkway.
+~
+~
+End
+
+#10521
+Name        Judge's Chambers~
+Descr
+This is the private chambers of the High Judge of Hell. He has a cushy job
+and his office reflects that. A golden torches light the walls with dancing
+blue and yellow flames. The judge's black crystal desk sparkles in the 
+torchlight.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10448 1 100
+Door        north~ ~ -1 10511
+You see the Courtroom of Hell.
+~
+~
+End
+
+#10522
+Name        Courtyard~
+Descr
+This courtyard is barren and neglected. Small weeds grow up inbetween
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+A lawyers office is to the north.
+The courtyard continues to the east and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10453 1 100
+Door        north~ ~ -1 10512
+You see a lawyers office.
+~
+~
+Door        east~ ~ -1 10523
+You see a more of the courtyard.
+~
+~
+Door        south~ ~ -1 10532
+You see a more of the courtyard.
+~
+~
+End
+
+#10523
+Name        Courtyard~
+Descr
+This courtyard is barren and neglected. Small weeds grow up inbetween
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+The courtyard continues to the west and south.
+Stanley's Magical Steeds is to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 10524
+You see Stanley's Magical Steeds store.
+~
+~
+Door        south~ ~ -1 10533
+You see a more of the courtyard.
+~
+~
+Door        west~ ~ -1 10522
+You see a more of the courtyard.
+~
+~
+End
+
+#10524
+Name        Stanely's Magical Steeds~
+Descr
+This is the shop of Stanely. He used to be an old mage selling cursed
+trinkets at the town of Solace. He has recently set up shop in hell selling
+magical figurines. Each figuring is in the shape of some sort of steed.
+Some are recognizable and some are not. Rumor has it that Stanely made
+a deal with a devil....so I guess his lease is up in seven years.....
+A courtyard is to the west.
+To the south you see the Mall from Hell.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10454 1 100
+Reset       E 10432 -1 100
+Reset       E 10433 -1 100
+Reset       E 10434 -1 100
+Reset       E 10435 -1 100
+Reset       E 10436 -1 100
+Reset       E 10437 -1 100
+Reset       E 10438 -1 100
+Reset       E 10439 -1 100
+Door        south~ ~ -1 10534
+You see a hallway of the Mall from Hell.
+~
+~
+Door        west~ ~ -1 10523
+You see an abandon courtyard.
+~
+~
+End
+
+#10525
+Name        Hallway of The Mall from Hell~
+Descr
+This is definetly the Mall from hell...there are no stores!
+Only in hell would they have a mall with no stores.
+The hallway continues to the north and south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10515
+You see a hall of the Mall from Hell.
+~
+~
+Door        east~ ~ -1 10535
+You see a hall of the Mall from Hell.
+~
+~
+End
+
+#10526
+Name        Inside Big Mouth's Stomach~
+Descr
+You are standing inside Big Mouth's stomach. It is roomy in here. Small
+animals and other odds and ends lie about the stomach. Is that a dragon  
+you see? Nah...couldn't be...
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10455 1 100
+Reset       M 10456 1 100
+Reset       M 10457 1 100
+Door        up~ door~ -1 10517
+You see Big Mouth's throat.
+~
+mouth big mouth's throat~
+End
+
+#10527
+Name        Stairs to the Abyss~
+Descr
+These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        down~ ~ -1 10536
+You see the eternal darkness of the Abyss.
+~
+~
+End
+
+#10528
+Name        Reactor Control Room~
+Descr
+This is the reactor control room of hell. From here the workers control
+the main reactor and power supply for all of hell and the abyss. Workers
+stroll back and forth, from station to station monitoring the reactor core.
+A large glass window look out on to the reactor floor below.
+There are some stairs down to the reactor floor to the south.
+There is a maintenance room to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10458 1 100
+Reset       E 10440 17 100
+Reset       E 10442 5 100
+Reset       M 10459 1 100
+Reset       E 10441 16 100
+Reset       E 10442 5 100
+Door        east~ ~ -1 10529
+You see a maintenance room.
+~
+~
+Door        south~ ~ -1 10538
+You see stairs down to the reactor floor.
+~
+~
+End
+
+#10529
+Name        Maintenance Room~
+Descr
+You are standing in the primary maintenance room of hell. Tools of all
+shapes and sizes are neatly hung on the walls, each with its own painted-on
+silhouette behind it.
+To the west is the reactor control room.
+To the east is the break room.
+To the north is a maintenance walkway.
+To the south is the secondary control room.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10452 1 100
+Reset       E 10431 16 100
+Reset       E 10447 5 100
+Door        north~ ~ -1 10519
+You see a maintenance walkway.
+~
+~
+Door        east~ ~ -1 10530
+You see a break room.
+~
+~
+Door        south~ ~ -1 10539
+You see the secondary control room.
+~
+~
+Door        west~ ~ -1 10528
+You see the reactor control room.
+~
+~
+End
+
+#10530
+Name        Break Room~
+Descr
+This is the break room for the maintenance workers. tables are filled with
+donuts and coffee. As a cruel joke, the cheif engineer has posted his guard
+dogs to guard the room so that no one can take a break.
+To the west is the primary maintenance room.
+To the south is the chief engineers office.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10470 2 100
+Door        south~ ~ -1 10540
+You see the chief engineers office.
+~
+~
+Door        west~ ~ -1 10529
+You see the primary maintenance room.
+~
+~
+End
+
+#10531
+Name        Hell's Kitchen~
+Descr
+Welcome to Hell's kitchen, where everything is delicious....you just can't
+have any....This is where the many foods of the world of Farside are made.
+The chefs are usually very busy, but they always have extra time to torture
+a guest....
+To the east is a courtyard.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10471 1 100
+Reset       M 10461 1 100
+Reset       M 10462 1 100
+Reset       E 10448 16 100
+Door        east~ ~ -1 10532
+You see an abandon courtyard.
+~
+~
+End
+
+#10532
+Name        Courtyard~
+Descr
+This courtyard is barren and neglected. Small weeds grow up inbetween
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+The courtyard continues to the north and east.
+You see a kitchen to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10522
+You see more of the courtyard.
+~
+~
+Door        east~ ~ -1 10533
+You see a more of the courtyard.
+~
+~
+Door        west~ ~ -1 10531
+You see a kitchen.
+~
+~
+End
+
+#10533
+Name        Courtyard~
+Descr
+This courtyard is barren and neglected. Small weeds grow up inbetween
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+The courtyard continues to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10453 1 100
+Door        north~ ~ -1 10523
+You see more of the courtyard.
+~
+~
+Door        west~ ~ -1 10532
+You see a more of the courtyard.
+~
+~
+End
+
+#10534
+Name        Hallway of The Mall from Hell~
+Descr
+This is definetly the Mall from hell...there are no stores!
+Only in hell would they have a mall with no stores.
+The hallway continues to the east.
+Stanely's magic steeds are to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 10524
+You see Stanely's Magic Steeds.
+~
+~
+Door        east~ ~ -1 10535
+You see a hall of the Mall from Hell.
+~
+~
+End
+
+#10535
+Name        Hallway of The Mall from Hell~
+Descr
+This is definetly the Mall from hell...there are no stores!
+Only in hell would they have a mall with no stores.
+The hallway continues to the north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10463 2 100
+Door        north~ ~ -1 10525
+You see a hall of the Mall from Hell.
+~
+~
+Door        east~ ~ -1 10534
+You see a hall of the Mall from Hell.
+~
+~
+End
+
+#10536
+Name        Stairs to the Abyss~
+Descr
+These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished. You can't seem to find the Abyss...you seem to recall a seeing a
+sign....now what did it say again?......
+~
+Flags       dark no_mob indoors~
+Sector      inside~
+Regen       100 100
+End
+
+#10537
+Name        Inside the Reactor Core~
+Descr
+You are standing on the inside of the reactor core. Actually you seem to
+be floating in the plasma energy of the reactor. You can see the core
+chamber fall off into the distance as it seems to be bottomless. Nuclear
+particles and other strange things whiz by you at blinding speeds.
+You see a maintenance hatch to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10465 1 100
+Reset       M 10466 1 100
+Door        east~ door closed~ -1 10538
+You see a maintenance hatch.
+~
+hatch maintenance reactor core~
+End
+
+#10538
+Name        Reactor Room Floor~
+Descr
+The room is taken up almost entirely by the enormous reactor core. The
+core pulses rhythmically as it generates the heat and power for the entire
+region of hell. Many workers in orange jumpsuits run frantically around
+with geiger counters and plasma torches fixing breaches in the core.
+You see a reactor core maintenance hatch to the west.
+A stairway to the control room is to the north.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10464 1 100
+Reset       E 10442 5 100
+Reset       M 10466 1 100
+Door        north~ ~ -1 10528
+You see the stairs to the control room.
+~
+~
+Door        west~ door closed~ -1 10537
+You see a reactor core maintence hatch.
+~
+hatch maintenance reactor core~
+End
+
+#10539
+Name        Secondary Control Room~
+Descr
+This is the secondary control room for the reactor core. It is usually used in
+emergencies when the primary control room is contaminated or damaged.
+It isn't used very often since the primary control room is in perfect 
+working order.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10460 1 100
+Door        north~ ~ -1 10529
+You see the primary maintenance room.
+~
+~
+End
+
+#10540
+Name        Office of the Chief Engineer~
+Descr
+This office belongs to the chief engineer of hell. Blueprints and pencils 
+are scattered about the room. The air is heavy with the smell of amonia
+and sweat. A display of the reactor core is mounted into the wall.
+One wall is completely filled with monitors, each showing various
+status reports for the reactor core.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10467 1 100
+Reset       E 10443 -1 100
+Door        north~ ~ -1 10530
+You see the break room.
+~
+~
+End
+
+#10541
+Name        Ice Room~
+Descr
+You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 10433 1 100
+Reset       E 10418 -1 100
+Door        east~ ~ -1 10473
+You see a room of ice.
+~
+~
+Door        south~ ~ -1 10482
+You see a room of ice.
+~
+~
+Door        west~ ~ -1 10472
+You see a room of ice.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

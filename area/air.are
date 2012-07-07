@@ -1,0 +1,1238 @@
+#AREADATA
+Name        In the Air~
+Author      Copper~
+Levels      5 10
+Security    1
+VNUMs       1000 1040
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#1000
+Name        fairy dragon~
+Short       A fairy dragon~
+Long
+A fairy dragon is fluttering around here looking for something to do...
+~
+Descr
+It's a cute little multi-colored dragon...about 2 foot long.
+It gracefully dances around your head.
+~
+Act         stay_area~
+AffectBy    detect_invis detect_magic~
+Alignment   500
+Level       5
+Race        Dragon~
+Sex         female~
+Spec        spec_cast_mage~
+End
+
+#1001
+Name        griffin~
+Short       A griffin~
+Long
+A large black winged griffin swoops into an attack.
+~
+Descr
+Golden maned and black all over.  It's quite a beautiful creature if not
+for the fact it is hungry and is attacking you!
+~
+Act         aggressive stay_area~
+AffectBy    ~
+Alignment   300
+Level       8
+Race        Harpy~
+Sex         male~
+End
+
+#0
+
+
+
+#OBJDB
+#1001
+Name        rose~
+Short       a red rose~
+Descr
+A red rose is lying on the ground.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      8
+ExtraDescr  rose~
+This is no ordinary rose, as it is a gift from Dionysus to his
+dearest, Wendella.
+~
+End
+
+#0
+
+
+
+#ROOMDB
+#1001
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the ground north of the city.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        east~ ~ 0 1006
+More of the same.
+~
+~
+Door        south~ ~ 0 1002
+More of the same.
+~
+~
+Door        up~ ~ 0 1021
+More of the same.
+~
+~
+End
+
+#1002
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 20 meters above the inside wall of West Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1001
+More of the same.
+~
+~
+Door        east~ ~ 0 1007
+More of the same.
+~
+~
+Door        south~ ~ 0 1003
+More of the same.
+~
+~
+Door        up~ ~ 0 1022
+More of the same.
+~
+~
+End
+
+#1003
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 20 meters above the west gate of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1002
+More of the same.
+~
+~
+Door        east~ ~ 0 1008
+More of the same.
+~
+~
+Door        south~ ~ 0 1004
+More of the same.
+~
+~
+Door        up~ ~ 0 1023
+More of the same.
+~
+~
+End
+
+#1004
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Wall Road.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1003
+More of the same.
+~
+~
+Door        east~ ~ 0 1009
+More of the same.
+~
+~
+Door        south~ ~ 0 1005
+More of the same.
+~
+~
+Door        up~ ~ 0 1024
+More of the same.
+~
+~
+End
+
+#1005
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Wall Road.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Reset       M 1000 10 100
+Door        north~ ~ 0 1004
+More of the same.
+~
+~
+Door        east~ ~ 0 1010
+More of the same.
+~
+~
+Door        up~ ~ 0 1025
+More of the same.
+~
+~
+End
+
+#1006
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        east~ ~ 0 1011
+More of the same.
+~
+~
+Door        south~ ~ 0 1007
+More of the same.
+~
+~
+Door        west~ ~ 0 1001
+More of the same.
+~
+~
+Door        up~ ~ 0 1026
+More of the same.
+~
+~
+End
+
+#1007
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 20 meters above the magic shop.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1006
+More of the same.
+~
+~
+Door        east~ ~ 0 1012
+More of the same.
+~
+~
+Door        south~ ~ 0 1008
+More of the same.
+~
+~
+Door        west~ ~ 0 1002
+More of the same.
+~
+~
+Door        up~ ~ 0 1027
+More of the same.
+~
+~
+End
+
+#1008
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Main Street.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1007
+More of the same.
+~
+~
+Door        east~ ~ 0 1013
+More of the same.
+~
+~
+Door        south~ ~ 0 1009
+More of the same.
+~
+~
+Door        west~ ~ 0 1003
+More of the same.
+~
+~
+Door        up~ ~ 0 1028
+More of the same.
+~
+~
+End
+
+#1009
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 20 meters above the Mage Guild Hall.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1008
+More of the same.
+~
+~
+Door        east~ ~ 0 1014
+More of the same.
+~
+~
+Door        south~ ~ 0 1010
+More of the same.
+~
+~
+Door        west~ ~ 0 1004
+More of the same.
+~
+~
+Door        up~ ~ 0 1029
+More of the same.
+~
+~
+End
+
+#1010
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Poor Alley.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1009
+More of the same.
+~
+~
+Door        east~ ~ 0 1015
+More of the same.
+~
+~
+Door        west~ ~ 0 1005
+More of the same.
+~
+~
+Door        up~ ~ 0 1030
+More of the same.
+~
+~
+End
+
+#1011
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        east~ ~ 0 1016
+More of the same.
+~
+~
+Door        south~ ~ 0 1012
+More of the same.
+~
+~
+Door        west~ ~ 0 1006
+More of the same.
+~
+~
+Door        up~ ~ 0 1031
+More of the same.
+~
+~
+End
+
+#1012
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 20 meters above the bakery.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1011
+More of the same.
+~
+~
+Door        east~ ~ 0 1017
+More of the same.
+~
+~
+Door        south~ ~ 0 1013
+More of the same.
+~
+~
+Door        west~ ~ 0 1007
+More of the same.
+~
+~
+Door        up~ ~ 0 1032
+More of the same.
+~
+~
+End
+
+#1013
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Main Street.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1012
+More of the same.
+~
+~
+Door        east~ ~ 0 1018
+More of the same.
+~
+~
+Door        south~ ~ 0 1014
+More of the same.
+~
+~
+Door        west~ ~ 0 1008
+More of the same.
+~
+~
+Door        up~ ~ 0 1033
+More of the same.
+~
+~
+End
+
+#1014
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 20 meters above Armoury.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1013
+More of the same.
+~
+~
+Door        east~ ~ 0 1019
+More of the same.
+~
+~
+Door        south~ ~ 0 1015
+More of the same.
+~
+~
+Door        west~ ~ 0 1009
+More of the same.
+~
+~
+Door        up~ ~ 0 1034
+More of the same.
+~
+~
+End
+
+#1015
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Poor Alley.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1014
+More of the same.
+~
+~
+Door        east~ ~ 0 1020
+More of the same.
+~
+~
+Door        west~ ~ 0 1010
+More of the same.
+~
+~
+Door        up~ ~ 0 1035
+More of the same.
+~
+~
+End
+
+#1016
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 10 meters above the temple spire of Midgaard
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        south~ ~ 0 1017
+More of the same.
+~
+~
+Door        west~ ~ 0 1011
+More of the same.
+~
+~
+Door        up~ ~ 0 1036
+More of the same.
+~
+~
+End
+
+#1017
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the Temple Square.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1016
+More of the same.
+~
+~
+Door        south~ ~ 0 1018
+More of the same.
+~
+~
+Door        west~ ~ 0 1012
+More of the same.
+~
+~
+Door        up~ ~ 0 1037
+More of the same.
+~
+~
+Door        down~ ~ 0 3057
+More of the same
+~
+~
+End
+
+#1018
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Market Square.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1017
+More of the same.
+~
+~
+Door        south~ ~ 0 1019
+More of the same.
+~
+~
+Door        west~ ~ 0 1013
+More of the same.
+~
+~
+Door        up~ ~ 0 1038
+More of the same.
+~
+~
+End
+
+#1019
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above Market and Commons.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Reset       M 1000 10 100
+Door        north~ ~ 0 1018
+More of the same.
+~
+~
+Door        south~ ~ 0 1020
+More of the same.
+~
+~
+Door        west~ ~ 0 1014
+More of the same.
+~
+~
+Door        up~ ~ 0 1039
+More of the same.
+~
+~
+End
+
+#1020
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above ground, overlooking the Common Square.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1019
+More of the same.
+~
+~
+Door        west~ ~ 0 1015
+More of the same.
+~
+~
+Door        up~ ~ 0 1040
+More of the same.
+~
+~
+End
+
+#1021
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above the ground just north of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        east~ ~ 0 1026
+More of the same.
+~
+~
+Door        south~ ~ 0 1022
+More of the same.
+~
+~
+Door        down~ ~ 0 1001
+More of the same.
+~
+~
+End
+
+#1022
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the west gate of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Reset       M 1000 10 100
+Door        north~ ~ 0 1021
+More of the same.
+~
+~
+Door        east~ ~ 0 1027
+More of the same.
+~
+~
+Door        south~ ~ 0 1023
+More of the same.
+~
+~
+Door        down~ ~ 0 1002
+More of the same.
+~
+~
+End
+
+#1023
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above west gate of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1022
+More of the same.
+~
+~
+Door        east~ ~ 0 1028
+More of the same.
+~
+~
+Door        south~ ~ 0 1024
+More of the same.
+~
+~
+Door        down~ ~ 0 1003
+More of the same.
+~
+~
+End
+
+#1024
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above wall road.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1023
+More of the same.
+~
+~
+Door        east~ ~ 0 1029
+More of the same.
+~
+~
+Door        south~ ~ 0 1025
+More of the same.
+~
+~
+Door        down~ ~ 0 1004
+More of the same.
+~
+~
+End
+
+#1025
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above wall road.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1024
+More of the same.
+~
+~
+Door        east~ ~ 0 1030
+More of the same.
+~
+~
+Door        down~ ~ 0 1005
+More of the same.
+~
+~
+End
+
+#1026
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        east~ ~ 0 1031
+More of the same.
+~
+~
+Door        south~ ~ 0 1027
+More of the same.
+~
+~
+Door        west~ ~ 0 1021
+More of the same.
+~
+~
+Door        down~ ~ 0 1006
+More of the same.
+~
+~
+End
+
+#1027
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the magic shop.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1026
+More of the same.
+~
+~
+Door        east~ ~ 0 1032
+More of the same.
+~
+~
+Door        south~ ~ 0 1028
+More of the same.
+~
+~
+Door        west~ ~ 0 1022
+More of the same.
+~
+~
+Door        down~ ~ 0 1007
+More of the same.
+~
+~
+End
+
+#1028
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above main street.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1027
+More of the same.
+~
+~
+Door        east~ ~ 0 1033
+More of the same.
+~
+~
+Door        south~ ~ 0 1029
+More of the same.
+~
+~
+Door        west~ ~ 0 1023
+More of the same.
+~
+~
+Door        down~ ~ 0 1008
+More of the same.
+~
+~
+End
+
+#1029
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the mage guild.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1028
+More of the same.
+~
+~
+Door        east~ ~ 0 1034
+More of the same.
+~
+~
+Door        south~ ~ 0 1030
+More of the same.
+~
+~
+Door        west~ ~ 0 1024
+More of the same.
+~
+~
+Door        down~ ~ 0 1009
+More of the same.
+~
+~
+End
+
+#1030
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above poor alley.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1029
+More of the same.
+~
+~
+Door        east~ ~ 0 1035
+More of the same.
+~
+~
+Door        west~ ~ 0 1025
+More of the same.
+~
+~
+Door        down~ ~ 0 1010
+More of the same.
+~
+~
+End
+
+#1031
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above the ground north of Midgaard.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        east~ ~ 0 1036
+More of the same.
+~
+~
+Door        south~ ~ 0 1032
+More of the same.
+~
+~
+Door        west~ ~ 0 1026
+More of the same.
+~
+~
+Door        down~ ~ 0 1011
+More of the same.
+~
+~
+End
+
+#1032
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above bakery and cleric guild.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1031
+More of the same.
+~
+~
+Door        east~ ~ 0 1037
+More of the same.
+~
+~
+Door        south~ ~ 0 1033
+More of the same.
+~
+~
+Door        west~ ~ 0 1027
+More of the same.
+~
+~
+Door        down~ ~ 0 1012
+More of the same.
+~
+~
+End
+
+#1033
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above main street.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1032
+More of the same.
+~
+~
+Door        east~ ~ 0 1038
+More of the same.
+~
+~
+Door        south~ ~ 0 1034
+More of the same.
+~
+~
+Door        west~ ~ 0 1028
+More of the same.
+~
+~
+Door        down~ ~ 0 1013
+More of the same.
+~
+~
+End
+
+#1034
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 40 meters above the armoury.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Reset       M 1001 3 100
+Door        north~ ~ 0 1033
+More of the same.
+~
+~
+Door        east~ ~ 0 1039
+More of the same.
+~
+~
+Door        south~ ~ 0 1035
+More of the same.
+~
+~
+Door        west~ ~ 0 1029
+More of the same.
+~
+~
+Door        down~ ~ 0 1014
+More of the same.
+~
+~
+End
+
+#1035
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above poor alley.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1034
+More of the same.
+~
+~
+Door        east~ ~ 0 1040
+More of the same.
+~
+~
+Door        west~ ~ 0 1030
+More of the same.
+~
+~
+Door        down~ ~ 0 1015
+More of the same.
+~
+~
+End
+
+#1036
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 30 meters above the temple spire.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        south~ ~ 0 1037
+More of the same.
+~
+~
+Door        west~ ~ 0 1031
+More of the same.
+~
+~
+Door        up~ ~ 0 1900
+You see a fabulous rainbow!
+~
+~
+Door        down~ ~ 0 1016
+More of the same.
+~
+~
+End
+
+#1037
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above the temple square.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1036
+More of the same.
+~
+~
+Door        south~ ~ 0 1038
+More of the same.
+~
+~
+Door        west~ ~ 0 1032
+More of the same.
+~
+~
+Door        down~ ~ 0 1017
+More of the same.
+~
+~
+End
+
+#1038
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above market square.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1037
+More of the same.
+~
+~
+Door        south~ ~ 0 1039
+More of the same.
+~
+~
+Door        west~ ~ 0 1033
+More of the same.
+~
+~
+Door        down~ ~ 0 1018
+More of the same.
+~
+~
+End
+
+#1039
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above market square and commons square.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1038
+More of the same.
+~
+~
+Door        south~ ~ 0 1040
+More of the same.
+~
+~
+Door        west~ ~ 0 1034
+More of the same.
+~
+~
+Door        down~ ~ 0 1019
+More of the same.
+~
+~
+End
+
+#1040
+Name        In the air ...~
+Descr
+You are flying!
+Currently you are about 60 meters above commoners square and the dump.
+It seems like you can see forever!
+~
+Flags       ~
+Sector      air~
+Regen       100 100
+Door        north~ ~ 0 1039
+More of the same.
+~
+~
+Door        west~ ~ 0 1035
+More of the same.
+~
+~
+Door        down~ ~ 0 1020
+More of the same.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

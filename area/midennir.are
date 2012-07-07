@@ -1,0 +1,1224 @@
+#AREADATA
+Name        Miden'nir~
+Author      Copper~
+Levels      5 15
+Security    1
+VNUMs       3500 3585
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#3500
+Name        wyvern~
+Short       the wyvern~
+Long
+A monstrous wyvern slowly circles just above your head.
+~
+Descr
+This huge winged creature looks really menacing.  You are happy it doesn't
+APPEAR to be very hungry ... yet.
+~
+Act         stay_area~
+AffectBy    detect_invis~
+Alignment   -200
+Level       8
+Race        Bat~
+Sex         neutral~
+Spec        spec_poison~
+End
+
+#3501
+Name        goblin mountain~
+Short       the goblin~
+Long
+A mountain goblin is wandering about, mumbling to himself.
+~
+Descr
+You see before you a small and twisted creature with knotted muscles.
+~
+Act         aggressive stay_area train~
+AffectBy    ~
+Alignment   -500
+Level       6
+Race        Goblin~
+Sex         male~
+End
+
+#3502
+Name        boy small~
+Short       the small boy~
+Long
+A small boy sits here, licking his wounds.
+~
+Descr
+The poor boy has numerous cuts and scratches, but appears to be all right.
+He is apparently the only survivor of the ambush.
+~
+Act         sentinel wimpy~
+AffectBy    ~
+Alignment   500
+Level       4
+Race        Halfdwarf~
+Sex         male~
+End
+
+#3503
+Name        innkeeper~
+Short       the Innkeeper~
+Long
+The Innkeeper stands here, cleaning glasses.
+~
+Descr
+The Innkeeper now spends most of his days waiting for customers, while the
+nights are spent watching out for goblins.  His inn is no longer the happy
+place that is used to be in days past.
+~
+Act         sentinel stay_area~
+AffectBy    ~
+Alignment   400
+Level       10
+Race        Human~
+Sex         male~
+End
+
+#3504
+Name        bard~
+Short       the bard~
+Long
+A sullen bard is here, drinking away his problems.
+~
+Descr
+You can smell the alcohol on his breath from across the room.  This poor bard
+has been sitting here quite a while, drinking himself into oblivion.
+~
+Act         sentinel stay_area~
+AffectBy    detect_invis~
+Alignment   600
+Level       8
+Race        Hobbit~
+Sex         male~
+End
+
+#3505
+Name        horseman dark~
+Short       the dark horseman~
+Long
+A dark horseman is here, mounted on his black steed.
+~
+Descr
+The man is obviously an outlaw, and has no qualms about slashing you into
+little bits.
+~
+Act         scavenger stay_area wimpy~
+AffectBy    sneak~
+Alignment   -900
+Level       8
+Race        Drow~
+Sex         male~
+End
+
+#3506
+Name        goblin lieutenant~
+Short       the goblin lieutenant~
+Long
+A goblin lieutenant stands here, attempting to get his men in order.
+~
+Descr
+The goblin lieutenant is rather angry, and looking for one of his men to
+beat up upon, but maybe you will do just fine ...
+~
+Act         aggressive stay_area train~
+AffectBy    ~
+Alignment   -600
+Level       7
+Race        Goblin~
+Sex         male~
+End
+
+#3507
+Name        goblin leader~
+Short       the goblin leader~
+Long
+The goblin leader surveys the room.
+~
+Descr
+The leader doesn't look too happy that you have found him here.  He grabs
+for his shortsword and lunges for your neck.
+~
+Act         sentinel scavenger aggressive stay_area train~
+AffectBy    detect_invis~
+Alignment   -900
+Level       9
+Race        Goblin~
+Sex         male~
+End
+
+#0
+
+
+
+#OBJDB
+#0
+
+
+
+#ROOMDB
+#3500
+Name        The Plains~
+Descr
+You are standing on the plains. This is a vast desolate place where the
+wind can howl undisturbed since nothing but you bars its way. However you
+are not the first to wander here. Before you somebody has left a small path.
+The path looks rather bewildered and is not the kind of path to lead to
+anywhere significant or important but it seems to have made up its mind to
+enter the hills far away north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ 0 4000
+~
+~
+Door        south~ ~ 0 3501
+~
+~
+End
+
+#3501
+Name        The Lane~
+Descr
+You are strolling along a pleasant, shady lane. The road is lined on both
+sides by tall, stately trees which lend the scene with a sense of quiet
+serenity. You can follow the road north or south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ 0 3500
+~
+~
+Door        south~ ~ 0 3502
+~
+~
+End
+
+#3502
+Name        The Cross Roads~
+Descr
+The roads cross here.  Midgaard is to the west.  To the east, you see the
+stately oaks and poplars of the holy grove.  A wide path leads south through
+the dwarven forest, and another path leads down.  To the north is a very
+desolate trail.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ 0 3501
+~
+~
+Door        east~ ~ 0 8904
+~
+~
+Door        south~ ~ 0 5261
+~
+~
+Door        west~ ~ 0 3503
+~
+~
+Door        down~ ~ 0 6500
+~
+~
+End
+
+#3503
+Name        City Entrance~
+Descr
+You stand on the outskirts of a large city - Midgaard; the capital of this
+land. The road leads east into the peace and quiet - and dangers - of the
+forest; and to the west it becomes the main street of the town; surrounded by
+a confusion of shops, bars, and market places.  Another path wanders off to
+the south.
+~
+Flags       no_mob~
+Sector      city~
+Regen       100 100
+Door        east~ ~ 0 3502
+~
+~
+Door        south~ ~ 0 1501
+~
+~
+Door        west~ ~ 0 3053
+~
+~
+End
+
+#3504
+Name        The South Bridge~
+Descr
+You are standing on a small, rickety bridge leading from the Midgaard
+City Dump, to the forest of Miden'nir (Goblinic for Green Blood). You can
+smell the Dump to the north, or go south where there is fresh air and
+greenery.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+ExtraDescr  credits credit author~
++-------------------------------------------------+
+| This area originally written for Copper II DIKU |
+|   by ?                                          |
+| Modifications and alterations for MERCmud DIKU  |
+|   by VampLestat                        1 JAN 93 |
++-------------------------------------------------+
+~
+Door        north~ ~ 0 3030
+You can see the clutter of the City Dump.
+~
+~
+Door        south~ ~ 0 3505
+If you go south, you will enter the Miden'nir.
+~
+~
+End
+
+#3505
+Name        The Trail to Miden'nir~
+Descr
+You are in a light forest. A path leads south, but the passage to the
+east is easy enough. To the west, smoke can be seen rising above the
+treetops. The sprawl of Midgaard lies north of here.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3504
+To the north, you see the bridge to Midgaard.
+~
+~
+Door        east~ ~ 0 3506
+More light forest.
+~
+~
+Door        south~ ~ 0 3507
+This path cuts through the darkness of the Miden'nir.
+~
+~
+Door        west~ ~ 0 3570
+The Woodsman's Inn.
+~
+~
+End
+
+#3506
+Name        The Miden'nir~
+Descr
+You are in a dark forest. To the east, mountains block passage. From
+here, only the lighter forest to the west or south offer a way to travel.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 3501 8 100
+Door        east~ ~ -1 3550
+~
+~
+Door        south~ ~ 0 3509
+The forest is darker to the south.
+~
+~
+Door        west~ ~ 0 3505
+The forest gets lighter as you go west.
+~
+~
+End
+
+#3507
+Name        The Miden'nir~
+Descr
+The forest is deep here and the wind blows through the trees and
+through your hair. To the north, the forest gets lighter. However, the
+southern and western paths place you even deeper in the wood.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3505
+The forest is lighter in this direction.
+~
+~
+Door        south~ ~ 0 3510
+More and darker woods.
+~
+~
+Door        west~ ~ 0 3508
+There is a small path leading west.
+~
+~
+End
+
+#3508
+Name        On a Small Path~
+Descr
+A path is here, leading east and south through the dark woods of
+Miden'nir. Mountains slash the scenery to the west of here.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 3507
+Wind-swept forest.
+~
+~
+Door        south~ ~ 0 3511
+To the south, the trail continues.
+~
+~
+End
+
+#3509
+Name        The Miden'nir~
+Descr
+The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods. The trees become too thick to the west, but you may go
+north, south or travel toward the mountains that lie east of here.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 3501 8 100
+Door        north~ ~ 0 3506
+The trees lighten up a bit this way.
+~
+~
+Door        east~ ~ 0 3512
+Huge grey mountains lie in this direction.
+~
+~
+Door        south~ ~ 0 3514
+The forest continues.
+~
+~
+End
+
+#3510
+Name        A Crossroads~
+Descr
+Here footworn paths meet leading north, south and east. The trees seem to
+be closing in on you at this point, and you can barely see the sky
+through the thick branches above your head.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3507
+Trees as far as the eye can see.
+~
+~
+Door        east~ ~ 0 3514
+There is an especially dark part of the forest this way.
+~
+~
+Door        south~ ~ 0 3516
+There is an especially dark section of forest this way.
+~
+~
+End
+
+#3511
+Name        The Trail~
+Descr
+You are on a north-south trail through the woods. To the west, impassable
+mountains glare at you, and the thick woods and undergrowth prevent any
+movement westward.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3508
+The trail bends to the north.
+~
+~
+Door        south~ ~ 0 3515
+To the south, the path re-enters the forest.
+~
+~
+End
+
+#3512
+Name        The Miden'nir~
+Descr
+The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods. You can go north toward the mountains, or west to the
+forest, but the steep mountains prevent any movement east.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 3501 8 100
+Reset       M 3501 8 100
+Door        north~ ~ -1 3550
+~
+~
+Door        south~ ~ 0 3513
+A light section of forest.
+~
+~
+Door        west~ ~ 0 3509
+The forest continues here.
+~
+~
+End
+
+#3513
+Name        The Miden'nir~
+Descr
+The forest is dark, and becomes even darker west.  You sense
+that there is something evil hidden in these woods.  The forest gets
+lighter to the north.  The wind kicks up as you ponder your options.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 3501 8 100
+Door        north~ ~ 0 3512
+There is a small clearing to the north.
+~
+~
+Door        west~ ~ 0 3514
+It gets darker and thicker this way.
+~
+~
+End
+
+#3514
+Name        Deep Forest~
+Descr
+It is quite dark here, forest surrounds you. With each step, the forest
+seems to close around you, and get darker and more foreboding.  It might just
+be time to head back to somewhere safe.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3509
+More forest.
+~
+~
+Door        east~ ~ 0 3513
+Lighter forest and mountains in the distance.
+~
+~
+Door        south~ ~ 0 3517
+More trees.
+~
+~
+Door        west~ ~ 0 3510
+The forest continues.
+~
+~
+End
+
+#3515
+Name        Light Forest~
+Descr
+The forest is light here and you can easily pick your way through the 
+trail.  To the east, the forest becomes thick and darker. South, the trail
+continues.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3511
+A trail leading north-south.
+~
+~
+Door        east~ ~ 0 3516
+The trees get thicker as you go east.
+~
+~
+Door        south~ ~ 0 3518
+More trees and some small hills.
+~
+~
+End
+
+#3516
+Name        Muddy Ground~
+Descr
+The ground is quite muddy here and puddles are all around. Your boots
+make a disgusting SQUISH as you walk here. You can go in any of the
+four cardinal directions from here. Hopefully, it will be dryer.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3510
+The Miden'nir continues.
+~
+~
+Door        east~ ~ 0 3517
+More trees.
+~
+~
+Door        south~ ~ 0 3519
+The trees get VERY thick to the south. You can barely see...
+~
+~
+Door        west~ ~ 0 3515
+Some light trees and daylight.
+~
+~
+End
+
+#3517
+Name        Near the Mountains~
+Descr
+The most prominent feature here is the mountains that lie to the east.
+You can only go north and west from here as the rocks stop all other
+movement.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3514
+Many trees to the north.
+~
+~
+Door        west~ ~ 0 3516
+There is a bit of a slope downward to the west.
+~
+~
+End
+
+#3518
+Name        The Fading Trail~
+Descr
+The trail becomes nearly unpassable here. You can go north
+as the forest is relatively light. To the south, you can see a path.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3515
+You can see a trail this way.
+~
+~
+Door        east~ ~ 0 0
+The trees are nearly trunk-to-trunk this way.
+~
+~
+Door        south~ ~ 0 3522
+Dark forests.
+~
+~
+End
+
+#3519
+Name        The Dark Path~
+Descr
+You are hemmed in by trees on either side of you.  The path
+continues north and south, and while is much to thick to explore west,
+you can head off into the woods to the west.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3516
+The forest gets lighter this way.
+~
+~
+Door        east~ ~ 0 3520
+The forest continues.
+~
+~
+Door        south~ ~ 0 3521
+There is a strong stench coming from this direction.
+~
+~
+Door        west~ ~ 0 0
+The trees are nearly trunk-to-trunk this way.
+~
+~
+End
+
+#3520
+Name        The Dark Forest~
+Descr
+You stomp your way through the underbrush.  The dark forest of Miden'nir
+get pretty thick here, and the branches high above your head are so thick that
+they block out all direct sunlight.  While it is much too thick to go
+further east, you might be able to make your way though the forest to the
+south and west.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        south~ ~ 0 3523
+The thick forest continues.
+~
+~
+Door        west~ ~ 0 3519
+The thick forest continues.
+~
+~
+End
+
+#3521
+Name        Carnage~
+Descr
+Here, you see a gruesome sight. Blood is everywhere... on the trees and
+soaked into the ground. Two carcasses lie in front of you, seeming to look
+up at you. You can see the remains of a fierce battle to the south, and more
+of the forest north, east, and west.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+ExtraDescr  carcass body corpse carcasses bodies corpses~
+The corpses looked as if they have been pierced by a large, jagged
+spear. The damage these people sustained is simply amazing. Worse, the
+lips on the bodies are a light shade of blue, hinting at poison in
+their systems.
+~
+Reset       M 3500 2 100
+Reset       M 3500 2 100
+Door        north~ ~ 0 3519
+Darkness...
+~
+~
+Door        east~ ~ 0 3523
+Your light does not extend that far.
+~
+~
+Door        south~ ~ 0 3585
+A bloody path.
+~
+~
+Door        west~ ~ 0 3522
+More dark forest.
+~
+~
+End
+
+#3522
+Name        Deep in the Forest of Miden'nir~
+Descr
+There is a sickening stench here. It smells of blood and death.
+To the north, you catch glimpses of daylight. To the east, you
+simply cannot see. The trees are close and stifling.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3518
+You see daylight and a trail to follow.
+~
+~
+Door        east~ ~ 0 3521
+The stench seems to becoming from this direction.
+~
+~
+End
+
+#3523
+Name        The Dark Forest~
+Descr
+The branches above you block out all direct sunlight, making the forest
+in this area rather dark.  The forest continues east, where it meets the
+mountains. The air is still and stuffy - a stench comes from the west and an
+ugly feeling causes the hair to rise on the back of your neck!
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3520
+It appears to get much darker that direction.
+~
+~
+Door        east~ ~ -1 3551
+~
+~
+Door        west~ ~ 0 3521
+The sky becomes lighter in this direction.
+~
+~
+End
+
+#3550
+Name        At The Foot of The Mountains~
+Descr
+You find yourself at the foot of the mountains, where it is much to steep
+to continue north or east.  You see the lush, green forest of Miden'nir to the
+south and west.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ -1 3512
+The forest of Miden'nir spreads out before you.
+~
+~
+Door        west~ ~ -1 3506
+The forest of Miden'nir spreads out before you.
+~
+~
+End
+
+#3551
+Name        The Deep in the Forest of Miden'nir~
+Descr
+The branches above you block out all direct sunlight, making the forest
+in this area very dark.  The forest continues west, but mountains block
+further exploration in all other directions, except south, where you notice a
+small tunnel dug into the mountainside.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+Reset       M 3506 4 100
+Door        south~ ~ -1 3552
+~
+~
+Door        west~ ~ -1 3523
+~
+~
+End
+
+#3552
+Name        A Tunnel in the Mountains~
+Descr
+The walls of this tunnel were carved out many years ago by the goblins of
+this forest.  The floor is well worn, and continues south, into the
+mountain, or back north out into the forest.
+~
+Flags       dark~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 3551
+Outside, you see the forest of Miden'nir.
+~
+~
+Door        south~ ~ -1 3553
+The tunnel continues to the south.
+~
+~
+End
+
+#3553
+Name        A Tunnel in the Mountains~
+Descr
+The tunnel gets lighter to the north, presumably leading out, while to
+the south the passage gets smaller and smaller.  A small alcove has been
+carved into the east wall.
+~
+Flags       dark~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 3552
+The tunnel gets wider in this direction.
+~
+~
+Door        east~ ~ -1 3554
+You see a small alcove.
+~
+~
+Door        south~ ~ -1 3555
+The tunnel gets smaller in this direction.
+~
+~
+End
+
+#3554
+Name        A Small Alcove~
+Descr
+A small alcove has been carved out here.  There are a bunch of twigs
+and leaves thrown into a pile here, probably serving as a bed.
+~
+Flags       dark~
+Sector      city~
+Regen       100 100
+ExtraDescr  twigs leaves bead~
+The twigs and leaves have all been piled together as a makeshift bed for
+some small humanoid.
+~
+Door        west~ ~ -1 3553
+You see the main passageway.
+~
+~
+End
+
+#3555
+Name        A Tunnel in the Mountains~
+Descr
+As you explore further into the mountainside, the tunnel gets smaller and
+smaller to the south.  You almost have to hunch over to make your way thru
+this area.  A small archway to the south leads into a large chamber.
+~
+Flags       dark~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 3553
+The tunnel continues north.
+~
+~
+Door        south~ ~ -1 3556
+You see a small cavern.
+~
+~
+End
+
+#3556
+Name        The Goblin Headquarters~
+Descr
+The tunnel widens into a large (well, large for goblins) cavern that
+serves as the living quarters for the goblins of Miden'nir.  The bones of
+numbers woodland creatures are strewn about the room, the remanents of a
+recent meal.
+~
+Flags       dark~
+Sector      city~
+Regen       100 100
+Reset       M 3501 8 100
+Reset       M 3506 4 100
+Reset       M 3507 1 100
+Door        north~ ~ -1 3555
+The tunnel heads north.
+~
+~
+End
+
+#3570
+Name        The Front of the Inn~
+Descr
+You are standing on a well-worn path which opens into a clearing.
+An old, wooden building is here with smoke billowing from its
+chimney. A painted sign is visible on the porch to the west. You
+could go north or south around the building or leave this place and
+return to the forest.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+   The Woodsman
+~
+ExtraDescr  credits credit author~
++-------------------------------------------------+
+| This zone originally written for Copper II DIKU |
+|   by ?                                          |
+| Modification and alterations for MERCmud DIKU   |
+|   by VampLestat                        1 JAN 93 |
++-------------------------------------------------+
+~
+Door        north~ ~ 0 3571
+You can go north around the inn.
+~
+~
+Door        east~ ~ 0 3505
+Back through the trees to the Miden'nir.
+~
+~
+Door        south~ ~ 0 3572
+You can go south around the inn.
+~
+~
+Door        west~ ~ 0 3574
+The front door of the inn beckons.
+~
+~
+End
+
+#3571
+Name        North of the Inn~
+Descr
+You are standing north of the inn. Things don't look much different
+from this angle.  The air here is filled with smells of smoke and cooking.
+South, the front porch is waiting for you... or you can see if there is
+a back door.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        south~ ~ -1 3570
+You see the front of the Inn.
+~
+~
+End
+
+#3572
+Name        South of the Inn~
+Descr
+You are standing south of the inn.  You could easily go north and enter
+through the front door, or west and to the rear of the establishment.  You
+here some muffled cries from a tiny trail leading south of here.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3570
+This way leads to the front of the inn.
+~
+~
+Door        south~ ~ 0 3575
+The trail heads south.
+~
+~
+Door        west~ ~ 0 3573
+This way leads to the back of the inn.
+~
+~
+End
+
+#3573
+Name        Behind the Inn~
+Descr
+You now stand behind the inn. The smell here is not so pleasant as
+the keeper and his help throw a good deal of garbage here. A couple of
+piles of rubbish are to the west, but you will smell the worse for
+meddling there. As a clean alternative, you can go north or east around
+the inn.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 3572
+You can go around the inn this way.
+~
+~
+Door        west~ ~ 0 3578
+Only rats and fool adventurers play in garbage.
+~
+~
+End
+
+#3574
+Name        The Woodsman Inn~
+Descr
+You are in the common room of the Woodsman Inn. A thin haze of smoke sits
+in the air here. The Inn is often empty, as the forest has become overrun by
+goblins as of late, and it is no longer safe in these parts. The bar is just
+north of here. If you'd rather have your own table, one is empty to the
+south.
+~
+Flags       no_mob indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ 0 3576
+The bar is here, manned by the innkeeper.
+~
+~
+Door        east~ ~ 0 3570
+You can leave now and return to fresher air.
+~
+~
+Door        south~ ~ 0 3579
+An empty table is a rare commodity.
+~
+~
+Door        west~ ~ 0 3577
+~
+~
+End
+
+#3575
+Name        The Ambush Point~
+Descr
+This is a overgrown foot-trail south of the inn. It leads west, but you
+would be hard pressed to follow it far. A number of bushes are trampled on
+and some medium sized branches have been knocked down.  Obviously there has
+been a battle here rather recently.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 3502 1 100
+Door        north~ ~ 0 3572
+The inn lies to the north.
+~
+~
+Door        west~ ~ 0 3581
+A trail thru the woods.
+~
+~
+End
+
+#3576
+Name        The Bar~
+Descr
+This is where people use to come and enjoy the food, drink and hospitality
+of the innkeeper, but as of late, he only serves the few adventurers that
+manage to survive a trip thru the forest. You can leave south and return to the
+common room.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 3503 1 100
+Door        south~ ~ 0 3574
+You may retreat south back to the common room.
+~
+~
+End
+
+#3577
+Name        The Bard's Table~
+Descr
+You are in a darker corner in the Inn.  A large round table with a few
+wooden chairs sits here.  There is a large stain on the table, the remnants
+of a spilled drink.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 3504 1 100
+Door        east~ ~ 0 3574
+You see the main floor of the Inn to the east.
+~
+~
+End
+
+#3578
+Name        Garbage dump~
+Descr
+You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows
+what vermin live in these piles of filth ...
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 3573
+You can return to cleaner lands this way.
+~
+~
+End
+
+#3579
+Name        A Quieter Section of the Inn~
+Descr
+There seems to be no one in this end of the Woodsman, probably a safe place
+to rest and lick your wounds ...
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 3574
+You see the common room.
+~
+~
+End
+
+#3581
+Name        On the Trail of the Horsemen~
+Descr
+The path continues east and west of here.  You notice fresh tracks in
+the soft ground that show the horsemen fled to the west.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 3575
+Back to ambush point.
+~
+~
+Door        west~ ~ -1 3582
+The trail continues.
+~
+~
+End
+
+#3582
+Name        On the Trail of the Horsemen~
+Descr
+The path continues east and south.  You notice fresh tracks in
+the soft ground that show the horsemen turned, and fled south.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 3581
+The trail continues.
+~
+~
+Door        south~ ~ -1 3583
+The tracks lead south.
+~
+~
+End
+
+#3583
+Name        On the Trail of the Horsemen~
+Descr
+The trail of the horsemen continues east and north along this path through
+the forest.  The tracks are still fresh, so they must be near.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 3582
+The trail continues.
+~
+~
+Door        west~ ~ -1 3584
+The tracks lead east.
+~
+~
+End
+
+#3584
+Name        A Dead End Trail~
+Descr
+The path comes to an abrupt end here, as the trees close around you and
+make any further exploration impossible.  Fresh tracks cover the ground, and
+end right here.  The horsemen must be nearby.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 3505 4 100
+Reset       M 3505 4 100
+Door        east~ ~ 0 3583
+Back to along the trail.
+~
+~
+End
+
+#3585
+Name        A Desolated Road~
+Descr
+A fierce fighting has ravaged this road.  Trees and grasses have either
+been chopped up by a missed slash, burned by a stray fireball, or stomped
+upon by battle-frenzied warriors.  The path clears to the west where you
+see glimpses of smoke and a village.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 3521
+Back to the carnage.
+~
+~
+Door        west~ ~ 0 8200
+On toward a village.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

@@ -1,0 +1,1164 @@
+#AREADATA
+Name        Land of the Fire Newts~
+Author      Nirrad~
+Levels      5 15
+Security    1
+VNUMs       2900 2931
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#2901
+Name        black mountain goat~
+Short       a mountain goat~
+Long
+A mountain goat is standing here.
+~
+Descr
+It looks hungry and searches for food.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -100
+Level       2
+Race        Animal~
+Sex         male~
+End
+
+#2902
+Name        black mountain ewe~
+Short       a mountain ewe~
+Long
+A mountain ewe is standing here.
+~
+Descr
+The ewe is watching her young.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -100
+Level       2
+Race        Animal~
+Sex         female~
+End
+
+#2903
+Name        black mountain kid~
+Short       a mountain kid~
+Long
+A mountain kid is standing here.
+~
+Descr
+The kid is playing with its siblings.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -100
+Level       1
+Race        Animal~
+Sex         neutral~
+End
+
+#2904
+Name        fire newt worker~
+Short       a fire newt worker~
+Long
+A fire newt worker is standing here.
+~
+Descr
+The fire newt worker looks hot and sweaty.
+~
+Act         scavenger aggressive stay_area~
+AffectBy    ~
+Alignment   -400
+Level       2
+Race        Lizard~
+Sex         male~
+End
+
+#2905
+Name        fire newt guard~
+Short       a fire newt guard~
+Long
+A fire newt guard is standing here.
+~
+Descr
+The fire newt guard thinks you would be better dead.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -450
+Level       3
+Race        Lizard~
+Sex         male~
+End
+
+#2906
+Name        fire newt worker~
+Short       a fire newt worker~
+Long
+A fire newt worker is standing here.
+~
+Descr
+The fire newt worker looks hot and sweaty.
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   -400
+Level       2
+Race        Lizard~
+Sex         female~
+End
+
+#2907
+Name        fire newt guard~
+Short       fire newt guard~
+Long
+A fire newt guard is standing here.
+~
+Descr
+The fire newt guard wants to kill you!
+~
+Act         aggressive stay_area~
+AffectBy    ~
+Alignment   -450
+Level       3
+Race        Lizard~
+Sex         female~
+End
+
+#2908
+Name        fire newt mother~
+Short       a fire newt mother~
+Long
+A fire newt mother is standing here.
+~
+Descr
+The fire newt mother is watching her kids.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -355
+Level       2
+Race        Lizard~
+Sex         female~
+End
+
+#2909
+Name        fire newt baby~
+Short       a fire newt baby~
+Long
+A fire newt baby is crawling here.
+~
+Descr
+The fire newt baby is crawling and drooling here.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   -350
+Level       0
+Race        Lizard~
+Sex         neutral~
+End
+
+#2910
+Name        fire newt sergeant~
+Short       a fire newt sergeant~
+Long
+A fire newt sergeant patrols this area.
+~
+Descr
+He's just found something that doesn't belong here!
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -500
+Level       5
+Race        Lizard~
+Sex         male~
+End
+
+#2911
+Name        fire newt general~
+Short       a fire newt general~
+Long
+A fire newt general is standing here.
+~
+Descr
+The fire newt general grins evilly at you.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -700
+Level       8
+Race        Lizard~
+Sex         male~
+End
+
+#2912
+Name        fire newt leader~
+Short       a fire newt leader~
+Long
+A fire newt leader is standing here.
+~
+Descr
+The fire newt leader screams, 'I'm going to hose you!'
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       13
+Race        Lizard~
+Sex         male~
+End
+
+#2913
+Name        fire newt priest~
+Short       a fire newt priest~
+Long
+A fire newt priest is standing here.
+~
+Descr
+The fire newt priest is preparing for worship.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       10
+Race        Lizard~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#2914
+Name        fire lizard~
+Short       a fire lizard~
+Long
+A fire lizard is crawling here.
+~
+Descr
+The fire lizard flicks its tongue at you.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis~
+Alignment   -100
+Level       11
+Race        Snake~
+Sex         neutral~
+Spec        spec_breath_fire~
+End
+
+#0
+
+
+
+#OBJDB
+#2901
+Name        horns~
+Short       horns~
+Descr
+A set of horns lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 6~ 7~ 0~
+Weight      2
+End
+
+#2902
+Name        bladder milk~
+Short       milk bladder~
+Descr
+A milk bladder lies here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      20~ 20~ 10~ 0~ 0~
+Weight      1
+End
+
+#2903
+Name        shovel~
+Short       shovel~
+Descr
+A shovel lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 6~ 7~ 0~
+Weight      2
+End
+
+#2904
+Name        short sword~
+Short       short sword~
+Descr
+A short sword lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 6~ 11~ 0~
+Weight      3
+End
+
+#2905
+Name        hand axe~
+Short       hand axe~
+Descr
+A hand axe lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 6~ 3~ 0~
+Weight      3
+End
+
+#2906
+Name        chainmail~
+Short       chainmail~
+Descr
+A chainmail shirt lies here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      10
+End
+
+#2907
+Name        pick~
+Short       pick~
+Descr
+A pick lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 9~ 11~ 0~
+Weight      2
+End
+
+#2911
+Name        broad axe~
+Short       broad axe~
+Descr
+A broad axe lies here.~
+Type        weapon~
+Extra       magic anti-good~
+Wear        take wield~
+Values      0~ 2~ 8~ 3~ 0~
+Weight      15
+Affect      hitroll~ 1 ~
+Affect      damroll~ 2 ~
+End
+
+#2912
+Name        leather suit~
+Short       leather suit~
+Descr
+A leather suit lies here.~
+Type        armor~
+Extra       glow magic~
+Wear        take body~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      dexterity~ 1 ~
+End
+
+#2913
+Name        mace~
+Short       mace~
+Descr
+A mace lies here.~
+Type        weapon~
+Extra       hum magic~
+Wear        take wield~
+Values      0~ 2~ 6~ 6~ 0~
+Weight      10
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#2914
+Name        potion~
+Short       orange potion~
+Descr
+An orange potion lies here.~
+Type        potion~
+Extra       magic~
+Wear        take~
+Values      10~ dispel evil~ curse~ heal~  ~
+Weight      1
+End
+
+#2915
+Name        egg newt~
+Short       a newt egg~
+Descr
+A newt egg lies here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#0
+
+
+
+#ROOMDB
+#2900
+Name        Obsidian hills~
+Descr
+You see before you some shiny black hills. There is very little vegetation
+here. The hills appear to lead to a high mountain to the south east
+~
+Flags       no_mob~
+Sector      forest~
+Regen       100 100
+ExtraDescr  hills~
+The hills are a very shiny black color.
+~
+Door        north~ ~ 0 4785
+You see a path leading back towards the Turning Point.
+~
+~
+Door        south~ ~ 0 2901
+You see some more hills.  They continue south.
+~
+~
+End
+
+#2901
+Name        Obsidian hills~
+Descr
+You see before you some shiny black hills. There is very little vegetation
+here. The hills appear to lead to a high mountain to the south east
+~
+Flags       no_mob~
+Sector      forest~
+Regen       100 100
+ExtraDescr  hills~
+The hills are a very shiny black color.
+~
+Door        north~ ~ 0 2900
+You see some hills to the north.
+~
+~
+Door        south~ ~ 0 2902
+You see some more hills to the south.
+~
+~
+End
+
+#2902
+Name        Obsidian hills~
+Descr
+You see before you some shiny black hills. There is very little vegetation
+here. The hills appear to lead to a high mountain to the south east
+~
+Flags       no_mob~
+Sector      forest~
+Regen       100 100
+ExtraDescr  hills~
+They are a very shiny black color.
+~
+Door        north~ ~ 0 2901
+You see some hills to the north.
+~
+~
+Door        east~ ~ 0 2903
+You see the side of the mountain to the east.
+~
+~
+End
+
+#2903
+Name        Mountain side~
+Descr
+The mountain is very high and looks to be quite old. There are a few cracks
+in the side of the mountain
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+ExtraDescr  mountain~
+The mountain looks like it was formed from something sliding down and stopping.
+~
+Reset       M 2901 2 100
+Reset       E 2901 16 100
+Door        south~ ~ 0 2904
+The mountain continues.
+~
+~
+Door        west~ ~ 0 2902
+You see some hills to the west.
+~
+~
+End
+
+#2904
+Name        Mountain side~
+Descr
+The mountain is very high and looks to be quite old. There is smoke coming
+from the top of the mountain.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+ExtraDescr  smoke~
+The smoke is grey and puffs out of the top of the mountain.
+~
+Reset       M 2901 2 100
+Reset       E 2901 16 100
+Reset       M 2902 2 100
+Reset       E 2902 -1 100
+Reset       M 2902 2 100
+Reset       E 2902 -1 100
+Reset       M 2903 6 100
+Reset       M 2903 6 100
+Reset       M 2903 6 100
+Reset       M 2903 6 100
+Reset       M 2903 6 100
+Reset       M 2903 6 100
+Door        north~ ~ 0 2903
+You see mountains to the north.
+~
+~
+Door        south~ ~ 0 2905
+The mountain continues.
+~
+~
+End
+
+#2905
+Name        Mountain top~
+Descr
+You've reached the top of the mountain. You can see more smoke from up here.
+The smoke seems to come from a hole to the south.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+ExtraDescr  top of mountain~
+The top of the mountain is a large area with a hole in the middle.
+~
+ExtraDescr  smoke~
+The smoke is grey and is coming from the hole.
+~
+Door        north~ ~ 0 2904
+You see the side of the mountain to the north.
+~
+~
+Door        south~ ~ 0 2906
+You see a hole to the south. It looks like an entrance.
+~
+~
+End
+
+#2906
+Name        Entrance to the mountain~
+Descr
+The smoke comes from inside the hole.  It also looks like there is a path
+that leads down.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2905
+You see the top of the mountain to the north.
+~
+~
+Door        east~ ~ 0 2907
+You see the top of the mountain to the east.
+~
+~
+Door        south~ ~ 0 2909
+You see the top of the mountain to the south.
+~
+~
+Door        west~ ~ 0 2908
+You see the top of the mountain to the west.
+~
+~
+Door        down~ ~ 0 2910
+You can see down inside the mountain.
+~
+~
+End
+
+#2907
+Name        Mountain top~
+Descr
+You are standing at the top of the mountain. The mountain looks like it has
+been ravaged by something.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Door        west~ ~ 0 2906
+You see the entrance to the mountain to the west.
+~
+~
+End
+
+#2908
+Name        Mountain top~
+Descr
+You are standing at the top of the mountain. There are several cracks in the
+ground and you don't feel safe!
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 2906
+You see the entrance to the mountain to the north.
+~
+~
+End
+
+#2909
+Name        Mountain top~
+Descr
+You are standing on the top of the mountain and think you should move north.
+~
+Flags       no_mob~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2906
+You see the entrance to the mountain to the north.
+~
+~
+End
+
+#2910
+Name        Inside the mountain~
+Descr
+You are standing inside the mountain.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       E 2903 16 100
+Door        east~ ~ 0 2911
+You see guard barracks.
+~
+~
+Door        west~ ~ 0 2912
+You see guard barracks.
+~
+~
+Door        up~ ~ 0 2906
+Entrance to the mountain.
+~
+~
+Door        down~ ~ 0 2913
+The shaft continues down.
+~
+~
+End
+
+#2911
+Name        Guard room~
+Descr
+You are standing in a room with beds, tables, and fire newts!
+There are paintings on the wall.  They show battle scenes.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+ExtraDescr  beds~
+The beds are made of metal and rock.
+~
+ExtraDescr  chairs~
+The chairs are made of stone and look very heavy.
+~
+ExtraDescr  tables~
+The tables are long and wide.  They are made of stone and obviously too heavy
+to move.
+~
+Reset       M 2905 6 100
+Reset       E 2904 16 100
+Reset       M 2905 6 100
+Reset       E 2904 16 100
+Reset       M 2905 6 100
+Reset       E 2904 16 100
+Door        west~ ~ 0 2910
+You see the dark tunnel shaft.
+~
+~
+End
+
+#2912
+Name        Guard room~
+Descr
+You are standing in a room with beds, chairs, tables, and fire newts!
+There are paintings on the wall that show great leaders.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+ExtraDescr  beds~
+The beds are made of metal and rock.
+~
+ExtraDescr  chairs~
+The chairs are made of stone and look very heavy.
+~
+ExtraDescr  tables~
+The tables are long and wide.  They are made of stone and are obviously to
+heavy to move.
+~
+Reset       M 2905 6 100
+Reset       E 2905 16 100
+Reset       M 2905 6 100
+Reset       E 2904 16 100
+Reset       M 2905 6 100
+Reset       E 2905 16 100
+Door        east~ ~ 0 2910
+You see the shaft in the mountain.
+~
+~
+End
+
+#2913
+Name        Inside the mountain~
+Descr
+You are standing inside the mountain.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 2914
+You see a large storage room.
+~
+~
+Door        south~ ~ 0 2915
+You see workers' quarters.
+~
+~
+Door        up~ ~ 0 2910
+You see the dark mountain shaft.
+~
+~
+Door        down~ ~ 0 2916
+The shaft continues down.
+~
+~
+End
+
+#2914
+Name        Store room~
+Descr
+You see nothing special in this room.  There are some boxes and fire newt
+workers here.  There is also some trash piled up in the room.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       M 2904 10 100
+Reset       E 2903 16 100
+Door        south~ ~ 0 2913
+You see the dark mountain shaft.
+~
+~
+End
+
+#2915
+Name        Workers' quarters~
+Descr
+You are standing in the workers' quarters.  There are several workers here.  
+The room is messy and has nothing of value in it.  The party the night before
+must have destroyed everything.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2906 4 100
+Reset       E 2903 16 100
+Reset       M 2906 4 100
+Reset       E 2903 16 100
+Reset       M 2906 4 100
+Reset       M 2906 4 100
+Reset       O 2906 0 100
+Door        north~ ~ 0 2913
+You see the dark mountain shaft.
+~
+~
+End
+
+#2916
+Name        Bottom of the mountain~
+Descr
+You are standing at the bottom of the shaft.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       E 2903 16 100
+Door        north~ ~ 0 2917
+You see the dark tunnel.
+~
+~
+Door        up~ ~ 0 2913
+You see the mountain shaft.
+~
+~
+End
+
+#2917
+Name        The tunnel~
+Descr
+You are standing in a dry, dark tunnel.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       M 2907 6 100
+Reset       E 2904 16 100
+Door        north~ ~ 0 2918
+You see a bend in the tunnel.
+~
+~
+Door        south~ ~ 0 2916
+You see the bottom of the shaft.
+~
+~
+End
+
+#2918
+Name        Bend in the tunnel~
+Descr
+You are standing in a dark tunnel.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       E 2903 16 100
+Reset       M 2907 6 100
+Reset       E 2904 16 100
+Door        east~ ~ 0 2919
+The tunnel continues into the dark.
+~
+~
+Door        south~ ~ 0 2917
+You see that the tunnel leads back.
+~
+~
+End
+
+#2919
+Name        The tunnel~
+Descr
+You are standing in a dark tunnel.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       E 2903 16 100
+Reset       M 2907 6 100
+Reset       E 2905 16 100
+Door        north~ ~ 0 2921
+The tunnel continues into the dark.
+~
+~
+Door        east~ ~ 0 2920
+You see a small fire newt house.
+~
+~
+Door        west~ ~ 0 2918
+You see a bend in the tunnel.
+~
+~
+End
+
+#2920
+Name        Fire Newt House~
+Descr
+You are standing in a fire newt house.  There is a mother fire newt here
+playing with her children.  The room is full of newt toys- they look very
+boring.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2908 2 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Door        west~ ~ 0 2919
+You see the dark tunnel.
+~
+~
+End
+
+#2921
+Name        The tunnel~
+Descr
+You are standing in a dark tunnel.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       M 2904 10 100
+Reset       M 2907 6 100
+Reset       E 2905 16 100
+Door        north~ ~ 0 2923
+The tunnel continues on.
+~
+~
+Door        south~ ~ 0 2919
+The dark tunnel.
+~
+~
+Door        west~ ~ 0 2922
+You see a fire newt house.
+~
+~
+End
+
+#2922
+Name        Fire Newt House~
+Descr
+You are standing in a fire newt house.  There is a fire newt mother here
+playing with her children.  The room has several torn baby newt diapers here
+... how disgusting!
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2908 2 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Reset       M 2909 12 100
+Door        east~ ~ 0 2921
+You see the dark tunnel.
+~
+~
+End
+
+#2923
+Name        The tunnel~
+Descr
+You are standing in the dark tunnel.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2904 10 100
+Reset       E 2903 16 100
+Reset       M 2907 6 100
+Reset       E 2904 16 100
+Reset       M 2907 6 100
+Door        east~ ~ 0 2927
+You see a fire newt temple.
+~
+~
+Door        south~ ~ 0 2921
+You see the dark tunnel.
+~
+~
+Door        west~ ~ 0 2924
+You see the entrance to the town hall.
+~
+~
+End
+
+#2924
+Name        Entrance to the town hall~
+Descr
+You are standing in the entrance to the town hall.  The room is large and
+ornate.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2910 2 100
+Reset       E 2906 5 100
+Reset       E 2907 16 100
+Door        east~ ~ 0 2923
+You see the dark tunnel.
+~
+~
+Door        west~ ~ 0 2925
+You see a waiting room. 
+~
+~
+End
+
+#2925
+Name        The Waiting Room~
+Descr
+You are standing in the waiting room of the town hall.  There is a big door
+to the west.  The room has pictures of the villages history.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2911 4 100
+Reset       E 2906 5 100
+Reset       E 2907 16 100
+Reset       M 2911 4 100
+Reset       E 2906 5 100
+Reset       E 2907 16 100
+Door        east~ ~ 0 2924
+You see the entrance to the town hall.
+~
+~
+Door        west~ ~ 0 2926
+You see a large office.
+~
+~
+End
+
+#2926
+Name        The Leader's Office~
+Descr
+You are standing in the fire newt leader's office.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2912 1 100
+Reset       E 2911 16 100
+Reset       E 2912 5 100
+Door        east~ ~ 0 2925
+You see the waiting room.
+~
+~
+End
+
+#2927
+Name        Outside the temple~
+Descr
+You are standing outside the fire newt temple.  The temple has some very
+large arches and towers.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2910 2 100
+Reset       E 2906 5 100
+Reset       E 2907 16 100
+Door        east~ ~ 0 2928
+You see the entrance to the fire newt temple.
+~
+~
+Door        west~ ~ 0 2923
+You see the dark tunnel.
+~
+~
+End
+
+#2928
+Name        Entrance to the temple~
+Descr
+You are standing at the entrance to the temple.  The temple is very neat. 
+The sates are set in straight rows and the alter is very large.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2911 4 100
+Reset       E 2906 5 100
+Reset       E 2907 16 100
+Reset       M 2911 4 100
+Reset       E 2906 5 100
+Reset       E 2907 16 100
+Door        east~ door closed~ -1 2929
+You see the door, that leads to the inside of the temple.
+~
+door~
+Door        west~ ~ 0 2927
+You see the outside of the temple.
+~
+~
+End
+
+#2929
+Name        Inside the Temple~
+Descr
+You are standing inside the fire newt temple.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2913 1 100
+Reset       E 2913 16 100
+Door        west~ door closed~ -1 2928
+You see the door that leads to the temple entrance.
+~
+door~
+Door        down~ ~ 0 2930
+You see a large trap door.
+~
+~
+End
+
+#2930
+Name        The room before the doors~
+Descr
+You are standing before a pair of huge doors.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2914 2 100
+Reset       E 2914 -1 100
+Reset       M 2914 2 100
+Reset       E 2914 -1 100
+Door        east~ door~ -1 2931
+You see two large doors.
+~
+doors~
+Door        up~ ~ 0 2929
+You see the inside of the temple.
+~
+~
+End
+
+#2931
+Name        The Egg Room~
+Descr
+You are standing in a room that has several dozen piles of eggs.  There is
+a chest on the floor also.
+~
+Flags       dark no_mob indoors~
+Sector      field~
+Regen       100 100
+Reset       O 2915 0 100
+Door        west~ door~ -1 2930
+You see two large doors.
+~
+doors~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

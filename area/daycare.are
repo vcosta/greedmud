@@ -1,0 +1,704 @@
+#AREADATA
+Name        Dwarven Day Care~
+Author      Sandman~
+Levels      1 5
+Security    1
+VNUMs       6600 6647
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#6600
+Name        youth dwarven dwarf~
+Short       the dwarven youth~
+Long
+A young dwarf plays with a toy axe.
+~
+Descr
+This is a young but not totally harmless creature.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   -5
+Level       3
+Race        Dwarf~
+Sex         male~
+Spec        spec_thief~
+End
+
+#6601
+Name        teddy bear~
+Short       a teddy bear~
+Long
+A cute and fuzzy teddy bear stands here.
+~
+Descr
+This is a tiny little bear with a heart on his chest.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   500
+Level       1
+Race        Bear~
+Sex         male~
+Spec        spec_thief~
+End
+
+#6602
+Name        doll raggedy anne~
+Short       a raggedy anne doll~
+Long
+A raggedy anne doll is sitting here.
+~
+Descr
+You see a small little cute rag doll.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   300
+Level       2
+Race        Object~
+Sex         female~
+Spec        spec_thief~
+End
+
+#6603
+Name        soldier toy~
+Short       a toy soldier~
+Long
+A toy soldier is standing here.
+~
+Descr
+The toy is looking for target practice.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   -300
+Level       3
+Race        Object~
+Sex         male~
+Spec        spec_thief~
+End
+
+#6604
+Name        bear ugly~
+Short       the ugly bear~
+Long
+An ugly stuffed bear stands here.
+~
+Descr
+This is obviously a reject from the factory.
+He snarls and growls at you.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   -400
+Level       3
+Race        Bear~
+Sex         male~
+Spec        spec_thief~
+End
+
+#6605
+Name        doll old~
+Short       an old doll~
+Long
+An abused and old doll is here.
+~
+Descr
+This doll has been hugged and played with until there is almost nothing left.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   -2
+Level       1
+Race        Object~
+Sex         neutral~
+Spec        spec_thief~
+End
+
+#6606
+Name        nanny~
+Short       the nanny~
+Long
+An old wrinkled nanny stands here, looking over the little ones.
+~
+Descr
+You see an old dwarven lady who has been hunched over with age.  However, it
+appears that there is still some fight left in her.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   10
+Level       5
+Race        Dwarf~
+Sex         female~
+Spec        spec_cast_cleric~
+End
+
+#6607
+Name        guard~
+Short       the armed guard~
+Long
+An armed guard stands here looking lost.
+~
+Descr
+This is a big mean bully who is tired of being lost in this maze.
+You suddenly think that you had better flee.
+~
+Act         sentinel scavenger stay_area~
+AffectBy    detect_invis~
+Alignment   -800
+Level       8
+Race        Dwarf~
+Sex         male~
+End
+
+#6608
+Name        brat spoiled~
+Short       the spoiled brat~
+Long
+A spoiled brat is crying here.
+~
+Descr
+You see a little tyke who has always gotten what he wanted.  You have the
+biggest urge to put him out of his misery.
+~
+Act         sentinel scavenger stay_area~
+AffectBy    ~
+Alignment   -400
+Level       1
+Race        Dwarf~
+Sex         male~
+Spec        spec_thief~
+End
+
+#0
+
+
+
+#OBJDB
+#6600
+Name        axe toy~
+Short       a toy axe~
+Descr
+An axe made of plastic lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 6~ 3~ 0~
+Weight      15
+End
+
+#6601
+Name        ring pink ice~
+Short       a pink ice ring~
+Descr
+A pink ice ring draws your eye.~
+Type        armor~
+Extra       ~
+Wear        take finger~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      8
+Affect      strength~ 1 ~
+Affect      hp~ 6 ~
+End
+
+#6621
+Name        robe linen~
+Short       a linen robe~
+Descr
+A linen robe is crumpled into a ball here.~
+Type        armor~
+Extra       ~
+Wear        take about~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      wisdom~ 1 ~
+Affect      mana~ 5 ~
+End
+
+#6644
+Name        meat steak~
+Short       a juicy steak~
+Descr
+A juicy steak sits on a plate here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#6645
+Name        steak rotten~
+Short       a rotten steak~
+Descr
+A dry steak lies on the floor.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      4~ 0~ 0~ 1~ 0~
+Weight      5
+End
+
+#6646
+Name        potion amber~
+Short       an amber potion~
+Descr
+An amber potion sits in a corner.~
+Type        potion~
+Extra       ~
+Wear        take~
+Values      30~ cure light~ armor~  ~  ~
+Weight      1
+End
+
+#6647
+Name        gun toy~
+Short       a toy gun~
+Descr
+A toy gun with a sharp bayonet lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 2~ 3~ 7~ 0~
+Weight      5
+End
+
+#0
+
+
+
+#ROOMDB
+#6601
+Name        The Dwarven Drop Off~
+Descr
+This is where the dwarven mommies and daddies come to drop off their
+annoying little brats.  You have the urge to leave.  There is a sign here.
+~
+Flags       no_mob indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  sign~
+This is an area for newbies, so have fun.  -- Sandman
+~
+Door        north~ ~ -1 6500
+~
+~
+Door        south~ door~ -1 6602
+You see a large room full of noisy brats.
+~
+~
+End
+
+#6602
+Name        Day Care Center~
+Descr
+You are in the north-east corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a kitchen to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 6600 3 100
+Reset       E 6600 16 100
+Reset       M 6601 2 100
+Reset       M 6602 2 100
+Reset       M 6606 2 100
+Reset       E 6646 -1 100
+Reset       E 6644 -1 100
+Reset       E 6621 12 100
+Door        north~ ~ -1 6601
+You see the drop off.
+~
+~
+Door        east~ ~ -1 6626
+You see an extremely messy kitchen.
+~
+~
+Door        south~ ~ -1 6604
+You see a large room full of noisy brats.
+~
+~
+Door        west~ ~ -1 6603
+You see a large room full of noisy brats.
+~
+~
+End
+
+#6603
+Name        Day Care Center~
+Descr
+You are in the north-west corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a bathroom to the west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 6600 3 100
+Reset       E 6600 16 100
+Door        east~ ~ -1 6602
+You see a large room full of noisy brats.
+~
+~
+Door        south~ ~ -1 6605
+You see a large room full of noisy brats.
+~
+~
+Door        west~ ~ -1 6606
+You see a messy bathroom.
+~
+~
+End
+
+#6604
+Name        Day Care Center~
+Descr
+You are in the south-east corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a playground to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 6600 3 100
+Reset       E 6600 16 100
+Reset       M 6602 2 100
+Reset       M 6606 2 100
+Reset       E 6646 -1 100
+Reset       M 6605 2 100
+Door        north~ ~ -1 6602
+You see a large room full of noisy brats.
+~
+~
+Door        east~ ~ -1 6610
+You see the playground.
+~
+~
+Door        west~ ~ -1 6605
+You see a large room full of noisy brats.
+~
+~
+End
+
+#6605
+Name        Day Care Center~
+Descr
+You are in the south-west corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a staircase to the west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 6600 3 100
+Reset       E 6600 16 100
+Reset       M 6602 2 100
+Reset       E 6645 -1 100
+Reset       M 6605 2 100
+Reset       E 6601 1 100
+Door        north~ ~ -1 6603
+You see a large room full of noisy brats.
+~
+~
+Door        east~ ~ -1 6604
+You see a large room full of noisy brats.
+~
+~
+Door        west~ ~ -1 6607
+You see a staircase leading down.
+~
+~
+End
+
+#6606
+Name        The Messy Bathroom~
+Descr
+You hold your nose as you realize you have made the worst mistake of your
+life.  The air is rancid and the walls are stained.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 6605 3 100
+Reset       M 6601 3 100
+Door        east~ ~ -1 6603
+You see a large room full of noisy brats.
+~
+~
+End
+
+#6607
+Name        The Staircase~
+Descr
+You stand on top of a staircase leading down, and wonder what mystery could
+lie down under.  Beware!
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 6605
+You see a large room full of noisy brats.
+~
+~
+Door        down~ ~ -1 6612
+You see the entrance to something.
+~
+~
+End
+
+#6608
+Name        The Playground~
+Descr
+You are in the north-west corner of the playground.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 6600 2 100
+Reset       M 6603 3 100
+Reset       E 6647 16 100
+Door        east~ ~ -1 6609
+You see the playground.
+~
+~
+Door        south~ ~ -1 6610
+You see the playground.
+~
+~
+End
+
+#6609
+Name        The Playground~
+Descr
+You are in the north-east corner of the playground.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 6600 2 100
+Reset       M 6604 3 100
+Reset       M 6603 3 100
+Reset       E 6647 16 100
+Reset       M 6603 3 100
+Reset       E 6647 16 100
+Door        south~ ~ -1 6611
+You see the playground.
+~
+~
+Door        west~ ~ -1 6608
+You see the playground.
+~
+~
+End
+
+#6610
+Name        The Playground~
+Descr
+You are in the south-west corner of the playground.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 6600 2 100
+Reset       M 6604 3 100
+Reset       M 6603 3 100
+Reset       E 6647 16 100
+Reset       M 6605 2 100
+Door        north~ ~ -1 6608
+You see the playground.
+~
+~
+Door        east~ ~ -1 6611
+You see the playground.
+~
+~
+Door        west~ ~ -1 6604
+You see a large room full of noisy brats.
+~
+~
+End
+
+#6611
+Name        The Playground~
+Descr
+You are in the south-east corner of the playground.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 6604 3 100
+Reset       M 6603 3 100
+Reset       E 6647 16 100
+Reset       M 6603 3 100
+Reset       E 6647 16 100
+Door        north~ ~ -1 6609
+You see the playground.
+~
+~
+Door        west~ ~ -1 6610
+You see the playground.
+~
+~
+End
+
+#6612
+Name        Entrance to the Mini-Maze~
+Descr
+You stand in the entrance to a small, but confusing maze.  You really hope
+that you don't get lost.
+~
+Flags       dark no_mob indoors~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 6613
+~
+~
+Door        up~ ~ -1 6607
+You see some stairs.
+~
+~
+End
+
+#6613
+Name        Mini-Maze~
+Descr
+You are in a small passage that looks just like every other one.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        east~ ~ -1 6614
+~
+~
+Door        south~ ~ -1 6615
+~
+~
+Door        west~ ~ -1 6612
+~
+~
+End
+
+#6614
+Name        Mini-Maze~
+Descr
+You are in a small passage that looks just like every other one.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        south~ ~ -1 6616
+~
+~
+Door        west~ ~ -1 6613
+~
+~
+End
+
+#6615
+Name        Mini-Maze~
+Descr
+You are in a small passage that looks just like every other one.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ -1 6613
+~
+~
+Door        east~ ~ -1 6616
+~
+~
+End
+
+#6616
+Name        Mini-Maze~
+Descr
+You are in a small passage that looks just like every other one.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ -1 6614
+~
+~
+Door        south~ ~ -1 6624
+~
+~
+Door        west~ ~ -1 6615
+~
+~
+End
+
+#6624
+Name        End of the Mini-Maze~
+Descr
+You stand at the end of your journey.  There is a big sign here and you had
+better read it!
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+ExtraDescr  sign~
+If you are not level 6 or above, then don't go south!!!!  It is a dangerous
+area, but congrats for getting this far - Sandman
+~
+Reset       M 6607 1 100
+Door        north~ ~ -1 6616
+~
+~
+Door        south~ ~ -1 6631
+~
+~
+End
+
+#6626
+Name        Messy Kitchen~
+Descr
+You stand in the kitchen and eating area of the day care center.  Pots and
+pans are everywhere, while the toddlers continue to create chaos.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 6602
+You see a large room full of noisy brats.
+~
+~
+End
+
+#6631
+Name        The End?~
+Descr
+You have reached the final lair.  It is dominated by a huge five headed
+dragon (actually an overgrown brat with a Halloween mask).
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 6608 1 100
+Door        north~ ~ -1 6624
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

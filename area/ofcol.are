@@ -1,0 +1,222 @@
+#AREADATA
+Name        Ofcol~
+Author      Alfa~
+Levels      0 54
+Security    1
+VNUMs       5550 5577
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#0
+
+
+
+#OBJDB
+#0
+
+
+
+#ROOMDB
+#5550
+Name        Village street~
+Descr
+You stand at the small village street in Ofcol.
+From here you see small houses and only few people.
+North of here the village street continues up to the small
+square where some people are gathered as always.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 303 5 100
+Door        north~ ~ -1 5551
+You look up the village street noticing nothing special at all.
+~
+~
+Door        south~ ~ -1 314
+The wide road leads south here towards the T-crossing.
+~
+~
+End
+
+#5551
+Name        Village street~
+Descr
+You are standing on the village street of Ofcol.
+East from here is a small alley and north you enter the village
+square. Towards the south you can leave Ofcol.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 5552
+The village square is as usual not overcrowded.
+~
+~
+Door        east~ ~ -1 5553
+The small alley looks relative peaceful.
+~
+~
+Door        south~ ~ -1 5550
+You see the village street eventually becoming the wide road.
+~
+~
+End
+
+#5552
+Name        Village square~
+Descr
+The village square is a place where inhabitants of Ofcol gather
+to talk, trade and sell items and just have a good time.
+You see a small shop to the west and the local inn to the north.
+If you leave south you go to village street.  You see some new
+construction east of you!
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 304 5 100
+Reset       E 3020 16 100
+Door        north~ ~ -1 5556
+You see a local inn called 'The Ofcol Local Inn'. Looks nice.
+~
+~
+Door        east~ ~ -1 10700
+~
+~
+Door        south~ ~ -1 5551
+You see the village street of Ofcol.
+~
+~
+Door        west~ ~ -1 5555
+A small shop with the sign 'Luxan's Mixed goods' hanging in front of it.
+~
+~
+End
+
+#5553
+Name        The small alley~
+Descr
+You are in a small, quiet alley.  From here you see the village street
+to the west and a small room lies to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 304 5 100
+Door        east~ ~ 0 601
+You see a big intersection.
+~
+~
+Door        south~ ~ -1 5554
+It looks like the future site of a training room.
+~
+~
+Door        west~ ~ -1 5551
+You notice nothing but the village street.
+~
+~
+End
+
+#5554
+Name        The future training room~
+Descr
+This is the future site of a training room.  The only exit is north
+leading to the small alley.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 5553
+You are able to see the small alley, which is really not very interesting.
+~
+~
+End
+
+#5555
+Name        Luxan's mixed shop~
+Descr
+You are standing in a small shop, filled with all kinds of goods.
+Here you might be able to find just the thing you're looking for.
+The only exit is east to village square.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 306 1 100
+Reset       E 304 -1 100
+Reset       E 3030 -1 100
+Door        east~ ~ -1 5552
+The village square is as usual not overcrowded.
+~
+~
+End
+
+#5556
+Name        The Local Inn~
+Descr
+You are in the local inn, where the peaceful citizens of Ofcol
+gather to have a drink or 5 if they have dry throats.
+You can't help thinking that Ofcol is a dry city, when you see the
+many people here.
+The only exit is south to the village square.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 303 5 100
+Reset       M 308 1 100
+Reset       E 3000 -1 100
+Reset       E 3001 -1 100
+Door        south~ ~ -1 5552
+The village square is as usual not overcrowded.
+~
+~
+End
+
+#5577
+Name        Ravan's hideout~
+Descr
+This place is a small, cosy place where no one disturbs you all
+the time. The room has little decoration except for some pictures
+on the wall.
+You notice that there are no exits from this room.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+ExtraDescr  pictures picture decoration~
+These pictures show the friend's and foe's of Ravan.
+They are easy to separate, as most of the foe's have the letters
+R.I.P. inscripted underneath them.
+~
+ExtraDescr  foe foes enemies~
+There is only one picture yet... Dim.
+It pictures him hanging from a gallow, north of the town.
+It has the letters R.I.P. inscripted underneath.
+~
+ExtraDescr  friend friends~
+The list include such prominent names as : God, Lottie, Kurgan,
+Ezzard, Mike, Sprocket and Stormbringer.
+~
+Reset       M 350 1 100
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

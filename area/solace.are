@@ -1,0 +1,5540 @@
+#AREADATA
+Name        Town Of Solace~
+Author      Strahd~
+Levels      5 35
+Security    1
+VNUMs       10201 10317
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#10201
+Name        captain guard~
+Short       Captain of the Guard~
+Long
+The Captain of the Guard is here.
+~
+Descr
+The Captain of the Guard is an older but very powerful man. His obsidian
+armor seems to glow faintly. The crest of the town of Solace is displayed
+with pride on his chestplate. The gold crest of two coins seems to match
+the wealth of this town.
+~
+Act         sentinel~
+AffectBy    detect_evil detect_invis detect_hidden sanctuary~
+Alignment   900
+Level       30
+Race        Giant~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#10202
+Name        lieutenant commander~
+Short       Lieutenant Commander~
+Long
+The Lieutenant Commander is here.
+~
+Descr
+The Lieutenant seems like a happy fellow. Although he seems to have
+the brain of a 7 year old. His steel armor is covered with finger paint.
+Dispite his mental problems he is quite a challenge. If you would like
+to test his abilities go right ahead. He looks as if he is quite an easy
+fight.
+~
+Act         sentinel stay_area~
+AffectBy    detect_evil detect_hidden sanctuary~
+Alignment   800
+Level       27
+Race        Orc~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#10203
+Name        Sergeant Arms~
+Short       Sergeant at Arms~
+Long
+The Sergeant at Arms is here polishing his hammer.
+~
+Descr
+This is the tough and burly Sergeant at Arms. He wears the red armor of 
+war. He is a middle age man with graying hair that pokes out from under
+his helmet. He is always waiting for a fight.
+~
+Act         sentinel stay_area~
+AffectBy    detect_evil sanctuary~
+Alignment   400
+Level       20
+Race        Hobbit~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#10204
+Name        townguard guard~
+Short       Townguard~
+Long
+A townguard stands here.
+~
+Descr
+A big strong townguard of Solace.
+
+~
+Act         sentinel stay_area~
+AffectBy    ~
+Alignment   1000
+Level       15
+Race        Orc~
+Sex         male~
+Spec        spec_guard~
+End
+
+#10205
+Name        townguard guard agg~
+Short       Townguard~
+Long
+A townguard stands here.
+~
+Descr
+A big strong townguard of Solace.
+
+~
+Act         sentinel aggressive stay_area~
+AffectBy    ~
+Alignment   1000
+Level       15
+Race        Giant~
+Sex         male~
+Spec        spec_guard~
+End
+
+#10206
+Name        citizen solace~
+Short       Citizen of Solace~
+Long
+A citizen of Solace stands here.
+~
+Descr
+He is one of the wealthy citizens of Solace.
+~
+Act         ~
+AffectBy    ~
+Alignment   800
+Level       10
+Race        Human~
+Sex         male~
+End
+
+#10207
+Name        woman~
+Short       woman~
+Long
+A woman is here.
+~
+Descr
+She is a beautiful woman.
+~
+Act         ~
+AffectBy    ~
+Alignment   800
+Level       5
+Race        Human~
+Sex         female~
+End
+
+#10208
+Name        matt brewmaster~
+Short       Matt the brewmaster~
+Long
+Matt the brewmaster is here looking for something to drink.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    sanctuary~
+Alignment   800
+Level       25
+Race        Human~
+Sex         male~
+Spec        spec_cast_cleric~
+Shop        ~ ~ ~ ~ ~ 105 15 0 23
+End
+
+#10209
+Name        Mcbaker~
+Short       the Mcbaker~
+Long
+The Mcbaker looks at you calmly, wiping flour from his face with one hand.
+~
+Descr
+A fat, nice looking baker. But you can see that he has many scars on his
+body.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   900
+Level       23
+Race        Human~
+Sex         male~
+Shop        ~ ~ ~ ~ ~ 110 100 6 17
+End
+
+#10210
+Name        cookie's helper~
+Short       Cookie's Helper~
+Long
+Cookie's Helper is here offering you a free cookie sample.
+~
+Descr
+A young neighborhood girl helps out cookie when she is not around.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   900
+Level       20
+Race        Human~
+Sex         female~
+Shop        ~ ~ ~ ~ ~ 110 100 6 17
+End
+
+#10211
+Name        marilyn~
+Short       Marilyn~
+Long
+Marilyn is here selling birds.
+~
+Descr
+She is a very pretty and loves her birds. Her black hair hangs behind her
+tied in a pony tail.
+~
+Act         sentinel~
+AffectBy    sanctuary~
+Alignment   900
+Level       30
+Race        Human~
+Sex         female~
+Spec        spec_cast_cleric~
+Shop        ~ ~ ~ ~ ~ 110 100 0 23
+End
+
+#10212
+Name        ghost jander~
+Short       Ghost of Jander~
+Long
+The Ghost of Jander is here.
+~
+Descr
+The ghost of Jander is as he was in life. A rather large man with flaming
+red hair. His clothes seems dirty and tattered. His bushy beard obscures
+his stone face.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   900
+Level       15
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#10213
+Name        ghost waiter~
+Short       ghost of waiter~
+Long
+A ghost of a waiter is here waiting to serve you.
+~
+Descr
+This is the ghost of a long dead waiter. Probably one of the many that 
+Jander killed for spilling a drink or something.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   900
+Level       15
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#10214
+Name        ghost barkeep~
+Short       ghost of a barkeeper~
+Long
+A ghost of a barkeeper is here waiting an eternity to take your order.
+~
+Descr
+This is probably another of Jander's victims. Probably got caught with
+his hand in the cash or something.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   900
+Level       13
+Race        Undead~
+Sex         female~
+Spec        spec_cast_undead~
+Shop        ~ ~ ~ ~ ~ 110 100 0 23
+End
+
+#10215
+Name        townguard guard~
+Short       Townguard~
+Long
+A townguard is on patrol.
+~
+Descr
+A big strong townguard of Solace.
+
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   1000
+Level       15
+Race        Giant~
+Sex         male~
+Spec        spec_guard~
+End
+
+#10216
+Name        field rat~
+Short       field rat~
+Long
+A field rat is here looking for food.
+~
+Descr
+A dirty nasty field rat . Obviously  looking for food in the town.
+~
+Act         stay_area~
+AffectBy    hide~
+Alignment   300
+Level       10
+Race        Rat~
+Sex         neutral~
+End
+
+#10217
+Name        town clerk~
+Short       Town Clerk~
+Long
+The Town Clerk is here impatiently waiting for you to pay taxes.
+~
+Descr
+A stringy rat like individual. He beams at you through his spectacles
+as if he can see the money in your pockets.
+~
+Act         sentinel~
+AffectBy    sanctuary~
+Alignment   800
+Level       17
+Race        Human~
+Sex         male~
+Spec        spec_thief~
+End
+
+#10218
+Name        treasury guards~
+Short       Treasury Guards~
+Long
+The Treasury Guards are here guarding the town's money.
+~
+Descr
+These are like the biggest and meanest men you've every seen.
+They look more like trolls or ogres than men.
+~
+Act         sentinel~
+AffectBy    detect_evil detect_invis detect_hidden sanctuary~
+Alignment   800
+Level       16
+Race        Giant~
+Sex         male~
+Spec        spec_guard~
+End
+
+#10219
+Name        Jhen~
+Short       Jhen the farmer~
+Long
+Jhen the farmer is here.
+~
+Descr
+A rather tall man who works hard for his money.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       23
+Race        Human~
+Sex         male~
+Shop        ~ ~ ~ ~ ~ 110 100 4 20
+End
+
+#10220
+Name        Krista~
+Short       Krista the fruit peddler~
+Long
+Krista the fruit peddler is here.
+~
+Descr
+A pretty woman who works hard for her money. Travelling every year
+to the market to sell her fruits.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       24
+Race        Human~
+Sex         female~
+Shop        ~ ~ ~ ~ ~ 110 100 4 20
+End
+
+#10221
+Name        Janni~
+Short       Janni~
+Long
+Janni is here.
+~
+Descr
+Janni has spent his whole life making trinkets for people to enjoy.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       22
+Race        Dwarf~
+Sex         male~
+Shop        ~ ~ ~ ~ ~ 125 75 4 20
+End
+
+#10222
+Name        Nisi~
+Short       Nisi the grocer~
+Long
+Nisi is here.
+~
+Descr
+Nisi is a very interesting person. It shows in the wares she sells
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       24
+Race        Elf~
+Sex         female~
+Shop        weapon~ armor~ food~ ~ ~ 125 75 4 20
+End
+
+#10223
+Name        Molin~
+Short       Molin the brewer~
+Long
+Molin the brewer is here.
+~
+Descr
+Molin is a grey old man with hair down to his toes.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       24
+Race        Halfelf~
+Sex         male~
+Spec        spec_cast_mage~
+Shop        potion~ ~ ~ ~ ~ 125 75 4 20
+End
+
+#10224
+Name        Rashan~
+Short       Rashan the farmer~
+Long
+Rashan the farmer is here.
+~
+Descr
+Rashan is a middle aged man who grows his rutabagas by candlelight.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       21
+Race        Halfdwarf~
+Sex         male~
+Spec        spec_cast_mage~
+Shop        ~ ~ ~ ~ ~ 125 75 4 20
+End
+
+#10225
+Name        Lexie~
+Short       Lexie~
+Long
+Lexie is here.
+~
+Descr
+Lexie is an accomplish diver. But he seems to have problems keeping 
+students.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       25
+Race        Human~
+Sex         male~
+Shop        boat~ ~ ~ ~ ~ 125 75 4 20
+End
+
+#10226
+Name        Croben~
+Short       Croben~
+Long
+Croben is here.
+~
+Descr
+Croben is a young man who learned the art of container making from his
+grandfather.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       25
+Race        Human~
+Sex         male~
+Spec        spec_cast_mage~
+Shop        container~ ~ ~ ~ ~ 125 75 4 20
+End
+
+#10227
+Name        otik sandath bartender~
+Short       Otik Sandath~
+Long
+Otik sandath is here tending the bar
+~
+Descr
+Otik is an older man with a gift for cooking. 
+
+Otik whispers, "A magical staff! I bet it was forged by demons from the
+terrible Darken Wood. There are terrible mysteries in that place, there are."
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       27
+Race        Human~
+Sex         male~
+Shop        ~ ~ ~ ~ ~ 105 15 0 23
+End
+
+#10228
+Name        tika barmaid~
+Short       Tika the barmaid~
+Long
+Tika the barmaid is here delivering drinks and food.
+~
+Descr
+Curly auburn hair tumbles around Tika's lightly freckled face. Her striking
+green eyes match her low-cut blouse. She is a brash young barmaid who
+looks older than her 19 years. Rough living has hardened her and she
+presents a tough image as protection against her sense of vulnerablility.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       16
+Race        Orc~
+Sex         female~
+End
+
+#10229
+Name        thief cloaked figure~
+Short       Thief~
+Long
+A cloaked figure sits here.
+~
+Descr
+A thin, cloaked figure sits alone at a table near the door, an untouched
+glass of ale before him.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       17
+Race        Hobbit~
+Sex         male~
+Spec        spec_thief~
+End
+
+#10230
+Name        old man~
+Short       old man~
+Long
+An old man is here.
+~
+Descr
+He looks like an old man....go figure..
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       13
+Race        Gnome~
+Sex         male~
+End
+
+#10231
+Name        boy~
+Short       boy~
+Long
+A small boy is here.
+~
+Descr
+He is a small boy lost in his own daydreams.
+
+boy says, "I saw the white stag up near Prayers Eye Peak just a few days
+ago! If only I could catch it. He who walks the paths of the white stag is
+blessed, I hear tell."
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       7
+Race        Gnome~
+Sex         male~
+End
+
+#10232
+Name        brat boy~
+Short       bratty boy~
+Long
+A brat is here.
+~
+Descr
+He looks like a pain in the ass.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       10
+Race        Goblin~
+Sex         male~
+Spec        spec_thief~
+End
+
+#10233
+Name        Mage~
+Short       mage~
+Long
+A mage is here.
+~
+Descr
+He is the typical adventurer. He looks as if he has travelled far.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       14
+Race        Elf~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#10234
+Name        Thief~
+Short       Thief~
+Long
+A thief is here.
+~
+Descr
+He is the typical adventurer. He looks as if he has travelled far.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       12
+Race        Halfdwarf~
+Sex         male~
+Spec        spec_thief~
+End
+
+#10235
+Name        Warrior~
+Short       Warrior~
+Long
+A warrior is here.
+~
+Descr
+He is the typical adventurer. He looks as if he has travelled far.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       16
+Race        Giant~
+Sex         male~
+End
+
+#10236
+Name        Cleric~
+Short       Cleric~
+Long
+A cleric is here.
+~
+Descr
+He is the typical adventurer. He looks as if he has travelled far.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   800
+Level       19
+Race        Halfelf~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#10237
+Name        ghost gambler~
+Short       Ghost of gambler~
+Long
+A ghost of a gambler is floating here looking for something to bet on.
+~
+Descr
+Even in death this sad spirit is looking to gamble.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -200
+Level       10
+Race        Undead~
+Sex         neutral~
+End
+
+#10238
+Name        child~
+Short       child~
+Long
+A child is here eating bugs off the ground.
+~
+Descr
+~
+Act         ~
+AffectBy    ~
+Alignment   800
+Level       5
+Race        Human~
+Sex         neutral~
+End
+
+#10239
+Name        rat~
+Short       rat~
+Long
+There is a large rat here.
+~
+Descr
+~
+Act         scavenger stay_area~
+AffectBy    hide~
+Alignment   -100
+Level       5
+Race        Rat~
+Sex         neutral~
+End
+
+#10240
+Name        bat~
+Short       bat~
+Long
+There is a large bat here.
+~
+Descr
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis~
+Alignment   100
+Level       5
+Race        Bat~
+Sex         neutral~
+End
+
+#10241
+Name        old lady~
+Short       old lady~
+Long
+There is an old lady here.
+~
+Descr
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   100
+Level       8
+Race        Human~
+Sex         neutral~
+End
+
+#10242
+Name        tired adventurer~
+Short       tired adventurer~
+Long
+There is a tired adventurer resting here.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       13
+Race        Human~
+Sex         neutral~
+Spec        spec_cast_undead~
+End
+
+#10243
+Name        Magnus wizard~
+Short       Magnus wizard~
+Long
+Magnus the wizard is resting here from his long journeys.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       19
+Race        Elf~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#10244
+Name        Lord doom warrior~
+Short       Lord Doom~
+Long
+Lord Doom is resting here from his long journeys.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   100
+Level       18
+Race        Giant~
+Sex         male~
+End
+
+#10245
+Name        foreign trade representative~
+Short       Foreign Trade Representative~
+Long
+A foreign trade representative is waiting here to meet with the Captain of the Guard.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       14
+Race        Human~
+Sex         male~
+End
+
+#10246
+Name        bodyguard~
+Short       bodyguard~
+Long
+There is a bodyguard here.
+~
+Descr
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       16
+Race        Human~
+Sex         male~
+End
+
+#10247
+Name        Secretary captain~
+Short       Secretary~
+Long
+The Captain of the Guard's Secretary is here.
+~
+Descr
+She looks very busy.
+The Secretary says 'Sorry, but the Captain is extremely busy today'.
+The Secretary says 'Please sit down and have a seat in the meantime'.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       25
+Race        Human~
+Sex         female~
+End
+
+#10248
+Name        Secretary Lieutenant ~
+Short       Secretary~
+Long
+The Lieutenant Commander's Secretary is here.
+~
+Descr
+She looks very busy.
+The Secretary says 'Sorry, but the Lieutenant is extremely busy today'.
+The Secretary says 'Please sit down and have a seat in the meantime'.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       20
+Race        Human~
+Sex         female~
+End
+
+#10249
+Name        Secretary Sergeant ~
+Short       Secretary~
+Long
+The Sergeant at Arm's Secretary is here.
+~
+Descr
+She looks very busy.
+The Secretary says 'Sorry, but the Sergeant is extremely busy today'.
+The Secretary says 'Please sit down and have a seat in the meantime'.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   100
+Level       15
+Race        Giant~
+Sex         female~
+End
+
+#10250
+Name        Macaw~
+Short       the macaw~
+Long
+A large macaw is here.
+~
+Descr
+The macaw looks like a strong, fearless fighter. It is a beautiful bird.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   0
+Level       12
+Race        Halfelf~
+Sex         neutral~
+End
+
+#10251
+Name        Raven~
+Short       the raven~
+Long
+A large, black raven is here.
+~
+Descr
+The raven looks like a strong, fearless fighter.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   0
+Level       15
+Race        Animal~
+Sex         neutral~
+End
+
+#10252
+Name        hunting hawk~
+Short       the hunting hawk~
+Long
+A large, hunting hawk is here.
+~
+Descr
+The hawk looks like a strong, fearless fighter. It has been trained for
+hunting game.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   0
+Level       18
+Race        Animal~
+Sex         neutral~
+End
+
+#10253
+Name        Battle falcon~
+Short       the battle falcon~
+Long
+A giant, falcon is here.
+~
+Descr
+The battle falcon looks like a strong, fearless fighter. This giant breed has
+been trained especially for combat.
+~
+Act         sentinel scavenger~
+AffectBy    ~
+Alignment   0
+Level       21
+Race        Animal~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#10201
+Name        helmet obsidian~
+Short       the obsidian helmet~
+Descr
+A black helmet is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take head~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      hp~ 1 ~
+Affect      strength~ 1 ~
+End
+
+#10202
+Name        sleeves obsidian~
+Short       obsidian sleeves~
+Descr
+A pair of black sleeves are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take arms~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      constitution~ 1 ~
+Affect      saving-spell~ -5 ~
+End
+
+#10203
+Name        leggings obsidian~
+Short       obsidian leggings~
+Descr
+Some black leggings are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take legs~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      move~ 20 ~
+Affect      dexterity~ 2 ~
+End
+
+#10204
+Name        gauntlets obsidian~
+Short       obsidian gauntlets~
+Descr
+A pair of black gauntlets are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take hands~
+Values      11~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      hitroll~ 3 ~
+Affect      saving-breath~ -3 ~
+End
+
+#10205
+Name        boots obsidian~
+Short       obsidian boots~
+Descr
+Some black boots are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take feet~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      hp~ 10 ~
+Affect      saving-breath~ -6 ~
+End
+
+#10206
+Name        cloak obsidian~
+Short       obsidian cloak~
+Descr
+A black cloak lies on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take neck~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      saving-petri~ -4 ~
+Affect      saving-spell~ -2 ~
+End
+
+#10207
+Name        girth obsidian~
+Short       the obsidian girth~
+Descr
+A black girth is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take waist~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      strength~ 1 ~
+Affect      saving-spell~ -2 ~
+End
+
+#10208
+Name        shield large obsidian~
+Short       the large obsidian shield~
+Descr
+A large, black shield is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take shield~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      ac~ 4 ~
+Affect      damroll~ 3 ~
+End
+
+#10209
+Name        amulet solace~
+Short       the amulet of Solace~
+Descr
+A shiny black amulet with a gold symbol is here.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take neck~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      ac~ -3 ~
+Affect      damroll~ 1 ~
+End
+
+#10210
+Name        obsidian key~
+Short       a obsidian key~
+Descr
+A shiny black key is here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10211
+Name        sword doomgiver~
+Short       a black hilted sword called, "Doomgiver"~
+Descr
+A black hilted sword with engravings on the blade lie here.~
+Type        weapon~
+Extra       invis magic~
+Wear        take wield~
+Values      0~ 6~ 8~ 1~ 0~
+Weight      7
+Affect      hitroll~ 5 ~
+Affect      damroll~ 4 ~
+ExtraDescr  sword~
+The blade of the sword is a full meter long, and straight as an arrow, with
+lightly fluted sides. Both edges keened down to perfect lines, invisibly
+sharp. Perfection like this could of only been forged by a god. The black
+hilt is contrasted only by the faint symbol of the Scales of Justice.
+Apon the blade is engraved a poem:
+
+                      The Sword of Justice balances the pans
+                      Of right and wrong, and foul and fair
+                      Eye for an eye, Doomgiver scans
+                      The fate of all folk everywhere.
+
+~
+End
+
+#10212
+Name        signet ring~
+Short       an Solace signet ring~
+Descr
+A shiny ring of obsidian is in the dirt.~
+Type        armor~
+Extra       magic~
+Wear        take finger~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      saving-spell~ -2 ~
+Affect      hp~ 4 ~
+End
+
+#10213
+Name        bracer~
+Short       an obsidian bracer~
+Descr
+You see an obsidian bracer here.~
+Type        armor~
+Extra       ~
+Wear        take wrist~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      9
+End
+
+#10214
+Name        weapons cabinet~
+Short       a weapons cabinet~
+Descr
+You see a weapons cabinet.~
+Type        container~
+Extra       ~
+Wear        ~
+Values      7~ 15~ 10210~ 0~ 0~
+Weight      300
+ExtraDescr  cabinet~
+This is a finely crafted reinforced weapons cabinet. It looks very sturdy.
+The cabinet doors are made of smoked glass. Something seems to be
+calling you from within.
+~
+End
+
+#10215
+Name        sword dragonslicer~
+Short       a black hilted sword called, "Dragonslicer"~
+Descr
+A black hilted sword with engravings on the blade lie here.~
+Type        weapon~
+Extra       invis magic~
+Wear        take wield~
+Values      0~ 6~ 8~ 1~ 0~
+Weight      7
+Affect      hitroll~ 2 ~
+Affect      damroll~ 6 ~
+Affect      saving-breath~ -15 ~
+ExtraDescr  sword~
+The blade of the sword is a full meter long, and straight as an arrow, with
+lightly fluted sides. Both edges keened down to perfect lines, invisibly
+sharp. Perfection like this could have only been forged by a god. The black
+hilt is contrasted only by the faint symbol of a dragon head.
+Apon the blade is engraved a poem:
+
+                      Dragonslicer, Dragonslicer, how d'you slay?
+                      Reaching for the heart in behind the scales.
+                      Dragonslicer, Dragonslicer, where do you stay?
+                      In the belly of the giant that my blade impales.
+
+~
+End
+
+#10216
+Name        helmet steel~
+Short       the steel helmet~
+Descr
+A steel helmet is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take head~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      25
+Affect      saving-rod~ -2 ~
+Affect      intelligence~ 1 ~
+End
+
+#10217
+Name        sleeves steel~
+Short       steel sleeves~
+Descr
+A pair of steel sleeves are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take arms~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      saving-para~ -2 ~
+Affect      saving-spell~ -1 ~
+End
+
+#10218
+Name        leggings steel~
+Short       steel leggings~
+Descr
+Some steel leggings are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take legs~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      move~ 10 ~
+Affect      dexterity~ 1 ~
+End
+
+#10219
+Name        gauntlets steel~
+Short       steel gauntlets~
+Descr
+A pair of steel gauntlets are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take hands~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      hitroll~ 1 ~
+Affect      saving-breath~ -1 ~
+Affect      strength~ 1 ~
+End
+
+#10220
+Name        boots steel~
+Short       steel boots~
+Descr
+Some steel boots are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take feet~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      hp~ 5 ~
+Affect      saving-breath~ -2 ~
+End
+
+#10221
+Name        cloak lieutenant ~
+Short       the lieutenant's cloak~
+Descr
+A lieutenant's cloak lies on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take neck~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      saving-petri~ -2 ~
+Affect      saving-spell~ -1 ~
+End
+
+#10222
+Name        girth steel~
+Short       the steel girth~
+Descr
+A steel girth is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take waist~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      saving-spell~ -1 ~
+End
+
+#10223
+Name        shield large steel~
+Short       the large steel shield~
+Descr
+A large, steel shield is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take shield~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      35
+Affect      ac~ 2 ~
+Affect      damroll~ 1 ~
+End
+
+#10224
+Name        bracer steel~
+Short       a steel bracer~
+Descr
+You see a steel bracer here.~
+Type        armor~
+Extra       ~
+Wear        take wrist~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      9
+Affect      mana~ 5 ~
+End
+
+#10225
+Name        sword shieldbreaker~
+Short       black hilted sword called, "Shieldbreaker"~
+Descr
+A black hilted sword with engravings on the blade lie here.~
+Type        weapon~
+Extra       hum invis magic noremove~
+Wear        take wield~
+Values      0~ 10~ 35~ 11~ 0~
+Weight      7
+Affect      hp~ -50 ~
+Affect      hitroll~ 10 ~
+Affect      damroll~ 10 ~
+Affect      saving-spell~ 10 ~
+ExtraDescr  sword~
+The blade of the sword is a full meter long, and straight as an arrow, with
+lightly fluted sides. Both edges keened down to perfect lines, invisibly
+sharp. Perfection like this could of only been forged by a god. The black
+hilt is contrasted only by the faint symbol of a broken shield.
+Apon the blade is engraved a poem:
+
+                      I shatter Swords and splinter spears;
+                      None stands to Shieldbreaker.
+                      My point's the fount of orphan's tears
+                      My edge the widowmaker.
+
+~
+End
+
+#10226
+Name        helmet red~
+Short       the red helmet~
+Descr
+A red helmet is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take head~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      20
+Affect      saving-rod~ -1 ~
+End
+
+#10227
+Name        sleeves red scalemail~
+Short       red scalemail sleeves~
+Descr
+A pair of red scalemail sleeves are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take arms~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      saving-para~ -1 ~
+End
+
+#10228
+Name        leggings red scalemail~
+Short       red scalemail leggings~
+Descr
+Some red scalemail leggings are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take legs~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      move~ 5 ~
+End
+
+#10229
+Name        gauntlets red scalemail~
+Short       red scalemail gauntlets~
+Descr
+A pair of red scalemail gauntlets are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take hands~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      saving-rod~ -1 ~
+End
+
+#10230
+Name        boots red scalemail~
+Short       red scalemail boots~
+Descr
+Some red scalemail boots are on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take feet~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      hp~ 2 ~
+Affect      saving-breath~ -1 ~
+End
+
+#10231
+Name        cloak red sergeant~
+Short       the red sergeant's cloak~
+Descr
+A red sergeant's cloak lies on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take neck~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      saving-petri~ -1 ~
+End
+
+#10232
+Name        girth red scalemail~
+Short       the red scalemail girth~
+Descr
+A red scalemail girth is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take waist~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      30
+End
+
+#10233
+Name        shield large red~
+Short       the large red shield~
+Descr
+A large, red shield is on the floor.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take shield~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      ac~ 1 ~
+End
+
+#10234
+Name        bracer red~
+Short       a red bracer~
+Descr
+You see a red bracer here.~
+Type        armor~
+Extra       ~
+Wear        take wrist~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      9
+Affect      mana~ 1 ~
+End
+
+#10235
+Name        warhammer mage masher~
+Short       a red steel warhammer called, "Mage Masher"~
+Descr
+A red steel warhammer with engravings on the head lies here.~
+Type        weapon~
+Extra       hum magic~
+Wear        take wield~
+Values      0~ 6~ 15~ 8~ 0~
+Weight      35
+Affect      hitroll~ 4 ~
+Affect      damroll~ 1 ~
+Affect      mana~ -50 ~
+ExtraDescr  hammer warhammer~
+This hammer has the words, "MAGE MASHER" engraved into it's head.
+It seems to glow and pulse when pointed at a magic user. It seems to just
+glow when pointed at clerics though.
+~
+End
+
+#10236
+Name        plate black platemail~
+Short       black platemail~
+Descr
+A suit of black platemail is sitting on the floor.~
+Type        armor~
+Extra       magic~
+Wear        take body~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      saving-spell~ -1 ~
+Affect      hp~ 8 ~
+End
+
+#10237
+Name        enchanted longsword~
+Short       enchanted longsword~
+Descr
+A blade with runes etched in it is on the floor.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 3~ 12~ 3~ 0~
+Weight      7
+Affect      hitroll~ 2 ~
+End
+
+#10238
+Name        enchanted hammer~
+Short       enchanted hammer~
+Descr
+A hammer with runes etched in it is on the floor.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 2~ 10~ 7~ 0~
+Weight      12
+Affect      hitroll~ 2 ~
+End
+
+#10239
+Name        enchanted pike polearm~
+Short       enchanted pike~
+Descr
+A polearm with runes etched in it is on the floor.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 6~ 15~ 1~ 0~
+Weight      7
+Affect      hitroll~ 2 ~
+End
+
+#10240
+Name        chamorro ringmail~
+Short       chamorro ringmail~
+Descr
+A bunch of rings sewn together with taotamoa bark is on the ground.~
+Type        armor~
+Extra       magic~
+Wear        take body~
+Values      11~ 0~ 0~ 0~ 0~
+Weight      6
+Affect      mana~ 15 ~
+ExtraDescr  ringmail~
+This armor is imported from the island of Guam.
+~
+End
+
+#10241
+Name        mcbread~
+Short       mcbread~
+Descr
+A Mcloaf of Mcbread has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10242
+Name        mcdonut~
+Short       mcdonut~
+Descr
+A chocolate Mcdonut has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10243
+Name        mcbagel~
+Short       mcbagel~
+Descr
+A Mcbagel has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10244
+Name        mcpastry~
+Short       mcpastry~
+Descr
+A Mcpastry has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      12~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10245
+Name        chocolate chip cookie~
+Short       chocolate chip cookie~
+Descr
+A chocoalte chip cookie has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10246
+Name        peanut butter cookie~
+Short       peanut butter cookie~
+Descr
+A peanut butter cookie has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10247
+Name        oatmeal cookie~
+Short       oatmeal  cookie~
+Descr
+A oatmeal cookie has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10248
+Name        sugar cookie~
+Short       sugar cookie~
+Descr
+A sugar cookie has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10249
+Name        taxes fines~
+Short       taxes and fines~
+Descr
+A bunch of taxes and fines are here waiting to take your money.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 10~ 15~ 12~ 0~
+Weight      40
+Affect      gold~ -10000 ~
+End
+
+#10250
+Name        enchanted two-handed sword~
+Short       enchanted two-handed sword~
+Descr
+A large two-handed sword with runes etched in it is on the floor.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 5~ 15~ 2~ 0~
+Weight      7
+Affect      hitroll~ 2 ~
+End
+
+#10251
+Name        carrot~
+Short       carrot~
+Descr
+A carrot has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10252
+Name        cauliflower~
+Short       cauliflower~
+Descr
+A cauliflower has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10253
+Name        bell pepper~
+Short       bell pepper~
+Descr
+A bell pepper has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10254
+Name        celery stick~
+Short       celery stick~
+Descr
+A celery stick has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10255
+Name        glass ice tea~
+Short       a glass of ice tea~
+Descr
+A glass of ice tea has been left here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      5~ 5~ 11~ 0~ 0~
+Weight      5
+End
+
+#10256
+Name        glass water~
+Short       a glass of water~
+Descr
+A glass of water has been left here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      5~ 5~ 0~ 0~ 0~
+Weight      5
+End
+
+#10257
+Name        glass koca colah~
+Short       a glass of koca colah~
+Descr
+A glass of koca colah has been left here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      5~ 5~ 15~ 0~ 0~
+Weight      5
+End
+
+#10258
+Name        bottle Snapple ice tea~
+Short       a bottle of Snapple ice tea~
+Descr
+A bottle of Snapple has been left here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      5~ 5~ 11~ 0~ 0~
+Weight      5
+End
+
+#10259
+Name        apple~
+Short       apple~
+Descr
+An apple has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10260
+Name        grape~
+Short       a grape~
+Descr
+A grape has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10261
+Name        orange~
+Short       a orange~
+Descr
+An orange has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10262
+Name        pear~
+Short       a pear~
+Descr
+A pear has been left here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10263
+Name        charm solace~
+Short       the charm of Solace.~
+Descr
+A shiny black charm with a gold symbol is here.~
+Type        armor~
+Extra       ~
+Wear        take neck~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      15
+End
+
+#10264
+Name        ring solace~
+Short       the ring of Solace.~
+Descr
+A shiny black ring with a gold symbol is here.~
+Type        armor~
+Extra       ~
+Wear        take finger~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10265
+Name        earrings solace~
+Short       the earrings of Solace.~
+Descr
+A pair of shiny black earrings with a gold symbols is here.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      4
+End
+
+#10266
+Name        frozen pizza crust~
+Short       a frozen pizza crust~
+Descr
+A large, frozen pizza crust is on the ground melting.~
+Type        armor~
+Extra       ~
+Wear        take shield~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      15
+End
+
+#10267
+Name        frozen pumpkin~
+Short       a frozen pumpkin~
+Descr
+A large, frozen pumpkin is on the ground melting.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      15
+End
+
+#10268
+Name        frozen side beef~
+Short       a frozen side of beef~
+Descr
+A large, frozen side of beef is on the ground melting.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      23
+End
+
+#10269
+Name        frozen asparagus spear~
+Short       a frozen asparagus spear~
+Descr
+A frozen asparagus spear is on the ground melting.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 3~ 9~ 0~ 0~
+Weight      15
+Affect      hitroll~ 1 ~
+End
+
+#10270
+Name        mulburry extract~
+Short       mulburry extract~
+Descr
+A small jar of mulburry extract has carelessly been left here.~
+Type        potion~
+Extra       magic~
+Wear        take~
+Values      20~ refresh~ cure light~ cure poison~  ~
+Weight      1
+End
+
+#10271
+Name        rutabaga~
+Short       rutabaga~
+Descr
+A small rutabaga is lying here.~
+Type        pill~
+Extra       magic~
+Wear        take~
+Values      20~ change sex~ dispel magic~ stone skin~  ~
+Weight      1
+End
+
+#10272
+Name        rutabaga~
+Short       rutabaga~
+Descr
+A small rutabaga is lying here.~
+Type        pill~
+Extra       magic~
+Wear        take~
+Values      20~ poison~ know alignment~ blindness~  ~
+Weight      1
+End
+
+#10273
+Name        rutabaga~
+Short       rutabaga~
+Descr
+A small rutabaga is lying here.~
+Type        pill~
+Extra       magic nodrop~
+Wear        take~
+Values      30~ cure critical~ teleport~ curse~  ~
+Weight      1
+End
+
+#10274
+Name        rutabaga~
+Short       rutabaga~
+Descr
+A small rutabaga is lying here.~
+Type        pill~
+Extra       magic~
+Wear        take~
+Values      20~ armor~ cause serious~ teleport~  ~
+Weight      1
+End
+
+#10275
+Name        Scuba tank~
+Short       scuba tank~
+Descr
+A scuba tank is here.~
+Type        boat~
+Extra       ~
+Wear        take about~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      30
+End
+
+#10276
+Name        Scuba flippers~
+Short       scuba flippers~
+Descr
+A pair of flippers are here.~
+Type        armor~
+Extra       magic~
+Wear        take feet~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      7
+Affect      dexterity~ 2 ~
+End
+
+#10277
+Name        scuba snorkle~
+Short       scuba snorkle~
+Descr
+A scuba snorkle is on the ground.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#10278
+Name        dive belt~
+Short       dive belt~
+Descr
+A scuba dive belt is on the ground drying out.~
+Type        armor~
+Extra       ~
+Wear        take waist~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      50
+End
+
+#10279
+Name        belt pouch~
+Short       belt pouch~
+Descr
+A belt pouch is laying here.~
+Type        container~
+Extra       ~
+Wear        take waist~
+Values      50~ 1~ 0~ 0~ 0~
+Weight      5
+End
+
+#10280
+Name        cloak storage~
+Short       cloak of storage~
+Descr
+A cloak is on the ground in a pile.~
+Type        container~
+Extra       magic~
+Wear        take neck~
+Values      125~ 1~ 0~ 0~ 0~
+Weight      5
+End
+
+#10281
+Name        ring holding~
+Short       ring of holding~
+Descr
+A small ring with a hinge is here collecting dust.~
+Type        container~
+Extra       magic~
+Wear        take finger~
+Values      300~ 1~ 0~ 0~ 0~
+Weight      3
+End
+
+#10282
+Name        travellers robe~
+Short       travellers robe~
+Descr
+A pile of cloth is on the ground here.~
+Type        armor~
+Extra       ~
+Wear        take about~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      15
+End
+
+#10283
+Name        travellers dagger~
+Short       travellers dagger~
+Descr
+A small dagger is here. It looks like the kind alot of travellers carry.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 4~ 11~ 0~
+Weight      10
+End
+
+#10284
+Name        travellers spellbook~
+Short       travellers spellbook~
+Descr
+A leather bound book with an arcane symbol is laying here.~
+Type        staff~
+Extra       ~
+Wear        take hold~
+Values      14~ 5~ 5~ flamestrike~ 0~
+Weight      45
+End
+
+#10285
+Name        travellers holy symbol~
+Short       travellers holy symbol~
+Descr
+A cheap holy symbol is laying here.~
+Type        staff~
+Extra       ~
+Wear        take hold~
+Values      19~ 5~ 5~ remove curse~ 0~
+Weight      20
+End
+
+#10286
+Name        travellers vest~
+Short       a travellers vest~
+Descr
+You see a travellers vest here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10287
+Name        travellers cloak~
+Short       a travellers cloak~
+Descr
+You see a travellers cloak here.~
+Type        armor~
+Extra       ~
+Wear        take neck~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10288
+Name        travellers sword~
+Short       a travellers sword~
+Descr
+You see a travellers sword here.~
+Type        weapon~
+Extra       magic~
+Wear        finger wield~
+Values      0~ 3~ 4~ 3~ 0~
+Weight      5
+End
+
+#10289
+Name        travellers scalemail~
+Short       a travellers scalemail~
+Descr
+You see a travellers scalemail here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10290
+Name        travellers shield~
+Short       a travellers shield~
+Descr
+You see a travellers shield here.~
+Type        armor~
+Extra       ~
+Wear        finger shield~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10291
+Name        travellers hammer~
+Short       a travellers hammer~
+Descr
+You see a travellers hammer here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10292
+Name        magnus's spellbook~
+Short       magnus's spellbook~
+Descr
+A leather bound book with an arcane symbol is laying here.~
+Type        staff~
+Extra       ~
+Wear        take hold~
+Values      19~ 5~ 5~ acid breath~ 0~
+Weight      55
+End
+
+#10293
+Name        robe magi~
+Short       robe of the magi~
+Descr
+A pile of cloth is on the ground. The cloth is covered with arcane symbols.~
+Type        armor~
+Extra       magic~
+Wear        take about~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      mana~ 20 ~
+Affect      saving-spell~ -5 ~
+End
+
+#10294
+Name        crystal plate armor~
+Short       crystal plate armor~
+Descr
+A finely crafted suit of crystal plate armor is here.~
+Type        armor~
+Extra       invis magic~
+Wear        take body~
+Values      12~ 0~ 0~ 0~ 0~
+Weight      60
+Affect      strength~ 1 ~
+Affect      constitution~ 1 ~
+Affect      hp~ 10 ~
+End
+
+#10295
+Name        scythe grim reaper~
+Short       scythe of the Grim Reaper~
+Descr
+A huge bloody scythe is here floating above the ground~
+Type        weapon~
+Extra       glow magic anti-good~
+Wear        take wield~
+Values      0~ 100~ 100~ 0~ 0~
+Weight      50
+Affect      hitroll~ 80 ~
+Affect      damroll~ 80 ~
+Affect      saving-spell~ -30 ~
+End
+
+#10296
+Name        crystal shield~
+Short       crystal shield~
+Descr
+A finely crafted crystal shield is here.~
+Type        armor~
+Extra       invis magic~
+Wear        take shield~
+Values      12~ 0~ 0~ 0~ 0~
+Weight      20
+Affect      hp~ 10 ~
+End
+
+#10297
+Name        crystal longsword~
+Short       crystal longsword~
+Descr
+A finely crafted crystal longsword is here.~
+Type        weapon~
+Extra       invis magic~
+Wear        take wield~
+Values      0~ 5~ 12~ 1~ 0~
+Weight      7
+Affect      hp~ 10 ~
+Affect      hitroll~ 3 ~
+End
+
+#10298
+Name        obsidian plate armor~
+Short       a suit of obsidian plate armor~
+Descr
+A suit of obsiadian plate armor is here on the ground.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take body~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      40
+Affect      hp~ 20 ~
+Affect      move~ 20 ~
+End
+
+#10299
+Name        steel plate armor~
+Short       a suit of steel plate armor~
+Descr
+A suit of steel plate armor is here on the ground.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take body~
+Values      14~ 0~ 0~ 0~ 0~
+Weight      37
+Affect      hp~ 15 ~
+Affect      move~ 15 ~
+End
+
+#10300
+Name        red plate armor~
+Short       a suit of red plate armor~
+Descr
+A suit of red plate armor is here on the ground.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take body~
+Values      12~ 0~ 0~ 0~ 0~
+Weight      33
+Affect      hp~ 10 ~
+Affect      move~ 10 ~
+End
+
+#10301
+Name        enchanted bow~
+Short       enchanted bow~
+Descr
+A bow with runes etched in it is on the floor.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 6~ 15~ 6~ 0~
+Weight      7
+Affect      hitroll~ 2 ~
+End
+
+#10302
+Name        safe deposit box~
+Short       safe deposit box~
+Descr
+A strong metal box is embedded in the wall.~
+Type        container~
+Extra       ~
+Wear        ~
+Values      10000~ 5~ 0~ 0~ 0~
+Weight      0
+ExtraDescr  safe deposit box~
+You see a strong metal box used to keep the town deposits in.
+~
+End
+
+#10303
+Name        gold coins~
+Short       alot of gold coins.~
+Descr
+A lot of gold is here.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      52385~ 0~ 0~ 0~ 0~
+Weight      0
+End
+
+#10304
+Name        fountain water~
+Short       a fountain~
+Descr
+A large marble fountain gushes forth here.~
+Type        fountain~
+Extra       ~
+Wear        ~
+Values      50~ 50~ 0~ 0~ 0~
+Weight      500
+ExtraDescr  fountain~
+It is very nice.  Made from fine white marble.
+~
+End
+
+#10305
+Name        depository key~
+Short       a depository key~
+Descr
+A shiny depository key is here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10306
+Name        city key gold solace~
+Short       key to the City of Solace.~
+Descr
+A shiny gold city key is here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#10307
+Name        flaming homer~
+Short       a drink called, "a Flaming homer"~
+Descr
+A drink called, "a Flaming homer" is here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      1~ 1~ 7~ 0~ 0~
+Weight      3
+End
+
+#10308
+Name        jello shot~
+Short       a jello shot~
+Descr
+A jello shot is wiggling here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      1~ 1~ 3~ 0~ 0~
+Weight      3
+End
+
+#10309
+Name        bloody heads~
+Short       a drink called, "bloody heads"~
+Descr
+A drink called, "bloody heads" is sitting here.~
+Type        drink_con~
+Extra       ~
+Wear        take~
+Values      1~ 1~ 5~ 0~ 0~
+Weight      3
+End
+
+#10310
+Name        skull chair~
+Short       a giant skull throne~
+Descr
+A giant skullthrone with a snake crawling through the eyes and nose is here.~
+Type        furniture~
+Extra       ~
+Wear        ~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      100
+End
+
+#0
+
+
+
+#ROOMDB
+#10201
+Name        Gateway to Solace~
+Descr
+This is the gateway to the town of Solace. It keeps the monsters out and
+the people in. This is a quiet farming town on the shores of Crytalmir
+Lake.
+There is a sign nailed to a nearby tree.
+There is a plaque embedded in the road.
+There is a Gate to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+**WELCOME TO SOLACE**
+
+Welcome to Solace Traveler.
+Rest your weary feet and enjoy our small town.
+
+Please don't feed the animals.
+
+And please behave yourself.
+
+Gates will be closed and lock at night to keep the town safe.
+
+-Captain of the Guard-
+~
+ExtraDescr  plaque~
+*************
+Town of Solace
+*************
+
+Brought to you by Strahd
+~
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Reset       M 10216 10 100
+Door        north~ ~ -1 10202
+You see the Main road in Solace.
+~
+~
+Door        east~ ~ -1 10216
+You see a small alleyway.
+~
+~
+Door        south~ door~ 10306 10003
+You see the Gateway of Solace.
+~
+gate~
+Door        west~ ~ -1 10217
+You see a small alleyway.
+~
+~
+End
+
+#10202
+Name        Main Road~
+Descr
+This is the main road in Solace. Down the street you can see various
+shops and houses.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10203
+You see the main road of Solace.
+~
+~
+Door        east~ door closed~ -1 10257
+You see Jander's Bar & Restaurant.
+~
+door~
+Door        south~ ~ -1 10201
+You see the town gateway.
+~
+~
+Door        west~ door closed~ -1 10246
+You see a house.
+~
+door~
+End
+
+#10203
+Name        Main Road~
+Descr
+This is the main road in Solace. Down the street you can see various
+shops and houses.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10241 8 100
+Door        north~ ~ -1 10204
+You see the main road of Solace.
+~
+~
+Door        south~ ~ -1 10202
+You see the main road of Solace.
+~
+~
+Door        west~ ~ -1 10245
+You see Cookie's Cookie Cookery.
+~
+~
+End
+
+#10204
+Name        Main Road~
+Descr
+This is the main road in Solace. Down the street you can see various
+shops and houses.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10205
+You see the main road of Solace.
+~
+~
+Door        south~ ~ -1 10203
+You see the main road of Solace.
+~
+~
+End
+
+#10205
+Name        Intersection at Main Road.~
+Descr
+Here there is an intersection at the main road.
+You see to the east and west, smaller houses and some more shops.
+To the road continues to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Reset       M 10216 10 100
+Door        north~ ~ -1 10228
+You see the main road of Solace.
+~
+~
+Door        east~ ~ -1 10206
+You see East Gullen Way
+~
+~
+Door        south~ ~ -1 10204
+You see the main road of Solace.
+~
+~
+Door        west~ ~ -1 10227
+You see West Gullen Way.
+~
+~
+End
+
+#10206
+Name        East Gullen Way~
+Descr
+This is the road called East Gullen Way. It is lined with small houses and
+shops.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10207
+You see East Gullen Way.
+~
+~
+Door        south~ door closed~ -1 10251
+You see a house.
+~
+door~
+Door        west~ ~ -1 10205
+You see the Intersection of Gullen Way and the main road.
+~
+~
+End
+
+#10207
+Name        East Gullen Way~
+Descr
+This is the road called East Gullen Way. It is lined with small houses and
+shops.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10208
+You see East Gullen Way.
+~
+~
+Door        south~ ~ -1 10252
+You see Marilyn's Bird Factory.
+~
+~
+Door        west~ ~ -1 10206
+You see East Gullen Way.
+~
+~
+End
+
+#10208
+Name        East Gullen Way~
+Descr
+This is the road called East Gullen Way. It is lined with small houses and
+shops.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10209
+You see the Corner Of East Gullen and Ketra Road.
+~
+~
+Door        west~ ~ -1 10207
+You see East Gullen Way.
+~
+~
+End
+
+#10209
+Name        Corner of East Gullen and Ketra Road.~
+Descr
+This is the Corner of East Gullen Way and Ketra Road.
+Everything is amazingly clean here.
+But this doesn't look like the wealthier part of town.
+This whole town seems to be one big trading post.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        south~ ~ -1 10210
+You see Ketra Road.
+~
+~
+Door        west~ ~ -1 10208
+You see East Gullen way.
+~
+~
+End
+
+#10210
+Name        Ketra Road.~
+Descr
+It is one of the sidestreets of Solace. But even here there are shops.
+Most of it is run down houses and shacks.
+Even though this looks like the poorer part of town, it is amazingly clean.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10216 10 100
+Door        north~ ~ -1 10209
+You see The corner of East Gullen and Ketra.
+~
+~
+Door        south~ ~ -1 10211
+You see Ketra Road.
+~
+~
+End
+
+#10211
+Name        Ketra Road.~
+Descr
+It is one of the sidestreets of Solace. But even here there are shops.
+Most of it is run down houses and shacks.
+Even though this looks like the poorer part of town, it is amazingly clean.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Door        north~ ~ -1 10210
+You see Ketra Road.
+~
+~
+Door        south~ ~ -1 10212
+You see Ketra Road.
+~
+~
+Door        west~ door closed~ -1 10254
+You see a Storage Building.
+~
+door~
+End
+
+#10212
+Name        Ketra Road.~
+Descr
+It is one of the sidestreets of Solace. But even here there are shops.
+Most of it is run down houses and shacks.
+Even though this looks like the poorer part of town, it is amazingly clean.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10211
+You see Ketra Road.
+~
+~
+Door        south~ ~ -1 10213
+You see one of the towns watchtowers.
+~
+~
+Door        west~ door closed~ -1 10255
+You see Jander's Bar.
+~
+door~
+End
+
+#10213
+Name        Southeast Guardpost and Watchtower.~
+Descr
+This is the Southeast guardpost and guardpost of Solace.
+It is used as a watch station and coffee break area for the town guards.
+There are some stairs in the corner leading up to the watchtower.
+There is a sign above the stairway.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+** WARNING **
+
+This area is RESTRICTED.
+
+Authorized Personnel Only!
+Violators will be jailed or killed.
+
+-Captain of the Guard-
+~
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Door        north~ ~ -1 10212
+You see Ketra Road.
+~
+~
+Door        west~ ~ -1 10214
+You see a small alleyway.
+~
+~
+Door        up~ ~ -1 10260
+You see stairs leading up to the watchtower.
+~
+~
+End
+
+#10214
+Name        Small Alleyway.~
+Descr
+You are walking down a small alleyway along the north wall of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10213
+You see the Southeast Guardpost.
+~
+~
+Door        west~ ~ -1 10215
+You see a small alleyway.
+~
+~
+End
+
+#10215
+Name        Small Alleyway.~
+Descr
+You are walking down a small alleyway along the north wall of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ door closed~ -1 10256
+You see a poolhall.
+~
+door~
+Door        east~ ~ -1 10214
+You see a small alleyway.
+~
+~
+Door        west~ ~ -1 10216
+You see a small alleyway.
+~
+~
+End
+
+#10216
+Name        Small Alleyway.~
+Descr
+You are walking down a small alleyway along the north wall of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10215
+You see a small alleyway.
+~
+~
+Door        west~ ~ -1 10201
+You see the gateway to the town.
+~
+~
+End
+
+#10217
+Name        Small Alleyway.~
+Descr
+You are walking down a small alleyway along the north wall of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10201
+You see the gateway to the town. 
+~
+~
+Door        west~ ~ -1 10218
+You see a small alleyway.
+~
+~
+End
+
+#10218
+Name        Small Alleyway.~
+Descr
+You are walking down a small alleyway along the north wall of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10216 10 100
+Door        north~ door closed~ -1 10247
+You see an old boarded up building. 
+~
+door~
+Door        east~ ~ -1 10217
+You see a small alleyway. 
+~
+~
+Door        west~ ~ -1 10219
+You see a small alleyway.
+~
+~
+End
+
+#10219
+Name        Small Alleyway.~
+Descr
+You are walking down a small alleyway along the north wall of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10218
+You see a small alleyway. 
+~
+~
+Door        west~ ~ -1 10220
+You see the Southwest Guardpost.
+~
+~
+End
+
+#10220
+Name        Southwest Guardpost and Watchtower.~
+Descr
+This is the Southwest guardpost and guardpost of Solace.
+It is used as a watch station and coffee break area for the town guards.
+There are some stairs in the corner leading up to the watchtower.
+There is a sign above the stairway.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+** WARNING **
+
+This area is RESTRICTED.
+
+Authorized Personnel Only!
+Violators will be jailed or killed.
+
+-Captain of the Guard-
+~
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Door        north~ ~ -1 10221
+You see Harvest Road.
+~
+~
+Door        east~ ~ -1 10219
+You see a small alleyway.
+~
+~
+Door        up~ ~ -1 10261
+You see stairs leading up to the watchtower.
+~
+~
+End
+
+#10221
+Name        Harvest Road.~
+Descr
+You are walking down Harvest Road.
+It is quiet and peacefull here. The smell of baked goods and other foods
+fill the air.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10222
+You see Harvest Road. 
+~
+~
+Door        east~ ~ -1 10248
+You see the McBakery.
+~
+~
+Door        south~ ~ -1 10220
+You see the Southwest Guardpost.
+~
+~
+End
+
+#10222
+Name        Harvest Road.~
+Descr
+You are walking down Harvest Road.
+It is quiet and peacefull here. The smell of baked goods and other foods
+fill the air.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10216 10 100
+Reset       M 10241 8 100
+Door        north~ ~ -1 10223
+You see Harvest Road. 
+~
+~
+Door        east~ door closed~ -1 10249
+You see a house. 
+~
+door~
+Door        south~ ~ -1 10221
+You see Harvest Road. 
+~
+~
+End
+
+#10223
+Name        Harvest Road.~
+Descr
+You are walking down Harvest Road.
+It is quiet and peacefull here. The smell of baked goods and other foods
+fill the air.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10224
+You see the corner of West Gullen Way and Harvest Road. 
+~
+~
+Door        south~ ~ -1 10222
+You see Harvest Road. 
+~
+~
+End
+
+#10224
+Name        Corner of West Gullen Way and Harvest Road.~
+Descr
+This is the corner of West Gullen and Harvest road.
+To the south you can smell baked goods and other food.
+To the east are various small shops and houses.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        east~ ~ -1 10225
+You see West Gullen Way. 
+~
+~
+Door        south~ ~ -1 10223
+You see Harvest Road. 
+~
+~
+End
+
+#10225
+Name        West Gullen Way~
+Descr
+This is the road called West Gullen Way. It is lined with small houses and
+shops.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10226
+You see West Gullen Way.
+~
+~
+Door        south~ ~ -1 10242
+You see the entrance to Matt's Brewery.
+~
+~
+Door        west~ ~ -1 10224
+You see the corner of West Gullen and Harvest.
+~
+~
+End
+
+#10226
+Name        West Gullen Way~
+Descr
+This is the road called West Gullen Way. It is lined with small houses and
+shops.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10242 4 100
+Door        east~ ~ -1 10227
+You see West Gullen Way.
+~
+~
+Door        south~ door closed~ -1 10243
+You see a house
+~
+door~
+Door        west~ ~ -1 10225
+You see West Gullen Way.
+~
+~
+End
+
+#10227
+Name        West Gullen Way~
+Descr
+This is the road called West Gullen Way. It is lined with small houses and
+shops.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10205
+You see the intersection of West Gullen and the main road.
+~
+~
+Door        south~ door closed~ -1 10244
+You see a house.
+~
+door~
+Door        west~ ~ -1 10226
+You see West Gullen Way.
+~
+~
+End
+
+#10228
+Name        Main Road~
+Descr
+This is the main road in Solace. Down the street you can see various
+shops and houses.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10229
+You see the end of the main road.
+~
+~
+Door        south~ ~ -1 10205
+You see the intersection of Gullen Way and the main road.
+~
+~
+End
+
+#10229
+Name        End of the Main Road~
+Descr
+The main road of Solace stops here. Other smaller roadways lead off
+in various directions.
+To the west is the marketplace, where farmers go to sell their harvests.
+Farther north you see a large building.
+To the East is the Townguard Administration Building.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10272
+You see a cobblestone path. 
+~
+~
+Door        east~ ~ -1 10262
+You see a dusty road.
+~
+~
+Door        south~ ~ -1 10228
+You see the Main Road of Solace.
+~
+~
+Door        west~ ~ -1 10230
+You see the Marketplace.
+~
+~
+End
+
+#10230
+Name        Marketplace.~
+Descr
+This is the Marketplace of Solace. Where the farmers come to sell their
+crops. The smell of vegetables and fruit fill the air. There are a couple
+other vendors selling trinkets and other items.
+There is a sign at the entrance to the market.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+**NOTICE**
+
+Stealing will NOT be tolerated.
+Any sort of shady actions will be punishable by death.
+
+
+-Captain of the Guard-
+~
+Door        north~ ~ -1 10241
+You see Croben's Container Emporium.
+~
+~
+Door        east~ ~ -1 10229
+You see the End of the Main Road of Solace.
+~
+~
+Door        south~ ~ -1 10237
+You see Nisi's Frozen Food Store.
+~
+~
+Door        west~ ~ -1 10231
+You see the Marketplace.
+~
+~
+End
+
+#10231
+Name        Marketplace.~
+Descr
+This is the Marketplace of Solace. Where the farmers come to sell their
+crops. The smell of vegetables and fruit fill the air. There are a couple
+other vendors selling trinkets and other items.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Reset       M 10241 8 100
+Door        north~ ~ -1 10240
+You see Lexie's Scuba Shop.
+~
+~
+Door        east~ ~ -1 10230
+You see the marketplace.
+~
+~
+Door        south~ ~ -1 10236
+You see Janni's Souvenir Shop.
+~
+~
+Door        west~ ~ -1 10232
+You see the Marketplace.
+~
+~
+End
+
+#10232
+Name        Marketplace.~
+Descr
+This is the Marketplace of Solace. Where the farmers come to sell their
+crops. The smell of vegetables and fruit fill the air. There are a couple
+other vendors selling trinkets and other items.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10239
+You see Rashan's Rutabagas Restaurant.
+~
+~
+Door        east~ ~ -1 10231
+You see the marketplace.
+~
+~
+Door        south~ ~ -1 10235
+You see Krista's Fruit Stand.
+~
+~
+Door        west~ ~ -1 10233
+You see the Marketplace.
+~
+~
+End
+
+#10233
+Name        Marketplace.~
+Descr
+This is the Marketplace of Solace. Where the farmers come to sell their
+crops. The smell of vegetables and fruit fill the air. There are a couple
+other vendors selling trinkets and other items.
+These are the last stalls in the marketplace. Next to you stands the West wall
+of the town.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        north~ ~ -1 10238
+You see Molin's Mulburry Extract Distillery.
+~
+~
+Door        east~ ~ -1 10232
+You see the marketplace.
+~
+~
+Door        south~ ~ -1 10234
+You see Jhen's Vegtable Cart.
+~
+~
+End
+
+#10234
+Name        Jhen's Vegetable Cart.~
+Descr
+This is where Jhen the farmer comes to sell his crops. His wooden vegtable
+cart stands here filled with all sorts of vegetables. All his vegtables are 
+unusually large. What kind of plant food does he use anyway...?
+There is a small sign nailed to the cart.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10219 1 100
+Reset       E 10251 -1 100
+Reset       E 10252 -1 100
+Reset       E 10253 -1 100
+Reset       E 10254 -1 100
+Door        north~ ~ -1 10233
+You see the marketplace.
+~
+~
+End
+
+#10235
+Name        Krista's Fruit Stand.~
+Descr
+This is where Krista peddles her fruits. Every year she travels from her
+orchards in the mountains to Solace to sell her fruit. Everything seems
+to have an unusually small size. I wonder if she shrinks heads too...
+There is a small sign hanging above the fruit stand.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10220 1 100
+Reset       E 10259 -1 100
+Reset       E 10260 -1 100
+Reset       E 10261 -1 100
+Reset       E 10262 -1 100
+Door        north~ ~ -1 10232
+You see the marketplace.
+~
+~
+End
+
+#10236
+Name        Janni's Souvenirs.~
+Descr
+This is Janni's Souvenir shop. He makes trinkets year round that he peddles
+here in the market. You wouldn't want to leave Solace without a souvenir
+would you?
+there is a sign behind the glass case.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10221 1 100
+Reset       E 10263 -1 100
+Reset       E 10264 -1 100
+Reset       E 10265 -1 100
+Door        north~ ~ -1 10231
+You see the marketplace.
+~
+~
+End
+
+#10237
+Name        Nisi's Frozen Food~
+Descr
+This is one of the oddest venders in the marketplace. Nisi claims to have
+various fresh frozen types of vegetables. They are frozen all right. In 
+fact they are hard enough to stop an axe swing...go figure..
+And just how does she keep them from melting... 
+There is a small sign on the wall in the back of the shop.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10222 1 100
+Reset       E 10266 -1 100
+Reset       E 10267 -1 100
+Reset       E 10268 -1 100
+Reset       E 10269 -1 100
+Door        north~ ~ -1 10230
+You see the marketplace.
+~
+~
+End
+
+#10238
+Name        Molin's Mulburry Extracts.~
+Descr
+This is the shop of the famous mulburry extract. Known throughout the
+valley to quech the thirst of even the thirstiest traveller. What else it does
+is just rumor. That person recovered in a month anyway...
+There is a small sign on the wall.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10223 1 100
+Reset       E 10270 -1 100
+Reset       E 10270 -1 100
+Reset       E 10270 -1 100
+Reset       E 10270 -1 100
+Door        south~ ~ -1 10233
+You see the marketplace.
+~
+~
+End
+
+#10239
+Name        Rashan's Rutabagas~
+Descr
+This is one shop to stay away from. Rashan's rutabagas have been know
+to do strange things to people. And true to its reputation the shop is
+very very empty. I'm sure Rashan would be more than willing to sell
+you one. Business obviously has been very slow....
+There is a small sign hanging next to you.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10224 1 100
+Reset       E 10271 -1 100
+Reset       E 10272 -1 100
+Reset       E 10273 -1 100
+Reset       E 10274 -1 100
+Door        south~ ~ -1 10232
+You see the marketplace.
+~
+~
+End
+
+#10240
+Name        Lexie's Scuba Shop~
+Descr
+This is one shop that seems to be ahead of its time.
+But who doesn't like scuba diving. If you don't already have
+a diving license you can buy one. Lexie can also train you too. Not  in
+scuba though. Something about a revoked teaching credential due to too
+many students dying or something. This does seem to be an odd place to have
+a scuba shop considering the sea is miles away. But I guess you could
+always go diving in the lake. But why?....
+There is a small sign here.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10225 1 100
+Reset       E 10275 -1 100
+Reset       E 10276 -1 100
+Reset       E 10277 -1 100
+Reset       E 10278 -1 100
+Door        south~ ~ -1 10231
+You see the marketplace.
+~
+~
+End
+
+#10241
+Name        Croben's Containers.~
+Descr
+This is the catch all, hold all, container shop. Croben sell all sorts.
+Just take your pick. And no he doesn't know how much each one holds.
+What...you think he has nothing better to do than fill each container
+just to see how much it holds? Get a life....
+There is a small sign here.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10226 1 100
+Reset       E 10279 -1 100
+Reset       E 10280 -1 100
+Reset       E 10281 -1 100
+Door        south~ ~ -1 10230
+You see the marketplace.
+~
+~
+End
+
+#10242
+Name        Matt's Brewery.~
+Descr
+Matt could never find enough to drink. So to solve this he started his own
+brewery. "You can never drink enough" is Matt's logo and offers plenty
+to drink.
+There is a small sign here.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+Reset       M 10208 1 100
+Reset       E 10240 5 100
+Reset       E 10255 -1 100
+Reset       E 10256 -1 100
+Reset       E 10257 -1 100
+Reset       E 10258 -1 100
+Door        north~ ~ -1 10225
+You see West Gullen Way.
+~
+~
+End
+
+#10243
+Name        a House.~
+Descr
+This is a small house off of West Gullen Way. It is not your house and you
+were not invited. Why are you here?
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Reset       M 10207 5 100
+Reset       M 10238 10 100
+Door        north~ door closed~ -1 10226
+You see West Gullen Way.
+~
+door~
+End
+
+#10244
+Name        a House.~
+Descr
+This is a small house off of West Gullen Way. It is sparsely furnished and
+very tidy. a small fire burns warmly in the fireplace. The sweet smell of 
+flowers is present. Ahhh....what a nice home.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Reset       M 10207 5 100
+Reset       M 10238 10 100
+Door        north~ door closed~ -1 10227
+You see West Gullen Way.
+~
+door~
+End
+
+#10245
+Name        Cookie's Cookie Cookery.~
+Descr
+This is the cookie shop of who else...Cookie. She's not in right now
+but there are many delicious cookies to munch on if you want to wait till
+she returns.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10210 1 100
+Reset       E 10245 -1 100
+Reset       E 10246 -1 100
+Reset       E 10247 -1 100
+Reset       E 10248 -1 100
+Door        east~ ~ -1 10203
+You see the Main road of Solace.
+~
+~
+Door        west~ door closed~ -1 10250
+You see a door.
+~
+door~
+End
+
+#10246
+Name        a House.~
+Descr
+This is a small house off of the main street. It is well furnished and
+very tidy. a small fire burns warmly in the fireplace. The sweet smell of 
+flowers is present. Ahhh....what a nice home.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Reset       M 10207 5 100
+Reset       M 10238 10 100
+Reset       M 10241 8 100
+Door        east~ door closed~ -1 10202
+You see the Main road of Solace.
+~
+door~
+End
+
+#10247
+Name        Old Gambling Parlor.~
+Descr
+This used to be a very popular and busy gambling parlor. But the Captain
+of the Guard lost big here once and thereafter declared gambling illegal.
+It has been closed for many years. It is dusty and full of cobwebs.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10216 10 100
+Reset       M 10237 6 100
+Door        south~ door closed~ -1 10218
+You see a small alleyway.
+~
+door~
+End
+
+#10248
+Name        The McBakery~
+Descr
+You are standing inside the small bakery.  A sweet scent of McDanish
+and fine McBread fills the room.  The McBread and McDanish are arranged
+in fine order on the McShelves, and seem to be of the finest McQuality. You
+remember seeing a place like this somewhere before. Maybe its a McChain?
+A small McSign is on the McCounter.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+Free instructions provided by the store:
+
+   Buy  - Will buy you some McBread or McPastry.
+   List - The McBaker will kindly tell you the price and sort of the McBread in
+          his McBakery.
+~
+Reset       M 10209 1 100
+Reset       E 10241 -1 100
+Reset       E 10242 -1 100
+Reset       E 10243 -1 100
+Reset       E 10244 -1 100
+Door        west~ ~ -1 10221
+You see Harvest road.
+~
+~
+End
+
+#10249
+Name        a House.~
+Descr
+This is a small house off of the main street. It is well furnished and
+very tidy. a small fire burns warmly in the fireplace. The sweet smell of 
+flowers is present. Ahhh....what a nice home.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Reset       M 10207 5 100
+Reset       M 10238 10 100
+Door        west~ door closed~ -1 10222
+You see Harvest road.
+~
+door~
+End
+
+#10250
+Name        Cookie's Relaxing Room.~
+Descr
+This is where Cookie comes to unwind. She comes here sometimes to just
+munch on cookies and talk to her friends.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ door closed~ -1 10245
+You see the front of the store.
+~
+door~
+End
+
+#10251
+Name        a House.~
+Descr
+This is a small house off of West Gullen Way. It is not your house and you
+were not invited. Why are you here?
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Reset       M 10207 5 100
+Reset       M 10238 10 100
+Reset       M 10241 8 100
+Door        north~ door closed~ -1 10206
+You see East Gullen Way.
+~
+door~
+End
+
+#10252
+Name        The Marilyn's Bird Factory.~
+Descr
+This is Marilyn's Bird Factory. There are a wide variety of birds here.
+Buy a pet. Take it home. A loving companion to keep you company.
+~
+Flags       indoors pet_shop~
+Sector      city~
+Regen       100 100
+Reset       M 10211 1 100
+Door        north~ ~ -1 10207
+You see East Gullen Way.
+~
+~
+End
+
+#10253
+Name        Pet Storage~
+Descr
+This is where Marilyn keeps her birds. It is important that this room be
+right after the bird factory.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10253 1 100
+Reset       M 10252 1 100
+Reset       M 10251 1 100
+Reset       M 10250 1 100
+End
+
+#10254
+Name        Storage Building~
+Descr
+This is an abandon storage building. Its empty walls used to house large
+amounts of surplus equipment for the market and various vendors. Sales
+have been good lately and all surplus has been sold. It seems supply has
+yet to catch up to demand.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10216 10 100
+Reset       M 10239 5 100
+Reset       M 10240 4 100
+Door        east~ door closed~ -1 10211
+You see Ketra Road.
+~
+door~
+End
+
+#10255
+Name        Jander's~
+Descr
+Jander's bar used to be a very popular bar in Solace. For some reason or
+another it is now empty. Dust and cobwebs cover everything. It looks as if
+nobody has tread here in years. The bar is hidden beneath broken bottles
+and shattered glasses. Tables and chairs are scattered all over the floor.
+There is a sign on the wall.
+There is a door to Ketra Road to the east.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+Welcome to Jander's!
+
+Drink and be Merry!!!!
+
+But Remember don't Marry after you drink....
+
+-Jander-
+~
+Reset       M 10213 5 100
+Reset       M 10214 1 100
+Reset       E 10307 -1 100
+Reset       E 10308 -1 100
+Reset       E 10309 -1 100
+Reset       M 10216 10 100
+Door        east~ door closed~ -1 10212
+You see Ketra Road.
+~
+door~
+Door        west~ ~ -1 10256
+You see the poolhall.
+~
+~
+End
+
+#10256
+Name        Jander's Poolhall~
+Descr
+Jander's bar used to be a very popular bar in Solace. For some reason or
+another it is now empty. Dust and cobwebs cover everything. It looks as if
+nobody has tread here in years. The bar is to the east. The pooltables are
+broken in half and lie in a heap on the floor. 
+There is a sign on the door to Jander's office.
+A backdoor to the alley is to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+*Jander's Office*
+
+Read this sign!
+
+And then GO AWAY!!
+
+-Jander-
+~
+Reset       M 10213 5 100
+Reset       M 10216 10 100
+Door        north~ door closed~ -1 10259
+You see Jander's office door.
+~
+office door~
+Door        east~ ~ -1 10255
+You see the bar.
+~
+~
+Door        south~ door closed~ -1 10215
+You see a backdoor to the alley.
+~
+door backdoor~
+Door        west~ ~ -1 10257
+You see the restaurant.
+~
+~
+End
+
+#10257
+Name        Jander's Restaurant~
+Descr
+Jander's bar and restaurant used to be a very popular bar in Solace.
+For some reason or another it is now empty. Dust and cobwebs cover
+everything. It looks as if nobody has tread here in years.
+The poolhall and bar are to the east.
+A door to the main road is to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10213 5 100
+Reset       M 10216 10 100
+Door        east~ ~ -1 10256
+You see the poolhall.
+~
+~
+Door        west~ door closed~ -1 10202
+You see the main road of Solace.
+~
+door~
+End
+
+#10258
+Name        Death's Chambers~
+Descr
+This is the Chamber of Death. If you are lucky, he isn't here right now.
+The walls are covered with twisted faces of a countless tortured
+souls crying out in agony. The floor is made of black marble as is the 
+ceiling. The air smells of brimstone and makes your lungs burn with
+every breath. 
+There is a sign floating in front of you.
+~
+Flags       indoors private~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+Please sit and wait.
+
+Death will be with you shortly.
+
+"Those who wait for death are indeed lost souls..."
+~
+Reset       O 10310 0 100
+End
+
+#10259
+Name        Jander's Office~
+Descr
+This is Jander's Office and obviously you didn't read the sign before
+coming in.The office is dusty and abandon like the rest of the bar, but is
+otherwise in the same condition as when it was occupied. An oak desk
+sits in the middle of the room. A bookcase rests against the wall. Various
+chairs are set in front of the desk. An employee that was called into Jander's
+office was not likely to leave. Jander was rarely if ever seen. He mostly
+stayed in his office and did office stuff. He was never in a good mood.
+The office door is to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10212 5 100
+Door        south~ door closed~ -1 10256
+You see the poolhall.
+~
+door ~
+End
+
+#10260
+Name        Inside Southeast Watchtower.~
+Descr
+You are inside the Southeast Watchtower.
+From up here you can see above the trees and most of the valley.
+There is a beautiful view of Crystalmir lake.
+Well actually the Southwest watchtower is blocking some of your view.
+You are however not suppose to be up here. If the guards catch you up
+here you are likely to be in BIG trouble...
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10205 4 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10205 4 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        down~ ~ -1 10213
+You see stairs leading down to the guardpost. 
+~
+~
+End
+
+#10261
+Name        Inside Southwest Watchtower.~
+Descr
+You are inside the Southwest Watchtower.
+From up here you can see above the trees and most of the valley.
+There is a beautiful view of Crystalmir lake.
+You are however not suppose to be up here. If the guards catch you up
+here you are likely to be in BIG trouble...
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10205 4 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10205 4 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        down~ ~ -1 10220
+You see stairs leading down to the guardpost. 
+~
+~
+End
+
+#10262
+Name        Dusty road.~
+Descr
+This dusty road looks well traveled. To the East you see the Townguard
+Administration Building.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Door        east~ ~ -1 10263
+You see the Townguard Administration Building. 
+~
+~
+Door        west~ ~ -1 10229
+You see the end of Main road. 
+~
+~
+End
+
+#10263
+Name        Townguard Administration Building.~
+Descr
+Before you stands the Townguard Administration Building. This is a large
+building with various statues and other artwork decorating the building.
+There is a door the east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ door closed~ -1 10264
+You see entrance hall. 
+~
+door~
+Door        west~ ~ -1 10262
+You see a dusty road. 
+~
+~
+End
+
+#10264
+Name        Entrance Hall.~
+Descr
+The entrance hall is made entirely of marble and granite. It seems sort of
+extravagant for a townguard administration building. The 30 foot high
+ceiling seems to dwarf everything in the hallway. The Seal of the Town
+of Solace lies embedded in the center of the floor.
+A pair of heavy double doors lies to the east.
+The entrance door is to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        east~ door closed~ -1 10270
+You see a pair of heavy double doors. 
+~
+doors~
+Door        south~ ~ -1 10265
+You see a marble corridor.
+~
+~
+Door        west~ door closed~ -1 10263
+You see the entrance to the building. 
+~
+door~
+End
+
+#10265
+Name        Marble Corridor.~
+Descr
+This corridor is also decorated with paintings and sculptures. Marble
+columns line the walls. Crystal chandeliers hang from the ceiling.
+A door to the Town Clerk's office is to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10264
+You see the entrance hallway. 
+~
+~
+Door        east~ ~ -1 10268
+You see marble corridor. 
+~
+~
+Door        west~ door closed~ -1 10266
+You see the door to the Town Clerk's Office. 
+~
+door officedoor~
+End
+
+#10266
+Name        Town Clerk.~
+Descr
+This is where you pay your fines and taxes.
+The Town Clerk's desk sits in front of you. There are chairs and a
+few tables along the walls. There is a metal door on the west wall
+behind the clerk's desk.
+The hallway is to the east.
+A heavy metal depository door is to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10217 1 100
+Reset       E 10249 16 100
+Reset       E 10305 17 100
+Door        east~ door closed~ -1 10265
+You see a marble corridor. 
+~
+~
+Door        west~ door closed locked~ 10305 10267
+You see a heavy metal door. 
+~
+safe~
+End
+
+#10267
+Name        Deposits Room.~
+Descr
+This is a large safe like room. All payments for taxes and fines are deposited
+here by the clerk. The walls are made of white marble and have gold deposit
+boxes set into them.
+The safe door is to the east.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10218 4 100
+Reset       E 10236 5 100
+Reset       E 10250 16 100
+Reset       O 10302 0 100
+Reset       P 10303 10302 100
+Reset       O 10302 0 100
+Reset       P 10303 10302 100
+Reset       O 10302 0 100
+Reset       P 10303 10302 100
+Reset       O 10302 0 100
+Reset       P 10303 10302 100
+Door        east~ door closed locked~ 10305 10266
+You see Town Clerks Office. 
+~
+safe~
+End
+
+#10268
+Name        Marble Corridor.~
+Descr
+This corridor is also decorated with paintings and sculptures. Marble
+columns line the walls. Crystal chandeliers hang from the ceiling.
+A pair of heavy double doors lie to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10241 8 100
+Door        north~ door closed~ -1 10270
+You see a pair of heavy double doors. 
+~
+doors~
+Door        east~ ~ -1 10269
+You see a fountain. 
+~
+~
+Door        west~ ~ -1 10265
+You see a marble corridor. 
+~
+~
+End
+
+#10269
+Name        Water Fountain.~
+Descr
+There is a very large water fountain here. Large marble lion heads spout
+water from their mouths and stone fish spit water from the base of the
+fountain.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10232 1 100
+Reset       O 10304 0 100
+Door        west~ ~ -1 10268
+You see marble corridor. 
+~
+~
+End
+
+#10270
+Name        Hallway Intersection.~
+Descr
+This is the intersection of four large hallways. Light streams in from the 
+stainglass skylight above. Large double doors close off each hallway.
+The doors are made of oak and encrusted with gold patterns.
+A pair of double doors are in each direction.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ door closed~ -1 10276
+You see a pair of double doors. 
+~
+doors~
+Door        east~ door closed~ -1 10271
+You see a pair of double doors. 
+~
+doors~
+Door        south~ door closed~ -1 10268
+You see a pair of double doors. 
+~
+doors~
+Door        west~ door closed~ -1 10264
+You see a pair of double doors. 
+~
+doors~
+End
+
+#10271
+Name        End of Long Hall~
+Descr
+This is the end of a long and lavish hallway. exquisite paintings and
+statues line the walls. The ceilings are covered with colorful mosaics.
+A pair of double doors lie to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10277
+You see a long hallway. 
+~
+~
+Door        west~ door closed~ -1 10270
+You see a pair of double doors. 
+~
+doors~
+End
+
+#10272
+Name        Cobblestone Path~
+Descr
+You are walking on a cobblestone path. It leads to a large building to the
+north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10282
+You see a large building ahead. 
+~
+~
+Door        south~ ~ -1 10229
+You see the end of Main road. 
+~
+~
+End
+
+#10273
+Name        Sergeant's Reception Room~
+Descr
+This room is decorated with various swords and other ornamental artifacts
+of combat. Pictures of bloody battles adorn the walls. If you have an
+appointment to see the Sergeant at Arms this is where you'd come to wait.
+But who knows how long you'll have to wait...
+The door to the Sergeant's office is to the north.
+The door to the hallway is on the east wall.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10241 8 100
+Reset       M 10249 1 100
+Door        north~ door closed~ -1 10283
+You see an Iron bound door. 
+~
+door~
+Door        east~ door~ -1 10274
+You see a hallway. 
+~
+door~
+End
+
+#10274
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+The Sergeant's waiting room is to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10284
+You see a hallway. 
+~
+~
+Door        east~ ~ -1 10275
+You see a hallway. 
+~
+~
+Door        west~ door~ -1 10273
+You see a reception area. 
+~
+door~
+End
+
+#10275
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+There is an oak door to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ door closed~ -1 10285
+You see an oak door. 
+~
+oak door~
+Door        east~ ~ -1 10276
+You see a hallway. 
+~
+~
+Door        west~ ~ -1 10274
+You see a hallway. 
+~
+~
+End
+
+#10276
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+A pair of double doors are south of you.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10286
+You see a hallway. 
+~
+~
+Door        south~ door closed~ -1 10270
+You see double doors. 
+~
+doors~
+Door        west~ ~ -1 10275
+You see a hallway. 
+~
+~
+End
+
+#10277
+Name        Long Hallway~
+Descr
+This hallway is sparse compared to some of the others. It seems to go
+on and on. The marble floors are barren of any type of decorations.
+The walls are rough stone bound by large wooden beams. This is maybe
+the only hallway that doesn't have large amounts of gold and other artifacts.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10287
+You see a long hallway. 
+~
+~
+Door        south~ ~ -1 10271
+You see the end of the hallway. 
+~
+~
+End
+
+#10278
+Name        West end of Common Room~
+Descr
+You are standing in the West end of a very large room. It is where
+adventurers rest their weary feet if they don't have enough gold to
+pay for a private room. The room continues to the East.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10233 5 100
+Reset       E 10282 12 100
+Reset       E 10283 16 100
+Reset       E 10284 17 100
+Reset       M 10234 5 100
+Reset       E 10283 16 100
+Reset       E 10286 5 100
+Reset       E 10287 3 100
+Reset       M 10235 5 100
+Reset       E 10288 16 100
+Reset       E 10289 5 100
+Reset       E 10290 11 100
+Reset       M 10236 5 100
+Reset       E 10285 17 100
+Reset       E 10291 16 100
+Reset       E 10282 12 100
+Door        east~ ~ -1 10279
+You see more of a very large room. 
+~
+~
+End
+
+#10279
+Name        East end of Common Room~
+Descr
+You are standing in the East end of a very large room. It is where
+adventurers rest their weary feet if they don't have enough gold to
+pay for a private room. The room continues to the west.
+A door to the hallway is to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10233 5 100
+Reset       E 10282 12 100
+Reset       E 10283 16 100
+Reset       E 10284 17 100
+Reset       M 10234 5 100
+Reset       E 10283 16 100
+Reset       E 10286 5 100
+Reset       E 10287 3 100
+Reset       M 10235 5 100
+Reset       E 10288 16 100
+Reset       E 10289 5 100
+Reset       E 10290 11 100
+Reset       M 10236 5 100
+Reset       E 10285 17 100
+Reset       E 10291 16 100
+Reset       E 10282 12 100
+Reset       M 10242 4 100
+Door        north~ door closed~ -1 10289
+You see a large hallway. 
+~
+door~
+Door        west~ ~ -1 10278
+You see more of a very large room. 
+~
+~
+End
+
+#10280
+Name        West end of Bar.~
+Descr
+You are standing of the west end of the bar. This is a darker corner where
+less seems to occur. Maybe a beer and a nap would be nice.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10233 5 100
+Reset       E 10282 12 100
+Reset       E 10283 16 100
+Reset       E 10284 17 100
+Reset       M 10234 5 100
+Reset       E 10283 16 100
+Reset       E 10286 5 100
+Reset       E 10287 3 100
+Reset       M 10235 5 100
+Reset       E 10288 16 100
+Reset       E 10289 5 100
+Reset       E 10290 11 100
+Reset       M 10236 5 100
+Reset       E 10285 17 100
+Reset       E 10291 16 100
+Reset       E 10282 12 100
+Reset       M 10242 4 100
+Door        east~ ~ -1 10281
+You see main bar. 
+~
+~
+End
+
+#10281
+Name        Inn of the Last Home.~
+Descr
+The Inn of the Last Home never changes. The polished wooden bar curves
+around several living branches. An old man weaves stories in the corner and
+delights the crowd gathered about him. The delicate windows of stained
+glass behind the bar are being polished by Otik Sandath, the barkeeper.
+The carved door to the Inn is to the east.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10233 5 100
+Reset       E 10282 12 100
+Reset       E 10283 16 100
+Reset       E 10284 17 100
+Reset       M 10234 5 100
+Reset       E 10283 16 100
+Reset       E 10286 5 100
+Reset       E 10287 3 100
+Reset       M 10235 5 100
+Reset       E 10288 16 100
+Reset       E 10289 5 100
+Reset       E 10290 11 100
+Reset       M 10236 5 100
+Reset       E 10285 17 100
+Reset       E 10291 16 100
+Reset       E 10282 12 100
+Reset       M 10206 10 100
+Reset       M 10227 1 100
+Reset       E 10307 -1 100
+Reset       E 10308 -1 100
+Reset       E 10309 -1 100
+Reset       M 10228 1 100
+Reset       E 10307 -1 100
+Reset       E 10308 -1 100
+Reset       E 10309 -1 100
+Door        north~ ~ -1 10291
+You see north end of the bar. 
+~
+~
+Door        east~ door closed~ -1 10282
+You see a carved door. 
+~
+door~
+Door        west~ ~ -1 10280
+You see the west end of the bar.
+~
+~
+Door        up~ ~ -1 10290
+You see a wooden staircase.
+~
+~
+End
+
+#10282
+Name        Outside the Inn of the Last Home.~
+Descr
+The Inn of the Last Home rests within the trunk of a huge vallenwood tree.
+Warm laughter tumbles from the inn. The worn steps wind around the heavy
+trunk up to the familiar, carved door.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        north~ door closed~ -1 10292
+You see trees
+~
+tree~
+Door        south~ ~ -1 10272
+You see a cobblestone path.
+~
+~
+Door        west~ door closed~ -1 10281
+You see a carved door. 
+~
+door~
+End
+
+#10283
+Name        Sergeant's Office~
+Descr
+This is the office of the Sergeant at Arms. He is in charge of all minor
+complaints. His office is richly decorated with ornamental weapons and
+pictures of war. A large desk sits in the middle of the room.
+You see an Iron bound door to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10203 1 100
+Reset       E 10226 6 100
+Reset       E 10300 5 100
+Reset       E 10227 10 100
+Reset       E 10228 7 100
+Reset       E 10229 9 100
+Reset       E 10230 8 100
+Reset       E 10231 3 100
+Reset       E 10232 13 100
+Reset       E 10209 4 100
+Reset       E 10233 11 100
+Reset       E 10235 16 100
+Reset       E 10212 1 100
+Reset       E 10234 14 100
+Reset       E 10234 15 100
+Door        south~ door closed~ -1 10273
+You see an Iron bound door. 
+~
+door~
+End
+
+#10284
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10294
+You see a hallway. 
+~
+~
+Door        south~ ~ -1 10274
+You see a hallway. 
+~
+~
+End
+
+#10285
+Name        Guards Room.~
+Descr
+There are many barrels and chests of food in here. All of it looks spoiled.
+This is where the town guards hang out when not on duty.
+You see an oak door to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        south~ door closed~ -1 10275
+You see an oak door. 
+~
+door~
+End
+
+#10286
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10296
+You see a hallway. 
+~
+~
+Door        south~ ~ -1 10276
+You see a hallway. 
+~
+~
+End
+
+#10287
+Name        Long Hallway~
+Descr
+This hallway is sparse compared to some of the others. It seems to go
+on and on. The marble floors are barren of any type of decorations.
+The walls are rough stone bound by large wooden beams. This is maybe
+the only hallway that doesn't have large amounts of gold and other artifacts.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        north~ ~ -1 10297
+You see a long hallway. 
+~
+~
+Door        south~ ~ -1 10277
+You see a long hallway. 
+~
+~
+End
+
+#10288
+Name        Hallway~
+Descr
+You are standing in an old vallenwood hallway.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10298
+You see a hallway. 
+~
+~
+Door        east~ ~ -1 10289
+You see a hallway. 
+~
+~
+End
+
+#10289
+Name        Outside Common Room~
+Descr
+You are standing in an old vallenwood hallway. Laughter and the murmur
+of conversation comes from the south.
+The door to the common room lies to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10290
+You see a hallway. 
+~
+~
+Door        south~ door closed~ -1 10279
+You see the common room. 
+~
+door~
+Door        west~ ~ -1 10288
+You see a hallway. 
+~
+~
+End
+
+#10290
+Name        Second Floor of the Inn.~
+Descr
+You are at the top of a wooden staircase. Downstairs is the bar.
+To the west you can hear laughter and the low murmur of voices.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        west~ ~ -1 10289
+You see a hallway.
+~
+~
+Door        down~ ~ -1 10281
+You see a wooden staircase.
+~
+~
+End
+
+#10291
+Name        North End of Bar.~
+Descr
+A smoky fire struggles in the blackened stove, feebly challenging
+the gloom in the town. In sharp contrast to the usual lively crowd,
+the few patrons present are lost in their own thoughts. No one
+smiles, nor does anyone seem interested in the arrival of a few
+more customers. 
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10233 5 100
+Reset       E 10282 12 100
+Reset       E 10283 16 100
+Reset       E 10284 17 100
+Reset       M 10234 5 100
+Reset       E 10283 16 100
+Reset       E 10286 5 100
+Reset       E 10287 3 100
+Reset       M 10235 5 100
+Reset       E 10288 16 100
+Reset       E 10289 5 100
+Reset       E 10290 11 100
+Reset       M 10236 5 100
+Reset       E 10285 17 100
+Reset       E 10291 16 100
+Reset       E 10282 12 100
+Reset       M 10229 1 100
+Reset       M 10230 3 100
+Reset       M 10231 1 100
+Door        south~ ~ -1 10281
+You see main bar.
+~
+~
+End
+
+#10292
+Name        Captain's Office.~
+Descr
+This is the office of the Captain of the Guard. Leather couches
+and a solid marble desk sit against the far wall. A weapons
+cabinet stands against the west wall. The Captain has a large
+portrait of himself on the wall behind his desk.
+A pair of heavy metal doors with the emblem of the townguard
+is on the north wall.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10201 1 100
+Reset       E 10201 6 100
+Reset       E 10298 5 100
+Reset       E 10202 10 100
+Reset       E 10203 7 100
+Reset       E 10204 9 100
+Reset       E 10205 8 100
+Reset       E 10206 3 100
+Reset       E 10207 13 100
+Reset       E 10209 4 100
+Reset       E 10208 11 100
+Reset       E 10210 -1 100
+Reset       E 10306 17 100
+Reset       E 10211 16 100
+Reset       E 10212 1 100
+Reset       E 10213 14 100
+Reset       E 10213 15 100
+Reset       O 10214 0 100
+Reset       P 10215 10214 100
+Door        north~ door closed~ -1 10302
+You see a set of Heavy Metal Doors with the emblem of the townguard.
+~
+doors~
+Door        south~ ~ -1 10282
+A wall.
+~
+wall~
+End
+
+#10293
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10303
+You see a hallway.
+~
+~
+Door        east~ ~ -1 10294
+You see a hallway.
+~
+~
+End
+
+#10294
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10295
+You see a reception area.
+~
+~
+Door        south~ ~ -1 10284
+You see a hallway.
+~
+~
+Door        west~ ~ -1 10293
+You see a hallway.
+~
+~
+End
+
+#10295
+Name        Lieutenant's Reception Area.~
+Descr
+This is the waiting room for meetings with the Lieutenant Commander.
+The furniture is made of vallenwood and the walls are covered with
+finger paintings. Various crayon drawings are framed behind the
+secretary 's desk.
+A glass door with the townguard emblem is to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10248 1 100
+Door        north~ door closed~ -1 10305
+You see a glass door with the townguard emblem.
+~
+door~
+Door        west~ ~ -1 10294
+You see a hallway.
+~
+~
+End
+
+#10296
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10241 8 100
+Door        north~ ~ -1 10306
+You see a hallway.
+~
+~
+Door        south~ ~ -1 10286
+You see a hallway.
+~
+~
+End
+
+#10297
+Name        Long Hallway~
+Descr
+This hallway is sparse compared to some of the others. It seems to go
+on and on. The marble floors are barren of any type of decorations.
+The walls are rough stone bound by large wooden beams. This is maybe
+the only hallway that doesn't have large amounts of gold and other artifacts.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10307
+You see a hallway.
+~
+~
+Door        south~ ~ -1 10287
+You see a hallway.
+~
+~
+End
+
+#10298
+Name        Hallway~
+Descr
+You are standing in an old vallenwood hallway.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10308
+You see reading room.
+~
+~
+Door        south~ ~ -1 10288
+You see a hallway.
+~
+~
+End
+
+#10299
+Name        Private Room~
+Descr
+This is a private room. Those with some money can rent these rooms instead
+of staying in the common room. It is well furnished with a large bed and
+other bedroom stuff.
+There is a door to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10242 4 100
+Door        north~ door closed~ -1 10309
+You see a door.
+~
+door~
+End
+
+#10300
+Name        Private Room~
+Descr
+This is a private room. Those with some money can rent these rooms instead
+of staying in the common room. It is well furnished with a large bed and
+other bedroom stuff.
+There is a door to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10243 1 100
+Reset       E 10292 17 100
+Reset       E 10293 12 100
+Door        north~ door closed~ -1 10310
+You see a door.
+~
+door~
+End
+
+#10301
+Name        Private Room~
+Descr
+This is a private room. Those with some money can rent these rooms instead
+of staying in the common room. It is well furnished with a large bed and
+other bedroom stuff.
+There is a door to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10244 1 100
+Reset       E 10294 5 100
+Reset       E 10297 16 100
+Reset       E 10296 11 100
+Door        north~ door closed~ -1 10311
+You see a door.
+~
+door~
+End
+
+#10302
+Name        Captain's Meeting room.~
+Descr
+You are standing in the meeting room of the Captain of the Guard. This
+is where he holds his administrative meetings and other official functions.
+A large meeting tables sits in the middle of the room.
+There is a pair of glass double doors to the north.
+There is a pair of heavy metal doors with the emblem of the 
+townguard to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10245 1 100
+Reset       E 10303 -1 100
+Reset       M 10246 3 100
+Door        north~ door closed~ -1 10312
+You see Glass Double Doors.
+~
+doors~
+Door        south~ door closed~ -1 10292
+You see a set of Heavy Metal Doors with the emblem of the townguard.
+~
+doors~
+End
+
+#10303
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10313
+You see a hallway.
+~
+~
+Door        south~ ~ -1 10293
+You see a hallway.
+~
+~
+End
+
+#10304
+Name        Guards Room.~
+Descr
+There are many barrels and chests of food in here. All of it looks spoiled.
+This is where the town guards hang out when not on duty.
+There is an oak door to the north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10215 40 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10237 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10238 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10239 16 100
+Reset       M 10204 12 100
+Reset       E 10236 5 100
+Reset       E 10301 16 100
+Door        north~ door closed~ -1 10314
+You see a oak door.
+~
+door~
+End
+
+#10305
+Name        Lieutenant's Office.~
+Descr
+This is the Office of the Lieutenant Commander. He basicially does
+nothing all day. Hence the fingerpainting tacked to all the walls.
+The furniture is more fitting to a 7 year old than that of a commander.
+Small plastic furniture and plastic flowers adorn the office.
+You see a glass door with the townguard emblem to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10202 1 100
+Reset       E 10216 6 100
+Reset       E 10299 5 100
+Reset       E 10217 10 100
+Reset       E 10218 7 100
+Reset       E 10219 9 100
+Reset       E 10220 8 100
+Reset       E 10221 3 100
+Reset       E 10222 13 100
+Reset       E 10209 4 100
+Reset       E 10223 11 100
+Reset       E 10225 16 100
+Reset       E 10212 1 100
+Reset       E 10224 14 100
+Reset       E 10224 15 100
+Door        south~ door closed~ -1 10295
+You see a glass door.
+~
+door~
+End
+
+#10306
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10316
+You see a hallway.
+~
+~
+Door        south~ ~ -1 10296
+You see a hallway.
+~
+~
+End
+
+#10307
+Name        Long Hallway~
+Descr
+This hallway is sparse compared to some of the others. It seems to go
+on and on. The marble floors are barren of any type of decorations.
+The walls are rough stone bound by large wooden beams. This is maybe
+the only hallway that doesn't have large amounts of gold and other artifacts.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 10317
+You see the end of a long hallway.
+~
+~
+Door        south~ ~ -1 10297
+You see a hallway.
+~
+~
+End
+
+#10308
+Name        Reading Room.~
+Descr
+This is an afternoon reading room. Its especially nice on sunny days when
+the afternoon sun shines through the large picture window. Many books
+line the walls. All look pretty boring and seem to be more for show than
+for reading.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10206 10 100
+Door        east~ ~ -1 10309
+You see a hallway.
+~
+~
+Door        south~ ~ -1 10298
+You see a hallway.
+~
+~
+End
+
+#10309
+Name        Hallway~
+Descr
+You are standing in an old vallenwood hallway.
+This corridor is lined with the more expensive private rooms.
+There is a door to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10310
+You see a hallway.
+~
+~
+Door        south~ door closed~ -1 10299
+You see a door.
+~
+door~
+Door        west~ ~ -1 10308
+You see a reading room.
+~
+~
+End
+
+#10310
+Name        Hallway~
+Descr
+You are standing in an old vallenwood hallway.
+This corridor is lined with the more expensive private rooms.
+There is a door to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10311
+You see a hallway.
+~
+~
+Door        south~ door closed~ -1 10300
+You see a door.
+~
+door~
+Door        west~ ~ -1 10309
+You see a hallway.
+~
+~
+End
+
+#10311
+Name        Hallway~
+Descr
+You are standing in an old vallenwood hallway.
+This corridor is lined with the more expensive private rooms.
+There is a door to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        south~ door closed~ -1 10301
+You see a door.
+~
+door~
+Door        west~ ~ -1 10310
+You see a hallway.
+~
+~
+End
+
+#10312
+Name        Captain's Waiting Room.~
+Descr
+This is the Reception area for the the Captain of the Guard. A large portrait
+of the Captain is on the north wall. With the amount of extravagance and 
+expensive items that decorate this room you wonder how he gets away with
+it. The title Sultan would be more appropriate than Captain of the Guard.
+You see an oak door to the east.
+There are a pair of glass double doors to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 10247 1 100
+Door        east~ door closed~ -1 10313
+You see a oak door.
+~
+door~
+Door        south~ door closed~ -1 10302
+You see Glass Double Doors.
+~
+doors~
+End
+
+#10313
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+The Captain of the Guard's waiting room is to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10314
+You see a hallway.
+~
+~
+Door        south~ ~ -1 10303
+You see a hallway.
+~
+~
+Door        west~ door closed~ -1 10312
+You see Captain's waiting room door.
+~
+door~
+End
+
+#10314
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+There is an oak door to the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10315
+You see a hallway.
+~
+~
+Door        south~ door closed~ -1 10304
+You see a oak door.
+~
+door~
+Door        west~ ~ -1 10313
+You see a hallway.
+~
+~
+End
+
+#10315
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10316
+You see a hallway.
+~
+~
+Door        west~ ~ -1 10314
+You see a hallway.
+~
+~
+End
+
+#10316
+Name        Administration Hallway~
+Descr
+The hallway is just as extravagant as all the others in this building.
+Gem mosaics cover the walls, and intricate patterns are carved in the
+gold laden floors. This doesn't look like an admistration building,
+more like a palace.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 10317
+You see the end of a long hallway.
+~
+~
+Door        south~ ~ -1 10306
+You see a hallway.
+~
+~
+Door        west~ ~ -1 10315
+You see a hallway.
+~
+~
+End
+
+#10317
+Name        End of Long Hall~
+Descr
+This is the end of a long and lavish hallway. exquisite paintings and
+statues line the walls. The ceilings are covered with colorful mosaics.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        south~ ~ -1 10307
+You see a hallway.
+~
+~
+Door        west~ ~ -1 10316
+You see a hallway.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

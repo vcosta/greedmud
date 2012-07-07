@@ -1,0 +1,53 @@
+GreedMud Release 0.99.5
+Friday, 11th February 2000
+
+Zen             <greedmud@egroups.com>
+
+
+
+=== What's next?
+
+I might finish and include these features in the next patch to GreedMud.
+These features are by NO MEANS guaranteed to be coded. You might notice most of
+the ideas aren't highly original. You see, my mind is usually useless at having
+ideas for what to do if i don't have a set goal :-)
+
+% - means sort of finished code.
+* - means major, 'pie in the sky' changes.
+
+		Debugging, cleanup, testing, improvement of code. You know...
+
+*		Make the mud more AD&D based.
+
+*		Substitute MOBPrograms for a real mud scripting language using
+		  lex & yacc.
+
+*		Use modules for the spells code so you can add/remove spells
+		  on the fly.
+
+*		Use POSIX threads. (This will break native Win32 compatibility)
+
+*		Use TELNET char mode.  Make command line prompt like tcsh.
+
+*		Add full Pueblo support. Or wait for the "next big thing"(tm)
+
+		Automated quest code.
+
+		Automated arena code, including challenge mode.
+
+		Add value5 field to objects? Or value10?
+
+*		Rework the whole classes idea.
+
+...		Even more spells, even more skills.
+
+%		Traps (discussed in the Merc mailing list)
+		( can be made with a room special )
+
+...		Add a couple more immskills ( never can have enough :-) )
+
+		Online editing of classes & socials (save routine already made)
+
+******		Make an entirely new mud, using Ansi C++ or Ansi Common Lisp
+
+- Zen

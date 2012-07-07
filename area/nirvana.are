@@ -1,0 +1,1544 @@
+#AREADATA
+Name        The Plane of Nirvana~
+Author      Forstal~
+Levels      20 45
+Security    1
+VNUMs       8100 8159
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#8100
+Name        tridrone~
+Short       a tridrone~
+Long
+A tridrone is here, doing a menial task.
+~
+Descr
+You see what appears to be a 3 sided pyramid with spidery arms and legs.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   0
+Level       18
+Race        Arachnid~
+Sex         neutral~
+Spec        spec_thief~
+End
+
+#8101
+Name        quadrone~
+Short       a quadrone~
+Long
+A quadrone is here, watching for trespassers.
+~
+Descr
+A cubic creature, with spiny arms and legs.
+~
+Act         scavenger aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   0
+Level       21
+Race        Arachnid~
+Sex         neutral~
+End
+
+#8102
+Name        pentadrone~
+Short       a pentadrone~
+Long
+A pentadrone is here, policing the area.
+~
+Descr
+A five-armed creature which resembles a starfish on thin stilt-like legs.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   0
+Level       23
+Race        Arachnid~
+Sex         neutral~
+End
+
+#8103
+Name        decaton~
+Short       a decaton~
+Long
+A decaton is here, overseeing the other modrons.
+~
+Descr
+A Decaton  appear as a 10 tentacled sphere on stumpy legs.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   0
+Level       25
+Race        Arachnid~
+Sex         neutral~
+End
+
+#8104
+Name        nonaton~
+Short       A nonaton~
+Long
+A nonaton is here, preserving law and order.
+~
+Descr
+A cylidrical modron with 9 tentacles and stubby legs.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   0
+Level       27
+Race        Arachnid~
+Sex         neutral~
+End
+
+#8105
+Name        octon~
+Short       An octon~
+Long
+An octon is here, governing his ward of responsilbility.
+~
+Descr
+An octon has a collar at shoulder level with 8 tentacled arms outside his
+collar.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   0
+Level       29
+Race        Arachnid~
+Sex         neutral~
+End
+
+#8106
+Name        septon~
+Short       a septon~
+Long
+A septon is here, preserving order.
+~
+Descr
+A septon appears as a human with a large bald head.  It has a shoulder collar
+with 7 tentacles coming from it.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   300
+Level       31
+Race        Arachnid~
+Sex         neutral~
+Spec        spec_cast_cleric~
+End
+
+#8107
+Name        hexton~
+Short       a hexton~
+Long
+A hexton is here, watching over his armies.
+~
+Descr
+A hexton appears as a humanoid with 6 arms: 2 large human arms with 6 fingers,
+and 4 tentalces below tipped with sharp claws.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   0
+Level       33
+Race        Arachnid~
+Sex         neutral~
+Spec        spec_cast_cleric~
+End
+
+#8108
+Name        quinton~
+Short       a quinton~
+Long
+A quinton is here keeping records.
+~
+Descr
+Quintons look like tall, stocky humanoids with 4 flexible arms jutting from the
+shoulders.  A prehensile tail serves as the creature's 5th arm, and it has
+fan-like wings attached to their shoulders.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   0
+Level       35
+Race        Arachnid~
+Sex         neutral~
+Spec        spec_cast_cleric~
+End
+
+#8109
+Name        tertian~
+Short       a tertian~
+Long
+A tertian is here administering the law.
+~
+Descr
+Tertians look very human, save for their 12 foot size, the horns jutting from
+the sides of their bald heads, and the long prehensile tail ending in a mace-
+like ball.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   0
+Level       40
+Race        Arachnid~
+Sex         neutral~
+Spec        spec_cast_mage~
+End
+
+#8110
+Name        secundus~
+Short       Secundus~
+Long
+Secundus, Viceroy of the quarter, is here.
+~
+Descr
+The secundi appear as incredibly thin, tall humanoids with long, narrow faces
+and deepset eyes.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   0
+Level       45
+Race        Human~
+Sex         neutral~
+Spec        spec_cast_mage~
+End
+
+#8111
+Name        primus~
+Short       Primus~
+Long
+Primus, ruler of all the planes of Nirvana, forms out of an energy pool.
+~
+Descr
+Primus is a huge being who rises out of the energy pool and glares at you with
+violet eyes. His right hand is wreathed in darkness, his left in light, and
+he looks very displeased to see you.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   0
+Level       60
+Race        God~
+Sex         neutral~
+Spec        spec_cast_mage~
+End
+
+#0
+
+
+
+#OBJDB
+#8100
+Name        sword realms~
+Short       realms sword~
+Descr
+The sword of the rulers of the Realm.~
+Type        weapon~
+Extra       hum dark magic~
+Wear        take wield~
+Values      0~ 2~ 12~ 3~ 0~
+Weight      24
+Affect      hitroll~ 5 ~
+Affect      damroll~ 4 ~
+End
+
+#8101
+Name        radiant vest~
+Short       a radiant vest~
+Descr
+A vest made of some glowing substance.~
+Type        armor~
+Extra       magic anti-evil~
+Wear        take body~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      30
+Affect      damroll~ 2 ~
+Affect      strength~ 3 ~
+End
+
+#8102
+Name        helm radiant~
+Short       a radiant helm~
+Descr
+A helm glowing and pulsing with radiance.~
+Type        armor~
+Extra       hum dark magic anti-evil~
+Wear        take head~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      hitroll~ 2 ~
+End
+
+#8103
+Name        aura sleeves radiant~
+Short       aura of radiance~
+Descr
+An aura lies here shimmering before you.~
+Type        armor~
+Extra       hum dark magic anti-evil~
+Wear        take arms~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#8104
+Name        shield aura force~
+Short       a shimmering field of power~
+Descr
+A pool of energy lies here.~
+Type        armor~
+Extra       hum dark magic anti-good~
+Wear        take shield~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      saving-para~ -4 ~
+Affect      saving-rod~ -6 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#8100
+Name        In the Plane of Nirvana~
+Descr
+You stand in a higher plane of absolute balance and order.  It is equally hot
+and cold, equally light and dark, and made of equal parts of solid and liquid.
+The plane extends to the west and east, while a strange nexial link lies
+under your feet.
+   A small, incongrous plaque is fixed in the fabric of existence here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  plaque~
+The plaque reads:
+This area written orignally by Forstall for Rivers of Mud.
+Modifications by Alander of Rivers of Mud.
+Modifications were made by Andersen for the 4th Realm.
+~
+Door        east~ ~ -1 8101
+To the east, the plane extends for what seems to be forever.
+~
+~
+Door        west~ ~ -1 8102
+To the west, the plane extends for what seems to be forever.
+~
+~
+Door        down~ ~ -1 1949
+The nexial link leads back into the astral plane.
+~
+~
+End
+
+#8101
+Name        The Plane of Nirvana~
+Descr
+You are traveling the Plane of Nirvana.
+It is boundless to the east and west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 8101 9 100
+Door        east~ ~ -1 8103
+To the east, there seems to be a bend in direction of travel.
+~
+~
+Door        west~ ~ -1 8100
+To the west, the plane seems to extend forever.
+~
+~
+End
+
+#8102
+Name        The Plane of Nirvana~
+Descr
+You are on a western strech of the plane.  Boundaries to the east
+and west seem nonexistent.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 8100 10 100
+Door        east~ ~ -1 8100
+The plane seems to strech forever to the east
+~
+~
+Door        west~ ~ -1 8104
+The plane continues to the west where it appears to change direction.
+~
+~
+End
+
+#8103
+Name        A Change in Direction~
+Descr
+Here, the plane seems to direct you to the north.
+Also, the plane continues to the west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 8100 10 100
+Door        north~ ~ -1 8105
+The plane continues to the north with no end in sight.
+~
+~
+Door        west~ ~ -1 8101
+The plane contiues to the west with no end in sight.
+~
+~
+End
+
+#8104
+Name        A Change in Direction~
+Descr
+Here, the plane goes to the north and bends to the east.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 8106
+The vast plane seems to have no end to the north.
+~
+~
+Door        east~ ~ -1 8102
+To the east, the plane has no visible end.
+~
+~
+End
+
+#8105
+Name        A North-South direction of the plane~
+Descr
+The plane continues to the north and south.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 8112
+To the north, the plane stretches as far as the eye can see.
+~
+~
+Door        south~ ~ -1 8103
+To the south, the plane stretches as far as the eye can see.
+~
+~
+End
+
+#8106
+Name        A North-South stretch of the plane~
+Descr
+The plane continues to the north and the south.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 8113
+To the north, the plane stretches as far as the eye can see.
+~
+~
+Door        south~ ~ -1 8104
+To the south, the plane stretches as far as the eye can see.
+~
+~
+End
+
+#8107
+Name        In the Tower of Nirvana~
+Descr
+Entering the tower, there seems to be enough light to see by, but no source is 
+visible.  The hall continues to the east, while a door lies to the west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 8110
+The hall continues east into oblivion.
+~
+~
+Door        west~ door closed~ -1 8113
+A great door lies to the west.
+~
+door~
+End
+
+#8108
+Name        A hallway in the Tower of Nirvana~
+Descr
+You are in a east-west hallway in the tower.  To the west, the hall continues 
+and a door lies to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door closed~ -1 8112
+A great door lies to the east.
+~
+door~
+Door        west~ ~ -1 8109
+The hallway continues west into oblivion.
+~
+~
+End
+
+#8109
+Name        An east-west hallway in the Tower of Nirvana~
+Descr
+The hallway continues to the east, and stretches to the west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 8108
+The hallway continues east into oblivion.
+~
+~
+Door        west~ ~ -1 8111
+The Hallway continues west into oblivion.
+~
+~
+End
+
+#8110
+Name        An east-west passage in the Tower of Nirvana~
+Descr
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 8111
+The hallway contiues east into oblivion.
+~
+~
+Door        west~ ~ -1 8107
+The hallway contiues west into oblivion.
+~
+~
+End
+
+#8111
+Name        An intersection in the Tower of Nirvana~
+Descr
+You are at an intersection where the east-west passage continues, but a large 
+passage leads to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8102 6 100
+Door        north~ ~ -1 8123
+The passage continues to the north where it seems to get wider.
+~
+~
+Door        east~ ~ -1 8109
+The passage ontinues eastward into oblivion.
+~
+~
+Door        west~ ~ -1 8110
+The passage continues westward into oblivion.
+~
+~
+End
+
+#8112
+Name        At the door to the Tower of Nirvana~
+Descr
+You stand on the plane where a mighty door lies to the west.
+The plane also continues north and southward.  
+There is a large sign on the door.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+                     WARNING
+Only those brave of heart and high of level should
+enter the Tower of Nirvana.
+~
+Reset       M 8101 9 100
+Door        north~ ~ -1 8114
+The plane continues northward as far as the eye can see.
+~
+~
+Door        south~ ~ -1 8105
+The plane continues southward as far as the eye can see.
+~
+~
+Door        west~ door closed~ -1 8108
+A mighty door lies to the west.
+~
+door~
+End
+
+#8113
+Name        At the door to the Tower of Nirvana~
+Descr
+The plane continue to the north and south, while a mighty door lies to the 
+east.  There is a sign on the door.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+                  WARNING!
+Only those brave of heart and high of level
+should attempt to enter the Tower of Nirvana.
+~
+Reset       M 8100 10 100
+Door        north~ ~ -1 8115
+The plane stretches to the north as far as the eye can see.
+~
+~
+Door        east~ door closed~ -1 8107
+A mighty door sits to the east.
+~
+door~
+Door        south~ ~ -1 8106
+The plane continues to the south as far as the eye can see.
+~
+~
+End
+
+#8114
+Name        A north-south area of the Plane of Nirvana~
+Descr
+The plane continues to the north and southward.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 8127
+The plane continues endlessly to the north.
+~
+~
+Door        south~ ~ -1 8112
+The plane continues endlessly to the south.
+~
+~
+End
+
+#8115
+Name        A north-south area on the Plane of Nirvana~
+Descr
+The plane continues to the north and south.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 8128
+The plane continues endlessly to the north.
+~
+~
+Door        south~ ~ -1 8113
+The plane continues endlessly to the south.
+~
+~
+End
+
+#8116
+Name        Dead End~
+Descr
+You stand at a dead end where the only exit appears to be west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8108 4 100
+Door        west~ ~ -1 8118
+The passage continue to the west.
+~
+~
+End
+
+#8117
+Name        Dead End~
+Descr
+You are at what appears to be a dead end.  The only exit is back east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8108 4 100
+Door        east~ ~ -1 8119
+The passage continues to the east.
+~
+~
+End
+
+#8118
+Name        A Tertain's lair~
+Descr
+You quite possibly have made a terrible mistake coming in here.
+Exits lead east and west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8109 4 100
+Door        east~ ~ -1 8116
+The passage continues to the east.
+~
+~
+Door        west~ ~ -1 8120
+The passage leads west where you can see a bright light ahead.
+~
+~
+End
+
+#8119
+Name        A Tertian's lair~
+Descr
+You might have made a terrible mistake coming into here.
+Exits lead east and west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8109 4 100
+Door        east~ ~ -1 8120
+The passage continues eastward where you can see a bright light.
+~
+~
+Door        west~ ~ -1 8117
+The passage continues westward into oblivion.
+~
+~
+End
+
+#8120
+Name        The Lair of Primus~
+Descr
+You are in a large hall, with a massive pool of what appears to be pure energy 
+in the center of the room.  Exits lead in all the cardinal directions.  From 
+the pool rises the master of the Plane of Nirvana....
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8111 1 100
+Reset       E 8100 16 100
+Reset       E 8101 5 100
+Reset       E 8102 6 100
+Reset       E 8103 10 100
+Reset       E 8104 11 100
+Door        north~ ~ -1 8124
+A passage leads north into the unknown.
+~
+~
+Door        east~ ~ -1 8118
+A passage leads east into the unknown.
+~
+~
+Door        south~ ~ -1 8121
+A passage leads south into the unknown.
+~
+~
+Door        west~ ~ -1 8119
+A passage leads west into the unknown.
+~
+~
+End
+
+#8121
+Name        A Tertian's lair~
+Descr
+Maybe coming here wasn't such a hot idea.  You feel very unwelcome here.  
+Exits lead north and south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8109 4 100
+Door        north~ ~ -1 8120
+The passage leads north where you can see a bright light.
+~
+~
+Door        south~ ~ -1 8122
+The passage leads south into the unknown.
+~
+~
+End
+
+#8122
+Name        The office of a Quinton~
+Descr
+You have stumbled upon the office of a page to Primus.
+Scrolls lie about the room along with me strange objects...you can't imagine 
+what kind of creature would use them.  Exits lead in all the cardinal 
+directions.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8108 4 100
+Door        north~ ~ -1 8121
+The passage heads northward where you can see nothing.
+~
+~
+Door        east~ ~ -1 8146
+The passage goes east where you feel it might be bad to go.
+~
+~
+Door        south~ ~ -1 8123
+The passage goes south into oblivion.
+~
+~
+Door        west~ ~ -1 8153
+The passage heads westward into oblivion.
+~
+~
+End
+
+#8123
+Name        A wide north-south passageway~
+Descr
+You find yourself in a passage where the exits are north and south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8122
+To the north, you spy an intersection of tunnels.
+~
+~
+Door        south~ ~ -1 8111
+To the south you can barely make out a junction of passageways.
+~
+~
+End
+
+#8124
+Name        A Tertian's lair~
+Descr
+You find yourself in a lair of a Tertian.  Exits lead north and south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8109 4 100
+Door        north~ ~ -1 8125
+To the north, you can make out a intersection of tunnels.
+~
+~
+Door        south~ ~ -1 8120
+To the south, you can see a bright light.
+~
+~
+End
+
+#8125
+Name        A north south tunnel~
+Descr
+You are in a passage where the only exits are north and south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8108 4 100
+Door        north~ ~ -1 8126
+Far to the north you can see a door.
+~
+~
+Door        south~ ~ -1 8124
+To the south you stare into darkness.
+~
+~
+End
+
+#8126
+Name        An intersection of passages~
+Descr
+You stand at an intersection.  Exits lead off into all the cardinal 
+directions.  A door lies to the north, allowing passage out.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door closed~ -1 8131
+You see a massive door.
+~
+door~
+Door        east~ ~ -1 8132
+To the east, you spy a dark passage.
+~
+~
+Door        south~ ~ -1 8125
+To the south you stare into oblivion.
+~
+~
+Door        west~ ~ -1 8139
+To the west, you spy a dark passage.
+~
+~
+End
+
+#8127
+Name        A change of direction~
+Descr
+The plane curves from the south to west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 8100 10 100
+Door        south~ ~ -1 8114
+Looking south, you see the plane extending beyond view.
+~
+~
+Door        west~ ~ -1 8130
+Looking west, you can't fathom how far the plane extends.
+~
+~
+End
+
+#8128
+Name        A change of direction~
+Descr
+Here, the plane takes a turm from the south to heading east.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 8101 9 100
+Door        east~ ~ -1 8129
+The plane heads east from here. You can't see the end of it.
+~
+~
+Door        south~ ~ -1 8115
+Looking south, you view the plane extending for miles.
+~
+~
+End
+
+#8129
+Name        An east-west route on the Plane of Nirvana~
+Descr
+Exits lead east and west.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 8100 10 100
+Door        east~ ~ -1 8131
+Looking east, you spy a door far off in the distance.
+~
+~
+Door        west~ ~ -1 8128
+Looking west, in the distance you can spy a curve south.
+~
+~
+End
+
+#8130
+Name        An east-west route on The Plane of Nirvana~
+Descr
+Exits lead east and west
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 8127
+Looking east, you can see a bend in the distance.
+~
+~
+Door        south~ ~ -1 8131
+Glancing west, you can spy a door far off in the distance.
+~
+~
+End
+
+#8131
+Name        At a door into the Tower of Nirvana~
+Descr
+The plane of Nirvana goes east and west.
+A large door is to the south.
+A sign has been posted outside the door.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+                  WARNING!
+Only those brave of heart and high of level
+should attempt to enter the Tower of Nirvana.
+~
+Reset       M 8102 6 100
+Door        east~ ~ -1 8130
+Looking east, you see more of the passage.
+~
+~
+Door        south~ door closed~ -1 8126
+A large door blocks the way to the south.
+~
+door~
+Door        west~ ~ -1 8129
+Looking west, you see more of the passage.
+~
+~
+End
+
+#8132
+Name        A Junction in the passage~
+Descr
+Here, passages lead off in all cardinal directions.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8133
+Looking north, you spy a small room in the distance.
+~
+~
+Door        east~ ~ -1 8135
+Eastward, the passage continues in the darkness.
+~
+~
+Door        south~ ~ -1 8134
+South of here is a small room.
+~
+~
+Door        west~ ~ -1 8126
+West, you spy an intersection.
+~
+~
+End
+
+#8133
+Name        The office of the Octon~
+Descr
+you are in a small room, the only exit is south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8105 4 100
+Door        south~ ~ -1 8132
+Looking south, you see an intersection.
+~
+~
+End
+
+#8134
+Name        A small room~
+Descr
+The only exit is north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8106 2 100
+Door        north~ ~ -1 8132
+Looking north, you spy an intersection.
+~
+~
+End
+
+#8135
+Name        A passageway~
+Descr
+Exits lead in all cardinal directions.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8136
+Looking north you spy a average sized room.
+~
+~
+Door        east~ ~ -1 8138
+Looking east, you can make out a large room.
+~
+~
+Door        south~ ~ -1 8137
+Looking south, you can see an average room.
+~
+~
+Door        west~ ~ -1 8132
+Looking west, you can see an intersection ahead.
+~
+~
+End
+
+#8136
+Name        Lair of a Hexton~
+Descr
+You are in a room that is in complete disrepair.  Items are thrown throughout 
+the room making them worthless piles of junk.
+The only exit is back south
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        south~ ~ -1 8135
+Looking south, you can make out a passage.
+~
+~
+End
+
+#8137
+Name        Office of a Hexton~
+Descr
+A makeshift desk forms the center of this room.  The only exit is north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        north~ ~ -1 8135
+Looking north, you can make out a hallway.
+~
+~
+End
+
+#8138
+Name        Office of a Secundus~
+Descr
+You are standing in a office of one of the Viceroys of the Plane of Nirvana.  
+The occupant doesn't look real thrilled with your presence.  The only exit is 
+west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8102 6 100
+Reset       M 8110 4 100
+Door        west~ ~ -1 8135
+Looking west you can see a long hallway.
+~
+~
+End
+
+#8139
+Name        A Junction in the hallway~
+Descr
+Your are standing in a junction, exits lead in all the cardinal directions.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8140
+To the north, you spy a small room.
+~
+~
+Door        east~ ~ -1 8126
+To the east, you see a quadruple junction.
+~
+~
+Door        south~ ~ -1 8141
+To the south you see a small room.
+~
+~
+Door        west~ ~ -1 8142
+To the west, the passageway continues.
+~
+~
+End
+
+#8140
+Name        Office of an Octon~
+Descr
+You see a messy room with papers scattered everywhere.
+The only exit leads back to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8105 4 100
+Door        south~ ~ -1 8139
+To the south you can make out a junction.
+~
+~
+End
+
+#8141
+Name        Office of a Septon~
+Descr
+A neat and tidy room, it appear to be inhabited my a neatenss freak.  The only 
+exit lies to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8106 2 100
+Door        north~ ~ -1 8139
+To the north you see a junction.
+~
+~
+End
+
+#8142
+Name        An east-west passage~
+Descr
+In east west passage is here with exits in all of the cardinal directions.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8143
+You can see a room to the north.
+~
+~
+Door        east~ ~ -1 8139
+To the east you can see a junction.
+~
+~
+Door        south~ ~ -1 8144
+To the south you can make out a averaged sized room.
+~
+~
+Door        west~ ~ -1 8145
+To the west you can see what appears to be a cavernous room.
+~
+~
+End
+
+#8143
+Name        The Barracks~
+Descr
+A dusty room, with a almost untolerable odor, the barracks are being inspected 
+by a Hexton and his personal enterage.
+The only exit lies to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        south~ ~ -1 8142
+To the south you can see a junction.
+~
+~
+End
+
+#8144
+Name        The Commander's Post~
+Descr
+You have stumbled on to the office of the Commander of the forces in the Plane 
+Of Nirvana.  The room is well furnished and a sense of courage and bravery 
+overtakes you as you enter the room.  The only exit lies to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        north~ ~ -1 8142
+To the north you can visualize a junction of passages.
+~
+~
+End
+
+#8145
+Name        The chamber of the second Secundus~
+Descr
+This huge room is furnished with the finest, and a personal legion guards the 
+Secundus. the only exit is to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8102 6 100
+Reset       M 8110 4 100
+Door        east~ ~ -1 8142
+To the east you can see a junction.
+~
+~
+End
+
+#8146
+Name        A Passageway~
+Descr
+You are in a well lit passage.  A sense of forboding danger envelopes you.  
+Exits lead in all cardinal directions.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8147
+To the north you can see a small chamber.
+~
+~
+Door        east~ ~ -1 8149
+To the east, the passage continues.
+~
+~
+Door        south~ ~ -1 8148
+To the south, a chamber can be seen.
+~
+~
+Door        west~ ~ -1 8122
+To the west, a large tunnel can be found.
+~
+~
+End
+
+#8147
+Name        Chamber of the Octon~
+Descr
+A small room, sparsely furnished, it leaves you with a sense of fear.  The 
+only exit is to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8105 4 100
+Door        south~ ~ -1 8146
+To the south you can see a passage.
+~
+~
+End
+
+#8148
+Name        Chamber of the Nonaton~
+Descr
+You have entered the chamber of the principal law and order overseers.  The 
+only exit lies to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8104 1 100
+Door        north~ ~ -1 8146
+To the north you can see a passageway.
+~
+~
+End
+
+#8149
+Name        End of the passageway~
+Descr
+You have reached the end of a long east-west passage.  The passage contiues to 
+the west, and rooms lie to the north, south, and east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8150
+To the north you can see a room.
+~
+~
+Door        east~ ~ -1 8152
+To the east you can make out a large chamber.
+~
+~
+Door        south~ ~ -1 8151
+To the south, a room can be seen.
+~
+~
+Door        west~ ~ -1 8146
+To the west, the passageway continues.
+~
+~
+End
+
+#8150
+Name        Chamber of a Hexton~
+Descr
+You have entered the chamber of a Hexton.  Trophies adorn the walls, some of 
+which are human. the only exit is to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        south~ ~ -1 8149
+To the south you can see a passageway.
+~
+~
+End
+
+#8151
+Name        Chamber of a Hexton~
+Descr
+You have entered a room where you are not very popular. The only exit lies 
+northbound.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8149
+To the north you can see a passage.
+~
+~
+End
+
+#8152
+Name        Chamber of the Secudus~
+Descr
+A large canvernous room, this chamber serves as the sleeping quarters for the 
+third Secudus, Viceroy to Primus. The only exit lies to the west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8102 6 100
+Reset       M 8110 4 100
+Door        west~ ~ -1 8149
+To the west you can see a passageway.
+~
+~
+End
+
+#8153
+Name        A passageway~
+Descr
+You are in a passagway where you may go in any cardinal direction.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8154
+To the north lies a small chamber.
+~
+~
+Door        east~ ~ -1 8122
+To the east, a main passage forms a junction.
+~
+~
+Door        south~ ~ -1 8155
+To the south, you can spot a small room.
+~
+~
+Door        west~ ~ -1 8159
+To the west, the passageway continues.
+~
+~
+End
+
+#8154
+Name        A small chamber~
+Descr
+You are in a small cramped chamber.  The only exit lies to the south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8105 4 100
+Door        south~ ~ -1 8153
+To the south you can see a passage.
+~
+~
+End
+
+#8155
+Name        A cramped room~
+Descr
+You are in a small, crowded room.  The only exit appears to lie to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8103 1 100
+Reset       M 8107 8 100
+Door        north~ ~ -1 8153
+To the north, you can see a passageway.
+~
+~
+End
+
+#8156
+Name        A large room~
+Descr
+You have entered a room where you are not wanted.  The only exit lies to the 
+south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        south~ ~ -1 8159
+To the south you can visualize a east-west passage.
+~
+~
+End
+
+#8157
+Name        A room~
+Descr
+You have entered a room where there was obviously a hurried move going on.  
+The only exit lies to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8107 8 100
+Door        north~ ~ -1 8159
+To the north you can make out a passageway.
+~
+~
+End
+
+#8158
+Name        Chamber of The First Secundus~
+Descr
+You have disturbed the rest of the First Viceroy to Primus the Prime, The 
+Secundus.  He does not look like a happy camper. The only exit lies to the 
+east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 8102 6 100
+Reset       M 8110 4 100
+Door        east~ ~ -1 8159
+To the east you can spot a hallway.
+~
+~
+End
+
+#8159
+Name        Junction in the hallway~
+Descr
+Exits lead off in all of the cardinal directions
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 8156
+To the north lies a large chamber.
+~
+~
+Door        east~ ~ -1 8153
+To the east , the passage continues.
+~
+~
+Door        south~ ~ -1 8157
+To the south, a small chamber can be found.
+~
+~
+Door        west~ ~ -1 8158
+To the west, lies a monstrous room.
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

@@ -1,0 +1,317 @@
+#AREADATA
+Name        Limbo~
+Author      Diku~
+Levels      0 64
+Security    1
+VNUMs       1 69
+Act         ~
+Builders    ~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#1
+Name        Puff~
+Short       Puff~
+Long
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+Descr
+~
+Act         ~
+AffectBy    ~
+Alignment   1000
+Level       26
+Race        Dragon~
+Sex         female~
+End
+
+#2
+Name        darkside~
+Short       The Mighty Darkside~
+Long
+Here floats a god so evil, you cannot bear to look at it.
+~
+Descr
+It has a large central eye that projects an anti-magic ray and ten
+eyestalks atop the round body which can do anything from charm you
+to disintegrate you.  Beholders are not known for their personality.
+~
+Act         sentinel aggressive wimpy~
+AffectBy    detect_invis~
+Alignment   -870
+Level       25
+Race        God~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#1
+Name        dummy object~
+Short       a dummy object~
+Descr
+Dummy object is used for loading non-existant objects~
+Type        trash~
+Extra       ~
+Wear        ~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      0
+End
+
+#2
+Name        coin gold~
+Short       a gold coin~
+Descr
+One miserable gold coin.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#3
+Name        coins gold~
+Short       some gold coins~
+Descr
+A pile of gold coins.~
+Type        money~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#4
+Name        generic potion~
+Short       a generic potion~
+Descr
+A bland generic potion is lying here.~
+Type        potion~
+Extra       glow~
+Wear        take hold~
+Values      12~ heal~  ~  ~  ~
+Weight      2
+End
+
+#10
+Name        corpse~
+Short       corpse of %s~
+Descr
+The corpse of %s is lying here.~
+Type        corpse_npc~
+Extra       ~
+Wear        take~
+Values      0~ 0~ 0~ 1~ 0~
+Weight      100
+End
+
+#11
+Name        corpse~
+Short       corpse of %s~
+Descr
+The corpse of %s is lying here.~
+Type        corpse_pc~
+Extra       ~
+Wear        ~
+Values      0~ 0~ 0~ 1~ 0~
+Weight      100
+End
+
+#12
+Name        head food~
+Short       head of %s~
+Descr
+The severed head of %s is lying here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#13
+Name        heart food~
+Short       heart of %s~
+Descr
+The torn-out heart of %s is lying here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      16~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#14
+Name        arm food~
+Short       arm of %s~
+Descr
+The sliced-off arm of %s is lying here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#15
+Name        leg food~
+Short       leg of %s~
+Descr
+The sliced-off leg of %s is lying here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#16
+Name        turd~
+Short       steaming turd~
+Descr
+The steaming turds of %s assail your nostrils.~
+Type        trash~
+Extra       ~
+Wear        ~
+Values      5~ 0~ 0~ 1~ 0~
+Weight      1
+End
+
+#17
+Name        guts entrails food~
+Short       the guts of %s~
+Descr
+A steaming pile of %s's entrails is lying here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#18
+Name        brains brain food~
+Short       the brains of %s~
+Descr
+The splattered brains of %s are lying here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      20~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#20
+Name        mushroom food~
+Short       a Magic Mushroom~
+Descr
+A delicious magic mushroom is here.~
+Type        food~
+Extra       ~
+Wear        take~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#21
+Name        ball light~
+Short       a bright ball of light~
+Descr
+A bright ball of light shimmers in the air.~
+Type        light~
+Extra       ~
+Wear        take~
+Values      0~ 0~ -1~ 0~ 0~
+Weight      1
+End
+
+#22
+Name        spring~
+Short       a magical spring~
+Descr
+A magical spring flows from the ground here.~
+Type        fountain~
+Extra       magic~
+Wear        ~
+Values      100000~ 100000~ 0~ 0~ 0~
+Weight      5000
+End
+
+#23
+Name        gate portal~
+Short       a shimmering gate~
+Descr
+A shimmering black gate rises from the ground, leading to parts unknown.~
+Type        portal~
+Extra       dark magic~
+Wear        ~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      5000
+End
+
+#0
+
+
+
+#ROOMDB
+#1
+Name        The Void~
+Descr
+You are floating in nothing.
+~
+Flags       no_mob indoors~
+Sector      city~
+Regen       100 100
+End
+
+#2
+Name        Limbo~
+Descr
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+Flags       no_mob indoors~
+Sector      city~
+Regen       100 100
+Reset       M 1 1 100
+End
+
+#69
+Name        Frag's Hovel~
+Descr
+You are in a small, miserable, dwelling (for those of you nincompoops who
+don't know what a HOVEL is).  It's dark, dank, and cold.  At one end of the
+room, you see a sorry excuse of a rusty, squeaky bunkbed.  Obviously, neither
+of the beds are made.  A dirty, ragtorn teddy bear sleeps heavily on the
+lower bunk.  You see, to your dismay, TWO clock radios, both of which are
+ringing, which shows that this room was made for TWO people to sleep in,
+although it's barely 10 X 12 feet.  Papers, books, and laundry are thrown
+everywhere, with two computers astrally linked to the world of Envy.
+~
+Flags       no_mob indoors~
+Sector      city~
+Regen       100 100
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

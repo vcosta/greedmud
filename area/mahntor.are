@@ -1,0 +1,4360 @@
+#AREADATA
+Name        The Keep of Mahn-Tor~
+Author      Chris~
+Levels      15 35
+Security    1
+VNUMs       2300 2399
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#2300
+Name        knight ethereal dark~
+Short       the Dark Ethereal Knight~
+Long
+A dark ethereal knight hovers over the bloody clearing.
+~
+Descr
+The ethereal knight is clad in shadowy black armor. It appears as though he
+was involved in the carnage that occurred here. His soul is trapped here, as
+he waits for release.
+~
+Act         sentinel~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       25
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#2301
+Name        treant tree~
+Short       the Old Treant~
+Long
+A huge, gnarled tree stands here, battered by age and nature.
+~
+Descr
+The old tree looks as though the wind has battered and torn at it for years.
+Very few leaves remain. Its limbs are crooked and gnarled. It moans as the 
+wind pushes it back and forth.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   250
+Level       20
+Race        Plant~
+Sex         neutral~
+End
+
+#2302
+Name        dweller cave~
+Short       the Cave Dweller~
+Long
+A slimy, gross creature is here munching on a corpse.
+~
+Descr
+The cave dweller looks like a mixture of several disgusting monsters. It has
+a bird's beak, huge white eyes, a furry body, and long clawed hands and feet.
+It sees you and snarls.
+~
+Act         sentinel aggressive~
+AffectBy    detect_evil detect_magic sneak~
+Alignment   0
+Level       15
+Race        Animal~
+Sex         neutral~
+Spec        spec_breath_acid~
+End
+
+#2303
+Name        toad rock~
+Short       the Rock Toad~
+Long
+A rather large rock toad sits here, croaking loudly.
+~
+Descr
+A grey toad. Its about the size of a cow. Small horns grow all over its body.
+~
+Act         sentinel~
+AffectBy    ~
+Alignment   -250
+Level       14
+Race        Animal~
+Sex         neutral~
+End
+
+#2304
+Name        weeping willow tree~
+Short       the Weeping Willow~
+Long
+A large willow tree stands here, weeping.
+~
+Descr
+The weeping willow has long thins branches. These branches seem to droop in
+anguish and dismay. You hear a faint sound of crying.
+~
+Act         sentinel~
+AffectBy    detect_invis sanctuary~
+Alignment   1000
+Level       25
+Race        Plant~
+Sex         female~
+End
+
+#2305
+Name        mist mistling~
+Short       the Mistling~
+Long
+A mistling emerges from the mist surrounding you.
+~
+Descr
+It looks like a thin wisp of mist that has gained substance and size.
+~
+Act         sentinel aggressive~
+AffectBy    hide~
+Alignment   0
+Level       15
+Race        Mist~
+Sex         neutral~
+End
+
+#2306
+Name        swamp wraith~
+Short       the Swamp Wraith~
+Long
+A swamp wraith emerges from the mist here.
+~
+Descr
+The swamp wraith is made of mist and is in the image of a great warrior. He
+appears to emerge from the mist. You feel the cold radiating from his form as
+he nears you.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    ~
+Alignment   -1000
+Level       20
+Race        Mist~
+Sex         male~
+Spec        spec_poison~
+End
+
+#2307
+Name        ogre villager~
+Short       the Ogre Villager~
+Long
+The ogre villager is here, going about its chores.
+~
+Descr
+You see a pitifully overworked ogre. It is dressed in rags and shuffles along
+with its head hung low. It sees you and cringes in mortal terror.
+~
+Act         stay_area wimpy~
+AffectBy    ~
+Alignment   -200
+Level       10
+Race        Ogre~
+Sex         neutral~
+End
+
+#2308
+Name        warrior ogre~
+Short       the Ogre Warrior~
+Long
+The ogre warrior stands here, growling fiercely.
+~
+Descr
+The ogre warrior is dressed in thick fur armor. He looks quite large and
+formidable.
+~
+Act         scavenger aggressive stay_area wimpy~
+AffectBy    ~
+Alignment   -350
+Level       15
+Race        Ogre~
+Sex         male~
+End
+
+#2309
+Name        guard ogre~
+Short       the Ogre Guard~
+Long
+The ogre guard is here manning his post faithfully.
+~
+Descr
+The ogre guard stands here manning his post. It appears as though he would
+fight to the death before abandoning his post.
+~
+Act         sentinel scavenger aggressive stay_area~
+AffectBy    ~
+Alignment   -500
+Level       19
+Race        Ogre~
+Sex         male~
+End
+
+#2310
+Name        shaman ogre~
+Short       The Ogre Shaman~
+Long
+The ogre shaman is here chanting arcane words and waving his arms.
+~
+Descr
+The ogre shaman is draped in thick fur cloaks and pelts. He has all types of
+charms and holy symbols draped about him. He looks at you and snarls.
+~
+Act         sentinel scavenger aggressive stay_area wimpy~
+AffectBy    detect_invis sanctuary~
+Alignment   -750
+Level       20
+Race        Ogre~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#2311
+Name        chief chieftain ogre~
+Short       the Ogre Chieftain~
+Long
+The ogre chieftain is here, observing his subjects.
+~
+Descr
+This is the biggest ogre you have ever seen. He is heavily equipped and looks
+quite formidable. He towers high above you and growls menacingly.
+~
+Act         sentinel scavenger aggressive stay_area wimpy~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       25
+Race        Ogre~
+Sex         male~
+End
+
+#2312
+Name        barbarian~
+Short       the Plains Barbarian~
+Long
+A plains barbarian is here, clad in heavy furs.
+~
+Descr
+The plains barbarian is clad in heavy furs. He seems used to the chilling cold
+and icy wastes.
+~
+Act         sentinel scavenger aggressive stay_area wimpy~
+AffectBy    ~
+Alignment   0
+Level       20
+Race        Ogre~
+Sex         male~
+End
+
+#2313
+Name        yeti white~
+Short       the White Yeti~
+Long
+The white yeti crouches here snarling.
+~
+Descr
+The white yeti looks like a huge white snow ape. Its long arms end in long
+curved talons and its mouth is full of sharp teeth.
+~
+Act         sentinel scavenger aggressive stay_area wimpy~
+AffectBy    ~
+Alignment   -350
+Level       16
+Race        Animal~
+Sex         neutral~
+Spec        spec_breath_frost~
+End
+
+#2314
+Name        worm ice iceworm~
+Short       the Ice Worm~
+Long
+A huge ice worm burrows through the ice and snow here. It rears up and
+attacks!
+~
+Descr
+The huge worm is almost 50 feet long. Its huge gaping mouth spews ice and snow
+as it charges directly at you.
+~
+Act         sentinel scavenger aggressive stay_area~
+AffectBy    ~
+Alignment   0
+Level       20
+Race        Worm~
+Sex         neutral~
+Spec        spec_breath_acid~
+End
+
+#2315
+Name        citizen minotaur~
+Short       the Minotaur Citizen~
+Long
+A minotaur citizen is here, hurrying through the icy streets.
+~
+Descr
+You see a rather ragged and cold minotaur. It appears to be looking for a warm
+place to seek refuge from the cold.
+~
+Act         sentinel scavenger stay_area wimpy~
+AffectBy    ~
+Alignment   100
+Level       15
+Race        Minotaur~
+Sex         neutral~
+End
+
+#2316
+Name        guard minotaur~
+Short       the Minotaur Guard~
+Long
+A minotaur guard catches you trespassing and attacks!
+~
+Descr
+The minotaur is clad in heavy furs. Beneath these furs, you see the gleam of
+his armor.
+~
+Act         sentinel scavenger aggressive stay_area~
+AffectBy    ~
+Alignment   -330
+Level       22
+Race        Minotaur~
+Sex         male~
+End
+
+#2317
+Name        warrior minotaur~
+Short       the Minotaur Warrior~
+Long
+A minotaur warrior is here looking for intruders.
+~
+Descr
+You see a huge minotaur that is dressed in thick furs and armor. He has black
+fur and red eyes. He looks quite capable of protecting the city.
+~
+Act         scavenger aggressive stay_area~
+AffectBy    ~
+Alignment   -330
+Level       21
+Race        Minotaur~
+Sex         male~
+End
+
+#2318
+Name        minotaur gatekeeper~
+Short       the Minotaur Gatekeeper~
+Long
+A minotaur is here guarding the Keep of Mahn-Tor.
+~
+Descr
+The minotaur stands rigidly before the gates of the keep. It looks quite
+miserable standing in the driven snow and ice.
+~
+Act         sentinel scavenger stay_area~
+AffectBy    detect_invis~
+Alignment   -330
+Level       25
+Race        Minotaur~
+Sex         neutral~
+End
+
+#2319
+Name        minotaur high guard~
+Short       the High Minotaur Guard~
+Long
+The minotaur high guard is here guarding the Keep.
+~
+Descr
+The high guard is dressed in blue plate armour. He looks quite dangerous and
+skilled.
+~
+Act         sentinel scavenger aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   -330
+Level       25
+Race        Minotaur~
+Sex         male~
+End
+
+#2320
+Name        minotaur royal guard~
+Short       the Royal Minotaur Guard~
+Long
+The royal minotaur guard considers you an intruder and attacks!
+~
+Descr
+The royal guard is quite huge. He is dressed in heavy red armor and wields a
+huge glaive. He looks quite capable of protecting the keep.
+~
+Act         sentinel scavenger aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   -330
+Level       26
+Race        Minotaur~
+Sex         male~
+End
+
+#2321
+Name        guard minotaur elite~
+Short       the Elite Minotaur Guard~
+Long
+The elite minotaur guard sees you and attacks!
+~
+Descr
+This minotaur wields a huge morningstar and is clad in heavy crimson plate and
+furs.
+~
+Act         sentinel scavenger aggressive stay_area~
+AffectBy    detect_invis~
+Alignment   -250
+Level       28
+Race        Minotaur~
+Sex         male~
+End
+
+#2322
+Name        girl haremgirl harem slave~
+Short       the Harem Girl~
+Long
+A harem girl cowers here in fear.
+~
+Descr
+She looks quite attractive. Her low cut gown reveals why she was chosen to be
+in the harem.
+~
+Act         sentinel scavenger stay_area wimpy~
+AffectBy    ~
+Alignment   1000
+Level       2
+Race        Human~
+Sex         female~
+End
+
+#2323
+Name        butler minotaur~
+Short       the Minotaur Butler~
+Long
+A minotaur butler stands here rigidly, awaiting orders.
+~
+Descr
+He looks quite regal and refined to be a minotaur.
+~
+Act         sentinel scavenger stay_area wimpy~
+AffectBy    ~
+Alignment   250
+Level       20
+Race        Minotaur~
+Sex         male~
+End
+
+#2324
+Name        keeper minotaur ring-keeper~
+Short       the Minotaur Ring-Keeper~
+Long
+The minotaur ring-keeper stands guarding his post.
+~
+Descr
+The ring-keeper is a huge minotaur. You notice a huge ring of multicolored
+keys hanging from his belt. He wears huge, spiked brass knuckles.
+~
+Act         sentinel scavenger stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   -300
+Level       29
+Race        Minotaur~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#2325
+Name        gorak minotaur warrior master~
+Short       Gorak~
+Long
+Gorak, the Minotaur Master Warrior, is here practicing his skills.
+~
+Descr
+Gorak is HUGE. His bulging muscles are confined beneath heavy armor. He is the
+master of the warrior guild of Mahn-Tor.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -300
+Level       30
+Race        Minotaur~
+Sex         male~
+End
+
+#2326
+Name        darkoth minotaur anti-paladin master~
+Short       Darkoth~
+Long
+Darkoth, the minotaur anti-paladin, stands here grinning wickedly.
+~
+Descr
+Darkoth is a living incarnation of evil. He radiates a dark aura, and a cold
+chill runs down your spine. He is the master of the Mahn-Tor anti-paladins.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       30
+Race        Minotaur~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#2327
+Name        tyrgoth minotaur paladin master~
+Short       Tyrgoth~
+Long
+Tyrgoth, the minotaur paladin, is here worshipping silently.
+~
+Descr
+Tyrgoth is the minotaur incarnation of good. You feel safe and at ease in his
+presence. He is the leader of the Mahn-Tor paladins.
+~
+Act         sentinel~
+AffectBy    detect_invis sanctuary~
+Alignment   1000
+Level       30
+Race        Minotaur~
+Sex         male~
+End
+
+#2328
+Name        amyrok minotaur mage master~
+Short       Amyrok~
+Long
+Amyrok, the minotaur archmage, is here chanting arcane spells.
+~
+Descr
+Amyrok is a small minotaur. He is clad in loose robes and emits an aura of
+power. He appears quite dangerous, despite his size. He is the leader of the
+mages of Mahn-Tor.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   300
+Level       30
+Race        Minotaur~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#2329
+Name        sumaron minotaur cleric master~
+Short       Sumaron~
+Long
+Sumaron, master cleric of Mahn-Tor, is here looking holy.
+~
+Descr
+Sumaron is clad in white glowing robes. He is goodness incarnate. He is the
+master of all the clerics of Mahn-Tor.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   1000
+Level       30
+Race        Minotaur~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#2330
+Name        nasturn minotaur druid master~
+Short       Nasturn~
+Long
+Nasturn, the minotaur druid, is here studying the arts of nature.
+~
+Descr
+Nasturn is quite a natural looking minotaur. He is dressed in leather and
+wears no metal of any type. He looks at you and smiles.
+~
+Act         sentinel~
+AffectBy    detect_invis sanctuary~
+Alignment   500
+Level       30
+Race        Minotaur~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#2331
+Name        belrak minotaur ranger master~
+Short       Belrak~
+Long
+Belrak, the minotaur ranger, looks unhappy about having visitors.
+~
+Descr
+Belrak is clad in green and brown leather. He looks quite agile and thin, when
+compared to the normal minotaur. He looks at you with a slight smirk.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   500
+Level       30
+Race        Minotaur~
+Sex         male~
+End
+
+#2332
+Name        dorgar minotaur thief master~
+Short       Dorgar~
+Long
+Dorgar, the minotaur thief, is here hiding in the shadows.
+~
+Descr
+Dorgar is clad all in black. He is tall and slender, unlike most minotaurs. He
+appears to be quite a skilled thief.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    hide~
+Alignment   -500
+Level       30
+Race        Minotaur~
+Sex         male~
+End
+
+#2333
+Name        mahn-tor minotaur grand master~
+Short       Mahn-Tor~
+Long
+Mahn-Tor, the minotaur grand master, is here looking down at you.
+~
+Descr
+Mahn-Tor towers above you. He is simply huge. Mahn-Tor is clad in the best of
+armor and robes. He wields the largest axe you have ever seen. You can see why
+Mahn-Tor is the leader of the minotaurs. He is awe-inspiring.
+~
+Act         sentinel scavenger~
+AffectBy    invisible detect_invis sanctuary flying pass_door~
+Alignment   -500
+Level       33
+Race        Minotaur~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#0
+
+
+
+#OBJDB
+#2300
+Name        gloves combat~
+Short       a pair of minotaur combat gloves~
+Descr
+A pair of metal plated gloves lie here.~
+Type        armor~
+Extra       ~
+Wear        take hands~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      6
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+ExtraDescr  gloves combat~
+These gloves are plated with metal plates that provide strength and 
+protection.
+~
+End
+
+#2301
+Name        spiked armor garde~
+Short       a suit of spiked garde armor~
+Descr
+A pile of spiked chainmail lies here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      8
+Affect      damroll~ 2 ~
+End
+
+#2302
+Name        greaves black~
+Short       a pair of black minotaur greaves~
+Descr
+Some black metal greaves lie here.~
+Type        armor~
+Extra       ~
+Wear        take legs~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      9
+End
+
+#2303
+Name        vambraces black~
+Short       a pair of black minotaur vambraces~
+Descr
+Some black metal vambraces lie here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      9
+End
+
+#2304
+Name        rod weaponry~
+Short       the rod of weaponry~
+Descr
+A shiny metal rod lies here.~
+Type        weapon~
+Extra       glow magic bless~
+Wear        take wield~
+Values      0~ 5~ 5~ 6~ 0~
+Weight      24
+Affect      hitroll~ 3 ~
+Affect      damroll~ 3 ~
+End
+
+#2305
+Name        cloak pitch black~
+Short       a pitch black cloak~
+Descr
+A pile of black cloth lies here.~
+Type        container~
+Extra       magic~
+Wear        take about~
+Values      150~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      saving-breath~ -3 ~
+ExtraDescr  cloak pitch black~
+It appears to have pockets inside it.
+~
+End
+
+#2306
+Name        neckguard neck guard black plate~
+Short       a black plate neckguard~
+Descr
+A black plate collar rests here.~
+Type        armor~
+Extra       magic anti-good anti-neutral~
+Wear        take neck~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      wisdom~ 1 ~
+End
+
+#2307
+Name        spiked gauntlets~
+Short       a pair of spiked gauntlets~
+Descr
+A pair of spiked gauntlets lies here.~
+Type        armor~
+Extra       ~
+Wear        take hands~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      damroll~ 3 ~
+ExtraDescr  spiked gauntlets~
+They look pretty damaging.
+~
+End
+
+#2308
+Name        shield shadow~
+Short       the shadow shield~
+Descr
+A shadowy shield rests here.~
+Type        armor~
+Extra       glow magic anti-good anti-neutral~
+Wear        take shield~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      saving-breath~ -3 ~
+ExtraDescr  shield shadow~
+You look into the depths of the shield and shiver at the evil it contains.
+~
+End
+
+#2309
+Name        nightbringer short sword shortsword~
+Short       a shortsword named "Nightbringer"~
+Descr
+A very evil looking shortsword lies here.~
+Type        weapon~
+Extra       dark magic anti-good anti-neutral~
+Wear        take wield~
+Values      0~ 5~ 4~ 11~ 0~
+Weight      9
+Affect      hitroll~ 3 ~
+Affect      damroll~ 3 ~
+ExtraDescr  nightbringer short sword shortsword~
+The runes "NiGHtBrINgeR" are scrawled along the blade.
+~
+End
+
+#2310
+Name        visor helm golden~
+Short       a golden helm and visor~
+Descr
+A helm and visor made of pure gold rests here.~
+Type        armor~
+Extra       glow magic anti-evil anti-neutral~
+Wear        take head~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      wisdom~ 1 ~
+Affect      intelligence~ 1 ~
+End
+
+#2311
+Name        breast plate gilded gold~
+Short       a gilded gold breast plate~
+Descr
+A large golden breast plate lies here.~
+Type        armor~
+Extra       glow magic anti-evil anti-neutral~
+Wear        take body~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      18
+Affect      hp~ 25 ~
+End
+
+#2312
+Name        cape white billowing silk~
+Short       a billowing white cape ~
+Descr
+A pile of white silk lies here.~
+Type        armor~
+Extra       glow magic~
+Wear        take neck~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      age~ 20 ~
+End
+
+#2313
+Name        shield huge tower~
+Short       a huge tower shield~
+Descr
+A huge shield lies here.~
+Type        armor~
+Extra       glow magic~
+Wear        take shield~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      14
+ExtraDescr  shield huge tower~
+A pure white shield with a gold cross emblazoned across it.
+~
+End
+
+#2314
+Name        dawnbringer mace huge~
+Short       a huge mace named "Dawnbringer"~
+Descr
+A huge mace lies here. It radiates an aura of power.~
+Type        weapon~
+Extra       glow magic anti-evil anti-neutral~
+Wear        take wield~
+Values      0~ 5~ 5~ 6~ 0~
+Weight      24
+Affect      hitroll~ 3 ~
+Affect      damroll~ 3 ~
+ExtraDescr  dawnbringer mace huge~
+The runes "DAwNbRIngER" are scrawled along the handle.
+~
+End
+
+#2315
+Name        spectacles wire rimmed~
+Short       a pair of wire rimmed spectacles~
+Descr
+A small pair of wire rimmed spectacles rests here.~
+Type        armor~
+Extra       magic~
+Wear        take head~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      intelligence~ 4 ~
+ExtraDescr  spectacles wire rimmed~
+They'll make you look smart.
+~
+End
+
+#2316
+Name        ring banded~
+Short       a banded ring~
+Descr
+A small ring made of gold and silver bands lies here.~
+Type        armor~
+Extra       glow magic~
+Wear        take finger~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      mana~ 30 ~
+Affect      age~ 10 ~
+ExtraDescr  ring banded~
+The ring has entwined bands of gold and silver.
+~
+End
+
+#2317
+Name        globe minor~
+Short       a minor globe of invulnerability~
+Descr
+A small globe rests here. It shimmers and radiates power.~
+Type        armor~
+Extra       glow magic~
+Wear        take about~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      saving-spell~ -5 ~
+Affect      saving-breath~ -5 ~
+ExtraDescr  globe minor~
+Shimmering colors move inside the globe.
+~
+End
+
+#2318
+Name        staff gnarled magius~
+Short       a gnarled magius staff~
+Descr
+A gnarled staff lies here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 4~ 4~ 6~ 0~
+Weight      10
+Affect      hitroll~ 3 ~
+Affect      damroll~ 3 ~
+ExtraDescr  staff gnarled magius~
+It appears to be simply a gnarled old limb. It feels powerful though.
+~
+End
+
+#2319
+Name        girdle pouches many~
+Short       a girdle of many pouches~
+Descr
+A girdle lies here.~
+Type        container~
+Extra       ~
+Wear        take waist~
+Values      500~ 0~ 0~ 0~ 0~
+Weight      5
+ExtraDescr  girdle pouches many~
+It appears to be full of tiny pockets.
+~
+End
+
+#2320
+Name        robe heavy woolen~
+Short       a heavy woolen robe~
+Descr
+A heavy pile of wool lies here.~
+Type        armor~
+Extra       magic~
+Wear        take about~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      10
+End
+
+#2321
+Name        brooch ivory~
+Short       a brooch of life~
+Descr
+A small ivory brooch lies here.~
+Type        armor~
+Extra       glow magic bless~
+Wear        take neck~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      hp~ 50 ~
+End
+
+#2322
+Name        manual arts healing book~
+Short       a manual of healing arts~
+Descr
+A small book lies here.~
+Type        scroll~
+Extra       ~
+Wear        take hold~
+Values      30~ cure light~ cure light~ cure light~  ~
+Weight      5
+ExtraDescr  manual arts healing book~
+It appears to be a book of anatomy and medicine.
+~
+End
+
+#2323
+Name        mace huge mithril~
+Short       a huge mithril mace~
+Descr
+A huge mace made of mithril metal lies here.~
+Type        weapon~
+Extra       glow magic~
+Wear        take wield~
+Values      0~ 4~ 4~ 6~ 0~
+Weight      13
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#2324
+Name        symbol holy golden~
+Short       a golden holy symbol~
+Descr
+A small holy symbol on a golden chain lies here.~
+Type        armor~
+Extra       magic~
+Wear        take neck~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      mana~ 10 ~
+End
+
+#2325
+Name        ring marble thick~
+Short       a thick marble ring~
+Descr
+A thick ring made of marble~
+Type        armor~
+Extra       magic~
+Wear        take finger~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#2326
+Name        bracelet thick marble~
+Short       a thick marble bracelet~
+Descr
+A thick bracelet made of marble lies here.~
+Type        armor~
+Extra       magic~
+Wear        take wrist~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      8
+Affect      constitution~ 1 ~
+End
+
+#2327
+Name        boots striding~
+Short       boots of striding~
+Descr
+A lithe pair of leather boots have been left here.~
+Type        armor~
+Extra       magic~
+Wear        take feet~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      move~ 30 ~
+ExtraDescr  boots striding~
+They look comfortable to walk in.
+~
+End
+
+#2328
+Name        cloak icy white~
+Short       an icy white cloak~
+Descr
+A cold pile of white cloth lies here.~
+Type        armor~
+Extra       glow magic~
+Wear        take about~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      5
+ExtraDescr  cloak icy white~
+Smoke rises from it almost like it's made of dry ice.
+~
+End
+
+#2329
+Name        staff ice~
+Short       an ice staff~
+Descr
+A staff made of ice rests here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 6~ 3~ 6~ 0~
+Weight      13
+Affect      hitroll~ 2 ~
+Affect      mana~ 20 ~
+ExtraDescr  staff ice~
+The runes "FrIgID" are inscribed in the icy staff.
+~
+End
+
+#2330
+Name        ring carved wooden~
+Short       a carved wooden ring~
+Descr
+A wooden ring is on the floor.~
+Type        armor~
+Extra       magic~
+Wear        take finger~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+End
+
+#2331
+Name        horn life~
+Short       the horn of life~
+Descr
+A severed minotaur horn lies here.~
+Type        wand~
+Extra       magic~
+Wear        take hold~
+Values      30~ 8~ 8~ cure light~ 0~
+Weight      5
+ExtraDescr  horn life~
+The horn is capped at both ends with gold. Unreadable runes are scrawled on it.
+~
+End
+
+#2332
+Name        belt life~
+Short       the belt of life~
+Descr
+A strange belt lies here.~
+Type        armor~
+Extra       magic~
+Wear        take waist~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      9
+Affect      constitution~ 3 ~
+End
+
+#2333
+Name        stone blood red~
+Short       a blood red stone~
+Descr
+A blood red stone lies here collecting dust.~
+Type        warp_stone~
+Extra       hum magic~
+Wear        take hold~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      hp~ 20 ~
+ExtraDescr  stone blood red~
+The stone pulses with your own heart beat.
+~
+End
+
+#2334
+Name        crossbow huge~
+Short       a huge crossbow~
+Descr
+A huge crossbow rests here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 3~ 7~ 7~ 0~
+Weight      15
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+End
+
+#2335
+Name        pack leather small~
+Short       a small leather pack~
+Descr
+A small leather pack rests here.~
+Type        container~
+Extra       magic~
+Wear        take about~
+Values      200~ 0~ 0~ 0~ 0~
+Weight      9
+ExtraDescr  pack leather small~
+It looks pretty big on the inside.
+~
+End
+
+#2336
+Name        hood black leather~
+Short       a black leather hood~
+Descr
+A hood made of black leather rests here.~
+Type        armor~
+Extra       magic~
+Wear        take head~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#2337
+Name        sleeves black leather~
+Short       a pair of black leather sleeves~
+Descr
+Some leather sleeves lie here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#2338
+Name        pants black leather~
+Short       a pair of black leather pants~
+Descr
+Some leather pants lie here.~
+Type        armor~
+Extra       magic~
+Wear        take legs~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      5
+ExtraDescr  pants black leather~
+They look sneaky.
+~
+End
+
+#2339
+Name        sword wicked short shortsword~
+Short       a wicked shortsword~
+Descr
+A wicked looking shortsword lies here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 3~ 5~ 11~ 0~
+Weight      11
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+ExtraDescr  sword wicked short shortsword~
+It looks just perfect for backstabbing.
+~
+End
+
+#2340
+Name        globe major~
+Short       a major globe of invulnerability~
+Descr
+A large globe rests here, pulsing uneasily.~
+Type        armor~
+Extra       glow hum magic~
+Wear        take about~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      saving-spell~ -5 ~
+ExtraDescr  globe major~
+Shimmering colors move inside the globe.
+~
+End
+
+#2341
+Name        chain chainmail black suit~
+Short       a suit of black minotaur chainmail~
+Descr
+A huge pile of black chainmail rests here.~
+Type        armor~
+Extra       magic~
+Wear        take body~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      12
+Affect      strength~ 1 ~
+Affect      constitution~ 1 ~
+End
+
+#2342
+Name        buckler spiked~
+Short       a spiked buckler~
+Descr
+A small spiked buckler rests here.~
+Type        armor~
+Extra       ~
+Wear        take shield~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      damroll~ 2 ~
+End
+
+#2343
+Name        ring studded~
+Short       a studded ring~
+Descr
+A small studded ring lies here.~
+Type        armor~
+Extra       magic~
+Wear        take finger~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      damroll~ 1 ~
+End
+
+#2344
+Name        helm horned~
+Short       a horned minotaur helm~
+Descr
+A small horned helm rests here.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2345
+Name        axe great~
+Short       mahn-Tor's Great Axe~
+Descr
+An extremely huge axe is resting here.~
+Type        weapon~
+Extra       hum magic~
+Wear        take wield~
+Values      0~ 5~ 5~ 3~ 0~
+Weight      26
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+ExtraDescr  axe great~
+The runes "DeAtH" are scrawled along the blade.
+~
+End
+
+#2346
+Name        plate ethereal suit~
+Short       a suit of ethereal plate~
+Descr
+A suit of shimmering plate rests here.~
+Type        armor~
+Extra       glow anti-good~
+Wear        take body~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      saving-spell~ -3 ~
+ExtraDescr  plate ethereal suit~
+You can almost see through it.
+~
+End
+
+#2347
+Name        helm ethereal~
+Short       an ethereal helm~
+Descr
+A shimmering helm rests here.~
+Type        armor~
+Extra       glow anti-good~
+Wear        take head~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      5
+ExtraDescr  helm ethereal~
+You can almost see through it.
+~
+End
+
+#2348
+Name        blade ethereal~
+Short       an ethereal blade~
+Descr
+A shimmering blade lies here.~
+Type        weapon~
+Extra       glow anti-good~
+Wear        take wield~
+Values      0~ 4~ 3~ 3~ 0~
+Weight      3
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+ExtraDescr  blade ethereal~
+You can almost see through it.
+~
+End
+
+#2349
+Name        branch willow~
+Short       a willow branch~
+Descr
+A small willow branch lies here.~
+Type        wand~
+Extra       magic~
+Wear        take hold~
+Values      20~ 5~ 5~ lightning bolt~ 0~
+Weight      3
+End
+
+#2350
+Name        key keep~
+Short       the keep key~
+Descr
+A small key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2351
+Name        key red~
+Short       a red key~
+Descr
+A small red key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2352
+Name        key black~
+Short       a black key~
+Descr
+A small black key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2353
+Name        key white~
+Short       a white key~
+Descr
+A small white key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2354
+Name        key brown~
+Short       a brown key~
+Descr
+A small brown key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2355
+Name        key yellow~
+Short       a yellow key~
+Descr
+A small yellow key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2356
+Name        key maroon~
+Short       a maroon key~
+Descr
+A small maroon key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2357
+Name        key green~
+Short       a green key~
+Descr
+A small green key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2358
+Name        key grey~
+Short       a grey key~
+Descr
+A small grey key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2359
+Name        key runed~
+Short       a runed key~
+Descr
+A small runed key lies here.~
+Type        key~
+Extra       ~
+Wear        take~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      1
+ExtraDescr  key runed~
+The key looks like it was made for royalty.
+~
+End
+
+#2360
+Name        boots fur lined~
+Short       a pair of fur lined boots~
+Descr
+A pair of boots are on the floor.~
+Type        armor~
+Extra       magic~
+Wear        take feet~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      move~ 10 ~
+End
+
+#2361
+Name        pelt yeti white~
+Short       the white pelt of a yeti~
+Descr
+A white pelt lies here.~
+Type        armor~
+Extra       ~
+Wear        take about~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      9
+End
+
+#2362
+Name        sword kopesh~
+Short       a kopesh sword~
+Descr
+A sword with a curved blade lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 5~ 3~ 3~ 0~
+Weight      13
+ExtraDescr  sword kopesh~
+The sword looks like it would be grasped so that the blade extended along the
+forearm of the wielder.
+~
+End
+
+#2363
+Name        vambraces steel~
+Short       a pair of steel vambraces~
+Descr
+A gleaming pair of vambraces lies here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      7
+End
+
+#2364
+Name        greaves steel~
+Short       a pair of steel greaves~
+Descr
+A gleaming pair of greaves lie here.~
+Type        armor~
+Extra       ~
+Wear        take legs~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      7
+End
+
+#2365
+Name        axe battle battleaxe~
+Short       a battle axe~
+Descr
+A dangerous looking battle axe rests here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 4~ 4~ 3~ 0~
+Weight      18
+End
+
+#2366
+Name        plate steel breast~
+Short       a steel breast plate~
+Descr
+A breast plate of thick steel rests here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      10
+End
+
+#2367
+Name        helm steel~
+Short       a steel helm~
+Descr
+A steel helm has been left here.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      6
+End
+
+#2368
+Name        halberd huge~
+Short       a huge halberd~
+Descr
+A huge halberd has been left here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 9~ 2~ 3~ 0~
+Weight      18
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+End
+
+#2369
+Name        visor blue steel helm~
+Short       a blue steel helm and visor~
+Descr
+A helm and visor of blue steel rests here.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2370
+Name        greaves blue steel~
+Short       a pair of blue steel greaves~
+Descr
+Some greaves made of blue steel rest here.~
+Type        armor~
+Extra       ~
+Wear        take legs~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2371
+Name        vambraces blue steel~
+Short       a pair of blue steel vambraces~
+Descr
+Some vambraces made of blue steel rest here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2372
+Name        sword two two-handed~
+Short       a two-handed sword~
+Descr
+A large sword lies here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 6~ 3~ 3~ 0~
+Weight      18
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#2373
+Name        visor helm steel red~
+Short       a red steel helm and visor~
+Descr
+A helm and visor made of red steel rests here.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2374
+Name        greaves red steel~
+Short       a pair of red steel greaves~
+Descr
+Some greaves made of red steel rest here.~
+Type        armor~
+Extra       ~
+Wear        take legs~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2375
+Name        vambraces red steel~
+Short       a pair of red steel vambraces~
+Descr
+Some vambraces made of red steel rest here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2376
+Name        glaive~
+Short       a minotaur glaive~
+Descr
+A very large glaive rests here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 5~ 4~ 3~ 0~
+Weight      19
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+End
+
+#2377
+Name        visor helm crimson steel~
+Short       a crimson steel helm and visor~
+Descr
+A helm and visor made of crimson steel rests here.~
+Type        armor~
+Extra       ~
+Wear        take head~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2378
+Name        greaves crimson steel~
+Short       a pair of crimson steel greaves~
+Descr
+Some greaves made of crimson steel rest here.~
+Type        armor~
+Extra       ~
+Wear        take legs~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2379
+Name        vambraces crimson steel~
+Short       a pair of crimson steel vambraces~
+Descr
+Some vambraces made of crimson steel rest here.~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      8
+End
+
+#2380
+Name        star morning morningstar~
+Short       a huge morningstar~
+Descr
+A huge morningstar rests here.~
+Type        weapon~
+Extra       magic~
+Wear        take wield~
+Values      0~ 7~ 3~ 6~ 0~
+Weight      20
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+ExtraDescr  star morning morningstar~
+It looks damaging.
+~
+End
+
+#2381
+Name        spiked brass knuckles~
+Short       some huge spiked brass knuckles~
+Descr
+A set of spiked brass knuckles lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 4~ 3~ 1~ 0~
+Weight      9
+ExtraDescr  spiked brass knuckles~
+A band held in the hand that has spikes on the front side.
+~
+End
+
+#2382
+Name        ring key multi colored multi-colored~
+Short       a multi-colored key ring~
+Descr
+A ring of multi-colored keys rests here.~
+Type        container~
+Extra       ~
+Wear        take neck~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      3
+ExtraDescr  ring key multi colored multi-colored~
+It has several keys of different colors on it.
+~
+End
+
+#2383
+Name        maul huge wooden~
+Short       a huge wooden maul~
+Descr
+A huge wooden maul rests here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 5~ 5~ 6~ 0~
+Weight      22
+End
+
+#2384
+Name        potion misty~
+Short       a misty potion~
+Descr
+A small misty potion rests here.~
+Type        potion~
+Extra       glow magic inventory~
+Wear        take~
+Values      20~ heal~  ~  ~  ~
+Weight      3
+End
+
+#2385
+Name        pouch belt~
+Short       a belt pouch~
+Descr
+A belt pouch lies here.~
+Type        container~
+Extra       ~
+Wear        take waist~
+Values      75~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#2386
+Name        spear ogre~
+Short       an ogre spear~
+Descr
+A crude spear rests here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 2~ 5~ 11~ 0~
+Weight      8
+End
+
+#2387
+Name        club ogre war~
+Short       an ogre war club~
+Descr
+A large, crude club rests here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 2~ 6~ 8~ 0~
+Weight      10
+End
+
+#2388
+Name        cloak bear skin bearskin~
+Short       a bearskin cloak~
+Descr
+A rough bearskin rests here.~
+Type        armor~
+Extra       ~
+Wear        take about~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      12
+End
+
+#2389
+Name        ear ring earring feathered~
+Short       a pair of feathered earrings~
+Descr
+Some feathered earrings rest here.~
+Type        armor~
+Extra       glow magic~
+Wear        take head~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#2390
+Name        gauntlets ogre power~
+Short       gauntlets of ogre power~
+Descr
+Some heavy gauntlets lie here.~
+Type        armor~
+Extra       hum magic~
+Wear        take hands~
+Values      7~ 0~ 0~ 0~ 0~
+Weight      13
+Affect      strength~ 4 ~
+Affect      damroll~ 3 ~
+Affect      ac~ 10 ~
+ExtraDescr  gauntlets ogre power~
+They look very "handy".
+~
+End
+
+#2391
+Name        club massive~
+Short       a massive club~
+Descr
+A massive club lies here, discarded.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 5~ 3~ 8~ 0~
+Weight      19
+End
+
+#2392
+Name        cape thick fur~
+Short       a thick fur cape~
+Descr
+A thick pile of fur lies here.~
+Type        armor~
+Extra       ~
+Wear        take neck~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      5
+End
+
+#2393
+Name        tunic fur lined~
+Short       a fur lined tunic~
+Descr
+A fur lined tunic rests here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      6
+End
+
+#0
+
+
+
+#ROOMDB
+#2300
+Name        The dark woods~
+Descr
+You are travelling through woods that are as dark as night. The trees above
+block all light and wind. The air is stagnant and smells of death and decay.
+The lack of sounds and other signs of life make your skin crawl and you feel
+very much like turning back and heading for safer areas. The path leads north
+into more open lands while it also leads south into the darkness of the forest.
+A small sign is posted here.
+~
+Flags       no_mob~
+Sector      forest~
+Regen       100 100
+ExtraDescr  sign~
+[]================================[]
+     |      BEWARE!      | Hope you   |
+     |   Travellers are  | enjoy it!  |
+     |  advised to stay  | <------->  |
+     |   in groups for   |  Skurge    |
+     |      safety.      | Ragnarok   |
+    []================================[]
+~
+Door        north~ ~ 0 5280
+~
+~
+Door        south~ ~ -1 2301
+~
+~
+End
+
+#2301
+Name        The dark woods~
+Descr
+You wearily travel through the darkness of the forest. Huge skeletal trees
+line the edges of the path and tower above you. Errant rays of light spear
+down through the gaps in the canopy above and provide small spots of light
+that seem to attract what little foliage can grow on the dark forest floor.
+The path winds north and south into darkness.
+~
+Flags       dark no_mob~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 2300
+~
+~
+Door        south~ ~ -1 2302
+~
+~
+End
+
+#2302
+Name        The small intersection in the forest~
+Descr
+The forest path splits here in three directions. Small paths lead to the east,
+north, and south. The trees above leave a gap which allows light to fill the
+intersection. It is almost as though you are in a circle of light that
+provides sanctuary in this land of darkness.
+Something has been scrawled in the dirt in blood here.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+ExtraDescr  blood dirt scrawl~
+BeWAre tHe SwAmP oGreS......
+~
+Door        north~ ~ 0 2301
+~
+~
+Door        east~ ~ 0 2304
+~
+~
+Door        south~ ~ 0 2303
+~
+~
+End
+
+#2303
+Name        The edge of the forest and hills~
+Descr
+You stand at the edge of a dark forest. A path leads north into the forest and
+its deadly darkness and silence. Looking west, you see a path that leads up
+into a foothills region. Standing here on the boundary between light and
+darkness, you feel very vulnerable and alone.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ -1 2302
+~
+~
+Door        west~ ~ -1 2309
+~
+~
+End
+
+#2304
+Name        In the dense forest~
+Descr
+You walk along a small path leading through a dark forest. No sounds can be
+heard and little light penetrates the canopy of trees above you. The air here
+smells musty and you long for a fresh breath. You see an intersection of paths
+to the west. The path you are on leads south into the darkening woods.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+Door        south~ ~ 0 2305
+~
+~
+Door        west~ ~ 0 2302
+~
+~
+End
+
+#2305
+Name        The dark forest path~
+Descr
+You continue on through darkness and gloom. The path below you has become a
+wet quagmire. It is difficult to walk, and you make squishing sounds as you
+move on. Looking east, you see a swampy path. The main path leads north and
+south into darkness.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 2304
+~
+~
+Door        east~ ~ -1 2327
+~
+~
+Door        south~ ~ 0 2306
+~
+~
+End
+
+#2306
+Name        A turn in the path~
+Descr
+The forest path turns here towards the north and west. To the north, you see
+that the ground has become dank and swampy, while the western path appears
+to be entering a hilly area. You hear sounds of swamp creatures to the north
+east.
+~
+Flags       dark~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 2305
+~
+~
+Door        west~ ~ 0 2307
+~
+~
+End
+
+#2307
+Name        The bloody intersection~
+Descr
+This is a small intersection. Paths lead east, west, and south. You are struck
+by the carnage here when you enter the clearing. There appears to have been a
+great battle here. Blood is everywhere and the ground is all torn up. Pieces
+of beaten armour and broken blades lie all around. Examining the tracks here
+lead you to believe that the dead and wounded were dragged off in two 
+directions, south and east.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 2300 1 100
+Reset       E 2346 5 100
+Reset       E 2347 6 100
+Reset       E 2348 16 100
+Door        east~ ~ 0 2306
+~
+~
+Door        south~ ~ 0 2310
+~
+~
+Door        west~ ~ 0 2308
+~
+~
+End
+
+#2308
+Name        The rocky path~
+Descr
+The path here winds among the low rocky hills. The long trek up and down the
+hills begins to tire you greatly. Looking east, you see a small clearing. More
+hills are to the north of here.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2309
+~
+~
+Door        east~ ~ 0 2307
+~
+~
+End
+
+#2309
+Name        The rocky path~
+Descr
+The path here is very rocky and treacherous. The travelling is rough and you
+slip and fall often. Looking south, you see that the path continues into the
+hills. Smoother ground is to the east, but the path seems to lead into a dark
+forest in that direction.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        east~ ~ 0 2303
+~
+~
+Door        south~ ~ 0 2308
+~
+~
+End
+
+#2310
+Name        Up the rocky hillside~
+Descr
+You are climbing on a rocky hillside. As you scramble about, loose rocks and
+small boulders bounce and fall down below you. Looking to the east and west,
+you see more stable ground. The hillside itself goes on higher to the south
+and it drops away to the north.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 2307
+~
+~
+Door        east~ ~ 0 2312
+~
+~
+Door        south~ ~ 0 2314
+~
+~
+Door        west~ ~ 0 2311
+~
+~
+End
+
+#2311
+Name        The sparse foothills~
+Descr
+You are in foothills that are sparsely covered by scraggly bushes and weather
+beaten trees. There are little signs of life here. Only bare rock and dry dirt
+can be seen. Looking east, you see a small pass that will allow you to leave
+the foothills. The foothills themselves extend to the south.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 2303 4 100
+Door        east~ ~ 0 2310
+~
+~
+Door        south~ ~ 0 2313
+~
+~
+End
+
+#2312
+Name        Standing on level ground~
+Descr
+You are standing at the edge of a steep set of foothills. Looking down, you
+see what appears to be a marshy, dark forest. It reeks of death and decay.
+Even here, you catch its scent on the winds. From here, you can travel south
+deeper into the foothills or to the west where a small pass will allow you to
+climb down.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 2303 4 100
+Door        south~ ~ 0 2315
+~
+~
+Door        west~ ~ 0 2310
+~
+~
+End
+
+#2313
+Name        In the foothills~
+Descr
+You are in a barren set of foothills. Looking around, all you see are dead
+plants and boulders. From the south, you get a whiff of salty air. Barren paths
+lead east, north, and south into more barren hills.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 2303 4 100
+Door        north~ ~ 0 2311
+~
+~
+Door        east~ ~ 0 2314
+~
+~
+Door        south~ ~ 0 2317
+~
+~
+End
+
+#2314
+Name        Before the huge tree~
+Descr
+You enter a large ring of boulders. Sheltered by this wall of stones, a small
+cluster of plants have sprung up. In the center of this group of trees and
+bushes is a huge gnarled tree. It appears to have been twisted and torn by
+the forces of nature. It sways and moans as a strong wind from the south tears
+through its old feeble branches. The hills themselves lead in all directions.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 2301 1 100
+Door        north~ ~ 0 2310
+~
+~
+Door        east~ ~ 0 2315
+~
+~
+Door        south~ ~ 0 2318
+~
+~
+Door        west~ ~ 0 2313
+~
+~
+End
+
+#2315
+Name        Before the dark cave~
+Descr
+You stand directly before a huge dark cave. The rocks and boulders outside the
+cave are covered with blood stains and all types of broken and shattered bones
+lie around. An unbearable stench comes from within the cave itself. The dark
+cave entrance looms to the east. The hills themselves lead towards the
+north, south, and west.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2312
+~
+~
+Door        east~ ~ 0 2316
+~
+~
+Door        south~ ~ 0 2319
+~
+~
+Door        west~ ~ 0 2314
+~
+~
+End
+
+#2316
+Name        Inside the horrid cave~
+Descr
+The stench is overwhelming. You can hardly breathe as you enter the cave.
+Looking around, you realize that some bizarre and horrible creature uses this
+cave as a home. Skeletal remains lie all over. Several half-eaten corpses are
+rotting away slowly in the gloomy darkness. In the back of the cave, you see a
+large pile of rotting cloth, fur, and plant matter. Light and safety is
+towards the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  pile~
+It appears to be some sort of nest......
+~
+Reset       M 2302 1 100
+Door        west~ ~ 0 2315
+~
+~
+End
+
+#2317
+Name        The hills overlooking the shore~
+Descr
+Standing at the edge of the foothills, you are able to look down upon a rocky
+shoreline. It appears as though a vast ocean is to the south. Sea birds have
+made their nests here in the rocks and you are heartened by the presence of
+life here. It is possible to climb down to the shore here. The hills
+themselves are to the north. The edge of the hills leads to the east along the
+shoreline.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2313
+~
+~
+Door        east~ ~ 0 2318
+~
+~
+Door        down~ ~ 0 2320
+~
+~
+End
+
+#2318
+Name        The hills overlooking the shoreline~
+Descr
+You stand on a barren section of hills that overlook a rocky shoreline. The
+stiff ocean wind has blown the rocks smooth here and you have to lean forward
+a bit to keep your balance. The salty sea air fills your nostrils and you
+notice signs of life in the rocky crags here. You can climb down towards the
+shore or head north into the hills themselves. The rocky summit you are
+standing leads east and west along the shoreline.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2314
+~
+~
+Door        east~ ~ 0 2319
+~
+~
+Door        west~ ~ 0 2317
+~
+~
+Door        down~ ~ 0 2321
+~
+~
+End
+
+#2319
+Name        The hills above the shoreline~
+Descr
+You stand on a rocky summit overlooking a rough shoreline below. The sea wind
+blows hard across the rocks here and they have been worn smooth with time.
+Looking around, you notice that you can safely climb down towards the shore.
+The hills themselves stretch towards the north. The rough summit you stand
+upon leads west along the shoreline.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 2303 4 100
+Door        north~ ~ 0 2315
+~
+~
+Door        west~ ~ 0 2318
+~
+~
+Door        down~ ~ 0 2322
+~
+~
+End
+
+#2320
+Name        The rocky shore~
+Descr
+You are at the base of the rocky hills. Stretching to the south and east, you
+see a rocky shore. To the southeast, you see a small altar of some sorts that
+glows with an eerie blue light. It is possible to climb up into the hills here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 2321
+~
+~
+Door        south~ ~ 0 2323
+~
+~
+Door        up~ ~ 0 2317
+~
+~
+End
+
+#2321
+Name        The rocky shoreline~
+Descr
+You are on a rocky shore that borders a vast sea. A stiff wind blows here and
+whistles among the rocks. You see an altar of some sort built on the shore to
+the south. The shore itself leads east and west. Looking up, you see foothills
+and rocky crags.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        east~ ~ 0 2322
+~
+~
+Door        south~ ~ 0 2324
+~
+~
+Door        west~ ~ 0 2320
+~
+~
+Door        up~ ~ 0 2318
+~
+~
+End
+
+#2322
+Name        The rocky shore~
+Descr
+You stand at the base of some rocky hills, where they meet a rocky shore. A
+vast sea is to your south. Looking to the southwest, you see a small altar
+that glows with a eerie blue light. The shore stretches out to the south and
+west. It is possible to climb up into the hills here.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        south~ ~ 0 2325
+~
+~
+Door        west~ ~ 0 2321
+~
+~
+Door        up~ ~ 0 2319
+~
+~
+End
+
+#2323
+Name        The edge of the sea~
+Descr
+You walk along the water's edge. The vastness of the ocean is staggering as
+you look out across it. You notice a small altar that glows with blue light
+to the east. The shore itself extends north away from the water's edge.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 2320
+~
+~
+Door        east~ ~ 0 2324
+~
+~
+End
+
+#2324
+Name        The Blood Sea Portal~
+Descr
+You stand on a small pedestal like altar that has been built on the shore here.
+Standing here, you can look out across the sea. You can almost imagine that
+you see a far away island. Dominating the altar is a small blue portal of
+light. It is possible to walk south into the portal. The shore itself extends
+to the north, east, and west.
+There are small inscriptions on the rock at the base of the portal.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+ExtraDescr  small inscriptions inscription~
+"Enter all ye who wish to join the Brotherhood!"
+~
+ExtraDescr  portal blue~
+You see a swirling blue portal of light. You think you can see glimpses of
+something moving on the "other side".
+~
+Door        north~ ~ 0 2321
+~
+~
+Door        east~ ~ 0 2325
+~
+~
+Door        south~ ~ 0 2326
+~
+~
+Door        west~ ~ 0 2323
+~
+~
+End
+
+#2325
+Name        The edge of the sea~
+Descr
+You walk along the water's edge. The tide appears to have risen. Very little
+debris is washed up on shore. You slip and slide as you tread across the
+slippery rocks that make up the shore. To the west you see a small altar that
+radiates blue light. The shore extends north away from the water's edge.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ 0 2322
+~
+~
+Door        west~ ~ 0 2324
+~
+~
+End
+
+#2326
+Name        Floating in blue light~
+Descr
+You seem to be floating in blue weightlessness. You tumble head over heels and
+finally right yourself. Gaining your bearings, you notice that there are two
+"windows" in the sea of blue here. One to the south shows an image of a snowy
+plain. Another window the the north shows an image of a rocky shore.
+~
+Flags       no_mob indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 2324
+~
+~
+Door        south~ ~ -1 2353
+~
+~
+End
+
+#2327
+Name        The swampy path~
+Descr
+This damp path seems to lead into a deep, dark swamp. The trees above block
+out all light and stifle the wind. You smell swamp gas and hear damp squashing
+sounds all around you. The path leads east deeper into the swamp. You also see
+a dark forest to the west.
+~
+Flags       dark no_mob indoors~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 2328
+~
+~
+Door        west~ ~ 0 2305
+~
+~
+End
+
+#2328
+Name        The swampy path~
+Descr
+You tread lightly in a wet, swampy path. All around you, you see pools of
+quicksand and rotting vegetation. Unlike the forest to the west, the swamp is
+teeming with life. Some of it is harmless, some is not. The path leads east
+and west into more swamp.
+~
+Flags       dark indoors~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ 0 2329
+~
+~
+Door        west~ ~ 0 2327
+~
+~
+End
+
+#2329
+Name        The swampy path~
+Descr
+You weave your way through the treacherous swamp. Gas rises all around you and
+a damp mist covers the ground, making it impossible to travel safely, without
+carefully picking your way around obstacles. Large, gnarled trees rise above
+you. Their moss covered branches block out all traces of the sun. The path
+here leads east and west.
+~
+Flags       dark indoors~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ -1 2330
+~
+~
+Door        west~ ~ 0 2328
+~
+~
+End
+
+#2330
+Name        The turn in the swampy path~
+Descr
+You come upon a bend in the swampy path. The ground here is fairly sturdy,
+as this place is elevated above the rest of the swamp. Looking around, you see
+a dark, mist filled swamp. Small paths lead south and west into the mist.
+~
+Flags       dark indoors~
+Sector      forest~
+Regen       100 100
+Reset       M 2304 1 100
+Reset       E 2349 -1 100
+Door        south~ ~ 0 2331
+~
+~
+Door        west~ ~ 0 2329
+~
+~
+End
+
+#2331
+Name        The swampy path~
+Descr
+You tread lightly through the mirky water and sludge that makes up the path
+you follow. To the east, there is a thick wall of mist. You can see nothing
+within it. Harder ground rises to the north.
+~
+Flags       dark indoors~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 2330
+~
+~
+Door        east~ ~ 0 2335
+~
+~
+End
+
+#2332
+Name        Lost in the Mist~
+Descr
+You wander, hopelessly lost. Swirling mist obscures your vision and clouds
+your mind. You lose all concept of direction. Small, silent giggles can be
+heard all around. You can wander in any direction.
+~
+Flags       dark indoors no_recall~
+Sector      hills~
+Regen       100 100
+Reset       M 2305 3 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2337
+~
+~
+Door        east~ ~ 0 2334
+~
+~
+Door        south~ ~ 0 2335
+~
+~
+Door        west~ ~ 0 2334
+~
+~
+End
+
+#2333
+Name        Lost in the Mist~
+Descr
+You are in a thick misty area. The mist swirls around you, seeming to taunt
+you and dare you to escape. You feel a slight electric charge in the mist. It
+almost caresses your body as it floats about you. You can wander in any
+direction.......
+~
+Flags       dark indoors no_recall~
+Sector      forest~
+Regen       100 100
+Reset       M 2305 3 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2333
+~
+~
+Door        east~ ~ 0 2336
+~
+~
+Door        south~ ~ 0 2333
+~
+~
+Door        west~ ~ 0 2335
+~
+~
+End
+
+#2334
+Name        Lost in the Mist~
+Descr
+You try to peer through the mist......You see nothing. It swirls about you,
+covering you in a damp sheen. There is no sound, all light is eagerly devoured
+by the mist. You feel totally and hopelessly lost.
+~
+Flags       dark indoors no_recall~
+Sector      hills~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2338
+~
+~
+Door        east~ ~ 0 2332
+~
+~
+Door        south~ ~ 0 2336
+~
+~
+Door        west~ ~ 0 2332
+~
+~
+End
+
+#2335
+Name        Lost in the Mist~
+Descr
+You stumble through the marsh here. The swamp seems to have swallowed you up
+and denied you exit. This mist is your jailor. You cannot tell where you are.
+You hear quiet laughter all about you.
+~
+Flags       dark indoors no_recall~
+Sector      hills~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2332
+~
+~
+Door        east~ ~ 0 2333
+~
+~
+Door        south~ ~ 0 2337
+~
+~
+Door        west~ ~ 0 2331
+~
+~
+End
+
+#2336
+Name        Lost in the Mist~
+Descr
+You wander, lost, for what seems an eternity. Then....From nowhere....You see
+what appears to be trees and hills to the east. The mist itself thickens to
+the west, while it grows thin to the east.
+~
+Flags       dark indoors no_recall~
+Sector      hills~
+Regen       100 100
+Reset       M 2306 1 100
+Reset       E 2384 -1 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2334
+~
+~
+Door        east~ ~ 0 2339
+~
+~
+Door        south~ ~ 0 2338
+~
+~
+Door        west~ ~ 0 2333
+~
+~
+End
+
+#2337
+Name        Lost in the Mist~
+Descr
+You wander through the thick mist. It swirls all about you and makes it hard
+to breathe. The ground below you makes a soft squishing sound as you trudge
+on, but this noise is absorbed by the mist and does not travel. You can wander
+in any direction.
+~
+Flags       dark indoors no_recall~
+Sector      hills~
+Regen       100 100
+Reset       M 2305 3 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2335
+~
+~
+Door        east~ ~ 0 2338
+~
+~
+Door        south~ ~ 0 2332
+~
+~
+Door        west~ ~ 0 2338
+~
+~
+End
+
+#2338
+Name        Lost in the Mist~
+Descr
+You wander, lost hopelessly. The mist swirls all about you. You can discern no
+direction. You stumble blindly through the mist, oblivious to your
+surroundings.
+~
+Flags       dark indoors no_recall~
+Sector      forest~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2336
+~
+~
+Door        east~ ~ 0 2337
+~
+~
+Door        south~ ~ 0 2334
+~
+~
+Door        west~ ~ 0 2337
+~
+~
+End
+
+#2339
+Name        The solid path~
+Descr
+A solid path rises out of the misty swamp. It leads north, into what appears
+to be a forested area. The trees, above, allow light and air to penetrate and
+you can see the sky above. A thick bank of mist is to your west.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ 0 2340
+~
+~
+Door        west~ ~ 0 2336
+~
+~
+End
+
+#2340
+Name        A forested path~
+Descr
+The path here leads north through a thick forest. High bushes and forest
+undergrowth line both sides of the trail. Looking north, you see a thin line
+of smoke rising up above the tree line. You also notice a crude wooden gate
+farther north on the trail. The trail itself leads south into murky territory.
+~
+Flags       no_mob~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ 0 2341
+~
+~
+Door        south~ ~ 0 2339
+~
+~
+End
+
+#2341
+Name        The gate before the Ogre Village~
+Descr
+You stand before a huge pair of crude, wooden gates. They are thrown open.
+Looking inside the gates, you see a crude village. Large humanoid creatures
+are milling to and fro.......Ogres! You can head north through the gate or
+south into the forest.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 2309 4 100
+Reset       E 2387 16 100
+Reset       M 2309 4 100
+Reset       E 2387 16 100
+Door        north~ ~ 0 2343
+~
+~
+Door        south~ ~ 0 2340
+~
+~
+End
+
+#2342
+Name        Among the crude huts~
+Descr
+You walk among the huts of the ogre village. The village appears to be cut
+from the heart of the forest itself. The swamp, nearby, provides the ogres
+with a prime hunting ground. Small paths lead north and east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2308 4 100
+Reset       E 2386 16 100
+Reset       M 2309 4 100
+Reset       E 2387 16 100
+Door        north~ ~ 0 2345
+~
+~
+Door        east~ ~ 0 2343
+~
+~
+End
+
+#2343
+Name        Inside the gates~
+Descr
+You stand just north of the gates to the village. Looking around, you see many
+crude huts and cooking fires. To the north, you see a huge fire pit. Behind 
+it, there appears to be a hut of sorts. Small paths lead east and west among 
+the crude huts. The gates to the south provide an exit from the village.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2307 5 100
+Reset       E 2385 13 100
+Door        north~ ~ 0 2346
+~
+~
+Door        east~ ~ 0 2344
+~
+~
+Door        south~ ~ 0 2341
+~
+~
+Door        west~ ~ 0 2342
+~
+~
+End
+
+#2344
+Name        Among the crude huts~
+Descr
+You walk through the crude village. Small huts made of wood and thatch
+surround you. Every so often, you can hear grunts and snarls inside the huts.
+The smell here is unbearable. You wonder what type of creature could possibly
+live in such squalor. Small paths lead west and north here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2307 5 100
+Door        north~ ~ 0 2347
+~
+~
+Door        west~ ~ 0 2343
+~
+~
+End
+
+#2345
+Name        The gathering place~
+Descr
+This appears to be the clearing the ogres use to assemble. It is quite large
+and has a raised mound in the center that contains a crude throne. The ground
+in front of the throne is quite worn, as if it is sat on quite often. You get
+the impression that this place is a crude sort of auditorium. Small paths lead
+east and south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2307 5 100
+Door        east~ ~ 0 2346
+~
+~
+Door        south~ ~ 0 2342
+~
+~
+End
+
+#2346
+Name        The firepit before the lodge~
+Descr
+You stand at the edge of a huge firepit. The heat from the burning embers
+makes you sweat as you stand here. Large spits above the pit are empty but
+they appear to be quite large enough to hold hapless adventurers. A large
+lodge is towards the north, while paths lead east, west, and south into the
+village itself.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2307 5 100
+Reset       E 2385 13 100
+Reset       M 2308 4 100
+Reset       E 2386 16 100
+Door        north~ door~ -1 2348
+~
+door~
+Door        east~ ~ 0 2347
+~
+~
+Door        south~ ~ 0 2343
+~
+~
+Door        west~ ~ 0 2345
+~
+~
+End
+
+#2347
+Name        The village dump~
+Descr
+The smell here overpowers you. All around you are the rotting remains of the
+village's refuse. Partially eaten corpses, rotting food, and other truly
+disgusting things have been discarded here. Paths lead south and west towards
+fresher air.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2308 4 100
+Reset       E 2386 16 100
+Door        south~ ~ 0 2344
+~
+~
+Door        west~ ~ 0 2346
+~
+~
+End
+
+#2348
+Name        The entryway to the lodge~
+Descr
+You are at the entry hall to a large lodge. Animal pelts and other trophies
+line the walls here. Large chests on either side of the door appear to be
+locked. The lodge stretches north, while the doors to the south provide an
+exit into the village.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2307 5 100
+Reset       M 2308 4 100
+Reset       E 2386 16 100
+Reset       M 2309 4 100
+Reset       E 2387 16 100
+Door        north~ ~ -1 2349
+~
+~
+Door        south~ door~ -1 2346
+~
+door~
+End
+
+#2349
+Name        The throne room~
+Descr
+You stand in a large, crudely decorated throne room. A huge throne adorned
+with humanoid skulls sits against the west wall. A crude, blood stained altar
+is against the east wall. A doorway is directly to the north, long strands of
+beads blocking the view of the other side. Crude torches light the hall and 
+smoke clings to the ceiling.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2310 1 100
+Reset       E 2388 12 100
+Reset       E 2389 6 100
+Door        north~ ~ 0 2350
+~
+~
+Door        south~ ~ 0 2348
+~
+~
+End
+
+#2350
+Name        The chieftain's room~
+Descr
+This appears to be the ogre chieftain's private quarters. A huge pile of furs
+is in the far corner. Large chests fill the room. All of them have heavy pad
+locks. The room is filled with trophies of dead enemies. It is quite lavishly
+decorated for such a crude inhabitant as an ogre. A beaded doorway is to the
+south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2311 1 100
+Reset       E 2390 9 100
+Reset       E 2391 16 100
+Door        south~ ~ 0 2349
+~
+~
+End
+
+#2351
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make impossible for you to
+discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2312 3 100
+Reset       E 2392 4 100
+Reset       E 2393 5 100
+Reset       E 2360 8 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2353
+~
+~
+Door        east~ ~ 0 2352
+~
+~
+Door        south~ ~ 0 2355
+~
+~
+Door        west~ ~ 0 2354
+~
+~
+End
+
+#2352
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bine. Swirling snow and wind make it impossible to
+discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2314 3 100
+Reset       R 4 0 0
+Door        north~ ~ -1 2357
+~
+~
+Door        east~ ~ -1 2354
+~
+~
+Door        south~ ~ -1 2358
+~
+~
+Door        west~ ~ 0 2351
+~
+~
+End
+
+#2353
+Name        The Glacier Temple~
+Descr
+You are in a small temple. It appears to be built entirely from ice. The ice
+walls are frosted and are opaque. There is a small blue portal here. You can
+go north, to enter the portal. Looking south, you see a world of white outside
+the open doorway. Swirling snow and bright light obscure your view.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 2326
+~
+~
+Door        south~ ~ 0 2351
+~
+~
+End
+
+#2354
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make it impossible for you
+to discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2312 3 100
+Reset       E 2392 4 100
+Reset       E 2393 5 100
+Reset       E 2360 8 100
+Reset       M 2314 3 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2359
+~
+~
+Door        east~ ~ 0 2351
+~
+~
+Door        south~ ~ 0 2356
+~
+~
+Door        west~ ~ 0 2352
+~
+~
+End
+
+#2355
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make it impossible for you
+to discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2313 3 100
+Reset       E 2361 12 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2351
+~
+~
+Door        east~ ~ 0 2356
+~
+~
+Door        south~ ~ 0 2357
+~
+~
+Door        west~ ~ 0 2356
+~
+~
+End
+
+#2356
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make it impossible for you
+to discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2314 3 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2354
+~
+~
+Door        east~ ~ 0 2355
+~
+~
+Door        south~ ~ 0 2359
+~
+~
+Door        west~ ~ 0 2355
+~
+~
+End
+
+#2357
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make it impossible for you
+to discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2313 3 100
+Reset       E 2361 12 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2355
+~
+~
+Door        east~ ~ 0 2358
+~
+~
+Door        south~ ~ 0 2352
+~
+~
+Door        west~ ~ 0 2359
+~
+~
+End
+
+#2358
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make it impossible for you
+to discern any direction.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2352
+~
+~
+Door        east~ ~ 0 2359
+~
+~
+Door        south~ ~ 0 2360
+~
+~
+Door        west~ ~ 0 2357
+~
+~
+End
+
+#2359
+Name        The frigid wastelands~
+Descr
+You wander through the frigid wastelands. Your breath is a cloud before you.
+The cold cuts to the bone. Swirling snow and wind make it impossible for you
+to discern any directions.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2312 3 100
+Reset       E 2392 4 100
+Reset       E 2393 5 100
+Reset       E 2360 8 100
+Reset       M 2313 3 100
+Reset       E 2361 12 100
+Reset       R 4 0 0
+Door        north~ ~ 0 2356
+~
+~
+Door        east~ ~ 0 2357
+~
+~
+Door        south~ ~ 0 2354
+~
+~
+Door        west~ ~ 0 2358
+~
+~
+End
+
+#2360
+Name        The edge of the frigid wastes~
+Descr
+You stand at the base of a steep rocky cliff. To the north, a vast arctic
+wasteland stretches out. The snow falls lightly here and the wind is not
+very fierce. You can climb up the rocky cliff or head north into the arctic
+wastes.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ 0 2358
+~
+~
+Door        up~ ~ 0 2361
+~
+~
+End
+
+#2361
+Name        On the cliffside~
+Descr
+You cling to the side of the cliff. Looking down, you are terrified by the
+sheer distance to the ground below. You can climb up higher into the cliffs,
+but the area above is obscured by clouds and you cannot tell what lies waiting
+above.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        up~ ~ 0 2362
+~
+~
+Door        down~ ~ 0 2360
+~
+~
+End
+
+#2362
+Name        Before the gates of Mahn-Tor~
+Descr
+You stand at the edge of a high cliff. Directly south, set back off the
+cliff's edge, you see a huge pair of gates. These gates appear to be carved
+almost completely out of ice. A huge city and keep appear to be on the other
+side of these gates. There is also a possibility of climbing down the cliff 
+face.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+ExtraDescr  gate gates ice huge~
+The gates to the city are made almost completely of ice. Looking closely, you
+can see intricate carvings in the gates. They appear to be of creatures that
+are half man and half bull.
+~
+Reset       M 2316 3 100
+Reset       E 2363 10 100
+Reset       E 2364 7 100
+Reset       E 2365 16 100
+Door        south~ door closed~ -1 2364
+~
+gate huge gates ice~
+Door        down~ ~ 0 2361
+~
+~
+End
+
+#2363
+Name        The city streets of Mahn-Tor~
+Descr
+You walk among the ice and snow covered shops and homes. Most of the doors are
+closed and only the light from the windows betrays the presence of inhabitants.
+A cold wind blows through here, scattering fine clouds of snow all about. Small
+streets lead south and east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2315 5 100
+Reset       E 2362 16 100
+Door        east~ ~ 0 2364
+~
+~
+Door        south~ ~ 0 2366
+~
+~
+End
+
+#2364
+Name        Inside the gates of Mahn-Tor~
+Descr
+You stand just inside the gates to the city of Mahn-Tor. The city itself
+spreads out in front of you. The buildings are sturdy, as they appear to be
+made from the very rock of this mountain. Snow falls all around and a fine
+sheet of ice can be seen covering all but the most used walk ways. Small city
+streets lead east and west, while a main road appears to lead south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2315 5 100
+Reset       E 2362 16 100
+Door        north~ door~ -1 2362
+~
+gates gate huge ice~
+Door        east~ ~ -1 2365
+~
+~
+Door        south~ ~ 0 2367
+~
+~
+Door        west~ ~ -1 2363
+~
+~
+End
+
+#2365
+Name        The city streets of Mahn-Tor~
+Descr
+You trudge among the icy streets of Mahn-Tor. The streets themselves are made
+of cobblestone and are quite treacherous. Small homes and businesses along
+the street are closed tight and light from their windows throws eerie shadows
+across the dark street. Small streets lead west and south here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2315 5 100
+Reset       E 2362 16 100
+Door        south~ ~ 0 2368
+~
+~
+Door        west~ ~ 0 2364
+~
+~
+End
+
+#2366
+Name        The city streets of Mahn-Tor~
+Descr
+You trudge through the snow covered streets. The street itself is made of
+cobblestones and the footing is quite treacherous. To the south, you see what
+appears to be a small tavern. Bright lights shine through the windows. Small
+streets also lead north and east.
+A small sign hangs outside the tavern.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign small~
+[]=============[]
+ |   The Inn   |
+ |    of the   |
+ |    Broken   |
+ |     Horn    |
+[]=============[]
+~
+Reset       M 2316 3 100
+Reset       E 2363 10 100
+Reset       E 2364 7 100
+Reset       E 2365 16 100
+Door        north~ ~ 0 2363
+~
+~
+Door        east~ ~ -1 2367
+~
+~
+Door        south~ ~ -1 2369
+~
+~
+End
+
+#2367
+Name        The Square of Mahn-Tor~
+Descr
+This appears to be the main square of Mahn-Tor. A huge fountain graces the
+center of the square, but the extreme cold has turned it into an ice
+sculpture. The water has frozen in arcs through the air. Snow and ice covers
+the square and small streets lead east and west. To the north, you see
+the gates to the city. You also notice a small store to the south.
+A small sign hangs outside the store.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+ExtraDescr  sign~
+[]=========[]
+ |  Equip  |
+ |   Shop  |
+[]=========[]
+~
+Reset       M 2315 5 100
+Reset       E 2362 16 100
+Reset       M 2317 3 100
+Reset       E 2366 5 100
+Reset       E 2367 6 100
+Reset       E 2368 16 100
+Door        north~ ~ 0 2364
+~
+~
+Door        east~ ~ 0 2368
+~
+~
+Door        south~ ~ 0 2370
+~
+~
+Door        west~ ~ 0 2366
+~
+~
+End
+
+#2368
+Name        The streets of Mahn-Tor~
+Descr
+You walk among the small stores and homes of Mahn-Tor. The cobblestone streets
+are covered with ice and snow. Small snow drifts have formed at the edges of
+the streets. The wind blows fiercely. Small streets lead in all directions.
+There appears to be a large building to the east, but the snow obscures your
+view.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2316 3 100
+Reset       E 2363 10 100
+Reset       E 2364 7 100
+Reset       E 2365 16 100
+Door        north~ ~ 0 2365
+~
+~
+Door        east~ ~ 0 2375
+~
+~
+Door        south~ ~ 0 2371
+~
+~
+Door        west~ ~ 0 2367
+~
+~
+End
+
+#2369
+Name        The Inn of the Broken Horn~
+Descr
+You enter a warm tavern. The room is lit mainly by two huge fireplaces at each
+end of the room. Small tables and a large bar furnish the room. The
+inhabitants of the inn are all minotaurs of varying size and disposition. Most
+seem to regard you with suspicion. Few approach you. A large door leads
+north, out of the bar and back out into the cold.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 2366
+~
+~
+End
+
+#2370
+Name        The Mahn-Tor Equipment Shop~
+Descr
+You are in a crude equipment shop. The store is filled with racks of various
+items that adventurers could use. Large fireplaces light and heat the room.
+A large desk occupies the back of the room. The door to the shop lies to the
+north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2315 5 100
+Reset       E 2362 16 100
+Door        north~ ~ 0 2367
+~
+~
+End
+
+#2371
+Name        The Mahn-Tor General Store~
+Descr
+You enter a small store that is dark and cold. Old empty shelves line the
+walls and snow blows across the dirty stone floor. It is evident that this
+store was once used, but it is no more. A small doorway leads north out into
+the chilling snow and wind.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 2368
+~
+~
+End
+
+#2372
+Name        Gorak's Training Room~
+Descr
+This room is full of all sorts of weapons and armours. Pieces of old targets
+and practice dummies lie all around. The walls are chipped and scored from
+weapon blows. This is obviously the room of an avid warrior. A red door leads
+east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  red~
+It looks like it leads back to the hall.
+~
+Reset       M 2325 1 100
+Reset       E 2300 9 100
+Reset       E 2301 5 100
+Reset       E 2302 7 100
+Reset       E 2303 10 100
+Reset       E 2304 16 100
+Door        east~ door pickproof~ 2351 2388
+~
+red~
+End
+
+#2373
+Name        Darkoth's Dark Study~
+Descr
+This room is dark. It reeks of death and evil. Arcane symbols and a small
+altar fill the room. Blood runs from the altar. It is evident that this room
+is used for unholy purposes. A black door leads west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  black~
+It looks like it leads back to the hall.
+~
+Reset       M 2326 1 100
+Reset       E 2305 12 100
+Reset       E 2306 4 100
+Reset       E 2307 9 100
+Reset       E 2308 11 100
+Reset       E 2309 16 100
+Door        east~ door pickproof~ 2352 2389
+~
+black~
+End
+
+#2374
+Name        Tyrgoth's Inner Sanctum~
+Descr
+Idols to the gods of good fill the room. White furniture and decorations give
+the room a holy appearance. It is evident that some being of supreme goodness
+lives here. A white door leads east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  white~
+It looks like it leads out to the hall.
+~
+Reset       M 2327 1 100
+Reset       E 2310 6 100
+Reset       E 2311 5 100
+Reset       E 2312 4 100
+Reset       E 2313 11 100
+Reset       E 2314 16 100
+Door        east~ door pickproof~ 2353 2392
+~
+white~
+End
+
+#2375
+Name        The road to the Keep of Mahn-Tor~
+Descr
+You walk up a steep rocky road. It leads up a steep grade to the east. At the
+end of this steep road, you see a huge keep. Snow swirls all about you and you
+feel your breath freeze as it leaves your lungs. Blurry lights to the east and
+west are all you can see from here.
+~
+Flags       no_mob~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ 0 2377
+~
+~
+Door        west~ ~ 0 2368
+~
+~
+End
+
+#2376
+Name        A small guard house~
+Descr
+You enter a small guard house. A huge fireplace lights and warms the room.
+Looking around, you see that the room is fairly well furnished. Thick rugs
+and curtains help insulate the room and the beds themselves look quite warm.
+A table in the center of the room has the remnants of a card game strewn
+across it. A small door leads south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2317 3 100
+Reset       E 2366 5 100
+Reset       E 2367 6 100
+Reset       E 2368 16 100
+Door        south~ ~ 0 2377
+~
+~
+End
+
+#2377
+Name        Before the Keep of Mahn-Tor~
+Descr
+You stand before a huge keep that has been carved into the side of the
+mountain. Huge wooden gates before you provide entrance to the keep. It
+appears as though the cold here has convinced the guards to seek warmth
+inside. You see the lights of the city to the west. You also notice small
+guard houses to the north and south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2318 1 100
+Reset       E 2350 -1 100
+Door        north~ ~ 0 2376
+~
+~
+Door        east~ door closed locked pickproof~ 2350 2379
+~
+gate~
+Door        south~ ~ 0 2378
+~
+~
+Door        west~ ~ 0 2375
+~
+~
+End
+
+#2378
+Name        A small guard house~
+Descr
+You enter a small, but warm, guard house. Deep rugs and thick curtains
+insulate the room. A huge fireplace lights and warms the room. Outside, you
+hear the roar of the freezing wind. A small door leads north out into the cold.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2317 3 100
+Reset       E 2366 5 100
+Reset       E 2367 6 100
+Reset       E 2368 16 100
+Door        north~ ~ 0 2377
+~
+~
+End
+
+#2379
+Name        The entryway to the Keep of Mahn-Tor~
+Descr
+You are at the entry hall to the huge keep. The high vaulted ceiling is carved
+from solid stone. Huge stone pillars rise up from the floor to meet the
+ceiling far above. The architecture appears to be dwarven. A huge pair of
+gates stand to the west, protecting the keep from the harsh cold outside. A
+large hall leads east, deeper into the keep.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2319 2 100
+Reset       E 2369 6 100
+Reset       E 2370 7 100
+Reset       E 2371 10 100
+Reset       E 2366 5 100
+Reset       E 2372 16 100
+Door        east~ ~ 0 2380
+~
+~
+Door        west~ door closed locked pickproof~ 2350 2377
+~
+gate~
+End
+
+#2380
+Name        The Hall~
+Descr
+You are in a huge hall. Large tapestries line the walls and huge statues of
+various make and appearance are spread about. The ceiling above supports huge
+candelabras, which light the room. To the east, you see a bright light and
+hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2319 2 100
+Reset       E 2369 6 100
+Reset       E 2370 7 100
+Reset       E 2371 10 100
+Reset       E 2366 5 100
+Reset       E 2372 16 100
+Door        east~ ~ 0 2381
+~
+~
+Door        west~ ~ 0 2379
+~
+~
+End
+
+#2381
+Name        The Grand Hall~
+Descr
+You are in the main hall of the Keep of Mahn-Tor. This hall is huge. The wide
+floor of the hall is an expanse of marble. It shimmers in the light thrown
+off by the torches that line the walls. To the east, you see what appears to
+be a huge golden throne. The hall itself stretches south and a smaller hall
+leads to the west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 2383
+~
+~
+Door        south~ ~ 0 2382
+~
+~
+Door        west~ ~ 0 2380
+~
+~
+End
+
+#2382
+Name        The Great Hall~
+Descr
+You stand in the great hall of the keep. Huge pillars rise up to the vaulted
+ceiling and torch light glimmers off the marble floor here. You are amazed at
+the sheer size of the hall. The hall itself leads north and east. You notice a
+smaller hall leading south, deeper into the keep.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2320 2 100
+Reset       E 2373 6 100
+Reset       E 2374 7 100
+Reset       E 2375 10 100
+Reset       E 2366 5 100
+Reset       E 2376 16 100
+Door        north~ ~ -1 2381
+~
+~
+Door        east~ ~ 0 2384
+~
+~
+Door        south~ ~ -1 2387
+~
+~
+End
+
+#2383
+Name        Standing before the throne~
+Descr
+You stand before the throne of Mahn-Tor. This golden throne is so huge that it
+takes up almost the entire wall, stretching far above the floor. Sitting upon
+it, you feel small and feeble. It is evident that this throne is more of a
+decoration than anything else. Only the largest of kings could sit upon it.
+The hall leads south and west into other parts of the keep.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  throne huge gold golden~
+The golden throne is huge. It takes up the whole wall.........
+~
+Reset       M 2320 2 100
+Reset       E 2373 6 100
+Reset       E 2374 7 100
+Reset       E 2375 10 100
+Reset       E 2366 5 100
+Reset       E 2376 16 100
+Door        east~ door closed~ 0 2385
+~
+throne huge golden gold~
+Door        south~ ~ 0 2384
+~
+~
+Door        west~ ~ 0 2381
+~
+~
+End
+
+#2384
+Name        The Great Hall~
+Descr
+You are in a great hall. Huge torches light the room and their light shimmers
+off the marble floor below you. To the north, you see a huge golden throne.
+Looking up, you grow dizzy at the height to which the vaulted ceiling rises.
+The hall itself leads north and west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 2383
+~
+~
+Door        west~ ~ 0 2382
+~
+~
+End
+
+#2385
+Name        The secret hallway~
+Descr
+You are in a small, torch lit hall. It leads from east to west. A large gold
+door is to the west. To the east, you see a heavy stone door.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  gold~
+Looks like the back of a secret door of sorts.
+~
+ExtraDescr  huge stone~
+A very formidable looking door.
+~
+Reset       M 2321 2 100
+Reset       E 2377 6 100
+Reset       E 2378 7 100
+Reset       E 2379 10 100
+Reset       E 2366 5 100
+Reset       E 2380 16 100
+Reset       M 2321 2 100
+Reset       E 2377 6 100
+Reset       E 2378 7 100
+Reset       E 2379 10 100
+Reset       E 2366 5 100
+Reset       E 2380 16 100
+Reset       E 2359 -1 100
+Door        east~ door closed locked pickproof~ 2359 2386
+~
+door huge stone~
+Door        west~ door~ 0 2383
+~
+gold throne huge secret~
+End
+
+#2386
+Name        Entry to the Royal Chambers~
+Descr
+You are at the entrance to the royal chambers of the keep. A plush shag rug
+covers the stone floor. Large candelabras hang from the ceiling, lighting the
+room. A huge fireplace warms the room. Beaded doorways lead south and east. A
+huge stone door stands in the west wall.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  door huge stone~
+A huge stone door.......
+~
+Door        east~ ~ 0 2395
+~
+~
+Door        south~ ~ 0 2393
+~
+~
+Door        west~ door closed locked pickproof~ 2359 2385
+~
+door huge stone~
+End
+
+#2387
+Name        The Guard Post~
+Descr
+The hall here has been built into a guard post of sorts. It appears as though
+it would be quite easy to defend in times of emergency. Obviously, something
+important lies beyond. A small hall leads south, while the main hall can be
+seen to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2324 1 100
+Reset       E 2383 16 100
+Reset       E 2381 17 100
+Reset       E 2382 13 100
+Reset       P 2351 2382 100
+Reset       P 2352 2382 100
+Reset       P 2353 2382 100
+Reset       P 2354 2382 100
+Reset       P 2355 2382 100
+Reset       P 2356 2382 100
+Reset       P 2357 2382 100
+Reset       P 2358 2382 100
+Door        north~ ~ 0 2382
+~
+~
+Door        south~ ~ 0 2388
+~
+~
+End
+
+#2388
+Name        The guarded hall~
+Descr
+You walk down a torch lit hallway. It has been carved out of pure stone. It is
+very quiet in this hall. You notice rows of colored doors on each wall. To
+your east, you see a yellow door. To your west, you see a red door. The hall
+itself leads south and north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  red~
+You see a red door. It has the name "Gorak" written on it.
+~
+ExtraDescr  yellow~
+You see a yellow door. It has the name "Sumaron" written on it.
+~
+Door        north~ ~ 0 2387
+~
+~
+Door        east~ door closed locked pickproof~ 2355 2390
+~
+yellow~
+Door        south~ ~ 0 2389
+~
+~
+Door        west~ door closed locked pickproof~ 2351 2372
+~
+red~
+End
+
+#2389
+Name        The guarded hall~
+Descr
+You walk down a small, quiet, torch lit hallway. Doors of different colors are
+in each wall. To your east, you see a maroon door. To your west, you see a
+black door. The hall itself leads north and south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  black~
+You see a black door. It has the name "Darkoth" inscribed on it.
+~
+ExtraDescr  maroon~
+You see a maroon door here. It has the name "Amyrok" written on it.
+~
+Door        north~ ~ 0 2388
+~
+~
+Door        east~ door closed locked pickproof~ 2356 2391
+~
+maroon~
+Door        south~ ~ 0 2392
+~
+~
+Door        west~ door closed locked pickproof~ 2352 2373
+~
+black~
+End
+
+#2390
+Name        Sumaron's Sanctum~
+Descr
+You enter a temple of sorts. A small altar is here and relics of many
+religions lie around. It is evident that this is the room of a studying cleric.
+A yellow door leads west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  yellow~
+It looks like it leads back to the hall.
+~
+Reset       M 2329 1 100
+Reset       E 2320 12 100
+Reset       E 2321 3 100
+Reset       E 2322 17 100
+Reset       E 2323 16 100
+Reset       E 2324 4 100
+Door        west~ door pickproof~ 2355 2388
+~
+yellow~
+End
+
+#2391
+Name        Amyrok's Arcane Study~
+Descr
+This room is full of shelves which hold various spell components. The center
+of the room is occupied by a huge pentagram. The entire room smells of smoke
+and incense. The room is obviously used extensively by a practicing mage. A
+maroon door leads west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  maroon~
+It looks like it leads back to the hall.
+~
+Reset       M 2328 1 100
+Reset       E 2315 6 100
+Reset       E 2316 2 100
+Reset       E 2317 12 100
+Reset       E 2318 16 100
+Reset       E 2319 13 100
+Door        west~ door pickproof~ 2356 2389
+~
+maroon~
+End
+
+#2392
+Name        The guarded hall~
+Descr
+You walk down a quiet hall. The stone walls here are wet with moisture.
+Colored doors can be seen in the walls here. To your east, you see a green
+door. To your west, you see a white door. The hall itself leads north and
+south.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  white~
+You see a white door here. It has the name "Tyrgoth" inscribed on it.
+~
+ExtraDescr  green~
+You see a green door here. It has the name "Nasturn" written on it.
+~
+Door        north~ ~ 0 2389
+~
+~
+Door        east~ door closed locked pickproof~ 2357 2394
+~
+green~
+Door        south~ ~ 0 2397
+~
+~
+Door        west~ door closed locked pickproof~ 2353 2374
+~
+white~
+End
+
+#2393
+Name        The Harem Room~
+Descr
+This appears to be the harem room of the Keep. Huge piles of furs and beds
+fill the room. The lighting is dim, but the room is very warm. You can hear
+music playing quietly from somewhere. Beaded doorways lead north and east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2322 5 100
+Reset       M 2322 5 100
+Reset       M 2322 5 100
+Reset       M 2322 5 100
+Reset       M 2322 5 100
+Door        north~ ~ 0 2386
+~
+~
+Door        east~ ~ 0 2396
+~
+~
+End
+
+#2394
+Name        Nasturn's Humble Abode~
+Descr
+This room is filled with all types of natural items. Trees and plants have
+been lovingly cultivated and grown by hand, in large pots. The room is like an
+indoor garden. A green door leads west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  green~
+It looks like it leads back to the hall.
+~
+Reset       M 2330 1 100
+Reset       E 2325 1 100
+Reset       E 2326 15 100
+Reset       E 2327 8 100
+Reset       E 2328 12 100
+Reset       E 2329 16 100
+Door        west~ door pickproof~ 2357 2392
+~
+green~
+End
+
+#2395
+Name        The main living room~
+Descr
+This room is decorated with sturdy stone furniture that is carved and gilded.
+Large candles light the room. A thick rug covers the floor. Thick furs and
+tapestries decorate the walls. Beaded doorways lead south and west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2323 1 100
+Door        south~ ~ 0 2396
+~
+~
+Door        west~ ~ 0 2386
+~
+~
+End
+
+#2396
+Name        The Master Bedroom~
+Descr
+This appears to be the master bedroom. A huge bed fills the rooms. Piles of
+furs and other rich furnishings adorn the room. Candles are everywhere and
+they help a huge fireplace light the room. The lavishness of the room
+overwhelms you. Beaded doorways lead north and west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2333 1 100
+Reset       E 2340 12 100
+Reset       E 2341 5 100
+Reset       E 2342 14 100
+Reset       E 2343 2 100
+Reset       E 2344 6 100
+Reset       E 2345 16 100
+Door        north~ ~ 0 2395
+~
+~
+Door        west~ ~ 0 2393
+~
+~
+End
+
+#2397
+Name        The end of the guarded hall~
+Descr
+You are at the end of the hall. Colored doors line the walls to the north. To
+your west, you see a brown door. To you east, you see a grey door. The hall
+itself leads north back along the rows of doors.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  brown~
+You see a brown door here. It has the name "Belrak" written on it.
+~
+ExtraDescr  grey~
+You see a grey door here. It has the name "Dorgar" written on it.
+~
+Door        north~ ~ 0 2392
+~
+~
+Door        east~ door closed locked pickproof~ 2358 2398
+~
+grey~
+Door        west~ door pickproof~ 2354 2399
+~
+brown~
+End
+
+#2398
+Name        Dorgar's Dismal Domicile~
+Descr
+This room is dirty and unkempt. Odds and ends of different items lie all over.
+It is apparent that some type of pack-rat lives here. It appears as though
+nothing has ever entered this room and ever left again. A grey door leads west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  grey~
+It looks like it leads back to the hall.
+~
+Reset       M 2332 1 100
+Reset       E 2335 12 100
+Reset       E 2336 6 100
+Reset       E 2337 10 100
+Reset       E 2338 7 100
+Reset       E 2339 16 100
+Door        west~ door closed locked pickproof~ 2358 2397
+~
+grey~
+End
+
+#2399
+Name        Belrak's Green Room~
+Descr
+This room is full of green. The furniture and all other items show the color
+of nature. The room smells of pine and forest odors. From the items here, it
+appears as though a woodsman of some sorts lives here. A brown door leads east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  brown~
+It looks like it leads to the hall.
+~
+Reset       M 2331 1 100
+Reset       E 2330 2 100
+Reset       E 2331 17 100
+Reset       E 2332 13 100
+Reset       E 2333 -1 100
+Reset       E 2334 16 100
+Door        east~ door pickproof~ 2354 2397
+~
+brown~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

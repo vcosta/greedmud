@@ -1,0 +1,4 @@
+AllTimeMax  6
+TimeOfMax   Fri Jun 18 16:04:27 1999~
+Act         0
+End

@@ -1,0 +1,2012 @@
+#AREADATA
+Name        Dwarven Catacombs~
+Author      Raff~
+Levels      10 20
+Security    1
+VNUMs       2001 2069
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#2001
+Name        bat~
+Short       a bat~
+Long
+A bat flaps wildly at you!
+~
+Descr
+Your typical smelly, blind flying mammal.
+~
+Act         sentinel aggressive~
+AffectBy    detect_hidden~
+Alignment   0
+Level       5
+Race        Bat~
+Sex         neutral~
+End
+
+#2002
+Name        page templar~
+Short       a templar page~
+Long
+A templar page in training is here looking mildly confused.
+~
+Descr
+He has lost his family and everything of his former life.
+~
+Act         wimpy~
+AffectBy    ~
+Alignment   200
+Level       7
+Race        Dwarf~
+Sex         male~
+End
+
+#2003
+Name        spelunker explorer~
+Short       a spelunker~
+Long
+A spelunker knows his way around these tunnels.
+~
+Descr
+He recently discovered these catacombs and wants to see where they lead.
+He just hopes he doesn't get killed in the process.  He carries only
+essential exploration gear; if there IS anything down here, he
+probably won't last long.
+~
+Act         scavenger wimpy~
+AffectBy    detect_hidden~
+Alignment   100
+Level       8
+Race        Human~
+Sex         male~
+End
+
+#2004
+Name        gravedigger digger robber graverobber~
+Short       a graverobber~
+Long
+A graverobber uncovers dead bodies.
+~
+Descr
+Working for an evil necromancer isn't the greatest thing in the world.
+They seem like little more than zombie servants themselves.
+~
+Act         scavenger aggressive~
+AffectBy    ~
+Alignment   -500
+Level       9
+Race        Human~
+Sex         male~
+End
+
+#2005
+Name        mist swirling~
+Short       some mist~
+Long
+Some mist swirls about you here ... it seems ALIVE!
+~
+Descr
+In fact it IS alive in a magical sort of sense.
+~
+Act         ~
+AffectBy    sanctuary sneak pass_door~
+Alignment   0
+Level       10
+Race        Mist~
+Sex         neutral~
+End
+
+#2006
+Name        ~
+Short       It~
+Long
+~
+Descr
+~
+Act         aggressive~
+AffectBy    ~
+Alignment   0
+Level       10
+Race        Animal~
+Sex         neutral~
+End
+
+#2007
+Name        skeleton skeletal soldier~
+Short       a skeleton~
+Long
+A skeletal soldier fights in the battle of the underworld.
+~
+Descr
+Even though he has died in the physical sense of the word, the battle
+continues for him in his charmed state.
+~
+Act         scavenger aggressive~
+AffectBy    ~
+Alignment   -290
+Level       11
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#2008
+Name        templar~
+Short       a templar~
+Long
+A templar shouts "AKK! SLAY THE INFIDEL!"
+~
+Descr
+As you peer closely he peers back at you
+
+A templar peers closely at you.
+A templar tells you, "You are an evil force trying to spread your ways!".
+A templar tells you, "You must die for your sin!".
+~
+Act         scavenger aggressive~
+AffectBy    ~
+Alignment   600
+Level       12
+Race        Dwarf~
+Sex         male~
+End
+
+#2009
+Name        wraith~
+Short       a mysterious wraith~
+Long
+A mysterious ghostly wraith forms before your eyes.
+~
+Descr
+Hard to tell much about the mysterious form even upon further inspection.
+~
+Act         scavenger aggressive~
+AffectBy    detect_hidden pass_door~
+Alignment   0
+Level       12
+Race        Undead~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#2010
+Name        officer templar~
+Short       the templar officer~
+Long
+A templar officer keeps an eye on things here.
+~
+Descr
+A templar officer tells you "Better move along evil one!"
+~
+Act         aggressive~
+AffectBy    detect_invis~
+Alignment   700
+Level       13
+Race        Dwarf~
+Sex         male~
+End
+
+#2011
+Name        zombie mage~
+Short       zombie~
+Long
+A blank-faced zombie mage joins the battle.
+~
+Descr
+He seems to lack real interest in what he is doing.
+~
+Act         scavenger aggressive~
+AffectBy    ~
+Alignment   -100
+Level       13
+Race        Undead~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#2012
+Name        shadow shadows~
+Short       the shadow~
+Long
+Eerie shadows fill the room.
+~
+Descr
+Looks vaguely you-shaped.
+~
+Act         ~
+AffectBy    detect_hidden sneak pass_door~
+Alignment   0
+Level       14
+Race        Vampire~
+Sex         neutral~
+End
+
+#2013
+Name        bat vampire~
+Short       The vampire~
+Long
+A bat flaps wildly at you!
+~
+Descr
+A rather LARGE "bat" ...
+~
+Act         sentinel aggressive~
+AffectBy    detect_hidden~
+Alignment   -100
+Level       15
+Race        Vampire~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#2014
+Name        necromancer necro cleric~
+Short       the evil necromancer~
+Long
+The evil necromancer makes undead soldiers from corpses.
+~
+Descr
+Though he seems absorbed in his work, you'd bet he'd take the time out
+to kill you to get a fresh corpse!
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -888
+Level       15
+Race        Dwarf~
+Sex         male~
+Spec        spec_cast_undead~
+End
+
+#2015
+Name        grand templar leader~
+Short       the grand templar~
+Long
+The grand templar stands here quietly observing your actions
+~
+Descr
+A slight, tolerant smile comes briefly across his face.  In the blink
+of an eye he seems stern again.
+~
+Act         sentinel~
+AffectBy    detect_invis detect_hidden sanctuary~
+Alignment   1000
+Level       16
+Race        Dwarf~
+Sex         male~
+End
+
+#2016
+Name        prism dragon prismdragon~
+Short       the prism dragon~
+Long
+The light shines off a beautiful but dangerous dragon lurking here.
+~
+Descr
+The spray of colored light bouncing off his scales is almost blinding.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis detect_hidden~
+Alignment   -303
+Level       20
+Race        Dragon~
+Sex         male~
+Spec        spec_breath_any~
+End
+
+#2017
+Name        darken dark beast darkenbeast~
+Short       The DarkenBeast~
+Long
+You hear and smell the presence of the darkenbeast.
+~
+Descr
+You see nothing more than the sense of darkness and evil.
+~
+Act         sentinel aggressive~
+AffectBy    ~
+Alignment   -1000
+Level       24
+Race        God~
+Sex         neutral~
+Spec        spec_poison~
+End
+
+#0
+
+
+
+#OBJDB
+#2001
+Name        glowing key~
+Short       a glowing key~
+Descr
+A circular, glowing key radiates a bright aura around it.~
+Type        key~
+Extra       glow hum magic~
+Wear        take~
+Values      39~ 0~ 0~ 0~ 0~
+Weight      1
+End
+
+#2002
+Name        granite plate mail platemail~
+Short       a suit of granite platemail~
+Descr
+A suit of platemail hewn from granite stands by itself in the corner.~
+Type        armor~
+Extra       hum anti-good~
+Wear        take body~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      55
+Affect      dexterity~ -1 ~
+End
+
+#2003
+Name        onyx ring~
+Short       an onyx ring~
+Descr
+A ring with a very dark onyx stone in it has been left in the dirt.~
+Type        armor~
+Extra       anti-good~
+Wear        take finger~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      wisdom~ 1 ~
+End
+
+#2004
+Name        neutralizer sword~
+Short       the neutralizer~
+Descr
+A long thin sword with a wide blade makes you wonder.~
+Type        weapon~
+Extra       hum anti-good anti-evil~
+Wear        take wield~
+Values      0~ 4~ 5~ 3~ 0~
+Weight      9
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+End
+
+#2005
+Name        sword excalibur~
+Short       the sword Excalibur~
+Descr
+A sword gleams by the light of its magical silvery blade.~
+Type        weapon~
+Extra       glow magic anti-evil anti-neutral~
+Wear        take wield~
+Values      0~ 5~ 4~ 3~ 0~
+Weight      15
+Affect      hitroll~ 3 ~
+Affect      strength~ 1 ~
+End
+
+#2006
+Name        crown~
+Short       a kingly crown~
+Descr
+The crown of a long lost King lies forgotten here.~
+Type        key~
+Extra       bless~
+Wear        take head~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      ac~ -8 ~
+End
+
+#2007
+Name        stone~
+Short       stone~
+Descr
+The stone is surrounded by a bright glow, better look closer.~
+Type        container~
+Extra       glow~
+Wear        ~
+Values      15~ 15~ 2006~ 0~ 0~
+Weight      2000
+End
+
+#2008
+Name        holy water flask~
+Short       a flask of holy water~
+Descr
+A flask of holy water is here.~
+Type        potion~
+Extra       glow~
+Wear        take hold~
+Values      25~ bless~ sanctuary~  ~  ~
+Weight      2
+End
+
+#2009
+Name        chainmail chain mail suit~
+Short       a suit of chainmail~
+Descr
+A nice suit of chainmail has been left behind.~
+Type        armor~
+Extra       bless~
+Wear        take body~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      20
+End
+
+#2010
+Name        white cape~
+Short       a white cape~
+Descr
+A blazing cape of white lies in a careful pile.~
+Type        armor~
+Extra       glow~
+Wear        take neck~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      hitroll~ 1 ~
+End
+
+#2011
+Name        shield defense~
+Short       the shield of defense~
+Descr
+A large shield lies protecting the ground.~
+Type        armor~
+Extra       magic~
+Wear        take shield~
+Values      15~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      mana~ 10 ~
+Affect      hp~ 10 ~
+Affect      hitroll~ -2 ~
+Affect      damroll~ -1 ~
+End
+
+#2012
+Name        scale shield dragonscale~
+Short       a dragonscale shield~
+Descr
+A shield from from the scales of a large dragon lies here.~
+Type        armor~
+Extra       ~
+Wear        take shield~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      18
+Affect      saving-breath~ 3 ~
+End
+
+#2013
+Name        prism wand~
+Short       a prism wand~
+Descr
+A wand made of a triangular prism twinkles in the dust.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      11~ 4~ 4~ colour spray~ 0~
+Weight      4
+End
+
+#2014
+Name        shadow cloak~
+Short       a shadow cloak~
+Descr
+The shadows in the corner of the room seems strange ...~
+Type        armor~
+Extra       magic~
+Wear        take about~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      move~ -30 ~
+End
+
+#2015
+Name        misty potion~
+Short       a misty potion~
+Descr
+A potion of swirling mist-like substance is here.~
+Type        potion~
+Extra       ~
+Wear        take hold~
+Values      10~ pass door~  ~  ~  ~
+Weight      1
+End
+
+#2016
+Name        templar templars sword wooden~
+Short       a templar's sword~
+Descr
+A sword made of wood has been left here.~
+Type        weapon~
+Extra       bless~
+Wear        take wield~
+Values      0~ 2~ 6~ 3~ 0~
+Weight      6
+Affect      hitroll~ 1 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#2001
+Name        North entrance to the catacombs~
+Descr
+You are almost surprised to see a tunnel leading off to the south
+into utter darkness.  The floorboards above you haven't been moved
+in a long time, yet there is life down here.  A beam of light from
+the opening above you falls upon a message scrawled on the wall here.
+
+The message reads:
+     Adventure for the strong yet calculating
+     Death for the weak and shallow
+     Treasure for the smart and lucky
+     Death for the stupid and accursed
+
+An ancient Glyph above the entrance keeps monsters from wandering up
+from the catacombs.
+~
+Flags       no_mob~
+Sector      city~
+Regen       100 100
+Door        south~ ~ -1 2002
+~
+~
+Door        up~ door closed~ -1 6524
+~
+floorboard board~
+End
+
+#2002
+Name        North/south tunnel~
+Descr
+This part of the catacombs looked roughly hewn and man-made. There is
+a large cross painted on the floor of the tunnel.To the south it seems
+maybe a bit lighter for some odd reason.  To the north a ray of light
+comes in from a hole in the ceiling.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  cross paint floor~
+The cross is a Templar's cross. It seems to have had a fresh coat of
+paint recently.~
+Reset       M 2003 2 100
+Door        north~ ~ -1 2001
+~
+~
+Door        south~ ~ -1 2007
+~
+~
+End
+
+#2003
+Name        Weapon training area~
+Descr
+This is a place to keep up on there weapon skills.  Much of the
+equipment looks old and worn but upon further inspection seems quite
+sturdy in fact.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2008 12 100
+Reset       E 2009 5 100
+Reset       E 2016 16 100
+Door        east~ ~ -1 2004
+~
+~
+Door        south~ ~ -1 2008
+~
+~
+End
+
+#2004
+Name        Prayer training area~
+Descr
+The templar's curious mix of religion and fighting is evident here.
+A central painting depicts a cross composed of swords.  The elders
+teach the ancient art of prayer to the young pages.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2008 12 100
+Reset       E 2016 16 100
+Door        east~ ~ -1 2005
+~
+~
+Door        west~ ~ -1 2003
+~
+~
+End
+
+#2005
+Name        Junction of hallways~
+Descr
+Training facilities are evident to the west. To the south lies a hallway
+which has doors every couple of feet, looks like living quarters of some
+sort.  To the east the tunnel leads back into the natural catacombs.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2008 12 100
+Door        east~ ~ -1 2006
+~
+~
+Door        south~ ~ -1 2010
+~
+~
+Door        west~ ~ -1 2004
+~
+~
+End
+
+#2006
+Name        Hallway~
+Descr
+The hallway takes on a more indoor look to the west.  To the east it
+looks awfully dark.
+~
+Flags       no_mob indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2008 12 100
+Reset       E 2009 5 100
+Door        east~ ~ -1 2007
+~
+~
+Door        west~ ~ -1 2005
+~
+~
+End
+
+#2007
+Name        Intersection~
+Descr
+The tunnel continues to the north and the south, becoming less hewn and
+more natural to the south.  A passageway lined with paneling leads west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 2002
+~
+~
+Door        south~ ~ -1 2012
+~
+~
+Door        west~ ~ -1 2006
+~
+~
+End
+
+#2008
+Name        Pages' sleeping quarters~
+Descr
+Several bunk beds are lined up across the room.  It looks rather spartan
+and there is little evidence of toys or games.  Most of the desks are
+filled with books and papers of little interest.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2002 8 100
+Reset       M 2002 8 100
+Reset       M 2002 8 100
+Reset       M 2002 8 100
+Reset       M 2002 8 100
+Door        north~ ~ -1 2003
+~
+~
+Door        east~ ~ -1 2009
+~
+~
+End
+
+#2009
+Name        Templar Knights sleeping quarters~
+Descr
+This is a huge room which is filled wall to wall with beds. Apparently
+all the low level knights all sleep in this one room.  A door on the
+south wall is labelled "Elders only!".
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2002 8 100
+Reset       M 2002 8 100
+Reset       M 2008 12 100
+Reset       E 2009 5 100
+Reset       M 2008 12 100
+Reset       E 2016 16 100
+Reset       M 2008 12 100
+Reset       E 2009 5 100
+Door        south~ ~ -1 2013
+~
+~
+Door        west~ ~ -1 2008
+~
+~
+End
+
+#2010
+Name        N/S hallway~
+Descr
+The hallway leads north an south.  A door leads to a templar's room to
+the east.  The decoration looks rather sparse here.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2002 8 100
+Door        north~ ~ -1 2005
+~
+~
+Door        east~ ~ -1 2011
+~
+~
+Door        south~ ~ 0 2014
+~
+~
+End
+
+#2011
+Name        A Middle-aged templar's room~
+Descr
+This is a room furnished in a room becoming a low level templar scribe.
+No real amenities but better than a communal sleeping quarters. As far
+as you can tell he would be a rank equivalent to a Sergeant.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 2010
+~
+~
+End
+
+#2012
+Name        Humid, damp tunnel~
+Descr
+As the tunnel leads south it gets more humid and damp.  Moss covers the
+walls and ferns even grow in the cracks here and there.  To the north it
+seems much more sterile.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2007
+~
+~
+Door        south~ ~ -1 2019
+~
+~
+End
+
+#2013
+Name        Administration room~
+Descr
+The elders gather here to discuss training strategies and count their
+loot.  You notice papers which look like important secret documents
+lying around. An escape passage leads west.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  papers documents secrets~
+It seems that the loot comes from raids on the towns in the surrounding
+areas above ground.  From the documents it seems that the pages and
+trainees are kidnapped from the villages too!
+~
+Door        north~ ~ -1 2009
+~
+~
+Door        south~ ~ -1 2016
+~
+~
+Door        west~ ~ -1 2069
+~
+~
+End
+
+#2014
+Name        N/S hallway~
+Descr
+The hallway continues to become more important-looking as you wander
+south.  A room to the east looks rather more pleasant that some of the
+others.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 2010
+~
+~
+Door        east~ ~ -1 2015
+~
+~
+Door        south~ ~ -1 2017
+~
+~
+End
+
+#2015
+Name        Mid-level leader's room~
+Descr
+A rather nice looking room considering the drab conditions down here.
+Through all the signs of decoration you can still see evidence of water
+leaks.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2010 6 100
+Reset       E 2016 16 100
+Reset       E 2009 5 100
+Door        west~ ~ -1 2014
+~
+~
+End
+
+#2016
+Name        Mess hall~
+Descr
+The a huge table with an immaculate white table cloth stretches way off
+to the south.  The room is kept immaculately clean by the nights
+themselves.  They truly believe that cleanliness is next to godliness.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2008 12 100
+Reset       E 2016 16 100
+Reset       M 2008 12 100
+Reset       E 2009 5 100
+Reset       M 2008 12 100
+Reset       E 2009 5 100
+Reset       M 2010 6 100
+Reset       E 2016 16 100
+Reset       E 2009 5 100
+Reset       M 2010 6 100
+Reset       E 2016 16 100
+Reset       E 2009 5 100
+Reset       M 2010 6 100
+Reset       E 2016 16 100
+Reset       E 2009 5 100
+Door        north~ ~ -1 2013
+~
+~
+Door        south~ ~ -1 2023
+~
+~
+End
+
+#2017
+Name        N/S hallway~
+Descr
+The hallway continues north and south.  A peculiar kind of glow seems
+to come from somewhere further along the hallway to the south. The room
+to the east looks like the lap of luxury.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 2014
+~
+~
+Door        east~ ~ -1 2018
+~
+~
+Door        south~ ~ -1 2024
+~
+~
+End
+
+#2018
+Name        High officer's room~
+Descr
+First thing you notice in this room is the pleasant aroma of cedar.  All
+the paneling in the room is made of fine cedar.  A painting of an
+elegant knight hangs on the wall.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  painting elegant knight~
+Something oddly familiar about the knight.  He carries a glowing sword
+with a silvery blade.
+~
+Reset       M 2010 6 100
+Reset       E 2016 16 100
+Reset       E 2009 5 100
+Door        west~ ~ -1 2017
+~
+~
+End
+
+#2019
+Name        Mossy intersection~
+Descr
+There is a turn off to the passage here.  The main passage leads north
+and south. To the south it seems to get impossibly darker.  To the east
+you hear... birds?  A small rivulet of water seeps in from the passage
+east.  The air is very humid and damp here.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2006 7 100
+Door        north~ ~ -1 2012
+~
+~
+Door        east~ ~ -1 2020
+~
+~
+Door        south~ ~ -1 2026
+~
+~
+End
+
+#2020
+Name        The holy grove~
+Descr
+A small grove of birches grow seem to grow from solid rock.  You hear
+birds singing but try as you might you cant see any.  A strange glow
+emanates from a place somewhere to the southeast in the grove.
+~
+Flags       indoors private~
+Sector      forest~
+Regen       100 100
+Door        east~ ~ -1 2021
+~
+~
+Door        west~ ~ -1 2019
+~
+~
+End
+
+#2021
+Name        The holy grove~
+Descr
+The trees seem real enough even though they take root in solid rock.
+You hear other small animals scampering through the light undergrowth
+yet you see nothing. The grove continues south, east and west. An out of
+place passage way for some reason heads north.
+~
+Flags       indoors private~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 2068
+~
+~
+Door        east~ ~ -1 2022
+~
+~
+Door        south~ ~ -1 2027
+~
+~
+Door        west~ ~ -1 2020
+~
+~
+End
+
+#2022
+Name        The holy grove~
+Descr
+The grove continues west and south.  The glow is roughly to the south
+somewhere.
+~
+Flags       indoors private~
+Sector      forest~
+Regen       100 100
+Door        south~ ~ -1 2028
+~
+~
+Door        west~ ~ -1 2021
+~
+~
+End
+
+#2023
+Name        Mess hall~
+Descr
+"mess" isn't exactly the best word to describe this room.  On the
+contrary, it is immaculately clean.  A very long table stretches way off
+to the north. A hallway is to the east.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2008 12 100
+Reset       E 2016 16 100
+Reset       M 2008 12 100
+Reset       M 2010 6 100
+Reset       E 2009 5 100
+Reset       E 2016 16 100
+Door        north~ ~ -1 2016
+~
+~
+Door        east~ ~ -1 2024
+~
+~
+End
+
+#2024
+Name        End of a hallway~
+Descr
+You hear voices coming from a room to the west.  the hallway goes north.
+To the east lies a room which seems to glow with power and piety.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 2017
+~
+~
+Door        east~ ~ -1 2025
+~
+~
+Door        west~ ~ -1 2023
+~
+~
+End
+
+#2025
+Name        Grand Templar's room~
+Descr
+All the items in this room look ancient yet strangely very powerful and
+rich.  There is an aura of great holiness about the room.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2015 1 100
+Reset       E 2010 3 100
+Reset       E 2001 0 100
+Reset       E 2008 17 100
+Door        west~ ~ -1 2024
+~
+~
+End
+
+#2026
+Name        Very dark passage~
+Descr
+This room is so dark that even powerful magic lights seems to barely
+illuminate the ground in front of you.  If its possible it seems even
+darker to the south.  The passage also leads back north.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2012 2 100
+Reset       E 2014 12 100
+Door        north~ ~ -1 2019
+~
+~
+Door        south~ ~ -1 2030
+~
+~
+End
+
+#2027
+Name        The holy grove~
+Descr
+The grove continues north and east.  To the east a strange humming can
+barely be heard.
+~
+Flags       indoors private~
+Sector      forest~
+Regen       100 100
+Door        north~ ~ -1 2021
+~
+~
+Door        east~ ~ -1 2028
+~
+~
+End
+
+#2028
+Name        The holy grove~
+Descr
+All of a sudden all the mysterious sounds of the grove stop. Or perhaps
+its just the strange humming and glowing from a clearing to the south
+drowning out everything else. There is a sort of magical force field door
+to the south.
+~
+Flags       indoors private~
+Sector      forest~
+Regen       100 100
+Reset       M 2006 7 100
+Door        north~ ~ -1 2022
+~
+~
+Door        south~ door closed locked pickproof~ 2001 2032
+a glowing forcefield with a small circular hole in it.
+~
+glow glowing field forcefield door~
+Door        west~ ~ -1 2027
+~
+~
+End
+
+#2029
+Name        Very dark caveway~
+Descr
+This room is so very dark that no one is quite sure whats in it, so
+there's nothing really to describe except maybe the powerful sense of
+evil coming from the east and the almost overcoming urge to run to the
+west.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 2030
+~
+~
+Door        west~ ~ -1 2033
+~
+~
+End
+
+#2030
+Name        Deep within the catacombs~
+Descr
+It stinks like a lair in here.  A rotten smell of humanoid flesh
+lingers.  You stumble over what you think are corpses in the utter
+darkness. You sense a evil growl from somewhere in the room. maybe
+everywhere in the room. . ..
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2017 1 100
+Reset       E 2003 2 100
+Reset       E 2002 5 100
+Reset       E 2006 17 100
+Door        north~ ~ -1 2026
+~
+~
+Door        east~ ~ -1 2031
+~
+~
+Door        west~ ~ -1 2029
+~
+~
+End
+
+#2031
+Name        Very dark cavern~
+Descr
+The cavern is hard to describe due to the extreme magical darkness.
+Probing with a light source seems to reveal nothing but more darkness.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ -1 2034
+~
+~
+Door        west~ ~ -1 2030
+~
+~
+End
+
+#2032
+Name        The holy place~
+Descr
+A glowing stone lies in the center of the clearing.  You recognize it as
+the stone of the Excalibur.  The strange humming glowing makes it
+difficult to see if the Excalibur is there or not. Might want to take a
+closer look if possible.
+~
+Flags       indoors private~
+Sector      forest~
+Regen       100 100
+Reset       O 2007 0 100
+Reset       P 2005 2007 100
+Door        north~ door closed locked pickproof~ 2001 2028
+a glowing forcefield with a small circular hole in it.
+~
+glow glowing field forcefield door~
+End
+
+#2033
+Name        Misty passageway~
+Descr
+Warm mist swirl about you making you feel threatened as well as
+protected at the same time.  The swirling mist makes it tough to tell
+directions quite clearly, but you seem to be able to go north or south.
+The mist gets denser to the south.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2006 7 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Door        north~ ~ -1 2029
+~
+~
+Door        south~ ~ -1 2042
+~
+~
+End
+
+#2034
+Name        Intersection of caverns~
+Descr
+Caverns head north, south and east from this peculiar spot. Medium
+sized caverns from the east and the north join to form a huge cavern
+heading south.  The walls of the cavern are made of a bizarre mixture
+of many shiny crystals.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ -1 2031
+~
+~
+Door        east~ ~ -1 2035
+~
+~
+Door        south~ ~ -1 2044
+~
+~
+End
+
+#2035
+Name        Entrance to the burial grounds~
+Descr
+You have entered what appears to be a burial ground of sorts. The
+templars buried their dead here.  Chills go down your spine as you feel
+something watching you.  You hear the random groan of a ghost, the howl
+of a wraith, and the dry clanking of bones.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2007 4 100
+Reset       E 2009 5 100
+Door        east~ ~ -1 2036
+~
+~
+Door        west~ ~ -1 2034
+~
+~
+End
+
+#2036
+Name        The burial grounds~
+Descr
+Random tombs to unknown warriors were lain in rows as far as the eye
+can see.  To your horror many of the graves are empty and desecrated.
+A gap in the rows of tombs leads south and there are more graves to the
+east and west.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2006 7 100
+Reset       M 2007 4 100
+Reset       M 2011 4 100
+Door        east~ ~ -1 2037
+~
+~
+Door        south~ ~ -1 2045
+~
+~
+Door        west~ ~ -1 2035
+~
+~
+End
+
+#2037
+Name        The burial grounds~
+Descr
+It seems as if many of the warriors could not stop fighting even in
+death.  They fight amongst each other and flail at any living being
+that would wander near.  You see a massive, open tomb here.  A plaque
+honoring the late king Mokhdon is next to it.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+ExtraDescr  massive open tomb~
+The tomb has been opened, from the inside!  You wonder how that happened.
+~
+ExtraDescr  plaque~
+Here lies the body of the great king Mokhdon.  He served his country well,
+but was taken by a strange disease that maddened him.  He was found guilty
+of multiple charges of rape, murder, and mutilation of bodies, and was
+beheaded.  On the behest of the queen Sandia, the body of king Mokhdon was
+not buried in the royal court, but instead here.
+~
+Reset       M 2007 4 100
+Reset       E 2009 5 100
+Reset       M 2011 4 100
+Door        east~ ~ -1 2038
+~
+~
+Door        west~ ~ -1 2036
+~
+~
+End
+
+#2038
+Name        The burial grounds~
+Descr
+Legions of skeletal warriors wander by and battle the enemy even in
+death.  Old battle lines have been forgotten and new ones made. Its a
+gruesome scene.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2007 4 100
+Door        east~ ~ -1 2039
+~
+~
+Door        west~ ~ -1 2037
+~
+~
+End
+
+#2039
+Name        New graves~
+Descr
+The tombs in this section seem somewhat more recent.  Rotting zombie
+warriors groan and wail with blank stares.  You hear sounds of digging
+off a bit to the south.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2006 7 100
+Reset       M 2009 2 100
+Door        south~ ~ -1 2047
+~
+~
+Door        west~ ~ -1 2038
+~
+~
+End
+
+#2040
+Name        Misty cavern~
+Descr
+A chilling icy mist swirl about you.  The dampness and warmth has become
+bitter cold.  The walls of the cavern are several feet thick with ice
+here.  An icy wind blows from the south.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2006 7 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Door        east~ ~ -1 2041
+~
+~
+Door        south~ ~ -1 2048
+~
+~
+End
+
+#2041
+Name        Misty cavern~
+Descr
+The temperature is a pleasant and mild here.  This is due to a warm wind
+blowing in from the east and a chilly breeze blowing in from the west.
+The updrafts create bizarre icy-steamy mists which dance along the
+walls.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Door        east~ ~ -1 2042
+~
+~
+Door        west~ ~ -1 2040
+~
+~
+End
+
+#2042
+Name        Mist cavern~
+Descr
+A warm wind blows in from the east.  The air is still stifling hot in
+here despite the breeze.  The mist seems thick enough to be alive. . .
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Door        north~ ~ -1 2033
+~
+~
+Door        east~ ~ -1 2043
+~
+~
+Door        west~ ~ -1 2041
+~
+~
+End
+
+#2043
+Name        Waterfall of mist~
+Descr
+River of hot mist pour down in a cascade from a hole in the cavern.  It
+falls like water down from the heights like a waterfall and creates
+beautiful swirls.  It causes a hot wind to flow west.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+ExtraDescr  hole height waterfall cascade~
+The hole is much too high up for you to reach.
+~
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Reset       M 2005 9 100
+Reset       E 2015 17 100
+Door        west~ ~ -1 2042
+~
+~
+End
+
+#2044
+Name        Huge multicolored tunnel~
+Descr
+The tunnel leads north and south.  To the south there is an odd
+twinkling phenomenon.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2034
+~
+~
+Door        south~ ~ -1 2050
+~
+~
+End
+
+#2045
+Name        Desolate ruins~
+Descr
+Several mausoleums used to grace the way here but these have been
+defiled. And most have been torn down and burned by looters. Some still
+seem to be intact to the south.  To the northwest is a seeming field of
+tombs of soldiers, now a battleground for the undead.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ -1 2051
+~
+~
+End
+
+#2046
+Name        Curators place~
+Descr
+The undertaker, the historian and the curator used to be here. Now they
+too have joined the legions of the undead.  From the looks of the place
+they seem to have starved to death.  Rickety stairs head down into a
+sort of basement.
+~
+Flags       dark indoors~
+Sector      hills~
+Regen       100 100
+ExtraDescr  stairs basement~
+Surprisingly the stairs look sturdy enough.
+~
+Door        east~ ~ -1 2047
+~
+~
+Door        down~ ~ -1 2052
+~
+~
+End
+
+#2047
+Name        Fresh graves~
+Descr
+Graves of recent casualties lie here.  Even the most recent don't seem to
+have been left undisturbed.  You hear sounds of digging in progress
+further to the south.
+~
+Flags       dark indoors~
+Sector      hills~
+Regen       100 100
+Reset       M 2009 2 100
+Reset       M 2011 4 100
+Door        north~ ~ -1 2039
+~
+~
+Door        south~ ~ -1 2053
+~
+~
+Door        west~ ~ -1 2046
+~
+~
+End
+
+#2048
+Name        Twisty cavern~
+Descr
+The way twist this way and that and its all you can do to keep your head
+from spinning.  The air is very cold here and layers of ice on the wall.
+The sounds of metal on ice echo through the cavern. A side passage leads
+east and the main passage goes north and south.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2040
+~
+~
+Door        east~ ~ -1 2049
+~
+~
+Door        south~ ~ -1 2056
+~
+~
+End
+
+#2049
+Name        Striped tunnel~
+Descr
+The walls of the tunnels have many brilliant colors in them from the
+various veins of crystals running in them.  An odd twinkling comes from
+the east.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2006 7 100
+Door        east~ ~ -1 2050
+~
+~
+Door        west~ ~ -1 2048
+~
+~
+End
+
+#2050
+Name        Prism cave~
+Descr
+The roof of this cave peaks over a hundred feet high making it one of
+the biggest in the catacombs.  Crystals of every color cast prismatic
+sprays of light everywhere.  The light from your lamp causes almost a
+blinding flare of brilliance as more light is added to the multi-colored
+twinkling phenomenon that exists here.  This is also the lair of the
+fabled and feared Prism Dragon.
+~
+Flags       indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2016 1 100
+Reset       E 2012 5 100
+Reset       E 2013 17 100
+Door        north~ ~ -1 2044
+~
+~
+Door        east~ ~ -1 2058
+~
+~
+Door        south~ ~ -1 2057
+~
+~
+Door        west~ ~ -1 2049
+~
+~
+End
+
+#2051
+Name        Ruined monument~
+Descr
+A monument to a famous king once stood here. Not much is left to even
+signify that is was here at all.  A building of some sort can be entered
+through a basement to the east.  The southern gate of the grounds is to
+the south.
+~
+Flags       dark indoors~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ -1 2045
+~
+~
+Door        east~ ~ -1 2052
+~
+~
+Door        south~ ~ -1 2054
+~
+~
+End
+
+#2052
+Name        Basement~
+Descr
+Its dark and it smells like. ...BATS down here!  All you see is a swirl
+of the darkness and lots of scratching bats madly flailing around. A set
+of stairs go up into the building and a broken window leads west.
+~
+Flags       dark indoors~
+Sector      hills~
+Regen       100 100
+Reset       M 2001 6 100
+Reset       M 2001 6 100
+Reset       M 2001 6 100
+Reset       M 2013 1 100
+Reset       E 2004 16 100
+Reset       M 2001 6 100
+Reset       M 2001 6 100
+Reset       M 2001 6 100
+Door        west~ ~ -1 2051
+~
+~
+Door        up~ ~ -1 2046
+~
+~
+End
+
+#2053
+Name        Fresh graves~
+Descr
+The graves here seem very recent.  You notice many signs of digging and
+defilement.  There are piles of fresh bodies here awaiting burial.  A
+strange sense of evil magic from the south makes the hairs on the back
+of your neck to stand on end!
+~
+Flags       dark indoors~
+Sector      hills~
+Regen       100 100
+Reset       M 2004 4 100
+Reset       M 2004 4 100
+Reset       M 2011 4 100
+Door        north~ ~ -1 2047
+~
+~
+Door        south~ ~ -1 2055
+~
+~
+End
+
+#2054
+Name        Southern gate~
+Descr
+A rusty gate here no longer keeps anyone out or in.  You see a lonely
+E/W passage to the south.  A little used trail winds east through a
+crack in the wall.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2051
+~
+~
+Door        east~ ~ -1 2066
+~
+~
+Door        south~ ~ -1 2059
+~
+~
+End
+
+#2055
+Name        Scene of ghastly horror~
+Descr
+An army of undead creatures of all types are lined up patiently. Their
+leader is an evil demonoid necromancer.  His plans to use his army of
+undead to take over the world seem about ready to get underway.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 2004 4 100
+Reset       M 2004 4 100
+Reset       M 2014 1 100
+Reset       E 2011 11 100
+Door        north~ ~ -1 2053
+~
+~
+Door        south~ ~ -1 2062
+~
+~
+End
+
+#2056
+Name        Twisty passage~
+Descr
+The passage bends north and east here.  To the east your not certain
+what lies ahead due to all the twists and turns you've made.  To the
+north is seems cold.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2048
+~
+~
+Door        east~ ~ -1 2057
+~
+~
+End
+
+#2057
+Name        Cross of caverns~
+Descr
+A little-used cavern enters from the south. A passage twists away to
+the west.  An odd twinkling comes from the cave to the north.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2050
+~
+~
+Door        south~ ~ -1 2066
+~
+~
+Door        west~ ~ -1 2056
+~
+~
+End
+
+#2058
+Name        Lonely tunnel~
+Descr
+Something indescribable makes you feel lonesome and sad here. Its just
+a feeling you get from this tunnel.  The tunnel east and west.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 2059
+~
+~
+Door        west~ ~ -1 2050
+~
+~
+End
+
+#2059
+Name        Lonely tunnel~
+Descr
+Something indescribable makes you feel lonesome and sad here. You see a
+gate to a burial ground to the north.  This lonesome tunnel sighs along
+west and east.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2054
+~
+~
+Door        east~ ~ -1 2060
+~
+~
+Door        west~ ~ -1 2058
+~
+~
+End
+
+#2060
+Name        Bend in the lonely tunnel~
+Descr
+Something indescribable makes you feel lonesome and sad here. The
+tunnel bends west and south.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        south~ ~ -1 2061
+~
+~
+Door        west~ ~ -1 2059
+~
+~
+End
+
+#2061
+Name        Lonely tunnel~
+Descr
+Something indescribable makes you feel lonesome and sad here. The very
+walls of the tunnel seems to groan.  to the north the tunnel bends and
+east is an intersection.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2060
+~
+~
+Door        east~ ~ -1 2062
+~
+~
+End
+
+#2062
+Name        Intersection~
+Descr
+To the north you enter the burial grounds.  a trail of blood leads that
+direction.  Also you feel an ominous sense of evil magic from there.
+The tunnel to the west creaks and sighs as if alive.  To the south you
+smell a hint of fresh air.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2055
+~
+~
+Door        south~ ~ -1 2063
+~
+~
+Door        west~ ~ -1 2061
+~
+~
+End
+
+#2063
+Name        Tunnel~
+Descr
+The tunnel heads north and south.  North you see an intersection and
+far to the south you sense light and smell a fresh breeze.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2062
+~
+~
+Door        south~ ~ -1 2064
+~
+~
+End
+
+#2064
+Name        Tunnel~
+Descr
+The tunnel slopes noticeably down to the north and you sense the surface
+could be reached to the south.
+~
+Flags       dark indoors~
+Sector      field~
+Regen       100 100
+Reset       M 2003 2 100
+Door        north~ ~ -1 2063
+~
+~
+Door        south~ ~ -1 2065
+~
+~
+End
+
+#2065
+Name        Southern entrance to the catacombs~
+Descr
+Through a trapdoor above you streams light.  Through a doorway to
+the south streams darkness.  A message has been scrawled upon the wall
+here.  The message reads:
+     Adventure for the strong yet calculating
+     Death for the weak and shallow
+     Treasure for the smart and lucky
+     Death for the stupid and accursed
+An ancient Glyph above the entrance keeps monsters from wandering up
+from the catacombs.
+~
+Flags       no_mob~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2064
+~
+~
+Door        up~ door closed~ -1 6527
+~
+floorboard board~
+End
+
+#2066
+Name        Unknown passage~
+Descr
+Oh dear you seem to have lost your way.  You look back from whence you
+came but there's no exit there anymore.  There are exits in other
+directions but you have a feeling that you are hopelessly lost.
+~
+Flags       dark no_mob indoors~
+Sector      field~
+Regen       100 100
+Door        east~ ~ -1 2067
+~
+~
+Door        south~ ~ -1 2068
+~
+~
+End
+
+#2067
+Name        Unknown passage~
+Descr
+Oh dear you seem to have lost your way.  You look back from whence you
+came but there's no exit there anymore.  There are exits in other
+directions but you have a feeling that you are hopelessly lost.
+~
+Flags       dark no_mob indoors~
+Sector      field~
+Regen       100 100
+Door        south~ ~ -1 2069
+~
+~
+Door        west~ ~ -1 2066
+~
+~
+End
+
+#2068
+Name        Unknown passage~
+Descr
+Oh dear you seem to have lost your way.  You look back from whence you
+came but there's no exit there anymore.  There are exits in other
+directions but you have a feeling that you are hopelessly lost.
+~
+Flags       dark no_mob indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2066
+~
+~
+Door        east~ ~ -1 2069
+~
+~
+End
+
+#2069
+Name        Unknown passage~
+Descr
+Oh dear you seem to have lost your way.  You look back from whence you
+came but there's no exit there anymore.  There are exits in other
+directions but you have a feeling that you are hopelessly lost.
+~
+Flags       dark no_mob indoors~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 2067
+~
+~
+Door        west~ ~ -1 2068
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

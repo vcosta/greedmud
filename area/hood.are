@@ -1,0 +1,1899 @@
+#AREADATA
+Name        Dangerous Neighborhood~
+Author      Raff~
+Levels      5 15
+Security    1
+VNUMs       2101 2172
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#2101
+Name        ogre gang member~
+Short       a gang member~
+Long
+A member of the Ogres wanders about here.
+~
+Descr
+He's lived a life of violence ever since he was little.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   -100
+Level       5
+Race        Ogre~
+Sex         male~
+End
+
+#2102
+Name        troll gang member~
+Short       a gang member~
+Long
+A member of the Trolls wanders about here.
+~
+Descr
+He wants to rid the world of every last Ogre gang member.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   100
+Level       5
+Race        Troll~
+Sex         male~
+End
+
+#2103
+Name        gang leader~
+Short       the gang leader~
+Long
+The gang leader is not pleased you found his hideout!
+~
+Descr
+He's risen to be leader through brute force and cunning leadership.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    ~
+Alignment   0
+Level       13
+Race        Ogre~
+Sex         male~
+End
+
+#2104
+Name        bruiser~
+Short       a bruiser~
+Long
+A big, mean bruiser is looking for limbs to break.
+~
+Descr
+He's 6'6" 245 pounds and enough muscle to bash your head in.
+~
+Act         scavenger aggressive stay_area wimpy~
+AffectBy    detect_invis~
+Alignment   -333
+Level       10
+Race        Orc~
+Sex         male~
+End
+
+#2105
+Name        doll~
+Short       a doll~
+Long
+A gang doll looks naughty and nice.
+~
+Descr
+She's a beauty (ok in RELATIVE terms) but you better not touch!
+~
+Act         scavenger stay_area wimpy~
+AffectBy    ~
+Alignment   0
+Level       7
+Race        Orc~
+Sex         female~
+End
+
+#2106
+Name        patrolman patrol man~
+Short       a patrolman~
+Long
+A patrolman is trying to keep the peace.
+~
+Descr
+He'd rather be at the local pub then out here with these nasty kids.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   700
+Level       8
+Race        Human~
+Sex         male~
+End
+
+#2107
+Name        vandal~
+Short       a vandal~
+Long
+A vandal is spray painting pro-gang slogans on the wall here.
+~
+Descr
+He has a wary eye and a fine hand for art.
+~
+Act         wimpy~
+AffectBy    sneak~
+Alignment   -400
+Level       10
+Race        Dwarf~
+Sex         male~
+End
+
+#2108
+Name        dog pit bull pitbull~
+Short       a pitbull~
+Long
+A vicious pitbull is foaming at the mouth in rabid anticipation.
+~
+Descr
+You get a nice close look at him while he's tearing at your throat.
+His fangs are blood-stained from hearty meals of ... steak?!
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis hide~
+Alignment   -100
+Level       5
+Race        Animal~
+Sex         male~
+End
+
+#0
+
+
+
+#OBJDB
+#2101
+Name        ogre jacket~
+Short       an Ogre gang jacket~
+Descr
+An Ogre gang jacket has been carelessly tossed here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#2102
+Name        troll jacket~
+Short       a Troll gang jacket~
+Descr
+A Troll gang jacket has been carelessly tossed here.~
+Type        armor~
+Extra       ~
+Wear        take body~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#2103
+Name        chain~
+Short       a hefty length of chain~
+Descr
+A hefty length of chain lies in a heap here on the floor.~
+Type        weapon~
+Extra       glow~
+Wear        take wield~
+Values      0~ 2~ 7~ 4~ 0~
+Weight      10
+Affect      ac~ -5 ~
+Affect      hitroll~ 1 ~
+End
+
+#2104
+Name        metal cover shield~
+Short       a metal shield~
+Descr
+A garbage can lid has been dropped on the floor.~
+Type        armor~
+Extra       ~
+Wear        take shield~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      3
+End
+
+#2105
+Name        spray paint can~
+Short       a spray paint can~
+Descr
+A can of spray paint has been discarded here.~
+Type        wand~
+Extra       hum~
+Wear        take hold~
+Values      11~ 2~ 2~ colour spray~ 0~
+Weight      1
+End
+
+#2106
+Name        stiletto~
+Short       a stiletto~
+Descr
+A killer stiletto has been forgotten here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 7~ 2~ 11~ 0~
+Weight      2
+Affect      hitroll~ 4 ~
+Affect      ac~ 20 ~
+End
+
+#2107
+Name        spiked heel boots~
+Short       spiked heeled boots~
+Descr
+A pair of black leather boots with 6 inch spikes have been left here.~
+Type        armor~
+Extra       ~
+Wear        take feet~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      4
+Affect      dexterity~ -1 ~
+Affect      damroll~ 1 ~
+End
+
+#2108
+Name        mirror~
+Short       a mirror~
+Descr
+A small mirror has been left here.~
+Type        wand~
+Extra       glow magic~
+Wear        take hold~
+Values      20~ 10~ 10~ blindness~ 0~
+Weight      1
+End
+
+#2109
+Name        gloves~
+Short       comfortable leather gloves~
+Descr
+A pair of soft lined leather gloves lie here.~
+Type        armor~
+Extra       ~
+Wear        take hands~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      strength~ 1 ~
+End
+
+#2110
+Name        patrol club~
+Short       a patrol club~
+Descr
+A patrolman's club has carelessly been forgotten here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 1~ 12~ 7~ 0~
+Weight      1
+Affect      hitroll~ 3 ~
+Affect      move~ 10 ~
+End
+
+#2111
+Name        signet ring~
+Short       a troll signet ring~
+Descr
+A signet ring bearing the crest of a troll lies in the dust here.~
+Type        armor~
+Extra       ~
+Wear        take finger~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      strength~ 1 ~
+End
+
+#2112
+Name        knuckles brass~
+Short       brass knuckles~
+Descr
+A set of brass knuckles left from a fight are here on the ground.~
+Type        armor~
+Extra       hum~
+Wear        take hands~
+Values      -15~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      hp~ -15 ~
+Affect      hitroll~ 5 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#2101
+Name        A Dark Alleyway~
+Descr
+The walls of the alleyway have been spray-painted over many times
+over the years.  One section of graffiti actually looks legible,
+it says:    This section has been designed for levels 5 through 10
+            If you are above level 15 please don't expect much fun.
+            If you are below level 5 enter at your own risk.
+Another section of graffiti says "Raff Rules!"
+There is a boulevard to the east and Wall Road East is to the west.
+~
+Flags       dark no_mob~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 2102
+~
+~
+Door        west~ ~ -1 2172
+~
+~
+End
+
+#2102
+Name        Beginning of White Dragon Boulevard~
+Descr
+This section of town has been overrun by the Troll gang.  Even the
+police stay out of here for fear of being brutalized.  This was once
+a nice lower-middleclass neighborhood, but know the gangs run the
+streets.  All the shops and homes have been boarded up and abandoned.
+An alleyway is to the west and the street continues east.  An over-
+grown lot is to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2107 4 100
+Reset       E 2105 17 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        east~ ~ -1 2103
+~
+~
+Door        south~ ~ -1 2109
+~
+~
+Door        west~ ~ -1 2101
+~
+~
+End
+
+#2103
+Name        Along White Dragon Boulevard~
+Descr
+Everywhere you look you see signs of recent violence.  Patches of blood
+lie everywhere and broken sticks and abandoned knifes are strewn here
+and there.  An over-grown lot is to the south.  White Dragon Boulevard leads
+east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        east~ ~ -1 2104
+~
+~
+Door        south~ ~ -1 2110
+~
+~
+Door        west~ ~ -1 2102
+~
+~
+End
+
+#2104
+Name        White Dragon Boulevard at Armory~
+Descr
+Only gang members dare wander the streets here.
+What used to be the armory lies to the south.  White Dragon Boulevard
+leads east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        east~ ~ -1 2105
+~
+~
+Door        south~ ~ -1 2111
+~
+~
+Door        west~ ~ -1 2103
+~
+~
+End
+
+#2105
+Name        White Dragon Blvd.~
+Descr
+Black Dragon Avenue used to run south from here but the way has been
+blocked by the toppling of a building into the street.  White Dragon
+boulevard continues east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Door        east~ ~ -1 2106
+~
+~
+Door        west~ ~ -1 2104
+~
+~
+End
+
+#2106
+Name        Corner of Ice and White Dragon~
+Descr
+Ice Dragon Way leads south from here.  It used to run the whole length
+of the neighborhood and way lined with beautiful crystal sculptures.
+White Dragon boulevard leads east and west from here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        east~ ~ -1 2107
+~
+~
+Door        south~ ~ -1 2113
+~
+~
+Door        west~ ~ -1 2105
+~
+~
+End
+
+#2107
+Name        White Dragon Boulevard~
+Descr
+A once majestic inn with a white marble facade lies to the south.
+Unfortunately, it has fallen into disrepair and decay.  You can continue
+east or west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        east~ ~ -1 2108
+~
+~
+Door        west~ ~ -1 2106
+~
+~
+End
+
+#2108
+Name        Corner of Bronze and White Dragon~
+Descr
+This is the north-east corner of the neighborhood. White Dragon
+boulevard heads west and Bronze Dragon street heads south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2104 10 100
+Reset       E 2109 9 100
+Reset       M 2101 25 100
+Door        south~ ~ -1 2115
+~
+~
+Door        west~ ~ -1 2107
+~
+~
+End
+
+#2109
+Name        An over-grown lot~
+Descr
+A huge building was going to be built here, but they gave the
+project up when violence took over the town.  Now it is just a
+weed-strewn plot of land.  The lot continues east and there is a road north.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2102
+~
+~
+Door        east~ ~ -1 2110
+~
+~
+End
+
+#2110
+Name        East end of an over-grown plot of land~
+Descr
+This was planned to be a park, but the developer was scared out
+of town by the gang.  Now it is just a dusty square of land. The
+park was started to the south.  The lot continues west and there
+is a street to the north.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2103
+~
+~
+Door        south~ ~ -1 2116
+~
+~
+Door        west~ ~ -1 2109
+~
+~
+End
+
+#2111
+Name        Armory~
+Descr
+Well actually, this is what USED to be the armory.  The equipment has
+all been stolen or broken beyond repair. The back wall of the
+building has been bashed down, allowing you to go south.  White
+Dragon Boulevard is north.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Door        north~ ~ -1 2104
+~
+~
+Door        south~ ~ -1 2117
+~
+~
+End
+
+#2112
+Name        A Bend in the Way~
+Descr
+Ice Dragon Way bends east and south from here.  You notice a lot of
+blood dried into the dirt here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        east~ ~ -1 2113
+~
+~
+Door        south~ ~ -1 2118
+~
+~
+End
+
+#2113
+Name        Ice Dragon Bend~
+Descr
+Ice Dragon Way bends to the north and west here.  There are footprints
+here.  They seem to indicate a large struggle took place here
+recently.  What used to be the town Magic shop is to the east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2106
+~
+~
+Door        east~ ~ -1 2114
+~
+~
+Door        west~ ~ -1 2112
+~
+~
+End
+
+#2114
+Name        The remains of the magic shop~
+Descr
+The wizard was tough but he couldn't take on 50 of them at once.  So he
+died and they took all his stuff and used it on their fellowmen.
+The front door leads west back out to the street.  There is a back
+door leading to another street to the east.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 2104 10 100
+Reset       E 2103 16 100
+Reset       M 2107 4 100
+Reset       E 2105 17 100
+Reset       M 2101 25 100
+Door        east~ ~ -1 2115
+~
+~
+Door        west~ ~ -1 2113
+~
+~
+End
+
+#2115
+Name        Bronze Dragon Street at wizard's back door~
+Descr
+Bronze Dragon street goes north and south.  The back door to what
+remains of the magic shop is west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2108
+~
+~
+Door        south~ ~ -1 2120
+~
+~
+Door        west~ ~ -1 2114
+~
+~
+End
+
+#2116
+Name        Dracolich Plaza~
+Descr
+They began construction of a pleasant plaza here.  You wouldn't have
+known it though if i hadn't told you.  It has been renamed in honor
+of the Dragon gang's idol, the Dracolich.  It has become sort of a
+training ground.  There is a short cut to the east and an overgrown
+lot of land to the north.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 2104 10 100
+Reset       E 2104 11 100
+Reset       E 2103 16 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2110
+~
+~
+Door        east~ ~ -1 2117
+~
+~
+End
+
+#2117
+Name        Shortcut~
+Descr
+This is a shortcut between Dracolich Plaza and the center of town.
+Dracolich Plaza is to the west and the shortcut continues south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2111
+~
+~
+Door        south~ ~ -1 2121
+~
+~
+Door        west~ ~ -1 2116
+~
+~
+End
+
+#2118
+Name        Ice Dragon Way~
+Descr
+Several smashed crystal statues line the Way here.  You begin to wonder
+who smashed them, and with what.  The Way bends out of sight to the north
+and continues south.  To the east is a courtyard.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2112
+~
+~
+Door        east~ ~ -1 2119
+~
+~
+Door        south~ ~ -1 2122
+~
+~
+End
+
+#2119
+Name        Courtyard North~
+Descr
+Once it was the courtyard of a beautiful building complex.  But alas,
+someone forgot to water the plants and they all died.  Then again,
+you wonder how many people have died here too.  The courtyard extends
+to the south and there is a road to the west.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Door        south~ ~ -1 2123
+~
+~
+Door        west~ ~ -1 2118
+~
+~
+End
+
+#2120
+Name        Bronze Dragon Street~
+Descr
+There used to be a gate out to the east here which led to distant lands.
+The gate has rusted permanently shut.  The street goes north and south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Door        north~ ~ -1 2115
+~
+~
+Door        south~ ~ -1 2125
+~
+~
+End
+
+#2121
+Name        Shortcut~
+Descr
+The shortcut extends north.  There is a street to the east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2117
+~
+~
+Door        east~ ~ -1 2122
+~
+~
+End
+
+#2122
+Name        Ice Dragon Way~
+Descr
+The Way continues north and intersects with Yellow Dragon Avenue
+to the south.  For some reason, you somehow realize that there is a
+shortcut to the west that leads to Dracolich Plaza.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2118
+~
+~
+Door        south~ ~ -1 2127
+~
+~
+Door        west~ ~ -1 2121
+~
+~
+End
+
+#2123
+Name        Courtyard South~
+Descr
+Once full of lush green plants, it is now barren of growth.  A set of
+stairs used to extend up to a suite of rooms but the set is missing
+stairs 3-15.  The courtyard extends north and there is a street to
+the south.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 2105 10 100
+Reset       E 2108 17 100
+Door        north~ ~ -1 2119
+~
+~
+Door        south~ ~ -1 2128
+~
+~
+End
+
+#2124
+Name        Old Abandoned Warehouse~
+Descr
+Once the center of a lucrative storage business, it has fallen to
+disrepair like everything else.  It is now the hideout of the
+Dragon gang.  The gang leader runs his reign of terror from here.
+There is a wooden door barely on the hinges to the east.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 2103 2 100
+Reset       E 2111 1 100
+Reset       M 2108 12 100
+Reset       M 2108 12 100
+Reset       M 2108 12 100
+Reset       M 2108 12 100
+Door        east~ door closed~ -1 2125
+~
+wooden door east~
+End
+
+#2125
+Name        Bronze Dragon Street at Warehouse~
+Descr
+The street runs north and south.  There is an old wooden door leading
+to a warehouse to the west.  The warehouse LOOKS abandoned. . .
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2105 10 100
+Reset       E 2108 17 100
+Reset       E 2107 8 100
+Door        north~ ~ -1 2120
+~
+~
+Door        south~ ~ -1 2130
+~
+~
+Door        west~ door closed~ -1 2124
+~
+wooden door west~
+End
+
+#2126
+Name        Yellow Dragon Road~
+Descr
+Yellow Dragon Road is the southern boundary of Troll Territory.  The
+road extends east.  You enter "no-man's land" to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 2127
+~
+~
+Door        south~ ~ -1 2131
+~
+~
+End
+
+#2127
+Name        Yellow Dragon Road~
+Descr
+The road runs east and west.  Ice Dragon Way leads north from here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 2122
+~
+~
+Door        east~ ~ -1 2128
+~
+~
+Door        west~ ~ -1 2126
+~
+~
+End
+
+#2128
+Name        Yellow Dragon Road~
+Descr
+The roads continues east and west.  There is a courtyard to the north.
+You enter "no man's land" to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Door        north~ ~ -1 2123
+~
+~
+Door        east~ ~ -1 2129
+~
+~
+Door        south~ ~ -1 2133
+~
+~
+Door        west~ ~ -1 2127
+~
+~
+End
+
+#2129
+Name        Yellow Dragon Road~
+Descr
+There is a barred window to the north.  There appears to be a light
+coming from the cracks around it.  The road extends east and west
+from here.  Or you can enter "no man's land" south from here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 2130
+~
+~
+Door        south~ ~ -1 2134
+~
+~
+Door        west~ ~ -1 2128
+~
+~
+End
+
+#2130
+Name        Yellow Dragon Road~
+Descr
+Bronze Dragon Street intersects here and runs north.  Yellow Dragon ends
+here but continues to the west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2101 25 100
+Reset       E 2101 5 100
+Door        north~ ~ -1 2125
+~
+~
+Door        west~ ~ -1 2129
+~
+~
+End
+
+#2131
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues south
+and east; or there is a street to the north.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2126
+~
+~
+Door        east~ ~ -1 2132
+~
+~
+Door        south~ ~ -1 2136
+~
+~
+End
+
+#2132
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues south
+east and west.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        east~ ~ -1 2133
+~
+~
+Door        south~ ~ -1 2137
+~
+~
+Door        west~ ~ -1 2131
+~
+~
+End
+
+#2133
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues south,
+east and west; or there is a street to the north.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2128
+~
+~
+Door        east~ ~ -1 2134
+~
+~
+Door        south~ ~ -1 2138
+~
+~
+Door        west~ ~ -1 2132
+~
+~
+End
+
+#2134
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues south,
+east, and west; or there is a street to the north.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2129
+~
+~
+Door        east~ ~ -1 2135
+~
+~
+Door        south~ ~ -1 2139
+~
+~
+Door        west~ ~ -1 2133
+~
+~
+End
+
+#2135
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues south
+and west.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        south~ ~ -1 2140
+~
+~
+Door        west~ ~ -1 2134
+~
+~
+End
+
+#2136
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues north
+and east; or there is a street to the south.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2131
+~
+~
+Door        east~ ~ -1 2137
+~
+~
+Door        south~ ~ -1 2141
+~
+~
+End
+
+#2137
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues north,
+east and west.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2132
+~
+~
+Door        east~ ~ -1 2138
+~
+~
+Door        west~ ~ -1 2136
+~
+~
+End
+
+#2138
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues north,
+east, and west; or there is a street to the south.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2133
+~
+~
+Door        east~ ~ -1 2139
+~
+~
+Door        south~ ~ -1 2143
+~
+~
+Door        west~ ~ -1 2137
+~
+~
+End
+
+#2139
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues north,
+east, and west.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2134
+~
+~
+Door        east~ ~ -1 2140
+~
+~
+Door        west~ ~ -1 2138
+~
+~
+End
+
+#2140
+Name        NO MAN'S LAND~
+Descr
+This is the section of town between the two gang's territories.  This
+is usually where the violence starts.  No Man's land continues south
+and west; or there is a street to the south.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 2106 15 100
+Reset       E 2110 16 100
+Door        north~ ~ -1 2135
+~
+~
+Door        south~ ~ -1 2145
+~
+~
+Door        west~ ~ -1 2139
+~
+~
+End
+
+#2141
+Name        Bend in Hector Street~
+Descr
+Hector street bends to the east and the south here.  "No Man's Land"
+entrance is to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 2136
+~
+~
+Door        east~ ~ -1 2142
+~
+~
+Door        south~ ~ -1 2146
+~
+~
+End
+
+#2142
+Name        Hector Street at Bakery~
+Descr
+Hector street runs east and west.  The Bakery used to be to the south
+but the entrance is sealed off.  Probably just a bunch of stale pies in
+there anyways.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        east~ ~ -1 2143
+~
+~
+Door        west~ ~ -1 2141
+~
+~
+End
+
+#2143
+Name        Another corner of Hector and Achilles streets~
+Descr
+Achilles street heads to the south and Hector runs east and west.
+There is an entrance to "No Man's Land" to the north.  On the
+southwest corner of this intersection, it looks like a building
+was recently burned down.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 2138
+~
+~
+Door        east~ ~ -1 2144
+~
+~
+Door        south~ ~ -1 2147
+~
+~
+Door        west~ ~ -1 2142
+~
+~
+End
+
+#2144
+Name        Hector Street at Jeweler~
+Descr
+Once a bright spot in the town, it now looks like one of the
+hardest hit by the violence.  The building could collapse at any
+moment.  The street continues east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 2145
+~
+~
+Door        west~ ~ -1 2143
+~
+~
+End
+
+#2145
+Name        Corner of Ajax and Hector~
+Descr
+There is a grand fountain to the east but the water doesn't
+look good to drink.  Ajax street heads south and Hector
+goes back west.  "No Man's Land" is to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2140
+~
+~
+Door        south~ ~ -1 2149
+~
+~
+Door        west~ ~ -1 2144
+~
+~
+End
+
+#2146
+Name        Hector Street~
+Descr
+The street is full of garbage here.  An odd building lies to the west,
+but you don't seem to be able to find a way into it.  The street
+runs north and south here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2141
+~
+~
+Door        south~ ~ -1 2150
+~
+~
+End
+
+#2147
+Name        Achilles Avenue~
+Descr
+The town bards sang of the victory parades that used to pass along this
+route.  It was once a major way through the center of town.  The street
+goes south to a bend and north to an intersection.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 2143
+~
+~
+Door        south~ ~ -1 2152
+~
+~
+End
+
+#2148
+Name        A small ruined chapel~
+Descr
+This was a small temple built to honor the minor gods and goddesses.
+It is now desecrated by graffiti and vandalism.  Perhaps its worst
+defilement is that it is the hangout of the Ogre gang.  There is a street to
+the east through a rusty metal door.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 2103 2 100
+Reset       E 2106 16 100
+Reset       E 2112 17 100
+Reset       M 2108 12 100
+Reset       M 2108 12 100
+Reset       M 2108 12 100
+Reset       M 2108 12 100
+Door        east~ door closed~ -1 2149
+~
+rusted door metal~
+End
+
+#2149
+Name        Ajax Avenue at chapel~
+Descr
+The temple to honor the minor gods is through a rusty metal door
+to the west.  The street continues north and south.  You hear the
+muffled sounds of screams coming from the chapel.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2105 10 100
+Reset       E 2107 8 100
+Reset       E 2108 17 100
+Door        north~ ~ -1 2145
+~
+~
+Door        south~ ~ -1 2154
+~
+~
+Door        west~ door closed~ -1 2148
+~
+rusted door metal~
+End
+
+#2150
+Name        First intersection of Hector and Achilles~
+Descr
+There is a large statue here depicting a battle between two
+great warriors.  You think it's odd that it has not been defiled,
+but then you sense a aura protecting it.  Achilles runs east
+and south, while Hector heads out to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Door        north~ ~ -1 2146
+~
+~
+Door        east~ ~ -1 2151
+~
+~
+Door        south~ ~ -1 2156
+~
+~
+End
+
+#2151
+Name        Hector street~
+Descr
+A large open space, possibly a cemetery, lies to the south.
+There is a large wrought-iron fence with spikes on top
+which prevents you from entering the area.  The street
+continues east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        east~ ~ -1 2152
+~
+~
+Door        west~ ~ -1 2150
+~
+~
+End
+
+#2152
+Name        A bend in the road~
+Descr
+Achilles Avenue bends to the north and west here.  There
+is also a narrow alley to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2105 10 100
+Reset       E 2108 17 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2147
+~
+~
+Door        south~ ~ -1 2157
+~
+~
+Door        west~ ~ -1 2151
+~
+~
+End
+
+#2153
+Name        What is left of the weaponshop~
+Descr
+It doesn't even look like those punks gave the weaponsmith a
+proper burial.  But what a going away present he seems to have
+received!  Blood is splattered and dried all over the walls here.
+It looks like a great deal of carnage happened here.  The way
+out to the east leads out onto a street.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        east~ ~ -1 2154
+~
+~
+End
+
+#2154
+Name        Ajax street at Weaponshop (or whats left of it)~
+Descr
+The street goes north and south.  The stables used to be to the
+east, but I bet all the horses are dead or gone.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Door        north~ ~ -1 2149
+~
+~
+Door        south~ ~ -1 2159
+~
+~
+Door        west~ ~ -1 2153
+~
+~
+End
+
+#2155
+Name        Khan Park~
+Descr
+Not really a "park" as you and i would think of it but
+it seems queerly peaceful here in comparison to the rest of
+the area.  There seems to be some kind of memorial to the
+great Mongol warrior Khan being crudely constructed here.
+There is a street to the east and another to the south.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 2104 10 100
+Reset       E 2104 11 100
+Reset       E 2109 9 100
+Reset       M 2102 25 100
+Door        east~ ~ -1 2156
+~
+~
+Door        south~ ~ -1 2162
+~
+~
+End
+
+#2156
+Name        Achilles avenue at entrance to park~
+Descr
+A ... park?! lies to the west.  The street runs south to an
+intersection and curves to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2150
+~
+~
+Door        south~ ~ -1 2163
+~
+~
+Door        west~ ~ -1 2155
+~
+~
+End
+
+#2157
+Name        A bend in Ajax~
+Descr
+The roads bends south and east here.  You barely notice
+a small alley leading north.  Some kind of tunnel entrance
+is to the west but it has been crushed under its own weight.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Door        north~ ~ -1 2152
+~
+~
+Door        east~ ~ -1 2158
+~
+~
+Door        south~ ~ -1 2164
+~
+~
+End
+
+#2158
+Name        Ajax street~
+Descr
+A once prideful guildhouse was on the northeast corner of
+this intersection.  Most of the walls and ceiling have long since
+been demolished.  An inn/pub is to the south.  The street bends
+to the east or west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        east~ ~ -1 2159
+~
+~
+Door        south~ ~ -1 2165
+~
+~
+Door        west~ ~ -1 2157
+~
+~
+End
+
+#2159
+Name        Curve in the road~
+Descr
+The street goes north or west from here.  A narrow street once
+headed southeast from here.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2154
+~
+~
+Door        west~ ~ -1 2158
+~
+~
+End
+
+#2160
+Name        A wide alleyway~
+Descr
+The sides of the alleyway have been vandalized many times.
+One patch of graffiti actually looks readable:
+            This section has been designed for levels 5 through 10
+            If you are above level 10 please don't expect much.
+            If you are below level 5 enter at your own risk.
+In another spot it says "now entering Ogre territory..."
+A street lies to the west and a major road to the east.
+~
+Flags       dark no_mob~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Door        east~ ~ -1 2161
+~
+~
+End
+
+#2161
+Name        Alexander Road~
+Descr
+You see many gang members walking around looking for
+fights to pick and things to break.  It seems as if all of the
+other citizens have been run out of town.  All the former
+homes are boarded up and uninhabitable.  The road continues
+east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2107 4 100
+Reset       E 2105 17 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        east~ ~ -1 2162
+~
+~
+Door        west~ ~ -1 2160
+~
+~
+End
+
+#2162
+Name        Alexander Street at park entrance~
+Descr
+A park-looking area lies to the north and a passage between
+two buildings leads to another street to the south.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2155
+~
+~
+Door        south~ ~ -1 2166
+~
+~
+Door        west~ ~ -1 2161
+~
+~
+End
+
+#2163
+Name        Achilles Avenue~
+Descr
+The Avenue Runs north and south.  You sense you are deep within
+Ogre gang territory, and a chill goes up your spine.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Door        north~ ~ -1 2156
+~
+~
+Door        south~ ~ -1 2167
+~
+~
+End
+
+#2164
+Name        Ajax Street~
+Descr
+You can see a sinister black wrought-iron fence to the west.
+You wonder if it's keeping you out, or the ghouls in?
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2157
+~
+~
+Door        south~ ~ -1 2169
+~
+~
+End
+
+#2165
+Name        The inn/pub~
+Descr
+The inn actually looks fairly functional despite its lack
+of repair.  The boys come here to hoot it up and drink them selves
+into oblivion sometimes.  It looks as if the beer is still on tap!!!
+A hallway leads south and you spy a street through the doorway
+to the north.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2107 4 100
+Reset       E 2105 17 100
+Reset       M 2102 25 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2158
+~
+~
+Door        south~ ~ -1 2170
+~
+~
+End
+
+#2166
+Name        Solomon Street~
+Descr
+This street forms the southern boundary of Ogre territory.  The
+street extends far to the east.  There is also a pathway between
+buildings which leads to another street to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2162
+~
+~
+Door        east~ ~ -1 2167
+~
+~
+End
+
+#2167
+Name        Intersection of Achilles and Solomon~
+Descr
+Solomon street is to the east and west.  The other part of the
+T is Achilles Avenue, starting here and winding to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2163
+~
+~
+Door        east~ ~ -1 2168
+~
+~
+Door        west~ ~ -1 2166
+~
+~
+End
+
+#2168
+Name        Solomon Street~
+Descr
+A wrought-iron fence blocks off what used to be an entrance to the
+cemetery here to the north.  The evil just seems too strong to
+to consider entering.  You feel you should stick with the "lesser"
+evils along the road to the east and west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 2169
+~
+~
+Door        west~ ~ -1 2167
+~
+~
+End
+
+#2169
+Name        Intersection of Ajax and Solomon~
+Descr
+The two roads meet at a corner here.  Ajax runs north and
+Solomon heads west.  An inn/pub is through a back doorway
+to the east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 2102 25 100
+Reset       E 2102 5 100
+Door        north~ ~ -1 2164
+~
+~
+Door        east~ ~ -1 2170
+~
+~
+Door        west~ ~ -1 2168
+~
+~
+End
+
+#2170
+Name        Hallway~
+Descr
+The hallway heads back north to the main part of the inn/pub.
+The stairs leading up to the guest rooms here do not seem
+advisable to climb.  A doorway empties out into Solomon
+street to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 2104 10 100
+Reset       E 2111 1 100
+Reset       E 2104 11 100
+Door        north~ ~ -1 2165
+~
+~
+Door        west~ ~ -1 2169
+~
+~
+End
+
+#2171
+Name        Wall Road~
+Descr
+The road extends south along the inside of the wall surrounding
+the city.  You spy a city gate to the north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 3041
+~
+~
+Door        south~ ~ -1 2172
+~
+~
+End
+
+#2172
+Name        Wall Road~
+Descr
+Wall road extends north along the inside of the city wall.  A dark
+alley lies to the east.  To the south, you see the colors and hear the
+sounds of a circus!!
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 2171
+~
+~
+Door        east~ ~ -1 2101
+~
+~
+Door        south~ ~ 0 4401
+You see a circus forming!
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

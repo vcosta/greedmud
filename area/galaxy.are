@@ -1,0 +1,2273 @@
+#AREADATA
+Name        Galaxy~
+Author      Doctor~
+Levels      20 45
+Security    1
+VNUMs       9301 9371
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#9301
+Name        poor adventurer~
+Short       a poor adventurer~
+Long
+A poor adventurer, lost in this place.
+~
+Descr
+You will become him if you are not careful.
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   0
+Level       4
+Race        Human~
+Sex         male~
+Spec        spec_thief~
+End
+
+#9302
+Name        star~
+Short       a beautiful star~
+Long
+A beautiful white star smiles at you.
+~
+Descr
+You can't tell what the star looks like, she is too bright!
+~
+Act         sentinel stay_area~
+AffectBy    ~
+Alignment   500
+Level       8
+Race        God~
+Sex         female~
+End
+
+#9303
+Name        nebula young~
+Short       a young nebula~
+Long
+A young nebula, waiting to become a star.
+~
+Descr
+It hasn't got a definite shape, it is just a cloud of mist.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   200
+Level       10
+Race        God~
+Sex         female~
+End
+
+#9304
+Name        comet speedy~
+Short       a speedy comet~
+Long
+A speedy comet is waiting to crush your head in.
+~
+Descr
+You see the offspring of Halley's comet, here just to wipe everything out.
+~
+Act         scavenger aggressive stay_area~
+AffectBy    ~
+Alignment   -500
+Level       10
+Race        God~
+Sex         male~
+End
+
+#9305
+Name        red supergiant~
+Short       a red supergiant~
+Long
+An enormous, red supergiant is forced to protect the galaxy.
+~
+Descr
+You notice the giant is not as tough as his name sounds ...
+Still he can be very powerful.
+~
+Act         sentinel stay_area wimpy~
+AffectBy    ~
+Alignment   0
+Level       15
+Race        God~
+Sex         male~
+End
+
+#9306
+Name        white dwarf~
+Short       a white dwarf~
+Long
+A tiny white dwarf is trying to sneak away from duty. 
+~
+Descr
+Like the red giant, he is also appointed to stand guard for the galaxy.
+But somehow he manages to escape.  Though tiny, it can take a lot of hits!
+~
+Act         scavenger stay_area~
+AffectBy    ~
+Alignment   0
+Level       15
+Race        God~
+Sex         male~
+End
+
+#9307
+Name        horsehead nebula~
+Short       a horsehead nebula~
+Long
+A huge nebula is here, resembling a horsehead.
+~
+Descr
+You can only make out its shape from the darkness.  He was cursed to stay in
+here and his face may never be seen by anyone again.
+~
+Act         sentinel stay_area~
+AffectBy    sneak hide~
+Alignment   -1000
+Level       18
+Race        God~
+Sex         male~
+End
+
+#9308
+Name        andromeda~
+Short       poor Andromeda~
+Long
+The poor Andromeda is chained to the wall, suffering ...
+~
+Descr
+She was once a princess of beauty.  However, her beauty has led to a Goddess's
+jealousy and she has to suffer here endlessly until Perseus comes.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       18
+Race        God~
+Sex         female~
+End
+
+#9309
+Name        hercules~
+Short       the mighty Hercules~
+Long
+The Mighty Hercules is working hard on his extra Labours for the Gods.
+~
+Descr
+He has been put to do the Ten Labours -- ten impossible tasks, by Hera, the
+queen goddess, who disliked him.  But he finished them all and at the end was
+granted immortality. He is a very brave and strong fighter.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       39
+Race        God~
+Sex         male~
+End
+
+#9310
+Name        pegasus~
+Short       the wild Pegasus~
+Long
+The wild pegasus is grazing peacefully.
+~
+Descr
+It is the legendary horse with wings on its back.
+~
+Act         sentinel stay_area wimpy~
+AffectBy    ~
+Alignment   300
+Level       17
+Race        Animal~
+Sex         neutral~
+End
+
+#9311
+Name        orion~
+Short       Orion the hunter~
+Long
+Orion is still hunting for Scorpio.
+~
+Descr
+He is the legendary hunter who almost defeated Taurus the bull, but got
+killed by Scorpio.  The gods put them both up as constellations but one
+appears on one side of the sky and the other the other side so they will
+never meet. 
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   300
+Level       39
+Race        God~
+Sex         male~
+End
+
+#9312
+Name        pleiades~
+Short       the Pleiades~
+Long
+The Pleiades are here, weeping for the loss of their sisters.
+~
+Descr
+These are the seven sisters of the Myths, and as for why they are here, no
+one knows; even the Gods themselves have forgotten.
+~
+Act         sentinel stay_area~
+AffectBy    ~
+Alignment   300
+Level       21
+Race        God~
+Sex         female~
+End
+
+#9313
+Name        draco head~
+Short       the Head of Draco~
+Long
+The gigantic Head of Draco lurks out from beneath and prepares to roast you.
+~
+Descr
+This evil-looking head is even larger than a giant.  He is the last guardian 
+before entering the inner galaxy.  His neck is flexing in a random fashion so 
+hitting the head is certainly not easy.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       35
+Race        Dragon~
+Sex         neutral~
+Spec        spec_breath_fire~
+End
+
+#9314
+Name        draco baby~
+Short       a baby draco~
+Long
+A baby draco is crawling on the Draco's body.
+~
+Descr
+You see a tiny creature which looks like a dragon except that its body
+resembles a snake.  Gosh, is this a draco, you wonder, is this the thing
+we are on now?
+~
+Act         scavenger stay_area wimpy~
+AffectBy    ~
+Alignment   -700
+Level       9
+Race        Dragon~
+Sex         neutral~
+Spec        spec_breath_fire~
+End
+
+#9315
+Name        aries~
+Short       Aries~
+Long
+Aries is sitting here, welcoming you.
+~
+Descr
+You see a white goat here, the first guardian of the Zodiac,
+also the ruler of Spring. He looks as if he is expecting you.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   700
+Level       33
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9316
+Name        taurus~
+Short       Taurus~
+Long
+Taurus wants to leave, but has been forced to stay as a guardian here.
+~
+Descr
+You see a wild-looking bull with a bad temper.  He is well-built and looks like 
+he can fight well ... indeed he has fought with Orion before and survived.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   -100
+Level       37
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9317
+Name        gemini~
+Short       Gemini~
+Long
+Gemini is looking for his brother; have you seen him?
+~
+Descr
+As soon as you see him you know that he is the most perfect man you have seen.
+You can't find any imperfections on him.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       32
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9318
+Name        gemini~
+Short       Gemini~
+Long
+Gemini is hiding from his brother, grinning evilly at you.
+~
+Descr
+As soon as you see him you see the most imperfect man you have ever seen.
+How can there be such a contrast?  You wonder ...
+~
+Act         sentinel scavenger aggressive stay_area wimpy~
+AffectBy    detect_invis sanctuary pass_door~
+Alignment   -1000
+Level       32
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9319
+Name        cancer~
+Short       Cancer~
+Long
+Cancer the crab is here, hoarding the treasure away from you.
+~
+Descr
+You see a gigantic crab (YES, it is bigger than you!) with a crushed shell.
+Legend is that he was crushed by Hercules when he was sent by Hera to kill him.
+So Hera made Cancer a constellation for his work. 
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   0
+Level       31
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9320
+Name        leo~
+Short       Leo~
+Long
+Leo the lion is roaring at you, ready for a strike!
+~
+Descr
+His metallic skin means that he could be the one which was killed by Hercules
+during his first Labour.  His skin is so weapon-proof that Hercules had to use
+his bare hands to tear the lion into two from its mouth!
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   -100
+Level       30
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9321
+Name        virgo~
+Short       Virgo~
+Long
+Virgo is sitting here, winking at you suggestively ... you are alarmed!
+~
+Descr
+From what you have seen, you now realize that legends are legends, and Virgo
+may not be the maid of chastity and purity at all!  But still she looks
+gorgeous and is waiting for your first move, whatever it is ...
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       29
+Race        God~
+Sex         female~
+Spec        spec_cast_cleric~
+End
+
+#9322
+Name        libra~
+Short       Libra~
+Long
+Libra, the fair and just, is staring at you, weighing up the sins of your past.
+~
+Descr
+He is a wise old man and can see people's thoughts through their eyes....
+Now all he can see from you is greed and bloodshed.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       34
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9323
+Name        scorpio~
+Short       Scorpio~
+Long
+Scorpio is moving his tail towards you, waiting to put an end to some mortals.
+~
+Descr
+Ever since he killed Orion in the myths, he has been punished by having 
+Sagittarius' arrow aimed at his heart forever.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   -200
+Level       36
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9324
+Name        sagittarius~
+Short       Sagittarius~
+Long
+Sagittarius the centaur is waiting to let go of his well aimed arrow ...
+~
+Descr
+He is a centaur and a well trained archer. No one can escape his arrows.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       32
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9325
+Name        capricorn~
+Short       Capricorn~
+Long
+Capricorn is here, feeling bored ... he wants a fight!
+~
+Descr
+You see a mean-looking ram here.  He used to be a fierce fighter in the ancient
+war but now the gods have decided to put him here, to live out the rest of his 
+days in peace.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   700
+Level       33
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9326
+Name        aquarius~
+Short       Aquarius~
+Long
+The beautiful Aquarius is standing here, holding THE vessel.
+~
+Descr
+The pretty Water Bearer is smiling at you, you think you'd better give her a 
+hand with holding the vessel. 
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       32
+Race        God~
+Sex         female~
+Spec        spec_cast_cleric~
+End
+
+#9327
+Name        pisces mermaid~
+Short       Pisces the mermaid~
+Long
+Pisces the mermaid is sitting here, waiting for your help.
+~
+Descr
+She has been forced to serve her husband, who had been cursed to turn into a
+fish and she deserves your pity.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   1000
+Level       28
+Race        God~
+Sex         female~
+Spec        spec_cast_cleric~
+End
+
+#9328
+Name        pisces fish~
+Short       Pisces the fish~
+Long
+Pisces the fish, is jealous of your approach...
+~
+Descr
+He was once a very handsome man but now has turned into an ugly big fish.
+So he becomes jealous of any living thing which is more handsome than him.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    sanctuary~
+Alignment   -1000
+Level       32
+Race        God~
+Sex         male~
+Spec        spec_cast_cleric~
+End
+
+#9329
+Name        bear ursa major~
+Short       Ursa Major the bear~
+Long
+Ursa Major the bear is the last defense against any intruders.
+~
+Descr
+The Huge Bear which resides in the northern skies is here. 
+You think you'd better turn back.  At least you have got a chance of survival.
+~
+Act         sentinel aggressive stay_area~
+AffectBy    detect_invis sanctuary~
+Alignment   0
+Level       37
+Race        Bear~
+Sex         neutral~
+Spec        spec_cast_cleric~
+End
+
+#9330
+Name        cassiopeia queen~
+Short       Cassiopeia the Queen~
+Long
+Cassiopeia, the queen of the Universe, is sitting on her throne.
+~
+Descr
+She is the Queen of Dignity; facing her you feel all your dignity has gone.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   700
+Level       39
+Race        God~
+Sex         female~
+Spec        spec_cast_mage~
+End
+
+#9331
+Name        cepheus king~
+Short       Cepheus the King~
+Long
+Cepheus, the king of the Universe, is sitting on his throne.
+~
+Descr
+He is the King of Might as well as of the Universe. You suddenly feel very
+weak and useless in front of him.
+~
+Act         sentinel stay_area~
+AffectBy    sanctuary~
+Alignment   700
+Level       41
+Race        God~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#9332
+Name        polaris polar star~
+Short       Polaris, the polar star~
+Long
+Polaris, the polar star, who commands the whole Universe, stands before you!
+~
+Descr
+He is the Master of the Universe, (NOT He-Man!), the most powerful!  
+Even the King and the Queen obey him.  As you look at him you notice he is 
+actually a STAR, with dazzling bright light ... maybe you shouldn't have come
+here at all?
+~
+Act         sentinel stay_area~
+AffectBy    invisible detect_invis sanctuary~
+Alignment   1000
+Level       44
+Race        God~
+Sex         male~
+Spec        spec_breath_acid~
+End
+
+#0
+
+
+
+#OBJDB
+#9301
+Name        comet's tail~
+Short       a comet's tail~
+Descr
+A long, slender whip lies here.~
+Type        weapon~
+Extra       glow hum~
+Wear        take wield~
+Values      0~ 2~ 6~ 4~ 0~
+Weight      9
+End
+
+#9302
+Name        arm hercules~
+Short       the Titanic Arm plates of Hercules~
+Descr
+Arm plates of the Zodiac lie here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take arms~
+Values      6~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      strength~ 1 ~
+Affect      damroll~ 2 ~
+ExtraDescr  arm~
+These mighty armors have been worn by this immortal, since the ancient time.
+~
+End
+
+#9304
+Name        belt orion~
+Short       the Titanic Belt of Orion~
+Descr
+A belt of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take waist~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      7
+Affect      constitution~ 2 ~
+ExtraDescr  belt~
+You can immediately see that it belongs to Orion, from the three stars
+engraved on it.
+~
+End
+
+#9305
+Name        skull draco~
+Short       an ugly skull of Draco~
+Descr
+A massive skull of a dead Draco lies here.~
+Type        staff~
+Extra       hum magic nodrop~
+Wear        take hold~
+Values      15~ 5~ 5~ call lightning~ 0~
+Weight      20
+End
+
+#9306
+Name        fleece aries~
+Short       the Titanic Fleece of Aries~
+Descr
+A fleece of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take neck~
+Values      9~ 0~ 0~ 0~ 0~
+Weight      9
+Affect      ac~ -20 ~
+ExtraDescr  fleece~
+From a look it resembles the Golden Fleece that exists in the Greek myths.
+~
+End
+
+#9307
+Name        hoof taurus~
+Short       the Titanic Hoof of Taurus~
+Descr
+A hoof of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take feet~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      move~ 50 ~
+Affect      damroll~ 1 ~
+ExtraDescr  hoof~
+It is with these hooves that Taurus can stand against Orion's attacks.
+~
+End
+
+#9308
+Name        mask gemini~
+Short       the Titanic Mask of Gemini~
+Descr
+A mask of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic nodrop anti-evil~
+Wear        take head~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      7
+Affect      strength~ 1 ~
+Affect      dexterity~ 2 ~
+ExtraDescr  mask~
+You notice the mask has got two faces, one smiling and the other crying.
+You don't know which way you should wear it.
+~
+End
+
+#9309
+Name        shell cancer~
+Short       the Titanic Shell of Cancer~
+Descr
+A shell of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take body~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      ac~ -20 ~
+ExtraDescr  shell~
+A shell which is dented in the middle, resulting from the Hercules' mighty
+pound when the Crab was still an enemy of Hercules in ancient times.
+~
+End
+
+#9310
+Name        skin leo~
+Short       the Titanic Skin of Leo~
+Descr
+A skin of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take about~
+Values      11~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      strength~ 2 ~
+ExtraDescr  skin~
+A skin made of metal, which was worn by Hercules during his Ten Labours.
+~
+End
+
+#9311
+Name        bracelet virgo~
+Short       the Titanic Bracelet of Virgo~
+Descr
+A bracelet of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take wrist~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      4
+Affect      wisdom~ 2 ~
+ExtraDescr  bracelet~
+A bracelet of purity and youth, only worn by selected virgins.
+~
+End
+
+#9312
+Name        scale libra~
+Short       the Titanic Scale of Libra~
+Descr
+A shield of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take shield~
+Values      8~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      ac~ -3 ~
+Affect      hp~ 15 ~
+ExtraDescr  scale~
+It is a shield of justice, used in the ancient battle against injustice.
+~
+End
+
+#9313
+Name        scale libra~
+Short       the Titanic Scale of Libra~
+Descr
+A shield of the Zodiac lies here.~
+Type        armor~
+Extra       hum magic nodrop~
+Wear        take shield~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      15
+Affect      ac~ 6 ~
+Affect      hp~ -30 ~
+ExtraDescr  scale~
+It is a shield of injustice, it picks on the innocent.
+~
+End
+
+#9314
+Name        sting scorpio~
+Short       the Sting of Scorpio~
+Descr
+Sting of the Zodiac lies here.~
+Type        weapon~
+Extra       glow magic anti-evil~
+Wear        take wield~
+Values      0~ 4~ 4~ 11~ 0~
+Weight      7
+Affect      hitroll~ 3 ~
+Affect      damroll~ 4 ~
+ExtraDescr  sting~
+This dreadful weapon put a lot of mortals to death before Scorpio was banished.
+~
+End
+
+#9315
+Name        arrow sagittarius~
+Short       the Arrow of Sagittarius~
+Descr
+The Arrow of Sagittarius lies here.~
+Type        wand~
+Extra       glow magic anti-evil~
+Wear        take hold~
+Values      10~ 10~ 10~ lightning bolt~ 0~
+Weight      7
+ExtraDescr  arrow~
+It's an arrow of lightning; it will never miss any target.
+~
+End
+
+#9316
+Name        bow sagittarius~
+Short       the Titanic Bow of Sagittarius~
+Descr
+The Titanic Bow of Sagittarius lies here.~
+Type        weapon~
+Extra       glow magic anti-evil~
+Wear        take wield~
+Values      0~ 2~ 9~ 6~ 0~
+Weight      20
+Affect      hitroll~ 4 ~
+Affect      damroll~ 3 ~
+ExtraDescr  bow~
+The gigantic bow used by the Archer; it is a very powerful weapon.
+~
+End
+
+#9317
+Name        horns capricorn~
+Short       the Titanic Horns of Capricorn~
+Descr
+A pair of horns of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take hands~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      6
+Affect      hitroll~ 3 ~
+Affect      damroll~ 2 ~
+ExtraDescr  horn~
+These strange horns are the work of gods, shaped to fit on hands.
+They look powerful indeed.
+~
+End
+
+#9318
+Name        vessel aquarius~
+Short       the Ancient Vessel of Aquarius~
+Descr
+A vessel of the Zodiac lies here.~
+Type        staff~
+Extra       glow magic anti-evil~
+Wear        take hold~
+Values      10~ 10~ 10~ create spring~ 0~
+Weight      12
+ExtraDescr  vessel~
+This vessel has been carried by the Water Bearer ever since she came to the
+Zodiac.
+~
+End
+
+#9319
+Name        tail pisces~
+Short       the Titanic Tail of Pisces~
+Descr
+A fish tail of the Zodiac lies here.~
+Type        armor~
+Extra       glow magic anti-evil~
+Wear        take legs~
+Values      10~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      ac~ -2 ~
+Affect      dexterity~ 2 ~
+ExtraDescr  tail~
+This tail can actually be worn by mortals somehow as leggings ... another
+work of the gods.
+~
+End
+
+#9320
+Name        ring dignity~
+Short       the Ring of Dignity~
+Descr
+A ring of specialty lies here.~
+Type        armor~
+Extra       glow hum invis magic anti-evil~
+Wear        take finger~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      mana~ 25 ~
+Affect      intelligence~ 2 ~
+ExtraDescr  ring~
+This ring belongs to Cassiopeia, queen of the Universe.
+Mortals, do not touch!
+~
+End
+
+#9321
+Name        sceptre might~
+Short       the Sceptre of Might~
+Descr
+A sceptre of interest lies here.~
+Type        light~
+Extra       glow hum magic anti-evil~
+Wear        take neck body head feet hands arms shield about waist wrist wield~
+Values      0~ 0~ -1~ 0~ 0~
+Weight      4
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+ExtraDescr  sceptre~
+You'd better give it back, or the king of the Universe will punish you.
+~
+End
+
+#9322
+Name        ring universe~
+Short       the ring of the universe~
+Descr
+Here lies a fortune ... a small ring of power.~
+Type        armor~
+Extra       glow hum invis magic bless~
+Wear        take finger~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      3
+Affect      mana~ 15 ~
+Affect      hp~ 30 ~
+ExtraDescr  ring~
+It conceals the power of the universe.
+~
+End
+
+#9323
+Name        great dipper~
+Short       the Great Dipper of the Skies~
+Descr
+A dazzling white object lies on the ground.~
+Type        weapon~
+Extra       glow hum invis magic bless~
+Wear        take wield~
+Values      0~ 4~ 6~ 6~ 0~
+Weight      20
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#9324
+Name        spring shoot~
+Short       a spring shoot~
+Descr
+A shoot grows here, covered with dew.~
+Type        key~
+Extra       glow hum~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#9325
+Name        summer flower~
+Short       a summer flower~
+Descr
+A flower grows here, waiting to be picked up.~
+Type        key~
+Extra       glow hum~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#9326
+Name        autumn leaf~
+Short       an autumn leaf~
+Descr
+A leaf lies here, as if just fallen from a tree.~
+Type        key~
+Extra       glow hum~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#9327
+Name        winter branch~
+Short       a winter branch~
+Descr
+A branch lies here, still covered with snow.~
+Type        key~
+Extra       glow hum~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      2
+End
+
+#9328
+Name        chains andromeda~
+Short       chains of Andromeda~
+Descr
+Some chains lie on the floor.~
+Type        trash~
+Extra       glow invis~
+Wear        take~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      50
+ExtraDescr  chains~
+They certainly look important!
+~
+End
+
+#0
+
+
+
+#ROOMDB
+#9301
+Name        Inside a Tavern~
+Descr
+You are inside a dimly-lit room.  The atmosphere makes you feel uncomfortable.
+In front of you stands a mysterious gypsy.  She whispers 'Your fate and
+destiny lie beyond this world.'  You are still wondering what she means when
+you suddenly notice the crystal ball ... it glows fiercely and displays the
+Universe!
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 1306
+The shadows cloud your vision.
+~
+~
+Door        down~ ~ -1 9302
+~
+~
+End
+
+#9302
+Name        Inside the Crystal Ball~
+Descr
+You have touched the crystal ball and find that you have gone inside it:
+a world of stars and wonders!  As you look back you figure out there is no
+choice but to go forward.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 9303
+~
+~
+End
+
+#9303
+Name        Inside the Galaxy~
+Descr
+You are now inside the galaxy, around you you see stars and nebulae smiling
+at your presence, and comets and meteors wandering around you.  You realize
+that this world may not be the true galaxy after all, but just another
+fantasy zone.  Exits lie virtually in all directions.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9304
+~
+~
+Door        east~ ~ -1 9308
+~
+~
+Door        south~ ~ -1 9302
+~
+~
+Door        west~ ~ -1 9321
+~
+~
+End
+
+#9304
+Name        On an InterGalactic Walkway~
+Descr
+You are on a well-paved path which seems that it was made deliberately for
+visitors like you.  The walkway continues north and a small exit lies west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9302 1 100
+Reset       M 9305 1 100
+Door        north~ ~ -1 9305
+~
+~
+Door        south~ ~ -1 9303
+~
+~
+Door        west~ ~ -1 9322
+~
+~
+End
+
+#9305
+Name        End of the InterGalactic Walkway~
+Descr
+You notice the walkway has come to an abrupt end and you wonder why. You see
+that there is still a small path which leads north and one to the west.
+To the east lies a bridge.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9306
+~
+~
+Door        east~ ~ -1 9309
+~
+~
+Door        south~ ~ -1 9304
+~
+~
+Door        west~ ~ -1 9323
+~
+~
+End
+
+#9306
+Name        At the Undeveloped Part of the Galaxy~
+Descr
+This place looks deserted, covered with space debris.  Not a sign of life
+is around.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9306 1 100
+Door        south~ ~ -1 9305
+~
+~
+Door        west~ ~ -1 9324
+~
+~
+End
+
+#9308
+Name        On the Bridge of Stars~
+Descr
+This bridge has been made by the stars to honour their ancestors.  The
+bridge itself shines brightly and makes you feel that you are walking on
+a path of light.  An entrance to an ancient building lies north and to
+the east lies the Milky Way.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9302 1 100
+Reset       M 9305 1 100
+Door        north~ ~ -1 9331
+~
+~
+Door        east~ ~ -1 9312
+~
+~
+Door        west~ ~ -1 9303
+~
+~
+End
+
+#9309
+Name        On the Bridge of Nebulae~
+Descr
+This bridge, like the other, was made as a memorial.  The nebulae had to
+make one just to show that they are as capable as the stars.  North lies
+a throne room.
+~
+Flags       dark~
+Sector      city~
+Regen       100 100
+Reset       M 9305 1 100
+Door        north~ ~ -1 9310
+~
+~
+Door        east~ ~ -1 9314
+~
+~
+Door        west~ ~ -1 9305
+~
+~
+End
+
+#9310
+Name        The Throne Room of the Nebula King~
+Descr
+You can only faintly make out that it is a throne room as it is too
+dark in here.  In the middle is an empty throne.  You wonder where
+the King has gone, maybe he is hiding from you?
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 9303 4 100
+Reset       M 9303 4 100
+Reset       M 9303 4 100
+Reset       M 9307 1 100
+Door        south~ ~ -1 9309
+~
+~
+End
+
+#9312
+Name        At the Start of the Milky Way~
+Descr
+It is here that the famous old Milky Way starts flowing.  You are surrounded
+by streams of mist the moment you tread on it.  You can't see well in
+here ... luckily you haven't fallen yet!
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 9302 1 100
+Door        north~ ~ -1 9313
+~
+~
+Door        west~ ~ -1 9308
+~
+~
+End
+
+#9313
+Name        Along the Milky Way~
+Descr
+You are still travelling inside this path of mist.  You notice a small
+opening to the east.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 9301 1 100
+Reset       M 9305 1 100
+Door        north~ ~ -1 9314
+~
+~
+Door        east~ ~ -1 9317
+~
+~
+Door        south~ ~ -1 9312
+~
+~
+End
+
+#9314
+Name        At the End of the Milky Way~
+Descr
+Just as you started enjoying this journey inside the mist, you have come to
+the end of it.  West leads to a bridge and east leads to somewhere else.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 9306 1 100
+Door        east~ ~ -1 9318
+~
+~
+Door        south~ ~ -1 9313
+~
+~
+Door        west~ ~ -1 9309
+~
+~
+End
+
+#9317
+Name        A Small Clearing~
+Descr
+You are inside a small clearing.  You can see that there are signs of a
+living creature nearby.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9304 2 100
+Reset       E 9301 16 100
+Reset       M 9304 2 100
+Reset       E 9301 16 100
+Reset       M 9310 1 100
+Door        north~ ~ -1 9318
+~
+~
+Door        west~ ~ -1 9313
+~
+~
+End
+
+#9318
+Name        An Edge of the Galaxy~
+Descr
+You are on the very edge of the galaxy.  Nothing is here except that there
+is a path which leads down.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9303 1 100
+Door        south~ ~ -1 9317
+~
+~
+Door        west~ ~ -1 9314
+~
+~
+Door        down~ ~ -1 9319
+~
+~
+End
+
+#9319
+Name        Very Near to a Gigantic Star~
+Descr
+You are very near to a gigantic red star.  While you are still fascinated
+by its beauty, the star keeps on growing ... suddenly you realize that you'd
+better leave.
+~
+Flags       no_mob~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9320
+~
+~
+Door        east~ ~ -1 9320
+~
+~
+Door        south~ ~ -1 9320
+~
+~
+Door        west~ ~ -1 9320
+~
+~
+End
+
+#9320
+Name        Too Bright to Tell~
+Descr
+Indeed it is too bright to tell.  Because what you are witnessing is the
+rare event of a Supernova, how a star explodes itself into galactic dust.
+You may find yourself lucky to witness this rare event but even luckier,
+you have finally got out of this galaxy as your body turns into dust.
+That really HURTS!  
+~
+Flags       no_mob~
+Sector      inside~
+Regen       100 100
+End
+
+#9321
+Name        The Star Cluster~
+Descr
+You are inside the home of the stars.  All you can see around you are stars
+and nothing else.  You eyes become pretty hurt as you look at them.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 9302 7 100
+Reset       M 9302 7 100
+Reset       M 9302 7 100
+Reset       M 9302 7 100
+Door        north~ ~ -1 9322
+~
+~
+Door        east~ ~ -1 9303
+~
+~
+End
+
+#9322
+Name        Another Edge of the Galaxy~
+Descr
+This is another uninhabited place.  Exits lie north, east and south.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9301 1 100
+Reset       M 9303 1 100
+Reset       M 9304 3 100
+Reset       E 9301 16 100
+Reset       M 9304 3 100
+Reset       E 9301 16 100
+Reset       M 9306 1 100
+Door        north~ ~ -1 9323
+~
+~
+Door        east~ ~ -1 9304
+~
+~
+Door        south~ ~ -1 9321
+~
+~
+End
+
+#9323
+Name        Corner of the Galaxy~
+Descr
+You wonder why the galaxy is limited.  All you have done in Astronomy
+courses now prove worthless.  Well who told you to take one at the start?  
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9301 1 100
+Door        north~ ~ -1 9324
+~
+~
+Door        east~ ~ -1 9305
+~
+~
+Door        south~ ~ -1 9322
+~
+~
+End
+
+#9324
+Name        Lost in Space~
+Descr
+You are now lost in space.  Compasses don't work here, sorry.  What's more
+you can sense darkness engulfing you.  You'd better get out quick.
+~
+Flags       dark~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 9325
+~
+~
+Door        east~ ~ -1 9306
+~
+~
+Door        south~ ~ -1 9323
+~
+~
+End
+
+#9325
+Name        Black Hole~
+Descr
+Well you have chosen the wrong path, sorry.  Nothing can escape from this
+monster, not even light.
+PANIC!  You can't escape!
+~
+Flags       dark no_mob~
+Sector      inside~
+Regen       100 100
+End
+
+#9326
+Name        The Homes of the Pleiades~
+Descr
+This is where the famous Seven Sisters live.  You'd better not disturb them.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9312 7 100
+Reset       M 9312 7 100
+Reset       M 9312 7 100
+Reset       M 9312 7 100
+Reset       M 9312 7 100
+Reset       M 9312 7 100
+Reset       M 9312 7 100
+Door        east~ ~ -1 9329
+~
+~
+Door        south~ ~ -1 9327
+~
+~
+End
+
+#9327
+Name        Western Side of the Temple~
+Descr
+You are still wandering around this temple.  You notice exits lie in all
+directions except west.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9326
+~
+~
+Door        east~ ~ -1 9330
+~
+~
+Door        south~ ~ -1 9328
+~
+~
+End
+
+#9328
+Name        Orion's Hunting Lodge~
+Descr
+This is dedicated to the Great Hunter of all time -- Orion.
+Scattered on the floor is the famous hunting equipment used by him.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9311 1 100
+Reset       E 9304 13 100
+Door        north~ ~ -1 9327
+~
+~
+Door        east~ ~ -1 9331
+~
+~
+End
+
+#9329
+Name        Northern Side of the Temple~
+Descr
+You are still wandering around this temple.  You notice exits lie in all
+directions except north.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 9332
+~
+~
+Door        south~ ~ -1 9330
+~
+~
+Door        west~ ~ -1 9326
+~
+~
+End
+
+#9330
+Name        The Offering Chamber~
+Descr
+This is the sacred offering chamber in which sacrifices are made.  You see a
+young girl here, chained to the wall, as if she is waiting for execution.
+You look up and realize the chains are sent down directly from above.
+Below you recognize the temple of Thalos.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9308 1 100
+Reset       E 9328 17 100
+Door        north~ ~ -1 9329
+~
+~
+Door        east~ ~ -1 9333
+~
+~
+Door        south~ ~ -1 9331
+~
+~
+Door        west~ ~ -1 9327
+~
+~
+Door        up~ ~ -1 9339
+~
+~
+Door        down~ ~ -1 5250
+~
+~
+End
+
+#9331
+Name        The Entrance of the Ancient Temple~
+Descr
+You have entered into this old temple, which was built originally for the gods
+in Mount Olympia, but it is now deserted as someone took over this part of the
+Universe.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9330
+~
+~
+Door        east~ ~ -1 9334
+~
+~
+Door        south~ ~ -1 9308
+~
+~
+Door        west~ ~ -1 9328
+~
+~
+End
+
+#9332
+Name        Hercules' Mighty Throne~
+Descr
+You stand before the throne of a long-forgotten hero.  It is full of bounty
+that he got from the Ten Labours. 
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9309 1 100
+Reset       E 9302 10 100
+Door        south~ ~ -1 9333
+~
+~
+Door        west~ ~ -1 9329
+~
+~
+End
+
+#9333
+Name        Eastern Side of the Temple~
+Descr
+You are still wandering around this temple.  You notice exits lie in all
+directions except east.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9302 1 100
+Door        north~ ~ -1 9332
+~
+~
+Door        south~ ~ -1 9334
+~
+~
+Door        west~ ~ -1 9330
+~
+~
+End
+
+#9334
+Name        Perseus' Chamber~
+Descr
+It is the chamber of the prince, Perseus.  However, he seems not to be here.
+Maybe he has gone to get Pegasus to save Andromeda?
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9333
+~
+~
+Door        west~ ~ -1 9331
+~
+~
+End
+
+#9339
+Name        On the Mystic Chains~
+Descr
+You are dangling on the chains.  You notice exits lie in all directions.
+Up above you see the chains continue upwards.  But a forcefield prevents
+you from going further upwards.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ -1 9348
+~
+~
+Door        east~ ~ -1 9351
+~
+~
+Door        south~ ~ -1 9342
+~
+~
+Door        west~ ~ -1 9345
+~
+~
+Door        up~ door closed locked pickproof~ 9324 9354
+You see the forcefield of Spring.
+~
+forcefield~
+Door        down~ ~ -1 9330
+~
+~
+End
+
+#9342
+Name        On a Hill~
+Descr
+Suddenly you find yourself on a hillside.  As you look around, you notice
+that Spring has descended upon you.
+~
+Flags       ~
+Sector      hills~
+Regen       100 100
+Reset       M 9315 1 100
+Reset       E 9324 -1 100
+Reset       E 9306 3 100
+Door        north~ ~ -1 9339
+~
+~
+Door        east~ ~ -1 9353
+~
+~
+Door        west~ ~ -1 9343
+~
+~
+End
+
+#9343
+Name        Inside a Spanish Bull-Ring~
+Descr
+You are inside what used to be a ground for bull fighting.  But you notice
+there are no Matadors around.  Maybe they are all dead?
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9316 1 100
+Reset       E 9307 8 100
+Door        east~ ~ -1 9342
+~
+~
+Door        west~ ~ -1 9344
+~
+~
+End
+
+#9344
+Name        Inside a study~
+Descr
+This is a strange study. Besides the desks and chairs you also see a large
+mirror in the middle.  So, you wonder, is this how you make a Gemini into
+two Gemini?
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9317 1 100
+Reset       E 9308 6 100
+Reset       M 9318 1 100
+Door        east~ ~ -1 9343
+~
+~
+End
+
+#9345
+Name        Along the seashore~
+Descr
+You start to feel the heat of Summer.  Amongst the rocky beach you notice
+hidden forms which could be camouflaged crabs. 
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9319 1 100
+Reset       E 9325 -1 100
+Reset       E 9309 5 100
+Door        east~ ~ -1 9339
+~
+~
+Door        west~ ~ -1 9346
+~
+~
+End
+
+#9346
+Name        Within the Deep Jungle~
+Descr
+Nearby you can hear the roar of an animal.  Peering through the dense
+overgrowth you think you glimpse a pair of menacing eyes.
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9320 1 100
+Reset       E 9310 12 100
+Door        east~ ~ -1 9345
+~
+~
+End
+
+#9347
+Name        Inside a Luxurious Bedroom~
+Descr
+A peaceful feeling overtakes you.  You see a magnificent four-poster bed.
+It's a double bed and there is only room for one more!  Well, what now ... ?
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 9321 1 100
+Reset       E 9311 14 100
+Door        west~ ~ -1 9348
+~
+~
+End
+
+#9348
+Name        The Supreme Court~
+Descr
+You are standing inside the dock of a court.  You feel an overwhelming
+sense of guilt and you want to protest your innocence!  You fear retribution
+and feel yourself exposed, just like the trees in Autumn.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Reset       M 9322 1 100
+Reset       E 9326 -1 100
+Reset       E 9312 -1 100
+Reset       E 9313 11 100
+Door        south~ ~ -1 9339
+~
+~
+Door        west~ ~ -1 9349
+~
+~
+End
+
+#9349
+Name        In the Dry Desert~
+Descr
+You are confused by the shifting sands around you.  Through the shimmering
+heat you see the hazy outline of a giant scorpion ... is this a mirage?
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9323 1 100
+Reset       E 9314 16 100
+Door        east~ ~ -1 9348
+~
+~
+Door        west~ ~ -1 9350
+~
+~
+End
+
+#9350
+Name        In the Woods~
+Descr
+You find yourself in the center of a Centaurion hunting party.  You'd better
+hide yourself before you become the 'center attraction'!
+~
+Flags       ~
+Sector      forest~
+Regen       100 100
+Reset       M 9324 1 100
+Reset       E 9315 17 100
+Reset       E 9316 16 100
+Door        east~ ~ -1 9349
+~
+~
+End
+
+#9351
+Name        On a Mountain Peak~
+Descr
+You are on the highest peak of the Universe.  You look around and notice
+clouds below you.  One of the clouds resembles a goat-like form.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9325 1 100
+Reset       E 9327 -1 100
+Reset       E 9317 9 100
+Door        east~ ~ -1 9352
+~
+~
+Door        west~ ~ -1 9339
+~
+~
+End
+
+#9352
+Name        Inside a Waterfall~
+Descr
+The noise is deafening.  You are about to take a drink when you realize
+that the water is being poured out of a vessel of mind-boggling proportions!
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9326 1 100
+Reset       E 9318 17 100
+Door        west~ ~ -1 9351
+~
+~
+End
+
+#9353
+Name        Inside a Gigantic Clam~
+Descr
+You feel uneasy here as if some evil magic is being cast on you.
+You suspect something fishy is going on in here.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9327 1 100
+Reset       E 9319 7 100
+Reset       M 9328 1 100
+Door        west~ ~ -1 9342
+~
+~
+End
+
+#9354
+Name        End of the Mystic Chains~
+Descr
+You have reached the end of the mystic chains.  Looking up, you notice a
+small landing on which you can climb.  However, there seems to be another
+forcefield blocking your way.  
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        up~ door closed locked pickproof~ 9325 9355
+You see the forcefield of Summer.
+~
+forcefield~
+Door        down~ door pickproof~ 9324 9339
+You see the forcefield of Spring.
+~
+~
+End
+
+#9355
+Name        On the Draco~
+Descr
+You realize you are standing on scaly ground.  As you wonder what the ground
+is made of, you feel the ground move.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 9302 1 100
+Door        north~ ~ -1 9356
+~
+~
+Door        down~ door pickproof~ 9325 9354
+~
+~
+End
+
+#9356
+Name        Tail of the Draco~
+Descr
+At last you realize that you are on a giant snake-like dragon called the
+Draco, the guardian of the inner galaxy.  You realize that the Draco is
+actually flying now! 
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ -1 9357
+~
+~
+Door        south~ ~ -1 9355
+~
+~
+End
+
+#9357
+Name        Path of the Draco~
+Descr
+As you struggle along this scaly creature you realize that the only way
+you can reach to the inner galaxy is by going all the way to the head.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ -1 9358
+~
+~
+Door        south~ ~ -1 9356
+~
+~
+End
+
+#9358
+Name        Near the Legs of Draco~
+Descr
+You are approaching the leg part of this creature.  You look around and see
+that the surrounding is all dark except for some faint lights from the
+distant stars.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 9314 1 100
+Door        north~ ~ -1 9359
+~
+~
+Door        south~ ~ -1 9357
+~
+~
+End
+
+#9359
+Name        On the Back of Draco~
+Descr
+At last you are half way through this long, weary journey. You can see
+the wings are to the east but it seems that another forcefield is in the way.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        east~ door closed locked pickproof~ 9326 9360
+You see the forcefield of Autumn.
+~
+forcefield~
+Door        south~ ~ -1 9358
+~
+~
+End
+
+#9360
+Name        Between the Wings of Draco~
+Descr
+You hear some giant flapping sounds nearby.  You desperately try to get hold
+of something as the forceful gusts sweep you away.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 9314 2 100
+Door        east~ ~ -1 9361
+~
+~
+Door        west~ door pickproof~ 9326 9359
+~
+~
+End
+
+#9361
+Name        Near the Arms of Draco~
+Descr
+From above you can faintly make out the gigantic arms which extend far
+beyond into the darkness.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        south~ ~ -1 9362
+~
+~
+Door        west~ ~ -1 9360
+~
+~
+End
+
+#9362
+Name        On the Neck of Draco~
+Descr
+Your journey is now approaching the end.  However, this neck seems to be
+endless.
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Door        north~ ~ -1 9361
+~
+~
+Door        west~ ~ -1 9363
+~
+~
+End
+
+#9363
+Name        Approaching the Head of Draco~
+Descr
+You have come to the end of Draco, but you can't find the head!
+You see a forcefield to the south, some distance away, beyond reach.
+If only the head were here ...
+~
+Flags       dark~
+Sector      hills~
+Regen       100 100
+Reset       M 9313 1 100
+Reset       E 9305 -1 100
+Door        east~ ~ -1 9362
+~
+~
+Door        south~ door closed locked pickproof~ 9327 9364
+You see the forcefield of Winter.~
+forcefield~
+End
+
+#9364
+Name        At the Entrance of the Great Dipper~
+Descr
+Now you are in the innermost part of the galaxy.  What you are walking on now
+is the path of the Great Dipper or the Plough.  You notice that there are
+seven rooms in this zone, representing the seven stars of the Dipper.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ door pickproof~ 9327 9363
+You see the forcefield of Winter.~
+forcefield~
+Door        south~ ~ -1 9365
+~
+~
+Door        west~ ~ -1 9366
+~
+~
+End
+
+#9365
+Name        Cassiopeia's Throne~
+Descr
+This is the Throne room of the Queen of the Universe.  From here you can see
+every star and constellation in the Universe. 
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9330 1 100
+Reset       E 9320 1 100
+Door        north~ ~ -1 9364
+~
+~
+Door        west~ ~ -1 9367
+~
+~
+End
+
+#9366
+Name        Along the Path of the Dipper~
+Descr
+You see stars around you but nothing of special interest.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 9364
+~
+~
+Door        south~ ~ -1 9367
+~
+~
+End
+
+#9367
+Name        Cepheus' Throne~
+Descr
+This is the Throne room of the King of the Universe.  From here you can see
+every star and constellation in the Universe. 
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9331 1 100
+Reset       E 9321 0 100
+Door        north~ ~ -1 9366
+~
+~
+Door        east~ ~ -1 9365
+~
+~
+Door        south~ ~ -1 9368
+~
+~
+End
+
+#9368
+Name        Along the path of the Dipper~
+Descr
+You see stars around you but nothing of special interest.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9367
+~
+~
+Door        west~ ~ -1 9369
+~
+~
+End
+
+#9369
+Name        Along the path of the Dipper~
+Descr
+You see stars around you but nothing of special interest.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 9368
+~
+~
+Door        south~ ~ -1 9370
+~
+~
+End
+
+#9370
+Name        End of the Dipper~
+Descr
+You have finished the path of the Dipper.  Here, the most prominent feature
+is a set of claw-marks.  You also notice a room to the south; it looks as
+if Polaris could lie here. 
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9329 1 100
+Door        north~ ~ -1 9369
+~
+~
+Door        south~ ~ -1 9371
+~
+~
+End
+
+#9371
+Name        The Polar Star~
+Descr
+You have entered the private chamber of Polaris.  This is a room of great
+significance.  You can see a powerful telescope pointing down towards the
+Universe (SNOOPING!).  It is from here that Polaris commands the Universe.
+You feel you have come to end of your search in this galaxy ...
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Reset       M 9332 1 100
+Reset       E 9322 2 100
+Reset       E 9323 16 100
+Door        north~ ~ 0 9370
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

@@ -1,0 +1,165 @@
+GreedMud Release 1.0 GOLD
+Thursday, 8th May 2003
+
+Zen             <greedmud@yahoogroups.com>
+
+
+
+=== Disclaimer
+
+If your name isn't in here, and you think it should be; or if your name IS
+in here and you prefer a different name or anonymity; then just e-mail me
+and i'll fix it in the next release.
+
+
+
+=== Information
+
+Almost all of the features of GreedMud were heavily based on work done by
+someone else, so they are who deserve your credits not me. I mostly limited
+myself to porting the code to the Envy 2.2 code base, fixing bugs, and
+usually rewriting some code. I wrote some details to the porting work
+bellow so you can use them for your reference.
+
+
+
+=== The GreedMud Contributions:
+
+=== Stuff (conceived and/or programmed) by Zen for HomeCooked/UltraEnvy/Greed.
+
+	Cleanup, cleanup, cleanup.
+	Misc fixes.
+
+	--- GreedMud 0.88.x-0.99.x ---
+	Converted code to valid ANSI C++.
+
+	Networking fixes.
+	Hunt.
+	Networking fixes.
+	IDENT thread spawning.
+	PLoad, PUnload.
+	Multiclassing.
+	Mobile and object cloning immskills.
+	Moved some more tables to files.
+	Bitvectors.
+	Spell/skill learning.
+
+	--- UltraEnvy 0.86.x-0.87.x ---
+	Alias code.
+	Command line history.
+	Clans code.
+	Damage types.
+	Smarter mobs.
+	Moved a bunch of tables to files.
+
+	--- HomeCooked 0.82.x-0.85.x ---
+	Scry, Mass Vortex Lift, Vortex Lift, Dispel Good, Detect Good, 
+	Protection Good spells.
+	Swim skill.
+	Retire command.
+	Delete imskill.
+	CHANNEL_GRATS, CHANNEL_CLANTALK.
+
+
+=== Stuff contributed by people from around the net:
+
+MistBlade
+	Fixes, oload impr., punch.
+
+Aioros
+	Fixes, misc OLC support, vehicles, language code impr, makeimm.
+
+
+=== Bug reports/patches:
+
+Adrian Cartmell
+Aioros
+Bramage
+Faustus
+Jason Minion
+Lolindrath
+MistBlade
+Ondra
+Sardon
+
+
+=== Stuff from other projects, snippets:
+
+Erwin S. A:	Scan(.v1) skill for Thieves (erwin@pip.dknet.dk)
+		Save classes info in file idea
+		Save socials info in file idea
+		bugf( ), logf( ) and advatoi( ).
+		More accurate string hashing function.
+
+
+Jason Huang:	Brew & Scribe skills for caster classes (huangjac@netcom.com)
+
+
+Lope:		ANSI Colour support using ColoUr_V1.2 (ant@solace.mh.se)
+		This code had a couple of bugs. Hopefully fixed now.
+
+Sandman:	Shield Block skill for all classes (??)
+aka Morpheus	Fast Healing skill for all classes
+		Fourth Attack skill for Warriors
+
+
+Slash:		Falling code (esnible@goodnet.com)  Also know for his most
+		excellent MZF editor.
+
+
+Christopher S:	OLC for Envy20 port and a nice e-mail reminding me of his new
+		  release and its changes. Thanks! (stoked@iastate.edu)
+
+
+Stimpy:		Whirlwind skill for Warriors
+
+
+MOBPrograms:	v0.98g by Markku Nylander.
+		Based on MERC 2.2 MOBPrograms by J. Murphy, N'Atas-Ha of
+		ThePrincedom. Itself based on a concept created on Worlds 
+		of Carnage by Aaron Buhr.
+
+MOM_Envy:	A couple of OLC features were ported from this Envy10 based
+		  source. (xerxes@primenet.com)
+
+
+ILAB OLC B1.1:	By Jason Dinkel (jdinkel@mines.colorado.edu)
+		  Original by Surreality (cxw197@psu.edu) and
+		  Locke (locke@lm.com) of TheIsles.
+
+
+Mythran 3.1.11:	WIZNET.
+		Plague spell, Cure disease spell, flower social, Seven dice
+		game, High dice game, WIZNET, #GAMES support code was also based
+		on this codebase.
+
+		Mythran Mud is (C) 1996 by Mark Janssen and Jeroen van der Maat.
+		homepage: http://www.delftnet.nl/~mark/mythran/
+		e-mail: mythran@envy.com
+
+
+ROM 2.4:	ITEM_PORTAL, ITEM_WARP_STONE idea
+		Spell "nexus", "portal" idea.
+		IRV flags system idea & some code.
+
+		ROM consortium:
+		  Russ Taylor (Alander), Gabrielle Taylor, and Brian Moore
+		e-mail: Alander (rtaylor@pacinfo.com).
+
+
+SMAUG team:	Social table structure in memory and social table hashing idea.
+		Score and Who commands new look.  New Clans code idea.
+		A couple of functions were also taken from SMAUG code.
+		SMAUG is a great code base. It has loads of inovating features.
+
+		SMAUG code team: Thoric, Altrag, Blodkai, Narn, Haus, Scryn,
+		    Rennard, Swordbearer, Gorog, Grishnakh and Tricops
+		e-mail: Thoric (thoric@realms.game.org).
+
+
+TheIsles:	Great unusual features and compact, clean code.
+		HIT_FUN's, improved weather system, ranged weapons, weapon
+		proficiencies, gems, mana types & ridable mobs code was based on
+		this one.  Also know as NiMUD.  Great dual hand system.
+
+		TheIsles by Locke and Surreality.

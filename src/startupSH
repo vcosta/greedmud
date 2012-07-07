@@ -1,0 +1,52 @@
+#! /bin/sh -f
+# Written by Furey.
+# With additions from Tony.
+# With changes from Kahn.
+# Ported to 'sh' by Loki for those who don't have 'csh'.
+# Thanks to Alan and Grodyn for thier help on the redirecting stuff - Loki
+# With changes from Zen to look more like startup.
+
+# Set the port number.
+port=4000
+if [ "$1" != "" ]; then port=$1; fi
+
+# Set limits. (cannot be used in a 'sh' script - Loki)
+# nohup
+ulimit -s 1024
+if [ -r SHUTDOWN.TXT ]; then rm -f SHUTDOWN.TXT; fi
+
+while [ 1 ]
+do
+    # If you want to have logs in a different directory,
+    #   change the 'logfile=' line to reflect the directory name.
+    # (It isn't used but I let it in anyway)
+    index=1000
+    while [ 1 ]
+    do
+        logfile=../log/$index.log
+        if [ ! -r $logfile ]; then break; fi
+        index=`expr $index + 1`
+    done
+
+    # Update to new code if possible.
+    if [ -r ../src/envy.new ]; then
+	\mv ../src/envy ../src/envy.old
+	\mv ../src/envy.new ../src/envy
+    fi
+
+    # Run envy.
+    # Thanks to Alan and Grodyn for their help on the redirecting stuff - Loki
+    ../src/envy2 $port >$logfile 2>&1
+
+    if [ -r core ]; then
+	\mv core ../src/
+    fi
+
+    # Restart, giving old connections a chance to die.
+    if [ -r SHUTDOWN.TXT ]; then
+        rm -f SHUTDOWN.TXT
+        exit 0
+    fi
+
+    sleep 10
+done

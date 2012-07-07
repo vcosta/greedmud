@@ -1,0 +1,923 @@
+#AREADATA
+Name        Purgatory~
+Author      Envy~
+Levels      0 54
+Security    1
+VNUMs       401 427
+Act         ~
+Builders    None~
+Recall      401
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#401
+Name        dead reaper~
+Short       The Reaper of the Dead~
+Long
+The Reaper of the Dead awaits here to decide your fate. 
+~
+Descr
+Ever smiling, he doesn't seems to mind being stuck here for eternity.
+~
+Act         sentinel~
+AffectBy    detect_invis sanctuary protect_evil~
+Alignment   -1000
+Level       100
+Race        God~
+Sex         neutral~
+Spec        spec_cast_mage~
+Shop        ~ ~ ~ ~ ~ 100 0 0 23
+End
+
+#402
+Name        lost soul~
+Short       A lost soul~
+Long
+A lost soul wanders around.
+~
+Descr
+Just another poor soul who cannot find its way out of here. You better quit
+wasting time if you don't want to end up like it.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   0
+Level       1
+Race        Mist~
+Sex         neutral~
+End
+
+#0
+
+
+
+#OBJDB
+#401
+Name        tear potion drop~
+Short       a drop of elves' tear~
+Descr
+A small drop of clear liquid is drying up fast on the ground.~
+Type        potion~
+Extra       magic~
+Wear        take~
+Values      1~ detect invis~  ~  ~  ~
+Weight      5
+End
+
+#402
+Name        book judgement~
+Short       a Book of Judgement~
+Descr
+A blaze of white light hangs in the air.~
+Type        wand~
+Extra       magic~
+Wear        take hold~
+Values      36~ 50~ 50~ heal~ 0~
+Weight      10
+Affect      mana~ 50 ~
+Affect      ac~ -5 ~
+End
+
+#403
+Name        scythe~
+Short       a Scythe of Death~
+Descr
+A long curving blade fixed to a long wooden pole lies here.~
+Type        weapon~
+Extra       hum magic~
+Wear        take wield~
+Values      50~ 100~ 0~ 1~ 0~
+Weight      20
+Affect      hitroll~ 9 ~
+Affect      damroll~ 9 ~
+Affect      constitution~ -12 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#401
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. Better find your corpse fast!
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Reset       R 6 0 0
+Door        up~ ~ -1 410
+~
+~
+Door        down~ ~ -1 410
+~
+~
+End
+
+#402
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 406
+~
+~
+Door        east~ ~ -1 403
+~
+~
+Door        south~ ~ -1 410
+~
+~
+Door        west~ ~ -1 405
+~
+~
+Door        up~ ~ -1 414
+~
+~
+Door        down~ ~ -1 414
+~
+~
+End
+
+#403
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 407
+~
+~
+Door        east~ ~ -1 404
+~
+~
+Door        south~ ~ -1 411
+~
+~
+Door        west~ ~ -1 402
+~
+~
+Door        up~ ~ -1 415
+~
+~
+Door        down~ ~ -1 415
+~
+~
+End
+
+#404
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 408
+~
+~
+Door        east~ ~ -1 405
+~
+~
+Door        south~ ~ -1 412
+~
+~
+Door        west~ ~ -1 403
+~
+~
+Door        up~ ~ -1 416
+~
+~
+Door        down~ ~ -1 416
+~
+~
+End
+
+#405
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 409
+~
+~
+Door        east~ ~ -1 402
+~
+~
+Door        south~ ~ -1 413
+~
+~
+Door        west~ ~ -1 404
+~
+~
+Door        up~ ~ -1 417
+~
+~
+Door        down~ ~ -1 417
+~
+~
+End
+
+#406
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 410
+~
+~
+Door        east~ ~ -1 407
+~
+~
+Door        south~ ~ -1 402
+~
+~
+Door        west~ ~ -1 409
+~
+~
+Door        up~ ~ -1 418
+~
+~
+Door        down~ ~ -1 418
+~
+~
+End
+
+#407
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Reset       M 402 3 100
+Door        north~ ~ -1 411
+~
+~
+Door        east~ ~ -1 408
+~
+~
+Door        south~ ~ -1 403
+~
+~
+Door        west~ ~ -1 406
+~
+~
+Door        up~ ~ -1 419
+~
+~
+Door        down~ ~ -1 419
+~
+~
+End
+
+#408
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 412
+~
+~
+Door        east~ ~ -1 409
+~
+~
+Door        south~ ~ -1 404
+~
+~
+Door        west~ ~ -1 407
+~
+~
+Door        up~ ~ -1 420
+~
+~
+Door        down~ ~ -1 420
+~
+~
+End
+
+#409
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 413
+~
+~
+Door        east~ ~ -1 406
+~
+~
+Door        south~ ~ -1 405
+~
+~
+Door        west~ ~ -1 408
+~
+~
+Door        up~ ~ -1 421
+~
+~
+Door        down~ ~ -1 421
+~
+~
+End
+
+#410
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Reset       R 6 0 0
+Door        north~ ~ -1 402
+~
+~
+Door        east~ ~ -1 411
+~
+~
+Door        south~ ~ -1 406
+~
+~
+Door        west~ ~ -1 413
+~
+~
+Door        up~ ~ 0 401
+~
+~
+Door        down~ ~ 0 401
+~
+~
+End
+
+#411
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 403
+~
+~
+Door        east~ ~ -1 412
+~
+~
+Door        south~ ~ -1 407
+~
+~
+Door        west~ ~ -1 410
+~
+~
+Door        up~ ~ -1 423
+~
+~
+Door        down~ ~ -1 423
+~
+~
+End
+
+#412
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 404
+~
+~
+Door        east~ ~ -1 413
+~
+~
+Door        south~ ~ -1 408
+~
+~
+Door        west~ ~ -1 411
+~
+~
+Door        up~ ~ -1 424
+~
+~
+Door        down~ ~ -1 424
+~
+~
+End
+
+#413
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 405
+~
+~
+Door        east~ ~ -1 410
+~
+~
+Door        south~ ~ -1 409
+~
+~
+Door        west~ ~ -1 412
+~
+~
+Door        up~ ~ -1 425
+~
+~
+Door        down~ ~ -1 425
+~
+~
+End
+
+#414
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+A small note is posted here.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+ExtraDescr  note~
+The note reads:
+
+As a reward for taking the trouble to read this, here's a little hint.
+To find corpse, try going 2 north.
+
+
+                                Signed, 
+                                        Boom.
+~
+Door        north~ ~ -1 418
+~
+~
+Door        east~ ~ -1 415
+~
+~
+Door        west~ ~ -1 417
+~
+~
+Door        up~ ~ -1 402
+~
+~
+Door        down~ ~ -1 402
+~
+~
+End
+
+#415
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 419
+~
+~
+Door        east~ ~ -1 416
+~
+~
+Door        south~ ~ -1 423
+~
+~
+Door        west~ ~ -1 414
+~
+~
+Door        up~ ~ -1 403
+~
+~
+Door        down~ ~ -1 403
+~
+~
+End
+
+#416
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 420
+~
+~
+Door        east~ ~ -1 417
+~
+~
+Door        south~ ~ -1 424
+~
+~
+Door        west~ ~ -1 415
+~
+~
+Door        up~ ~ -1 404
+~
+~
+Door        down~ ~ -1 404
+~
+~
+End
+
+#417
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 421
+~
+~
+Door        east~ ~ -1 414
+~
+~
+Door        south~ ~ -1 425
+~
+~
+Door        west~ ~ -1 416
+~
+~
+Door        up~ ~ -1 405
+~
+~
+Door        down~ ~ -1 405
+~
+~
+End
+
+#418
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 422
+~
+~
+Door        east~ ~ -1 419
+~
+~
+Door        south~ ~ -1 414
+~
+~
+Door        west~ ~ -1 421
+~
+~
+Door        up~ ~ -1 406
+~
+~
+Door        down~ ~ -1 406
+~
+~
+End
+
+#419
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 423
+~
+~
+Door        east~ ~ -1 420
+~
+~
+Door        south~ ~ -1 415
+~
+~
+Door        west~ ~ -1 418
+~
+~
+Door        up~ ~ -1 407
+~
+~
+Door        down~ ~ -1 407
+~
+~
+End
+
+#420
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 424
+~
+~
+Door        east~ ~ -1 421
+~
+~
+Door        south~ ~ -1 416
+~
+~
+Door        west~ ~ -1 419
+~
+~
+Door        up~ ~ -1 408
+~
+~
+Door        down~ ~ -1 408
+~
+~
+End
+
+#421
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+A small note is posted here.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+ExtraDescr  note~
+The note reads:
+
+As a reward for taking the trouble to read this, here's a little hint.
+To find corpse, try going one east, then one north.
+
+
+                                Signed, 
+                                        EMAD.
+~
+Door        north~ ~ -1 425
+~
+~
+Door        east~ ~ -1 418
+~
+~
+Door        south~ ~ -1 417
+~
+~
+Door        west~ ~ -1 420
+~
+~
+Door        up~ ~ -1 409
+~
+~
+Door        down~ ~ -1 409
+~
+~
+End
+
+#422
+Name        The Purgatory~
+Descr
+This place looks different from the rest of the area.  Somehow, you have the
+feeling that you're near the end of your search. Better not waste anymore 
+time coz' you're still cold, hungry and very naked ....but most importantly, 
+your corpse is rotting!
+There is a note posted here.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+ExtraDescr  note~
+Hint: try going north!
+
+EMAD
+~
+Door        north~ ~ -1 426
+~
+~
+Door        east~ ~ -1 423
+~
+~
+Door        south~ ~ -1 418
+~
+~
+End
+
+#423
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 415
+~
+~
+Door        east~ ~ -1 424
+~
+~
+Door        south~ ~ -1 419
+~
+~
+Door        west~ ~ -1 422
+~
+~
+Door        up~ ~ -1 411
+~
+~
+Door        down~ ~ -1 411
+~
+~
+End
+
+#424
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 416
+~
+~
+Door        east~ ~ -1 425
+~
+~
+Door        south~ ~ -1 420
+~
+~
+Door        west~ ~ -1 423
+~
+~
+Door        up~ ~ -1 412
+~
+~
+Door        down~ ~ -1 412
+~
+~
+End
+
+#425
+Name        The Purgatory~
+Descr
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+A small note is posted here.
+~
+Flags       indoors no_recall~
+Sector      inside~
+Regen       100 100
+ExtraDescr  note~
+The note reads:
+
+As a reward for taking the trouble to read this, here's a little hint.
+To find corpse, try going 3 west.
+
+
+                                Signed,
+                                        Boom.
+~
+Reset       M 402 3 100
+Door        north~ ~ -1 417
+~
+~
+Door        south~ ~ -1 421
+~
+~
+Door        west~ ~ -1 424
+~
+~
+Door        up~ ~ -1 413
+~
+~
+Door        down~ ~ -1 413
+~
+~
+End
+
+#426
+Name        The Purgatory~
+Descr
+Yes! You finally found your way through this God forsaken place.  Up ahead,
+you see a tall dark figure presiding over a pile of cadavers.
+~
+Flags       no_mob indoors no_recall~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 427
+~
+~
+End
+
+#427
+Name        The Judgement Room~
+Descr
+This is where you'll face your final judgement.  Your fate will depend on 
+your past karma. Silently, you cursed yourself for being such a jerk when
+you were alive.  Overwhelmed by anxiety and tears flowing, you beg for mercy
+and search desperately for your corpse.  Good Luck!
+A sign is posted here.
+~
+Flags       indoors no_recall~
+Sector      dunno~
+Regen       100 100
+ExtraDescr  sign~
+The sign reads:
+
+Please remember to take your invisible items.  We will not be responsible 
+for any losses due to your own negligence.  Don't say we didn't warn you!
+~
+Reset       M 401 1 100
+Reset       E 403 16 100
+Reset       E 402 17 100
+Reset       E 401 -1 100
+Door        up~ ~ -1 3054
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

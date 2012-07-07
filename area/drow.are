@@ -1,0 +1,1442 @@
+#AREADATA
+Name        Drow City~
+Author      Anon~
+Levels      15 25
+Security    1
+VNUMs       5100 5150
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#HELPS
+
+-1 DROW~
+DROW are commonly known as "dark elves" because of their dark skinned
+complexion.  Their statures closly resembles those of ELVES and gain bonuses
+and penalties for that.  Normally evil in nature, they developed strong
+animosity toward other races and other races toward DROW.  DROW are
+strongly tied to their deities and thus developed the ability to obtain 
+higher levels of wisdom.
+DROW have certain abilities available to them.
+	* Infravision.
+	* Detect Hidden.
+~
+
+0 $~
+
+
+
+#MOBDB
+#5100
+Name        goblin slave~
+Short       the goblin slave~
+Long
+A goblin slave lies here asleep.
+~
+Descr
+The defenseless goblin begs for mercy.
+~
+Act         sentinel wimpy~
+AffectBy    ~
+Alignment   -450
+Level       1
+Race        Goblin~
+Sex         male~
+End
+
+#5101
+Name        drow commoner~
+Short       the drow commoner~
+Long
+A drow commoner walks on guard duty.
+~
+Descr
+I doubt he is the type to give directions.
+~
+Act         stay_area~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       10
+Race        Drow~
+Sex         male~
+End
+
+#5102
+Name        drow noble warrior~
+Short       the drow warrior noble~
+Long
+The drow warrior noble stands here guarding his home.
+~
+Descr
+He looks pissed off!
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       12
+Race        Drow~
+Sex         male~
+End
+
+#5103
+Name        drow noble mage~
+Short       the drow mage noble~
+Long
+The drow mage noble is here protecting his home.
+~
+Descr
+The mage prepares to cast a spell ... at you!!
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       15
+Race        Drow~
+Sex         male~
+Spec        spec_cast_mage~
+End
+
+#5104
+Name        drow priestess~
+Short       the drow priestess~
+Long
+The drow priestess is here shouting orders.
+~
+Descr
+I wouldn't want go get on her bad side!
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       17
+Race        Drow~
+Sex         female~
+Spec        spec_cast_cleric~
+End
+
+#5105
+Name        drow master~
+Short       The drow master~
+Long
+The drow master stares at you angrily.
+~
+Descr
+The drow master is ALWAYS ready for a fight.
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       21
+Race        Drow~
+Sex         male~
+End
+
+#5106
+Name        drow weapons master~
+Short       The weapons master~
+Long
+The drow weapons master is here shadow boxing.
+~
+Descr
+He definitely knows his way around in combat.
+~
+Act         sentinel~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       23
+Race        Drow~
+Sex         male~
+End
+
+#5107
+Name        drow matron mother~
+Short       the matron mother~
+Long
+The matron mother of the house is standing here.
+~
+Descr
+She looks really pissed off!
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis~
+Alignment   -1000
+Level       24
+Race        Drow~
+Sex         female~
+End
+
+#5108
+Name        drow matron mother~
+Short       the matron mother~
+Long
+The matron mother of the 1st house is waiting for you.
+~
+Descr
+She looks like she is about to rip your head off and eat it.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       25
+Race        Drow~
+Sex         female~
+Spec        spec_cast_cleric~
+End
+
+#5109
+Name        yochlol~
+Short       the yochlol~
+Long
+A yochlol forms out of a swirling mist.
+~
+Descr
+The yochlol is not in a good mood.
+~
+Act         sentinel aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -1000
+Level       35
+Race        God~
+Sex         female~
+Spec        spec_breath_any~
+End
+
+#5110
+Name        drow guard~
+Short       the drow guard~
+Long
+The drow guard is here staring at you ominously.
+~
+Descr
+The drow guard blends so well with his environment, you barely see his form.
+~
+Act         sentinel~
+AffectBy    infrared hide~
+Alignment   -1000
+Level       12
+Race        Drow~
+Sex         male~
+End
+
+#5111
+Name        drow scout~
+Short       the drow scout~
+Long
+The drow scout is here sneaking among the shadows.
+~
+Descr
+The drow scout blends so well with her environment, you barely see her form.
+~
+Act         aggressive wimpy~
+AffectBy    sneak hide~
+Alignment   -1000
+Level       7
+Race        Drow~
+Sex         female~
+End
+
+#0
+
+
+
+#OBJDB
+#5100
+Name        longsword commoner~
+Short       a commoner's longsword~
+Descr
+A commoner's longsword made of adamantite has been left here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 2~ 6~ 3~ 0~
+Weight      2
+Affect      hitroll~ 1 ~
+Affect      damroll~ 1 ~
+End
+
+#5101
+Name        longsword noble~
+Short       a noble's longsword~
+Descr
+A drow noble's longsword made of adamantite lies here.~
+Type        weapon~
+Extra       ~
+Wear        take wield~
+Values      0~ 3~ 5~ 3~ 0~
+Weight      2
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#5102
+Name        whip snake two-headed~
+Short       a snake headed whip~
+Descr
+A whip with two snakes heads lies here.~
+Type        weapon~
+Extra       glow magic~
+Wear        take wield~
+Values      0~ 2~ 6~ 4~ 0~
+Weight      0
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#5103
+Name        whip snake three-headed~
+Short       a snake headed whip~
+Descr
+A whip with three snake heads has been left here.~
+Type        weapon~
+Extra       glow magic~
+Wear        take wield~
+Values      0~ 2~ 7~ 4~ 0~
+Weight      0
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#5104
+Name        whip snake four-headed~
+Short       a snake headed whip~
+Descr
+A whip with four snake heads has been left here.~
+Type        weapon~
+Extra       glow magic~
+Wear        take wield~
+Values      0~ 2~ 8~ 4~ 0~
+Weight      0
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#5105
+Name        longsword black~
+Short       a black longsword~
+Descr
+A black longsword has been carelessly left here.~
+Type        weapon~
+Extra       glow magic~
+Wear        take wield~
+Values      0~ 3~ 6~ 3~ 0~
+Weight      0
+Affect      hitroll~ 2 ~
+Affect      damroll~ 2 ~
+End
+
+#5106
+Name        whip snake five-headed~
+Short       a snake headed whip~
+Descr
+A whip with five snake heads is lying here.~
+Type        weapon~
+Extra       glow magic anti-good~
+Wear        take wield~
+Values      0~ 3~ 6~ 4~ 0~
+Weight      0
+Affect      strength~ -1 ~
+Affect      intelligence~ -1 ~
+End
+
+#5107
+Name        whip snake six-headed~
+Short       a snake headed whip~
+Descr
+A whip with six snake heads has been dropped here.~
+Type        weapon~
+Extra       glow magic anti-good~
+Wear        take wield~
+Values      0~ 4~ 5~ 4~ 0~
+Weight      0
+Affect      strength~ -2 ~
+Affect      intelligence~ -2 ~
+End
+
+#5108
+Name        bracers iron~
+Short       a pair of bracers~
+Descr
+A pair of bracers has been dropped here.~
+Type        armor~
+Extra       glow magic~
+Wear        take arms~
+Values      2~ 0~ 0~ 0~ 0~
+Weight      3
+End
+
+#5109
+Name        gauntlets iron~
+Short       a pair of gauntlets~
+Descr
+A pair of gauntlets has been dropped here.~
+Type        armor~
+Extra       glow~
+Wear        take hands~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      2
+Affect      strength~ 3 ~
+End
+
+#5110
+Name        wand blue silver~
+Short       a silvery blue wand~
+Descr
+A silvery blue wand has been dropped in the dirt.~
+Type        wand~
+Extra       magic~
+Wear        take hold~
+Values      10~ 3~ 3~ lightning bolt~ 0~
+Weight      1
+End
+
+#5111
+Name        helmet helm~
+Short       a small helmet~
+Descr
+A small helmet lies up against a rock.~
+Type        armor~
+Extra       magic~
+Wear        take head~
+Values      1~ 0~ 0~ 0~ 0~
+Weight      5
+Affect      intelligence~ 3 ~
+End
+
+#5112
+Name        ring ruby~
+Short       a small ruby ring~
+Descr
+A small ruby ring lies in the dirt.~
+Type        armor~
+Extra       magic~
+Wear        take finger~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      hp~ 25 ~
+End
+
+#5113
+Name        dagger sacrificial~
+Short       a spider shaped dagger~
+Descr
+A dagger with spider leg shaped blades lies on the ground.~
+Type        weapon~
+Extra       magic anti-good~
+Wear        take wield~
+Values      0~ 3~ 4~ 11~ 0~
+Weight      2
+Affect      hitroll~ 3 ~
+Affect      damroll~ 3 ~
+End
+
+#5114
+Name        hat green~
+Short       a small bright green hat~
+Descr
+A small bright green hat lies in the dirt.~
+Type        armor~
+Extra       nodrop~
+Wear        take head~
+Values      5~ 0~ 0~ 0~ 0~
+Weight      1
+Affect      age~ -15 ~
+Affect      ac~ -2 ~
+End
+
+#0
+
+
+
+#ROOMDB
+#5100
+Name        City Entrance~
+Descr
+You are at the entrance to a small underground city. A great adamantite
+gate lies open to the west allowing entrance into the city.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+ExtraDescr  gate~
+A large adamantite gate with giant spider shaped emblems stands here.
+~
+ExtraDescr  hole~
+A small hole that looks to have sealed at one time.
+~
+Door        west~ ~ 0 5101
+A huge gate opens to the west allowing entrance into the city.~
+gate~
+Door        up~ door closed~ -1 5270
+A small hole in the ceiling leads up into darkness.~
+door~
+End
+
+#5101
+Name        City street~
+Descr
+You walk along a highly ornate street going north-south. A large gate
+lies to the east while a building lies to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5106 1 100
+Reset       E 5105 16 100
+Door        north~ ~ 0 5123
+~
+~
+Door        east~ ~ 0 5100
+~
+~
+Door        south~ ~ 0 5102
+~
+~
+Door        west~ ~ 0 5122
+~
+~
+End
+
+#5102
+Name        City street~
+Descr
+You walk along a highly ornate city street going north and west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5101
+~
+~
+Door        west~ ~ 0 5103
+~
+~
+End
+
+#5103
+Name        City street~
+Descr
+You walk along a highly ornate city street going east-west. A large 
+house stands to the south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5102
+~
+~
+Door        south~ ~ 0 5104
+~
+~
+Door        west~ ~ 0 5106
+~
+~
+End
+
+#5104
+Name        3rd House~
+Descr
+You stand inside the 3rd house of the city; it is fairly well decorated
+by drow standards having a few statues, murals and such. A door leads to the
+south.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5102 1 100
+Reset       E 5101 16 100
+Reset       M 5103 1 100
+Reset       E 5102 16 100
+Reset       M 5104 1 100
+Reset       E 5103 16 100
+Door        north~ ~ 0 5103
+~
+~
+Door        south~ door~ -1 5105
+~
+~
+End
+
+#5105
+Name        Throne Room~
+Descr
+The throne room of the 3rd house is about as decorated as the inner
+courtyard except with a blood covered altar in the center of the room.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5107 1 100
+Reset       E 5104 16 100
+Reset       E 5111 6 100
+Door        north~ door~ -1 5104
+~
+~
+End
+
+#5106
+Name        City street~
+Descr
+You walk along a highly ornate city street going east-west. To the 
+north is a large building.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5118
+~
+~
+Door        east~ ~ 0 5103
+~
+~
+Door        west~ ~ 0 5107
+~
+~
+End
+
+#5107
+Name        City street~
+Descr
+You walk along a highly ornate city street leading north and east. To 
+the south is an extremely large house.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5110
+~
+~
+Door        east~ ~ 0 5106
+~
+~
+Door        south~ ~ 0 5108
+~
+~
+End
+
+#5108
+Name        2nd House~
+Descr
+You stand inside the 2nd house of the city. The room is highly 
+decorated with statues of spiders and murals everywhere.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5102 1 100
+Reset       E 5101 16 100
+Reset       M 5103 1 100
+Reset       E 5102 16 100
+Reset       M 5104 1 100
+Reset       E 5103 16 100
+Door        north~ ~ 0 5107
+~
+~
+Door        west~ door~ -1 5109
+~
+~
+End
+
+#5109
+Name        Throne Room~
+Descr
+The throne room of the 2nd house is just a little more decorative than
+the inner courtyard having an altar in the center of the room.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5107 1 100
+Reset       E 5104 16 100
+Reset       E 5108 10 100
+Door        east~ door~ -1 5108
+~
+~
+End
+
+#5110
+Name        Main Gate~
+Descr
+You are at the entrance to the 1st house of the city. A large gate, 
+almost as big and elegant as the one at the entrance to the city, stands 
+here.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5114
+~
+~
+Door        south~ ~ 0 5107
+~
+~
+Door        west~ door~ -1 5111
+A large gate lies to the west.~
+gate~
+End
+
+#5111
+Name        1st House~
+Descr
+You stand in the inner courtyard of the 1st and largest house in the 
+city.  The room is extremely large and decorative. Mural and paintings hang 
+on the walls depicting some battles and a spider queen.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5102 1 100
+Reset       E 5101 16 100
+Reset       M 5103 1 100
+Reset       E 5102 16 100
+Reset       M 5104 1 100
+Reset       E 5103 16 100
+Door        east~ door~ -1 5110
+~
+~
+Door        west~ ~ 0 5112
+~
+~
+End
+
+#5112
+Name        Throne Room~
+Descr
+The throne room of the 1st house is in one word...awesome. It is so
+horrifying it is almost beautiful.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5113
+~
+~
+Door        east~ ~ -1 5111
+~
+~
+End
+
+#5113
+Name        Main Chamber~
+Descr
+This is the council chamber for the Matron Mother herself. A huge table
+and chairs surrounding it sits in the center of the room.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5108 1 100
+Reset       E 5104 16 100
+Reset       E 5112 1 100
+Door        south~ door~ -1 5112
+~
+~
+End
+
+#5114
+Name        City street~
+Descr
+You walk along a highly ornate city street leading north-south and east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5115
+~
+~
+Door        east~ ~ 0 5117
+~
+~
+Door        south~ ~ 0 5110
+~
+~
+End
+
+#5115
+Name        City street~
+Descr
+You walk along a highly ornate city street leading south. A building is
+to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 5114
+~
+~
+Door        west~ door~ -1 5116
+~
+~
+End
+
+#5116
+Name        Cleric Academy~
+Descr
+This is the most lavish of the academies being that it is for the 
+clerics.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5105 1 100
+Reset       E 5104 16 100
+Reset       E 5110 17 100
+Door        east~ door~ -1 5115
+~
+~
+End
+
+#5117
+Name        City street~
+Descr
+You walk along a highly ornate city street going east-west. To the 
+north is a giant temple.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5119
+The entrance to the temple of Lloth.~
+~
+Door        east~ ~ 0 5121
+~
+~
+Door        west~ ~ 0 5114
+~
+~
+End
+
+#5118
+Name        Warrior's Academy~
+Descr
+This looks more like a barracks than a school.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5101 10 100
+Reset       E 5100 16 100
+Reset       M 5105 1 100
+Reset       E 5105 16 100
+Reset       E 5110 17 100
+Door        south~ ~ 0 5106
+~
+~
+End
+
+#5119
+Name        Entrance to the Temple of Lloth~
+Descr
+The temple is the largest building in the city. Even it's doors are 
+beyond imagination. Inside of the temple entrance, the walls are made of 
+gold and adamantite.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ door~ -1 5117
+~
+~
+Door        down~ ~ 0 5126
+~
+~
+End
+
+#5120
+Name        Mage's Academy~
+Descr
+The mages academy is fairly well decorated. You can see that the drow 
+prefer magic over physical power greatly.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5105 1 100
+Reset       E 5104 16 100
+Reset       E 5110 17 100
+Door        south~ door~ -1 5121
+~
+~
+End
+
+#5121
+Name        City street~
+Descr
+You walk along a highly ornate city street going eastward. To the 
+north is a building.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5120
+~
+~
+Door        east~ ~ 0 5123
+~
+~
+Door        south~ ~ 0 5122
+~
+~
+Door        west~ ~ 0 5117
+~
+~
+End
+
+#5122
+Name        Slave Chamber~
+Descr
+The room is in shambles. Straw is strewn all about the room as beds 
+for the unfortunate creatures who have fallen prey to drow imperialism.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5100 15 100
+Door        north~ ~ 0 5121
+~
+~
+Door        east~ ~ 0 5101
+~
+~
+End
+
+#5123
+Name        City street~
+Descr
+You walk along a highly ornate city street leading west and south. To 
+the north is a relatively small house.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5124
+~
+~
+Door        south~ ~ 0 5101
+~
+~
+Door        west~ ~ 0 5121
+~
+~
+End
+
+#5124
+Name        4th house~
+Descr
+You stand inside the 4th house of the city. Its inner courtyard is 
+rather dull by drow standards and rather small as well.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5102 1 100
+Reset       E 5101 16 100
+Reset       M 5103 1 100
+Reset       E 5102 16 100
+Reset       M 5104 1 100
+Reset       E 5103 16 100
+Door        east~ ~ 0 5125
+~
+~
+Door        south~ door~ -1 5123
+~
+~
+End
+
+#5125
+Name        Throne Room~
+Descr
+The throne room is basically similar to the inner courtyard in regards
+to decor. There is a small throne behind the altar but that is about it.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5107 1 100
+Reset       E 5104 16 100
+Reset       E 5114 -1 100
+Door        west~ ~ 0 5124
+~
+~
+End
+
+#5126
+Name        Entrance Way~
+Descr
+You stand in the entrance way to the temple which opens up to the north
+into a large hallway going east and west. Small statues of spiders line the
+entrance way's walls.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5127
+~
+~
+Door        up~ ~ 0 5119
+~
+~
+End
+
+#5127
+Name        Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you.  To the north is a obsidian stairway.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5135
+~
+~
+Door        east~ ~ 0 5128
+~
+~
+Door        south~ ~ 0 5126
+~
+~
+Door        west~ ~ 0 5131
+~
+~
+End
+
+#5128
+Name        Long Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5129
+~
+~
+Door        west~ ~ 0 5127
+~
+~
+End
+
+#5129
+Name        Long Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you.  To the north is a door.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5150
+~
+~
+Door        east~ ~ 0 5130
+~
+~
+Door        west~ ~ 0 5128
+~
+~
+End
+
+#5130
+Name        Long Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5134
+~
+~
+Door        west~ ~ 0 5129
+~
+~
+End
+
+#5131
+Name        Long Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5127
+~
+~
+Door        west~ ~ 0 5132
+~
+~
+End
+
+#5132
+Name        Long Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you. To the south is a door.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5131
+~
+~
+Door        south~ door~ -1 5133
+~
+~
+Door        west~ ~ 0 5134
+~
+~
+End
+
+#5133
+Name        Warrior's Barracks~
+Descr
+The room is a complete mess. None of the beds are made, clothes and 
+other items have been left all about the room. Well drow warriors never were 
+known for neatness.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5101 10 100
+Reset       E 5100 16 100
+Door        north~ door~ -1 5132
+~
+~
+End
+
+#5134
+Name        Long Hallway~
+Descr
+You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As 
+you look down the hallway you can make out one or two figures moving away 
+from you.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5132
+~
+~
+Door        west~ ~ 0 5130
+~
+~
+End
+
+#5135
+Name        Grand Stairway~
+Descr
+You are standing at the bottom of a giant obsidian and adamantite
+stairway. The edges are trimmed with gold.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 5127
+~
+~
+Door        up~ ~ 0 5136
+~
+~
+End
+
+#5136
+Name        Grand Hallway~
+Descr
+You are standing in the middle of a grand hallway. The walls are
+of the purest adamantite with gold trim. Mosaics line the walls.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5138
+~
+~
+Door        east~ door~ -1 5137
+~
+~
+Door        down~ ~ 0 5135
+~
+~
+End
+
+#5137
+Name        Mage's Barracks~
+Descr
+The mage's living quarters is rather clean with the exception of a few
+used component containers. It is rather well decorated as well. Cots line the
+floor for the mages to sleep on. the only door is to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ door~ -1 5136
+~
+~
+End
+
+#5138
+Name        Grand Hallway~
+Descr
+You are walking down a grand hallway, heavily decorated with adamantite
+and gold. To the north the hall goes down a flight of stairs while a door is
+too the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ 0 5136
+~
+~
+Door        west~ door~ -1 5139
+~
+~
+Door        down~ ~ 0 5140
+~
+~
+End
+
+#5139
+Name        Cleric's Barracks~
+Descr
+The bed chamber is brightly decorated with spider shaped statues, murals
+and the like. Large beds line the floor making this a comfortable room to 
+live in.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door~ -1 5138
+~
+~
+End
+
+#5140
+Name        Grand Stairway~
+Descr
+You are climbing a set of obsidian stairs surrounded by adamantite 
+walls. To the north are a set of large golden doors.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5141
+~
+~
+Door        up~ ~ 0 5138
+~
+~
+End
+
+#5141
+Name        Main Chamber~
+Descr
+This is the south side of a large auditorium used for services by the
+drow priestesses. In the center is a large sacrificial pit and beyond that is
+an altar.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ 0 5142
+~
+~
+Door        south~ door~ -1 5140
+~
+~
+Door        west~ ~ 0 5144
+~
+~
+End
+
+#5142
+Name        Eastern side of Chamber~
+Descr
+You are on the eastern side of the chamber overlooking the pit. To the 
+east is a door while to the north is an altar.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5145
+~
+~
+Door        east~ door~ -1 5146
+~
+~
+Door        south~ ~ 0 5141
+~
+~
+End
+
+#5143
+Name        Sacrificial Pit~
+Descr
+A you climb down into the pit thousands of spiders cover you tearing your
+body to shreds.
+
+Lloth thanks you for your sacrifice.
+
+You've fallen, and you can't get up!!!
+~
+Flags       no_mob indoors~
+Sector      inside~
+Regen       100 100
+End
+
+#5144
+Name        Western side of Chamber~
+Descr
+You are on the western side of the main chamber overlooking a 
+sacrificial pit. To the north is an altar.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5145
+~
+~
+Door        south~ ~ 0 5141
+~
+~
+End
+
+#5145
+Name        The Altar~
+Descr
+You are standing in front of a highly and freshly bloodstained altar.
+Engraved on the top of the altar is a giant spider with a human head. Looking
+down from the altar you see a large sacrificial pit.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ 0 5148
+~
+~
+Door        east~ ~ 0 5142
+~
+~
+Door        west~ ~ 0 5144
+~
+~
+Door        down~ ~ 0 5143
+~
+~
+End
+
+#5146
+Name        Slave Cells~
+Descr
+This is the main room to the cell chambers for the slaves to be
+sacrificed. You notice there are no guards around.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 5147
+~
+~
+Door        west~ ~ 0 5142
+~
+~
+End
+
+#5147
+Name        Slave Pen~
+Descr
+Rotten meat and breads lie about the floor while shackles hang from the
+walls. The room reeks of death. You almost become nauseous and decide to 
+leave the room since you were obviously too late to save the slave.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ door~ -1 5146
+~
+~
+End
+
+#5148
+Name        Dais~
+Descr
+You stand upon a dais behind the altar. Above you is a enormous illusion
+of a female drow turning into a giant spider and back again. There is a door
+to the west.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5109 1 100
+Reset       E 5113 16 100
+Door        south~ ~ 0 5145
+~
+~
+Door        west~ door~ -1 5149
+~
+~
+End
+
+#5149
+Name        The Treasury~
+Descr
+This is obviously only a temporary storage place for the collected
+treasure being rather bare.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ door~ -1 5148
+~
+~
+End
+
+#5150
+Name        Weaponsmaster's Chamber~
+Descr
+This one person bedchamber is very elegant. The owner must be held in 
+high to get this kind of treatment.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 5106 1 100
+Reset       E 5105 16 100
+Reset       E 5109 9 100
+Door        south~ door~ -1 5129
+~
+~
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

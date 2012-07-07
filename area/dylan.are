@@ -1,0 +1,2018 @@
+#AREADATA
+Name        Dylan's Area~
+Author      Dylan~
+Levels      15 25
+Security    1
+VNUMs       9101 9199
+Act         ~
+Builders    None~
+Recall      3001
+Reset       You hear the patter of little feet.~
+Note
+~
+End
+
+
+
+#MOBDB
+#9101
+Name        harpy~
+Short       the screaming, filthy harpy~
+Long
+The screaming, filthy harpy claws madly at your face!
+~
+Descr
+The harpy looks at you with blood in her eyes.  Her entire body is
+caked in filth and grime and she stinks to high heaven.  Her razor-
+sharp talons flex as she considers you for her dinner.
+~
+Act         scavenger aggressive~
+AffectBy    detect_invis detect_hidden sneak~
+Alignment   -500
+Level       20
+Race        Harpy~
+Sex         female~
+End
+
+#9102
+Name        harpy leader~
+Short       the screaming harpy leader~
+Long
+The screaming harpy leader tries to scratch your eyes out!
+~
+Descr
+The harpy leader looks at you and grins menacingly.  She stretches
+her wings and you see insects crawling around them.  Her hair is
+matted and greasy and you are sickened by the stench that pervades
+her presence.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    detect_invis detect_hidden sneak~
+Alignment   -750
+Level       23
+Race        Harpy~
+Sex         female~
+End
+
+#9103
+Name        air elemental~
+Short       the ghostly air elemental~
+Long
+The ghostly air elemental.
+~
+Descr
+The air elemental is hard to see.  You know that it is there
+because objects behind it seem to waver and are slightly blurred.
+~
+Act         scavenger aggressive~
+AffectBy    detect_invis detect_hidden sneak hide~
+Alignment   0
+Level       25
+Race        Elemental~
+Sex         neutral~
+End
+
+#9104
+Name        mysterious effreeti~
+Short       the mysterious effreeti~
+Long
+The mysterious effreeti grins in delight at its new prey.
+~
+Descr
+The effreeti towers menacingly over you.  It is dressed in the
+finest ghostly silks and a headdress with an elaborate brooch.
+~
+Act         scavenger~
+AffectBy    detect_invis sanctuary sneak~
+Alignment   -100
+Level       27
+Race        Undead~
+Sex         neutral~
+End
+
+#9105
+Name        roc~
+Short       the gigantic roc~
+Long
+The gigantic roc.
+~
+Descr
+This bird has a wingspan that stretches several spear-lengths.  It
+moves surprisingly fast for something of its size.~
+Act         stay_area~
+AffectBy    ~
+Alignment   50
+Level       24
+Race        Bat~
+Sex         female~
+End
+
+#9106
+Name        roc~
+Short       the gigantic roc~
+Long
+The gigantic roc stares menacingly at you.
+~
+Descr
+This bird has a wingspan that stretches several spear-lengths.  It
+moves surprisingly fast for something of its size.
+~
+Act         stay_area~
+AffectBy    ~
+Alignment   50
+Level       28
+Race        Bat~
+Sex         male~
+End
+
+#9107
+Name        wicked witch~
+Short       the ugly, wicked witch~
+Long
+The ugly, wicked witch cackles maniacally.
+~
+Descr
+The witch has jet black hair and sickly green skin.  She is covered
+with warts and boils.  Her nails are long and sharp and look like
+they would be quite painful.  Her eyes pierce your very soul.
+~
+Act         sentinel scavenger aggressive~
+AffectBy    detect_invis sanctuary~
+Alignment   -600
+Level       31
+Race        Halfelf~
+Sex         female~
+Spec        spec_cast_undead~
+End
+
+#0
+
+
+
+#OBJDB
+#9101
+Name        winged boots~
+Short       a pair of winged boots~
+Descr
+A pair of winged boots flutters about~
+Type        armor~
+Extra       magic~
+Wear        take feet~
+Values      3~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      dexterity~ 2 ~
+Affect      saving-spell~ 1 ~
+End
+
+#9102
+Name        bronze bracers~
+Short       A pair of carved bronze bracers~
+Descr
+A pair of carved bronze bracers~
+Type        armor~
+Extra       ~
+Wear        take arms~
+Values      4~ 0~ 0~ 0~ 0~
+Weight      20
+End
+
+#9103
+Name        ornate brooch~
+Short       an ornate brooch~
+Descr
+An ornate brooch was carelessly left here.~
+Type        armor~
+Extra       invis~
+Wear        take neck~
+Values      0~ 0~ 0~ 0~ 0~
+Weight      10
+Affect      intelligence~ 1 ~
+Affect      wisdom~ 1 ~
+End
+
+#9104
+Name        magenta potion~
+Short       magenta potion~
+Descr
+Bright magenta potion gathers dust.~
+Type        potion~
+Extra       anti-good~
+Wear        take hold~
+Values      10~ armor~ cure light~ poison~  ~
+Weight      2
+End
+
+#9105
+Name        ancient parchment~
+Short       an ancient illustrated parchment~
+Descr
+An ancient illustrated parchment in the corner~
+Type        scroll~
+Extra       glow nodrop~
+Wear        take hold~
+Values      5~ blindness~ curse~ poison~  ~
+Weight      5
+End
+
+#0
+
+
+
+#ROOMDB
+#9101
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+
+A floating sign says:
+
+"Scubdu's Area--Tread carefully! Only high levels should attempt
+this place. Leave messages on the board if you have problems."
+~
+Flags       no_mob~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 7900
+The way back to solid footing, it seems.
+~
+~
+Door        up~ ~ -1 9102
+There is another cloud above you.  If you jump you might make it...
+~
+~
+End
+
+#9102
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        east~ ~ -1 9103
+There is another cloud east of you.
+~
+~
+Door        down~ ~ -1 9101
+There is another cloud below you.
+~
+~
+End
+
+#9103
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9128
+You can barely make out a cloud to the north.
+~
+~
+Door        south~ ~ -1 9104
+You see a cloud somewhere south of you.
+~
+~
+Door        west~ ~ -1 9102
+You see a cloud somewhere west of you.
+~
+~
+End
+
+#9104
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9103
+You can barely make out a cloud to the north.
+~
+~
+Door        east~ ~ -1 9105
+There is another cloud east of you.
+~
+~
+End
+
+#9105
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        east~ ~ -1 9106
+There is another cloud east of you.
+~
+~
+Door        west~ ~ -1 9104
+You spy a tiny cloud.
+~
+~
+End
+
+#9106
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9107
+You can barely make out a cloud to the north.
+~
+~
+Door        west~ ~ -1 9105
+You spy a tiny cloud.
+~
+~
+End
+
+#9107
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9108
+There is another cloud east of you.
+~
+~
+Door        south~ ~ -1 9106
+You see a cloud somewhere south of you.
+~
+~
+Door        down~ ~ -1 9126
+There is another cloud below you.
+~
+~
+End
+
+#9108
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        east~ ~ -1 9109
+An ominous storm cloud looms to the east.
+~
+~
+Door        west~ ~ -1 9107
+You spy a tiny cloud.
+~
+~
+End
+
+#9109
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9103 5 100
+Door        west~ ~ -1 9108
+You spy a tiny cloud.
+~
+~
+Door        down~ ~ -1 9110
+An ominous storm cloud looms below you.
+~
+~
+End
+
+#9110
+Name        An ominous storm cloud.~
+Descr
+You find yourself in a storm.  Lightning flashes and thunder
+crashes, making you wish you were dry and warm.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9111
+There is a crag, high and rocky.
+~
+~
+Door        west~ ~ -1 9125
+You spy a tiny cloud.
+~
+~
+Door        up~ ~ -1 9109
+There is another cloud above you.  If you jump you might make it...
+~
+~
+End
+
+#9111
+Name        High and perilous cliff~
+Descr
+You are on a high and rocky cliff.  To the west you see a huge
+ominous storm cloud moving this way.  You might want to take cover
+before the storm hits.  You think that there is a narrow trail
+leading to the south.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ -1 9112
+~
+~
+Door        west~ ~ -1 9110
+An ominous storm cloud looms to the east.
+~
+~
+End
+
+#9112
+Name        Narrow rocky trail.~
+Descr
+A narrow trail leads down towards the mountain and north toward the
+cliff.  It seems to fade in and out as it winds up the hill.
+Obviously, it has not been maintained in years.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9111
+~
+~
+Door        down~ ~ -1 9113
+~
+~
+End
+
+#9113
+Name        Small valley.~
+Descr
+You are in a lush valley full of trees and other vegetation and the
+odd carcass or two.  The trail leads south and it leads up.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ -1 9114
+~
+~
+Door        up~ ~ -1 9112
+~
+~
+End
+
+#9114
+Name        Small valley.~
+Descr
+You are in a lush valley full of trees and other vegetation and the
+odd carcass or three.  The trail leads north and it leads down into
+a crevasse.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ -1 9113
+~
+~
+Door        down~ ~ -1 9115
+The crevice looks a little slippery.
+~
+~
+End
+
+#9115
+Name        Deep, slippery crevice.~
+Descr
+The crevice is deep and a little dim and it is hard to make your
+way around.  A mist makes everything a little damp and slippery.
+Better take your time climbing through here.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        south~ ~ -1 9117
+~
+~
+Door        west~ ~ -1 9116
+The mist looks thicker in this direction.
+~
+~
+Door        up~ ~ -1 9114
+~
+~
+End
+
+#9116
+Name        Incredibly slippery crevice.~
+Descr
+The crevice is getting more and more slippery.  You are getting
+incredibly nervous and want to turn back.  To the east is the
+crevice and trail you were following.  Below, you can just see the
+edge of a cliff through the mist.  There is no trail leading there,
+just a smooth, flat, dew-covered rock that almost resembles a
+slide ...
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ -1 9115
+The way back to safety.
+~
+~
+Door        down~ ~ -1 9199
+Only fools would dare tread here!
+~
+~
+End
+
+#9117
+Name        Steep mountainside.~
+Descr
+From here, you can see forever.  Clouds, birds, the forest.
+Midgaard is far, far to the west.  What a postcard perfect view!
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9115
+~
+~
+Door        up~ ~ -1 9118
+~
+~
+End
+
+#9118
+Name        Steep mountainside.~
+Descr
+From here, you can see forever.  Clouds, birds, the forest.
+Midgaard is far, far to the west.  What a postcard perfect view!
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ -1 9119
+~
+~
+Door        down~ ~ -1 9117
+~
+~
+End
+
+#9119
+Name        Treacherous Cliff.~
+Descr
+The cliff is rocky and difficult to negotiate.  One wrong slip and
+you could fall and break a leg or impale yourself or something else
+nasty.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        west~ ~ -1 9118
+~
+~
+Door        up~ ~ -1 9120
+Above you is an almost vertical cliff.  It looks dangerous but
+climbable.
+~
+~
+End
+
+#9120
+Name        Cliff Face.~
+Descr
+You are more than a little nervous climbing on this almost vertical
+cliff face.  You miraculously find places to grab onto and little
+ledges to rest on.  You see a small cave here.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ -1 9121
+A dank, dark, smelly hole.
+~
+~
+Door        up~ ~ -1 9122
+A large ledge that looks pretty safe.
+~
+~
+Door        down~ ~ -1 9119
+~
+~
+End
+
+#9121
+Name        Dank, dark, smelly hole.~
+Descr
+This hole must have been used as a lair or nest.  There are
+feathers and bones everywhere and the floor is covered with
+something disgusting.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 9101 40 100
+Door        west~ ~ -1 9120
+~
+~
+End
+
+#9122
+Name        Large, sturdy ledge.~
+Descr
+You are on a ledge above a steep cliff face.  You can climb down
+if you want, but be careful!  After viewing the scenery, you notice
+two small caves here, one north and one west.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9124
+~
+~
+Door        west~ ~ -1 9123
+~
+~
+Door        down~ ~ -1 9120
+~
+~
+End
+
+#9123
+Name        Absolutely disgusting lair.~
+Descr
+The stench in here is quite foul.  There are feathers, bones and
+rotting carcasses everywhere.  This place is absolutely gross and
+you have to strain yourself not to lose your lunch.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 9102 2 100
+Reset       E 9104 -1 100
+Door        east~ ~ -1 9122
+Your only hope to keep your lunch down is to head this way...
+~
+~
+End
+
+#9124
+Name        Absolutely disgusting lair.~
+Descr
+The stench in here is quite foul.  There are feathers, bones and
+rotting carcasses everywhere.  This place is absolutely gross and
+you have to strain yourself not to lose your lunch.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Reset       M 9102 2 100
+Reset       E 9105 -1 100
+Door        south~ ~ -1 9122
+Your only hope to keep your lunch down is to head this way...
+~
+~
+End
+
+#9125
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9110
+An ominous storm cloud looms to the east.
+~
+~
+Door        up~ ~ -1 9126
+There is another cloud above you.  If you jump you might make it...
+~
+~
+End
+
+#9126
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9131
+A cirrus cloud hums peacefully to itself.
+~
+~
+Door        west~ ~ -1 9127
+You spy a tiny cloud.
+~
+~
+Door        up~ ~ -1 9107
+There is another cloud above you.  If you jump you might make it...
+~
+~
+Door        down~ ~ -1 9125
+There is another cloud below you.
+~
+~
+End
+
+#9127
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9130
+To the north you see an angry cloud lashing out.
+~
+~
+Door        east~ ~ -1 9126
+There is another cloud east of you.
+~
+~
+Door        up~ ~ -1 9128
+There is another cloud above you.  If you jump you might make it...
+~
+~
+End
+
+#9128
+Name        A fluffy white cloud.~
+Descr
+You find yourself standing on a small cloud.  The cloud feels kind
+of spongy beneath your feet.  You find it hard to see anything in
+the distance as wisps of cloud blow over your face.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 9103
+You see a cloud somewhere south of you.
+~
+~
+Door        down~ ~ -1 9127
+There is another cloud below you.
+~
+~
+End
+
+#9129
+Name        Sleepy little cloud.~
+Descr
+This cloud is peacefully snoozing away, enjoying himself.  There
+is grumpy cloud to the east and a rather shy cloud north of here.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9132
+The cloud to the north blushes and tries to hide when you look at
+it.
+~
+~
+Door        east~ ~ -1 9130
+The cloud to the east mutters and grumbles at you.
+~
+~
+End
+
+#9130
+Name        Grumpy little cloud.~
+Descr
+This cloud mutters and grumbles at you.  You have to jump quickly
+to avoid a lightning bolt that passes by your toe.  Your aren't
+sure but you think you hear the cloud snicker.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9131
+A happy little cloud is humming peacefully to itself.
+~
+~
+Door        south~ ~ -1 9127
+You see a cloud somewhere south of you.
+~
+~
+Door        west~ ~ -1 9129
+A sleepy little cloud to the west yawns and rolls over.  You hear
+snoring.
+~
+~
+End
+
+#9131
+Name        Happy little cloud.~
+Descr
+You hear the cloud humming a little song to itself, but you can't
+figure out the song.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9136
+There is a pure white cloud north of you.  It is snowing!
+~
+~
+Door        south~ ~ -1 9126
+You see a cloud somewhere south of you.
+~
+~
+Door        west~ ~ -1 9130
+You see an angry little cloud muttering and grumbling to itself.
+~
+~
+End
+
+#9132
+Name        Bashful little cloud.~
+Descr
+This cloud blushes and tries to avoid your glance as you look at
+your surroundings.  You decide that overall it is a peaceful little
+cloud.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9133
+The cloud to the north sneezes!
+~
+~
+Door        south~ ~ -1 9129
+A sleepy little cloud to the south yawns and rolls over.  You hear
+snoring.
+~
+~
+Door        west~ ~ -1 9142
+An isolated little raincloud.
+~
+~
+End
+
+#9133
+Name        Sneezing little cloud.~
+Descr
+The cloud is wracked with sneezes.  At first you thought you were
+in an earthquake before you realize where you are!
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Door        north~ ~ -1 9145
+~
+~
+Door        east~ ~ -1 9134
+This cloud is, like, totally lost, you know?
+~
+~
+Door        south~ ~ -1 9132
+The cloud to the south blushes and tries to hide when you look at
+it.
+~
+~
+Door        west~ ~ -1 9143
+You see a cirrus maximus cloud.
+~
+~
+End
+
+#9134
+Name        Dopey little cloud.~
+Descr
+This cloud is too busy daydreaming to watch where its going.  It
+doesn't even notice you landing on it.  It looks like it couldn't
+figure its way out of an open box.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9135
+You see a very scientific cloud.
+~
+~
+Door        west~ ~ -1 9133
+The cloud sneezes!  Yuck.
+~
+~
+End
+
+#9135
+Name        Doc-like little cloud.~
+Descr
+The cloud looks at you through its Lennon like specs and examines
+you quite scientifically.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Door        south~ ~ -1 9136
+There is a pure white cloud south of you.  It is snowing!
+~
+~
+Door        west~ ~ -1 9134
+This cloud is, like, totally lost, you know?
+~
+~
+End
+
+#9136
+Name        Snowy, white cloud.~
+Descr
+You shiver as you stand here.  This beautiful, fluffy, pure white
+cloud is snowing.  The snow is pure and sweet as it melts in your
+mouth.  What a nifty cloud to be on.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9135
+You see a very scientific cloud.
+~
+~
+Door        south~ ~ -1 9131
+A happy, peaceful little cloud humming to itself.
+~
+~
+Door        west~ ~ -1 9137
+~
+~
+End
+
+#9137
+Name        Cold, damp cloud.~
+Descr
+Your mood grows grumpy as you find yourself cold and wet from this
+dismal cloud.  You notice a rock outcropping above you.
+~
+Flags       dark~
+Sector      inside~
+Regen       100 100
+Reset       M 9103 5 100
+Door        east~ ~ -1 9136
+There is a pure white cloud east of you.  It is snowing!
+~
+~
+Door        up~ ~ -1 9138
+~
+~
+End
+
+#9138
+Name        Mysterious rock outcropping.~
+Descr
+This rock outcropping just seems to hang in midair.  To the north
+you see a house and if you ease yourself down, you can land on a
+rather damp, dismal cloud.  The door to the house is closed.
+~
+Flags       dark no_mob~
+Sector      inside~
+Regen       100 100
+Door        north~ door~ -1 9139
+Eerie looking house.
+~
+door~
+Door        down~ ~ -1 9137
+~
+~
+End
+
+#9139
+Name        Foyer.~
+Descr
+Shadows play tricks on your eyes.  Everytime you think you see
+something in a corner and turn to get a better look, nothing is
+there.  The place is very dark.  Even with a torch, you have
+trouble making out the room to the east.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9140
+~
+~
+Door        south~ ~ -1 9138
+~
+~
+End
+
+#9140
+Name        Tower.~
+Descr
+You are in a musty old tower.  The smell of mold and mildew is
+almost overpowering.  You hear strange creaks and groans ... is it
+the wind or did someone (something?) make that noise.  To the west
+is the house and there is a stairway leading up into the tower.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        west~ ~ -1 9139
+~
+~
+Door        up~ ~ -1 9141
+~
+~
+End
+
+#9141
+Name        Witches Tower~
+Descr
+Here you see strange things of arcane value.  There is a cauldron in the
+corner bubbling madly, belching a foul brew that must have come from hell.
+On shelves lie jars of strange creatures you have never seen before, or
+hope to again.  A picture of a familiar temple hangs on the east wall.
+~
+Flags       dark no_mob indoors no_recall~
+Sector      inside~
+Regen       100 100
+ExtraDescr  picture~
+The picture is in on the east wall.  It is very complex in detail, and you
+almost see people walking around the temple in the picture.
+~
+Reset       M 9107 1 100
+Door        east~ door closed~ -1 3001
+~
+picture~
+Door        down~ ~ -1 9140
+~
+~
+End
+
+#9142
+Name        Suspicious little raincloud.~
+Descr
+On second glance, this cloud doesn't seem much like a raincloud.
+A balloon sticks out of the top and you think you hear it humming
+something like, 'Tut, tut!  It looks like rain!'
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9143
+~
+~
+Door        east~ ~ -1 9132
+A bashful little cloud that tries to avoid your notice.
+~
+~
+End
+
+#9143
+Name        Cirrus maximus cloud.~
+Descr
+This cloud looks like it is of the cirrus maximus genre of clouds.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9133
+The cloud to the east sneezes!
+~
+~
+Door        south~ ~ -1 9142
+A suspicious little raincloud with a balloon.
+~
+~
+End
+
+#9144
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        north~ ~ -1 9148
+~
+~
+Door        down~ ~ -1 9146
+~
+~
+End
+
+#9145
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        south~ ~ -1 9133
+You see a sneezy little cloud.
+~
+~
+Door        west~ ~ -1 9150
+~
+~
+Door        down~ ~ -1 9148
+~
+~
+End
+
+#9146
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        north~ ~ -1 9147
+~
+~
+Door        east~ ~ -1 9144
+~
+~
+End
+
+#9147
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        east~ ~ -1 9148
+~
+~
+Door        south~ ~ -1 9146
+~
+~
+End
+
+#9148
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9103 5 100
+Door        south~ ~ -1 9144
+~
+~
+Door        west~ ~ -1 9147
+~
+~
+Door        up~ ~ -1 9145
+~
+~
+End
+
+#9149
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        north~ ~ -1 9152
+~
+~
+Door        east~ ~ -1 9150
+~
+~
+Door        down~ ~ -1 9157
+You see a cumulative nimbus cloud.
+~
+~
+End
+
+#9150
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        north~ ~ -1 9151
+~
+~
+Door        east~ ~ -1 9145
+~
+~
+Door        west~ ~ -1 9149
+~
+~
+End
+
+#9151
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        south~ ~ -1 9150
+~
+~
+Door        west~ ~ -1 9152
+~
+~
+End
+
+#9152
+Name        Raging hurricane.~
+Descr
+You are buffeted and knocked about by the almost godlike strength
+of the raging hurricane.  It is hard to see and hear anything.
+Your only thought is to seek refuge from the storm.
+~
+Flags       dark no_recall~
+Sector      mountain~
+Regen       100 100
+Reset       R 6 0 0
+Reset       M 9101 40 100
+Door        east~ ~ -1 9151
+~
+~
+Door        south~ ~ -1 9149
+~
+~
+End
+
+#9153
+Name        Calm cloud.~
+Descr
+This cloud is just outside the hurricane.  It looks like it might
+get sucked in, but you feel safe for the moment.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Reset       M 9106 1 100
+Door        west~ ~ -1 9154
+~
+~
+Door        up~ ~ -1 9152
+~
+~
+End
+
+#9154
+Name        Mountainside.~
+Descr
+You find yourself on the side of a huge granite mountain.  The air
+is quite thin so you know you are at a very high altitude.  There
+is no plant life beyond moss and lichen in this lonely, barren
+place.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ -1 9153
+~
+~
+Door        west~ ~ -1 9155
+~
+~
+End
+
+#9155
+Name        Mountainside.~
+Descr
+You find yourself on the side of a huge granite mountain.  The air
+is quite thin so you know you are at a very high altitude.  There
+is no plant life beyond moss and lichen in this lonely, barren
+place.
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ -1 9154
+~
+~
+Door        up~ ~ -1 9156
+~
+~
+End
+
+#9156
+Name        Roc's Nest.~
+Descr
+You are standing in a nest.  It is huge, at least two spear-lengths
+wide.  You see three eggs in the center.  They are knee high, brown
+and look almost leathery.  Better hope mom isn't around!
+~
+Flags       ~
+Sector      mountain~
+Regen       100 100
+Reset       M 9105 1 100
+Door        down~ ~ -1 9155
+~
+~
+End
+
+#9157
+Name        Cumulative nimbus cloud.~
+Descr
+This cloud looks like it belongs to the phylum of cumulative nimbus clouds.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 9159
+~
+~
+Door        west~ ~ -1 9158
+~
+~
+Door        up~ ~ -1 9149
+~
+~
+End
+
+#9158
+Name        Dark hidden cloud.~
+Descr
+This cloud looks like the perfect place to hide.
+~
+Flags       dark~
+Sector      inside~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        east~ ~ -1 9157
+~
+~
+End
+
+#9159
+Name        Yet another cloud~
+Descr
+You find yourself in yet another cloud.  Will the madness never
+end?  There is a rope ladder leading up.
+~
+Flags       ~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9157
+~
+~
+Door        up~ ~ -1 9160
+~
+~
+End
+
+#9160
+Name        Front gate~
+Descr
+There is a gate here.  It is huge, towering over you.  It creaks
+as it sways in the breeze.  To the south you see a huge lawn.
+There is a rope ladder leading down.
+~
+Flags       no_mob~
+Sector      field~
+Regen       100 100
+Door        south~ ~ -1 9161
+You see a huge lawn.
+~
+~
+Door        down~ ~ -1 9159
+There is a rope ladder leading down.
+~
+~
+End
+
+#9161
+Name        Lawn~
+Descr
+The lawn seems to stretch and stretch to the south and to the west.
+North of you is a gate.  The grass is emerald green and luscious,
+obviously well cared for.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 9160
+~
+~
+Door        south~ ~ -1 9163
+~
+~
+Door        west~ ~ -1 9162
+~
+~
+End
+
+#9162
+Name        Croquet game~
+Descr
+A croquet game has been set up and carelessly left out.  Who ever
+was playing blue was in the lead before they quit.  Benches have
+been set up for spectators and players to enjoy themselves.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9101 40 100
+Reset       M 9101 40 100
+Door        east~ ~ -1 9161
+~
+~
+Door        south~ ~ -1 9164
+~
+~
+End
+
+#9163
+Name        Huge, gorgeous fountain.~
+Descr
+An enormous golden fountain is here.  You see swans, angels,
+gryphons and a host of other creatures in the fountain.  The
+fountain empties into a huge pool that looks quite inviting.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Reset       M 9103 5 100
+Door        north~ ~ -1 9161
+~
+~
+Door        west~ ~ -1 9164
+~
+~
+End
+
+#9164
+Name        Patio.~
+Descr
+A huge patio overlooks the lawn area.  There are enough tables and
+chairs for a party of 100.  The tables and chairs are ornate and
+expensive, tasteful and elegant.  Stairs lead up to the main
+house.
+~
+Flags       ~
+Sector      field~
+Regen       100 100
+Door        north~ ~ -1 9162
+~
+~
+Door        east~ ~ -1 9163
+~
+~
+Door        up~ ~ -1 9165
+~
+~
+End
+
+#9165
+Name        Long stairway.~
+Descr
+This stairway is suspended on clouds.  It leads from the house to
+the front lawn.  The banisters are made of ornate gold and silver
+inlays.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        up~ ~ -1 9166
+~
+~
+Door        down~ ~ -1 9164
+~
+~
+End
+
+#9166
+Name        Front door~
+Descr
+You stand at the front door of an immense, sprawling mansion made
+of granite and marble.  The door is at least 10 feet high and is
+made of oak.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 9173
+~
+~
+Door        south~ door pickproof~ -1 9177
+You see an ornate oak door.
+~
+oak door~
+Door        west~ ~ -1 9167
+~
+~
+Door        down~ ~ -1 9165
+~
+~
+End
+
+#9167
+Name        Lawn northwest of house.~
+Descr
+You stand just outside the northwest corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 9166
+~
+~
+Door        south~ ~ -1 9168
+~
+~
+End
+
+#9168
+Name        Lawn west of house.~
+Descr
+You stand just outside the west corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9167
+~
+~
+Door        south~ ~ -1 9169
+~
+~
+End
+
+#9169
+Name        Lawn southwest of house.~
+Descr
+You stand just outside the southwest corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9168
+~
+~
+Door        east~ ~ -1 9170
+~
+~
+Door        down~ ~ -1 9174
+~
+~
+End
+
+#9170
+Name        Lawn south of house.~
+Descr
+You stand just outside the south corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        east~ ~ -1 9171
+~
+~
+Door        west~ ~ -1 9169
+~
+~
+End
+
+#9171
+Name        Lawn southeast of house.~
+Descr
+You stand just outside the southeast corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9172
+~
+~
+Door        west~ ~ -1 9170
+~
+~
+End
+
+#9172
+Name        Lawn east of house.~
+Descr
+You stand just outside the east corner of the house.  You try to
+peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9173
+~
+~
+Door        south~ ~ -1 9171
+~
+~
+End
+
+#9173
+Name        Lawn northeast of house.~
+Descr
+You stand just outside the northeast corner of the house.  You try
+to peek in a window, but it is a little too high to see anything.
+~
+Flags       ~
+Sector      city~
+Regen       100 100
+Door        south~ ~ -1 9172
+~
+~
+Door        west~ ~ -1 9166
+~
+~
+End
+
+#9174
+Name        Dirty, dusty tunnel.~
+Descr
+This dirty dusty tunnel must lead somewhere.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        east~ ~ -1 9175
+~
+~
+Door        up~ ~ -1 9169
+~
+~
+End
+
+#9175
+Name        Basement.~
+Descr
+This seems like your average basement.  Old Christmas decorations,
+suitcases, bicycles litter your way.  You hear the squeaking of
+rats in the corners.
+~
+Flags       dark indoors~
+Sector      mountain~
+Regen       100 100
+Door        north~ ~ -1 9176
+~
+~
+Door        west~ ~ -1 9174
+~
+~
+End
+
+#9176
+Name        Bottom of the stairs.~
+Descr
+You stand at the bottom of a long staircase leading up to the main
+house.  To the south you can barely make out the accumulated
+clutter gathered throughout the years.
+~
+Flags       dark indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 9175
+~
+~
+Door        up~ ~ -1 9177
+~
+~
+End
+
+#9177
+Name        Foyer.~
+Descr
+"Magnificent" does not even begin to describe the foyer.  Lavishly
+decorated, yet elegant, it gives an impression of indescribable
+wealth.  Paintings and tapestries line the walls depicting scenes
+from throughout history.  Antiques furnitures and oriental rugs are
+tastefully placed in ideal spots.  The door is at least 10 feet
+high and is made of oak.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Reset       M 9103 5 100
+Door        north~ door pickproof~ -1 9166
+You see an ornate oak door.
+~
+oak door~
+Door        east~ ~ -1 9183
+~
+~
+Door        west~ ~ -1 9178
+~
+~
+Door        down~ ~ -1 9176
+~
+~
+End
+
+#9178
+Name        Elegant hallway.~
+Descr
+You are in a long, sprawling hallway connecting the eastern and
+western wings of the house.  There are several chairs and sofas in
+the hallway and some gorgeous, handwoven drapes.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9177
+~
+~
+Door        south~ ~ -1 9179
+~
+~
+Door        west~ ~ -1 9180
+~
+~
+End
+
+#9179
+Name        Library~
+Descr
+You are overwhelmed by the sheer volumes of books here.  The
+shelves stretch all the way to the ceiling and are on every wall,
+even above the doorway.  There are chairs for sitting and reading
+and a desk for more intense studies.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9178
+~
+~
+End
+
+#9180
+Name        Arboretum.~
+Descr
+A small indoor garden so that the residents don't have to go
+outside to enjoy plants and commune with nature.  There are several
+trees, a small pond and flowers of every kind.
+~
+Flags       no_mob indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9178
+~
+~
+Door        south~ ~ -1 9181
+~
+~
+End
+
+#9181
+Name        Western tower.~
+Descr
+You are in the bottom part of a tower.  A draft brings a chill to
+your spine and causes creaks and groans.  Curtains flutter in the
+wind, causing quite a distraction.  When you go to shut the window,
+you see that the window is closed.  An old, wooden staircase leads
+up into darkness.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9180
+~
+~
+Door        up~ ~ -1 9182
+~
+~
+End
+
+#9182
+Name        Western tower.~
+Descr
+The tower creaks and groans, almost as if it were muttering to
+itself.  There are windows displaying a full moon, reigning over
+the night sky.  The room is dark and there is almost a musty odor
+to it.  You are surprised that you can't detect any dust or dirt,
+although there are a couple of cobwebs in the corner.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 9104 2 100
+Reset       E 9102 -1 100
+Door        down~ ~ -1 9181
+~
+~
+End
+
+#9183
+Name        Elegant hallway.~
+Descr
+You are in a long, sprawling hallway connecting the eastern and
+western wings of the house.  There are several chairs and sofas in
+the hallway and some gorgeous, handwoven drapes.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        east~ ~ -1 9185
+~
+~
+Door        south~ ~ -1 9184
+~
+~
+Door        west~ ~ -1 9177
+~
+~
+End
+
+#9184
+Name        Conservatory~
+Descr
+Here was the rehearsal and recital room for the residents of the
+estate.  There is a Steinway piano in the corner and various gilded
+instruments are on display in a glass cabinet.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        north~ ~ -1 9183
+~
+~
+End
+
+#9185
+Name        Office~
+Descr
+You find yourself in a lavish office.  The desk is absolutely huge,
+at least ten feet by five feet and made of ebony and inlaid with
+mother of pearl.  A grandfather clock towers over the room,
+mechanically ticking and tocking the hours away.
+~
+Flags       indoors~
+Sector      inside~
+Regen       100 100
+Door        south~ ~ -1 9186
+~
+~
+Door        west~ ~ -1 9183
+~
+~
+End
+
+#9186
+Name        Eastern tower.~
+Descr
+You are in the bottom part of a tower.  A draft brings a chill to
+your spine and causes creaks and groans.  Curtains flutter in the
+wind, causing quite a distraction.  When you go to shut the window,
+you see that the window is closed.  An old, wooden staircase leads
+up into darkness.
+~
+Flags       indoors~
+Sector      city~
+Regen       100 100
+Door        north~ ~ -1 9185
+~
+~
+Door        up~ ~ -1 9187
+~
+~
+End
+
+#9187
+Name        Eastern tower.~
+Descr
+The tower creaks and groans, almost as if it were muttering to
+itself.  There are windows displaying a full moon, reigning over
+the night sky.  The room is dark and there is almost a musty odor
+to it.  You are surprised that you can't detect any dust or dirt,
+although there are a couple of cobwebs in the corner.
+~
+Flags       dark indoors~
+Sector      city~
+Regen       100 100
+Reset       M 9104 2 100
+Reset       E 9103 -1 100
+Door        down~ ~ -1 9186
+~
+~
+End
+
+#9199
+Name        Mid-Air.~
+Descr
+You slide down the moisture covered rock, gaining speed as you
+approach the cliff.  Realizing your foolish error, you madly claw
+at the rock, vainly trying to get a precious hold and save your
+worthless hide.  Next time, heed your conscience.
+
+You've fallen, and you can't get up!!!
+~
+Flags       no_mob~
+Sector      field~
+Regen       100 100
+End
+
+#0
+
+
+
+#MOBPROGS
+#0
+
+
+
+#$

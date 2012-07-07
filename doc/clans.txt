@@ -1,0 +1,163 @@
+GreedMud Release 0.99.5
+Friday, 11th February 2000
+
+Zen             <greedmud@egroups.com>
+
+
+
+=== Clans code changes
+
+The clan code for GreedMud is unique.  It consists of a blend of several
+existing clan implementation's ideas, plus some more i came up with.
+It resembles the SMAUG clans system but with a more advanced rank system.
+
+
+=== Info on clan system
+
+A clan may be of 4 types: regular (PKILL), no PKILL, Order or Guild like in
+SMAUG.
+
+However the rank system is more complex; (from top to bottom) you have 5 ranks:
+Overlord, Chieftain, Subchief, Clanhero, Clansman.
+
+There may only be 1 Overlord of course, he may "exile", "promote" and "demote"
+his fellow clansmen.
+
+Both the Overlord and Chieftain may "initiate" players into the clan. There may
+only be 1 Chieftain.
+
+Clansmen have the 'crecall', 'cdonate', 'leave', 'claninfo' commands available.
+
+
+You need a certain amount of members per officer:
+
+Chieftain:	9 members required for each Chieftain, max 1 Chieftain.
+Subchief:	6 members required for each Subchief, max unlimited Subchief's.
+Clanhero:	3 members required for each Clanhero, max unlimited Clanhero's.
+Clansman:	no limits, you may have as many foot soldiers as you want.
+
+The member number limits may be too small for a large mud.  However since over
+here we shouldn't have too many players i find these limits reasonable.
+
+
+=== How to create a new clan
+
+** First you must create the clan structure:
+
+For a clan named 'Berserker Clan' the command is:
+
+Ex: 'makeclan Berserker Clan'
+
+This will create a file named 'berserker.cln' in the clans/ directory.
+
+
+** Then you must choose the clan type, motto, clan recall room vnum,
+   clan donation pit vnum, clan prizes object vnums:
+
+
+Available clan types are: 'clan', 'npk_clan', 'order', 'guild'.
+
+Ex: 'setclan berserker type clan'
+
+
+Ex: 'setclan berserker motto'		Will allow you to edit the clan motto.
+Ex: 'setclan berserker recall 4001'	Sets the 'crecall' room to vnum 4001.
+Ex: 'setclan berserker donation 4001'	Sets the 'cdonate' pit to vnum 4001.
+
+Ex: 'setclan berserker obj1 4002'	Sets the ClanHero prize to vnum 4002.
+Ex: 'setclan berserker obj2 4003'	Sets the Subchief prize to vnum 4003.
+Ex: 'setclan berserker obj3 4004'	Sets the Chieftain prize to vnum 4004.
+
+Use 'showclan berserker' to check out if the data you filled in is correct.
+
+
+** Create an Overlord and add him to the clan:
+
+For a player named 'Frodo' the command sequence is:
+
+'mset Frodo clan berserker'		Make Frodo a clan member
+'mset Frodo rank overlord'		Make Frodo an overlord
+
+'setclan berserker members 1'		Set the clan have 1 member (Frodo).
+'setclan berserker overlord Frodo'	Set the clan overlord string to 'Frodo'.
+
+The last two commands are for updating the clan structure.  This way players
+can use the 'clans' command and know who is the overlord, etc.
+
+
+That's it.  The clan should run mostly by itself now since the overlord can
+'initiate', 'exile', 'promote', 'demote' his fellow clansmen at will.
+
+
+
+=== Prizes and motivation for clansmen
+
+As they rise trough the ranks, clansmen get clan prizes:
+
+Clan Ring:	upon promotion to Clanhero
+Clan Shield:	upon promotion to Subchief
+Clan Weapon:	upon promotion to Chieftain
+
+Each clan has a score, this score increases (in case of a fight between 2 PKILL
+clan members) 50 points for each kill.
+
+Of course this system has room for improvement.  With the added score you
+could get more rooms for that clan or a special spec_healer type program for
+example.
+
+
+=== Clan code & assorted stuff
+
+Most clans code is in act_clan.c, but file load/saving is in tables.c.
+
+
+=== The fundamental structures in memory are
+
+++ The clans linked memory list ++
+
+struct  clan_data
+{
+    CLAN_DATA * next;           /* next clan in list                    */
+    char *      filename;       /* Clan filename                        */
+    char *      who_name;       /* Clan who name                        */
+    char *      name;           /* Clan name                            */
+    char *      motto;          /* Clan motto                           */
+    char *      description;    /* A brief description of the clan      */
+    char *      overlord;       /* Head clan leader                     */
+    char *      chieftain;      /* Second in command                    */
+    int         pkills;         /* Number of pkills on behalf of clan   */
+    int         pdeaths;        /* Number of pkills against clan        */
+    int         mkills;         /* Number of mkills on behalf of clan   */
+    int         mdeaths;        /* Number of clan deaths due to mobs    */
+    int         illegal_pk;     /* Number of illegal pk's by clan       */
+    int         score;          /* Overall score                        */
+    int         clan_type;      /* See clan type defines                */
+    int         subchiefs;      /* Number of subchiefs                  */
+    int         clanheros;      /* Number of clanheros                  */
+    int         members;        /* Number of clan members               */
+    int         clanobj1;       /* Vnum of first clan obj (ring)        */
+    int         clanobj2;       /* Vnum of second clan obj (shield)     */
+    int         clanobj3;       /* Vnum of third clan obj (weapon)      */
+    int         recall;         /* Vnum of clan's recall room           */
+    int         donation;       /* Vnum of clan's donation pit          */
+    int         cclass;         /* For guilds                           */
+};
+
+
+++ The player (pcdata) clan info data structures ++
+
+	CLAN_DATA *ch->pcdata->clan	/* pointer to player's clan */
+	int        ch->pcdata->rank	/* clan rank bits           */
+
+
+	RANK_NONE		      0		/* Doesn't have a clan  */
+	RANK_EXILED		      1		/* Exiled from a clan   */
+	RANK_CLANSMAN		      2		/* Foot soldier         */
+	RANK_CLANHERO		      3		/* Knight               */
+	RANK_SUBCHIEF		      4		/* Knight Lord          */
+	RANK_CHIEFTAIN		      5		/* Second in command    */
+	RANK_OVERLORD		      6		/* Head clan leader     */
+
+
+
+- Zen

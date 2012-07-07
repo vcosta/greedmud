@@ -1,0 +1,15 @@
+GreedMud Release 0.99.5
+Friday, 11th February 2000
+
+Zen             <greedmud@egroups.com>
+
+
+=== The backup directory
+
+This file gives a brief description of the contents in the backup directory
+
+Backup player files are ASCII text files organized in separate directories.
+The average player file is 10K long.  You may compress the playerfiles
+using 'gzip -9 -r *' in the player directory periodically.  This keeps
+player files erased with the immortal "delete" command. So the most likely is
+you will want to erase them... They do take space you know!

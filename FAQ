@@ -1,0 +1,73 @@
+Greed FAQ, last revised: 17 November 2001
+
+These are questions people ask me quite often. Hopefully now that they're
+answered here that won't be the case. :^)
+
+-----
+
+Q: You were the UltraEnvy coder right?
+Q: When is a more recent UltraEnvy version coming out?
+
+A: Yes, i was the UltraEnvy coder.  In fact GreedMud is based on UltraEnvy code
+   so if its a more recent UltraEnvy version you're looking for: use GreedMud.
+
+-----
+
+Q: Why the name change?  I think that the UltraEnvy name is pretty cool...
+
+A: Yeah, maybe.  But the fact is that the name 'UltraEnvy' makes it sound like
+   this codebase is just a hyped up Envy.  In later releases i have added
+   features that make the mud look very different from Envy, though retaining
+   some of that original feel.  That's the reason for the 'Greed' name change.
+
+-----
+
+Q: I got the mud up, but how do i make an Immortal character with all immortal
+   commands?
+
+A: Read "How to create your first immortal" at 'immortal.txt' in the doc/
+   directory.  Then enter the game and write 'imtlset self + all'.
+
+-----
+
+Q: I have Linux XXX and when i try to compile the mud it sends out some
+   'undefined reference to crypt' errors.
+
+A: Try 'make linux2'.  If that still doesn't work, email me the error dump.
+
+-----
+
+Q: How the hell does the clan system work?
+Q: How do i create a new clan?
+
+A: Read 'clans.txt' in the doc/ directory.
+
+-----
+
+Q: What happened to all the other areas?
+
+A: I'm using this codebase to build my own mud.
+   Of course, me and my builders decided that all stock areas should go.
+   Players over here are sick of the same tired old areas, and i for one
+   don't blame them.  If you really want the old areas download Envy_22.tar.gz
+   from ftp.game.org and use the areas from that.  GreedMud converts them
+   automagically.  - some important info on this is in 'area.txt'.
+
+-----
+
+Q: This mud seems to have a higher system load than other Merc muds.  Why?
+
+A: 1. This mud has SSM (Shared String Management).
+   2. This mud has MobPrograms.
+
+   Still, there seems to be something i'm missing here.  Maybe list_update()?
+   Even Envy 2.0 without SSM & MobPrograms is slower than Rot with a similar
+	number of areas.  However, Rot uses more mem than Greed.
+
+
+The motto of the day is: read the *.txt files in the doc/ directory!
+
+
+-----
+Zen
+greedmud@egroups.com

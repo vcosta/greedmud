@@ -1,0 +1,336 @@
+2003-05-08  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 1.0 GOLD
+
+	* added all areas back from the UltraEnvy distribution.
+
+        * src/update.c: commented out vehicle_update() call. it was
+        sucking up 50% of CPU time. if you want vehicles uncomment it again.
+
+2002-02-10  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.14
+
+	* added new dictionary tables.
+	  Patch by Aioros.
+
+	* fixed languages bug.
+
+	* minor fixups.
+
+2002-02-09  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.13
+
+	* fixed name lookup code bug (i hope).
+
+	* src/act_wiz.c: added new immortal command makeimm.
+	  Patch by Aioros.
+
+	* src/act_comm.c, act_clan.c, act_comm.c, act_info.c, act_lang.c: new
+	language code.
+	  Patch by Aioros.
+
+	* src/act_obj.c, src/db.c, src/merc.h, src/bit.c, src/update.c: vehicle
+	code added.
+	  Patch by Aioros.
+
+	* src/db.c: Win32 time fix.
+	  Patch by Aioros.
+	
+2001-11-18  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.12
+
+2001-11-18  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/act_wiz.c: added #ifdef USE_PTHREADS.
+	  Bug reported by Bramage.
+
+2001-11-17  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.11
+
+2001-11-17  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/mob_comm.c: changed do_mpstat() and removed useless table.
+
+	* src/act_wiz.c: fixed blank skill bug in do_sset().
+	  Bug reported by Faustus.
+
+	* src/bit.c: removed weird entry in size_flags[].
+	  Bug reported by Sardon.
+
+	* src/interp.c, sys/SOCIALS.TXT: punch kill.
+	  Patch by MistBlade.
+
+	* src/tables.c: changed fread_social().
+
+	* src/comm.c, src/merc.h, src/act_wiz.c: new name lookup code. 
+	basically there should be no more server freezes when using 
+	problematic name servers or with problematic client machine names.
+	on systems with POSIX Threads support a per-player thread is spawned
+	to lookup the user and host name. all other systems get the client
+	machine's IP as information.
+	  Thanks to everyone in the greedmud mailing-list for info on the bug.
+
+2001-08-02  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/comm.c, src/magic.c, src/hunt.c: silenced remaining g++ 
+	warnings with casts.
+
+2001-06-09  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.10
+
+2001-06-09  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/act_move.c: added MAX_DIR size to arrays so you'll get a warning
+	if you change MAX_DIR and don't update the arrays.
+	  Bug reported by MistBlade.
+
+	* src/mob_prog.c: added check for CHK_CLASS in cmd_eval.
+
+	* src/mob_comm.c: added "mob oload <vnum> <victim>" syntax.
+	  Patch by MistBlade.
+
+	* src/fight.c: added function death_cry() to raw_kill().
+	  Bug reported by MistBlade.
+
+	* src/db.c: made fread_number(), fread_exbv(), fread_word() 
+	slightly more robust.
+
+	* src/ssm.c: made fread_string(), temp_fread_string() slightly 
+	more robust.
+
+	* src/db.c, src/tables.c: changed EOF checking on file load 
+	routines.
+
+	* src/merc.h: changed bitvector_data contents to be unsigned 
+	instead of signed.
+
+2001-05-18  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* renamed logf() to logln().
+	* changed log_string() to not print a trailing newline.
+	* changed code so MAX_SKILL and MAX_SPELL are found automagically upon
+	boot.
+	* src/save.c, src/tables.c: improved debug messages.
+
+	* src/bit.c, src/merc.h, src/act_olc.c: added OLC support for 
+	ranged weapons.
+	  Patch by Tiago Brito.
+
+2001-02-20  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.9
+
+2001-03-01  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/act_lang.c, src/act_comm.c: it's MAX_INPUT_LENGTH-1 not
+	MAX_INPUT_LENGTH.  Silly me.
+	
+	* src/string.c: Fixed bug which happened on Win32 platforms when editing
+	strings using the string editor.  I wonder why this bug didn't show in
+	Unix at all!
+
+	* src/act_game.c, src/act_olc.c: Removed some warnings when 
+	compiling on MS Visual C++ 6.0.
+
+2001-02-20  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.8
+
+2001-02-20  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/magic.c: added new & improved magic_missile() spell.
+
+	* src/act_wiz.c, src/interp.c, src/merc.h: added do_pload() and 
+	do_punload() wiz commands.
+	  Suggested by Sardon.  Based on McNickle's ROM version.
+
+	* src/act_lang.c, src/act_comm.c: truncate translated speech to 
+	MAX_INPUT_LENGTH size to prevent buffer overruns.
+	  Bug reported by Jason Minion.
+
+	* src/db.c: modified logf() to use log_buf.
+
+	* src/act_comm.c, src/comm.c, src/db.c, src/fight.c, src/magic.c:
+	replaced a ton of calls to log_string() with logf().
+
+	* doc/hacker.txt: improved hacking documentation.
+
+	* diff_ignore: added diff ignore file.
+
+2001-02-07  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.7
+
+2001-02-07  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/db.c, src/olc.h: applied patch to silence Visual C++ 6.0
+	warnings.
+	  Patch by Lolindrath.
+
+	* src/hunt.c: fixed bug in hunt_victim() that allowed a mob to 
+	enter a NO_MOB room.
+	  Fix by MistBlade.
+
+	* src/merc.h, src/bit.c, src/fight.c, src/save.c:
+	added ACT_NOKILL & ITEM_NOSAVE flags.
+	  Patch by MistBlade.
+
+	* src/merc.h, src/mob_prog.c: 
+	fixed bug where mobiles with random triggers would get activated
+	during combat.
+	  Fix by MistBlade.
+
+	* src/comm.c:
+	changed process_output() so the mud doesn't loose text blocks when 
+	doing incomplete writes (e.g. after an 'ofind world all').
+
+	* src/merc.h, src/comm.c: changed history code.  i ended up spotting a
+	bug in the alias code & a memory leak in 'unalias' so here's a fix for
+	that too.
+
+	* src/string.c: cleaned up string_add(), removed a couple of 
+	useless functions.
+
+2001-02-06  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/merc.h, src/hunt.c: changed hunt code yet again.
+	after reading SMAUG's hunt code again i realized it's much more
+	readable than this relic of SillyMUD we used which is also a simple
+	breadth-first search.  this code is shorter than SMAUG's though.
+
+	* src/fight.c: fixed bug in do_shoot().
+	  Bug reported by Adrian Cartmell.
+	  Fix by MistBlade.
+
+	* src/comm.c: changed ident code, added a couple of checks.
+
+	* removed macintosh support cruft.  if you want to run a mud in an OS
+	without BSD socket emulation sod off or upgrade to MacOS X.
+	
+2000-11-05  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.6	
+
+2000-11-03  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* changed code so it now compiles using the g++ ANSI C++ compiler.
+	still has a couple of warnings on 'magic.c'.
+
+	* changed object extra_flags field to be a XBV instead of an int.
+
+	* changed code in do_tickles to test properly when an argument 
+	isn't given (it would make the server crash if you didn't).
+
+	* added a bit more info about mobprograms to help.are.
+
+2000-02-11  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.5
+
+2000-02-11  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* changed notes code to autosave every PULSE_SAVE pulses.
+	* changed a bit the colour scheme in the mud.
+	* changed help documentation on notes.
+	* changed new_xbv() calls in 'act_move.c' to fix crashes.
+	* changed loop in player saving in 'update.c' to fix crashes.
+	* fixed some compiling errors on Visual C++ 6.0.
+	* added Win32 VC++ 6.0 makefile.  Just do a 'nmake /f greed.mak'.
+
+1999-11-09  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.4
+
+1999-11-08  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* changed area file format to be compatible with ZOME.
+
+	* changed mud intro screen.
+	
+1999-07-18  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.3
+
+1999-07-18  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* changed lots of stuff to enable correct compilation using CygWin.
+
+	* src/handler.c, src/update.c: changed char_from_room(),
+	obj_from_room(), obj_from_obj(), list_update() to have less branches by
+	using the 'reverse pointer' trick.
+	* area/midgaard.are: added MobPrograms examples.
+
+1999-06-31  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.2
+
+1999-06-18  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* src/db.c: replaced function fread_vector() for fread_exbv().
+	this function removes several bugs, and improves Envy 2.2 area loading
+	performance.
+
+	* src/update.c: changed char_update() code slightly so that to find
+	char_quit and char_save we only loop trough the descriptor_list
+	instead of the whole char_list.
+
+1999-05-31  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* rewrote XBV read/write routines.
+
+	* tweaked RIS system to handle chars with resistance & immunity &
+	susceptibility to the same RIS type properly.
+
+	* changed code for flame shield, frost shield, shock shield slightly
+	to use true affect bits, give xp bonuses for kill of mobs with one or
+	more of the shield types.
+
+1999-05-03  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* released GreedMud 0.99.1
+
+1999-05-03  Vasco Costa <vasc@rnl.ist.utl.pt>
+
+	* README: updated.
+	* doc/clans.txt: rewritten to be more informative.
+	* FAQ: updated.
+
+	* totally rewritten bit system.
+
+	* new mobprograms code, this one allows nested if's and is cleaner.
+	this means that the new mobprograms are incompatible with the old ones,
+	however they should be easy to hand convert.
+
+	* sites.txt: new file listing known GreedMud sites.
+
+	* src/fight.c: tweaked xp_compute() formula slightly.
+
+	* src/fight.c: some other minor tweaks to make mobs a bit harder.
+
+	* src/update.c: fixed nasty bug in mobile_update().
+
+	* src/act_comm.c: fixed "EOF bigger than char so cannot detect it" bug.
+	the patch was submitted by Ondra.
+
+	* src/const.c, src/merc.h, src/fight.c: added new default race damage
+	types.
+
+	* changed 'act' bitvector to use extended bitvectors instead of int's. 
+
+	* changed lots of integer values in the 'char_data' and 'pc_data'
+	structures from 'int' to 'int_16'.
+
+	* moved primary stats from 'pc_data' to 'char_data' so mobiles can also
+	have objects which boost their stats. also made them level dependent
+	for mobiles - i.e. the higher the mobile's level, the higher the stats.
+
+	* src/fight.c: fixed bug (fire shield, chill shield and electric
+	shield all made DAM_FIRE).
+
+	* src/comm.c: changed code for colour() and colourconv() so that it now
+	shows the {'s to a player without colour on, etc.
