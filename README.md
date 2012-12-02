@@ -7,3 +7,7 @@ Multiplayer text based role playing game. MUDs (Multi-User Dungeons) are the anc
 GreedMud source code is a derivative of:
 
 Diku Mud -> Merc Mud -> Envy Mud -> Ultra Envy -> Greed Mud
+
+For more info see:
+
+http://en.wikipedia.org/wiki/MUD_trees
