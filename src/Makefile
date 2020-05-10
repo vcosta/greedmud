@@ -4,10 +4,10 @@
 CC      = gcc
 PROF    =
 DEBUG   = -g
-DEFINES = -DUSE_PTHREADS
+DEFINES = #-DUSE_PTHREADS
 O_FLAGS = -O2
 C_FLAGS = $(O_FLAGS) -Wall	$(DEBUG) $(PROF) $(DEFINES)
-L_FLAGS = $(O_FLAGS)		$(DEBUG) $(PROF) -lcrypt -lpthread
+L_FLAGS = $(O_FLAGS)		$(DEBUG) $(PROF) -lcrypt# -lpthread
 
 
 O_FILES = act_clan.o act_comm.o act_game.o act_info.o act_lang.o act_move.o   \
@@ -18,7 +18,7 @@ O_FILES = act_clan.o act_comm.o act_game.o act_info.o act_lang.o act_move.o   \
 
 envy: $(O_FILES)
 	rm -f envy
-	$(CC) $(L_FLAGS) -o envy $(O_FILES)
+	$(CC) -o envy $(O_FILES) $(L_FLAGS) 
 
 .c.o: merc.h
 	$(CC) -c $(C_FLAGS) $<

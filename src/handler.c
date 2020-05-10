@@ -2385,7 +2385,7 @@ CLASS_TYPE *skill_class( CHAR_DATA *ch, int sn )
     if ( IS_NPC( ch ) )
 	return NULL;
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
     {
 	if ( ch->cclass[iClass]->skill_level[sn] < L_APP )
 	    return ch->cclass[iClass];
@@ -2405,7 +2405,7 @@ int skill_level( CHAR_DATA *ch, int sn )
 
     level = 0;
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
 	level += ch->cclass[iClass]->skill_level[sn];
 
     level /= iClass;
@@ -2435,7 +2435,7 @@ bool has_spells( CHAR_DATA *ch )
     if ( IS_NPC( ch ) )
 	return FALSE;
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
     {
 	if ( ch->cclass[iClass]->fMana )
 	    return TRUE;
@@ -2452,7 +2452,7 @@ bool is_class( CHAR_DATA *ch, CLASS_TYPE *cclass )
     if ( IS_NPC( ch ) )
 	return FALSE;
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
     {
 	if ( ch->cclass[iClass] == cclass )
 	    return TRUE;
@@ -2469,7 +2469,7 @@ int number_classes( CHAR_DATA *ch )
     if ( IS_NPC( ch ) )
 	return 0;
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
 	;
 
     return iClass;
@@ -2485,7 +2485,7 @@ char *class_long( CHAR_DATA *ch )
 	return "Mobile";
 
     buf[0] = '\0';
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
     {
 	strcat( buf, "/" );
 	strcat( buf, ch->cclass[iClass]->name );
@@ -2504,7 +2504,7 @@ char *class_short( CHAR_DATA *ch )
 	return "Mob";
 
     buf[0] = '\0';
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
     {
 	strcat( buf, "/" );
 	strcat( buf, ch->cclass[iClass]->who_name );

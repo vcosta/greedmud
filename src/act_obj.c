@@ -2868,8 +2868,6 @@ void do_value( CHAR_DATA *ch, char *argument )
 void do_poison_weapon( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA *obj;
-    OBJ_DATA *pobj;
-    OBJ_DATA *wobj;
     char      arg [ MAX_INPUT_LENGTH ];
 
     /* Don't allow mobs or unskilled pcs to do this */
@@ -2892,32 +2890,6 @@ void do_poison_weapon( CHAR_DATA *ch, char *argument )
     { send_to_char( "That item is not a weapon.\n\r",        ch ); return; }
     if ( IS_OBJ_STAT( obj, ITEM_POISONED ) )
     { send_to_char( "That weapon is already poisoned.\n\r",  ch ); return; }
-
-    /* Now we have a valid weapon...check to see if we have the powder. */
-    for ( pobj = ch->carrying; pobj; pobj = pobj->next_content )
-    {
-	if ( pobj->pIndexData->vnum == OBJ_VNUM_BLACK_POWDER )
-	    break;
-    }
-    if ( !pobj )
-    {
-	send_to_char( "You do not have the black poison powder.\n\r", ch );
-	return;
-    }
-
-    /* Okay, we have the powder...do we have water? */
-    for ( wobj = ch->carrying; wobj; wobj = wobj->next_content )
-    {
-	if ( wobj->item_type == ITEM_DRINK_CON
-	    && wobj->value[1]  >  0
-	    && wobj->value[2]  == 0 )
-	    break;
-    }
-    if ( !wobj )
-    {
-	send_to_char( "You have no water to mix with the powder.\n\r", ch );
-	return;
-    }
 
     /* Great, we have the ingredients...but is the thief smart enough? */
     if ( !IS_NPC( ch ) && get_curr_wis( ch ) < 19 )
@@ -2949,17 +2921,15 @@ void do_poison_weapon( CHAR_DATA *ch, char *argument )
 
 	damage( ch, ch, ch->level, gsn_poison_weapon, WEAR_NONE, DAM_POISON );
 	act( "$n spills the poison all over!", ch, NULL, NULL, TO_ROOM );
-	extract_obj( pobj );
-	extract_obj( wobj );
 	return;
     }
 
     /* Well, I'm tired of waiting.  Are you? */
-    act( "You mix $p in $P, creating a deadly poison!",
-	ch, pobj, wobj, TO_CHAR );
-    act( "$n mixes $p in $P, creating a deadly poison!",
-	ch, pobj, wobj, TO_ROOM );
-    act( "You pour the poison over $p, which glistens wickedly!",
+    act( "You mix black powder into water, creating a deadly poison!",
+	ch, NULL, NULL, TO_CHAR );
+    act( "$n mixes black powder into water, creating a deadly poison!",
+	ch, NULL, NULL, TO_ROOM );
+    act( "You pour the poison over , which glistens wickedly!",
 	ch, obj, NULL, TO_CHAR  );
     act( "$n pours the poison over $p, which glistens wickedly!",
 	ch, obj, NULL, TO_ROOM  );
@@ -2976,13 +2946,6 @@ void do_poison_weapon( CHAR_DATA *ch, char *argument )
         obj->timer *= 2;
 
     /* WHAT?  All of that, just for that one bit?  How lame. ;) */
-    act( "The remainder of the poison eats through $p.",
-	ch, wobj, NULL, TO_CHAR );
-    act( "The remainder of the poison eats through $p.",
-	ch, wobj, NULL, TO_ROOM );
-    extract_obj( pobj );
-    extract_obj( wobj );
-
     learn( ch, gsn_poison_weapon, TRUE );
     return;
 }

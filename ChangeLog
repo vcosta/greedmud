@@ -1,3 +1,12 @@
+2020-05-10  Vasco Costa <vasco.costa@gmail.com>
+
+	* fix crashes after creating dual class characters.
+
+	* change exp per level back to 1000.
+
+	* remove requirement for vial and water container to poison a blade.
+
+
 2003-05-08  Vasco Costa <vasc@rnl.ist.utl.pt>
 
 	* released GreedMud 1.0 GOLD

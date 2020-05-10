@@ -76,7 +76,7 @@ void advance_level( CHAR_DATA *ch )
     buf[0] = '\0';
     strcat( buf, "the" );
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass <  MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
 	sprintf( buf+strlen( buf ), "/%s",
 	    ch->cclass[iClass]->title[ch->level] [ch->sex == SEX_FEMALE ? 1 : 0] );
 
@@ -134,7 +134,7 @@ void demote_level( CHAR_DATA *ch )
     buf[0] = '\0';
     strcat( buf, "the" );
 
-    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
 	sprintf( buf+strlen( buf ), "/%s",
 	    ch->cclass[iClass]->title[ch->level] [ch->sex == SEX_FEMALE ? 1 : 0] );
 

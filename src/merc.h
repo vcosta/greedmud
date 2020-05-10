@@ -223,7 +223,7 @@ typedef bool HIT_FUN			args( ( CHAR_DATA *ch,
  */
 #define MAX_CHUNKS                 33			/* Used in ssm.c */
 
-#define EXP_PER_LEVEL		 2000
+#define EXP_PER_LEVEL		 1000
 #define MAX_ATTACK                 17
 #define MAX_MULTICLASS		    2
 #define MAX_POSE		   17
@@ -1832,7 +1832,7 @@ struct	skill_type
 };
 
 
-struct lang_type
+struct	lang_type
 {
      char *		name;
      int		value;
@@ -2166,7 +2166,6 @@ extern	const	struct	cmd_type	cmd_table	[ ];
 extern	const	struct	liq_type	liq_table	[ LIQ_MAX      ];
 extern		struct	skill_type	skill_table	[ ];
 extern	const	struct	lang_type	lang_table	[ MAX_LANGUAGE ];
-extern	const	struct	social_type	social_table	[ ];
 
 extern  const   struct  race_type       race_table      [ MAX_RACE     ];
 extern  const   struct  attack_type     attack_table    [ ];

@@ -930,7 +930,7 @@ void do_score( CHAR_DATA *ch, char *argument )
     sprintf( buf2, "%s.", str_name[ get_curr_str( ch ) ] );
 
     if ( ch->level >= 15 )
-	sprintf( buf, "%2d, %-11s", get_curr_str( ch ), buf2 );
+	sprintf( buf, "%2d, %-11.11s", get_curr_str( ch ), buf2 );
     else
 	sprintf( buf, "%-15s", buf2 );
     strcat( buf1, buf );
@@ -962,7 +962,7 @@ void do_score( CHAR_DATA *ch, char *argument )
     sprintf( buf2, "%s.", int_name[ get_curr_int( ch ) ] );
 
     if ( ch->level >= 15 )
-	sprintf( buf, "%2d, %-11s", get_curr_int( ch ), buf2 );
+	sprintf( buf, "%2d, %-11.11s", get_curr_int( ch ), buf2 );
     else
 	sprintf( buf, "%-15s", buf2 );
     strcat( buf1, buf );
@@ -995,7 +995,7 @@ void do_score( CHAR_DATA *ch, char *argument )
     sprintf( buf2, "%s.", wis_name[ get_curr_wis( ch ) ] );
 
     if ( ch->level >= 15 )
-	sprintf( buf, "%2d, %-11s", get_curr_wis( ch ), buf2 );
+	sprintf( buf, "%2d, %-11.11s", get_curr_wis( ch ), buf2 );
     else
 	sprintf( buf, "%-15s", buf2 );
     strcat( buf1, buf );
@@ -1029,7 +1029,7 @@ void do_score( CHAR_DATA *ch, char *argument )
     sprintf( buf2, "%s.", dex_name[ get_curr_dex( ch ) ] );
 
     if ( ch->level >= 15 )
-	sprintf( buf, "%2d, %-11s", get_curr_dex( ch ), buf2 );
+	sprintf( buf, "%2d, %-11.11s", get_curr_dex( ch ), buf2 );
     else
 	sprintf( buf, "%-15s", buf2 );
     strcat( buf1, buf );
@@ -1042,7 +1042,7 @@ void do_score( CHAR_DATA *ch, char *argument )
     sprintf( buf2, "%s.", con_name[ get_curr_con( ch ) ] );
 
     if ( ch->level >= 15 )
-	sprintf( buf, "%2d, %-11s", get_curr_con( ch ), buf2 );
+	sprintf( buf, "%2d, %-11.11s", get_curr_con( ch ), buf2 );
     else
 	sprintf( buf, "%-15s", buf2 );
     strcat( buf1, buf );
@@ -2775,7 +2775,6 @@ void do_slist ( CHAR_DATA *ch, char *argument )
     char buf  [ MAX_STRING_LENGTH   ];
     char buf1 [ MAX_STRING_LENGTH*4 ];
     int  sn;
-    int  col;
     int  level;
     bool pSpell;
 
@@ -2793,7 +2792,6 @@ void do_slist ( CHAR_DATA *ch, char *argument )
     for ( level = 1; level <= LEVEL_HERO; level++ )
     {
 
-      col = 0;
       pSpell = TRUE;
 
       for ( sn = 0; sn < MAX_SKILL; sn++ )

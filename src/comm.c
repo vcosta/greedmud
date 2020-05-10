@@ -1967,7 +1967,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	write_to_buffer( d, "\n\r", 2 );
 
-	if ( classname != "" )
+	if ( classname[0] != '\0' )
 	    do_help( ch, classname );
 	else
 	    bug( "Nanny CON_GET_1ST_CLASS:  ch->cclass[0] (%d) not valid", 0 );
@@ -2037,7 +2037,7 @@ case CON_DEFAULT_CHOICE:
 
 	write_to_buffer( d, "\n\r", 2 );
 
-	if ( classname != "" )
+	if ( classname[0] != '\0' )
 	    do_help( ch, classname );
 	else
 	    bug( "Nanny CON_GET_2ND_CLASS:  ch->cclass[1] (%d) not valid", 0 );
@@ -2140,7 +2140,7 @@ case CON_DEFAULT_CHOICE:
 	    buf[0]	= '\0';
 	    strcat( buf, "the" );
 
-	    for ( iClass = 0; ch->cclass[iClass] && iClass < MAX_MULTICLASS; iClass++ )
+	    for ( iClass = 0; iClass < MAX_MULTICLASS && ch->cclass[iClass]; iClass++ )
 		sprintf( buf+strlen( buf ), "/%s",
 		    ch->cclass[iClass]->title[ch->level] [ch->sex == SEX_FEMALE ? 1 : 0] );
 
