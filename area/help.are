@@ -895,7 +895,7 @@ Zen's Arena
 Maniac's Casino
 
 Features:
-Jester class added, with 20-some spells (coded entirely by TFC).
+Jester class added, with 20-some spells (coded by TFC based on a concept by Joker).
 Jester class titles by Thor.
 
 Changes:
@@ -1108,7 +1108,7 @@ Thanks to ...
   ... Jason Dinkel and Stoked for EnvyMud 2.2's ILAB OLC.
   ... Jason Huang, Lope, Morpheus, Slash and Stimpy for snippets.
   ... Rakot, Sektor, McCloud, MistBlade and others for code and bug fixes.
-  ... TFC, Thor for the Jester class.
+  ... Joker, TFC, Thor for the Jester class.
   ... Atmosfear for all the mud coding ideas we exchanged.
   ... Joguel, Satan, Spear and Thanatos for playtesting GreedMud in
       the early days and providing constructive input.
@@ -3448,7 +3448,7 @@ weapons when mastered (as well as good and healthy meals).
 In order to amuse their masters, JESTERS are also able to SING.  That can be
 really useful in combat.
 
-Jester class was originally developed by TFC (tfco@mega.ist.utl.pt)
+Jester class was originally developed by TFC and Thor from a concept by Joker.
 Questions, comments, and suggestions are welcome.
 ~
 
