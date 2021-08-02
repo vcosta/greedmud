@@ -5037,8 +5037,6 @@ void bug( const char *str, int param )
 
     wiznet( NULL, WIZ_DEBUG, L_DIR, buf );
 
-/*    fclose( fpReserve );*/
-
     sprintf( strsave, "%s%s", SYSTEM_DIR, BUG_FILE );
 
     if ( ( fp = fopen( strsave, "a" ) ) )
