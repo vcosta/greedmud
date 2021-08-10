@@ -2929,7 +2929,7 @@ void do_poison_weapon( CHAR_DATA *ch, char *argument )
 	ch, NULL, NULL, TO_CHAR );
     act( "$n mixes black powder into water, creating a deadly poison!",
 	ch, NULL, NULL, TO_ROOM );
-    act( "You pour the poison over , which glistens wickedly!",
+    act( "You pour the poison over $p, which glistens wickedly!",
 	ch, obj, NULL, TO_CHAR  );
     act( "$n pours the poison over $p, which glistens wickedly!",
 	ch, obj, NULL, TO_ROOM  );
