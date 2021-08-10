@@ -1718,7 +1718,7 @@ void update_handler( void )
 
     if ( IS_SET( sysdata.act, MUD_AUTOSAVE_DB ) && --pulse_db_dump  <= 0 )
     {
-	wiznet( NULL, WIZ_TICKS, L_DIR, "Dump Area pulse [OLC]" );
+	wiznet( NULL, WIZ_TICKS, L_DIR, "Dump Area pulse [Maybe]" );
 
 	pulse_db_dump   = PULSE_DB_DUMP;
 

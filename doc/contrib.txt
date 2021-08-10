@@ -67,7 +67,7 @@ MistBlade
 	Fixes, oload impr., punch.
 
 Aioros
-	Fixes, misc OLC support, vehicles, language code impr, makeimm.
+	Fixes, vehicles (TODO), language code impr, makeimm.
 
 
 === Bug reports/patches:

@@ -81,9 +81,8 @@ act_info.c	- Contains procedures for information reports for the pc
 act_lang.c	- Contains procedures for languages
 act_move.c	- Contains procedures for pc/mobile movement around the mud
 act_obj.c	- Contains procedures for object manipulation
-act_olc.c	- Contains procedures for OLC
 act_wiz.c	- Contains procedures for immortal commands
-bit.c		- Contains tables used within OLC
+bit.c		- Contains tables for conversion of bit and field names from integers to strings and vice-versa
 comm.c		- Contains procedures for game TCP/IP communications
 const.c		- Contains tables used within the game
 db.c		- Contains procedures for data file loading

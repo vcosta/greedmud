@@ -2914,12 +2914,6 @@ bool	remove_obj	args( ( CHAR_DATA *ch, int iWear, bool fReplace ) );
 void	wear_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace ) );
 void	move_obj	args( ( OBJ_DATA *obj, int door ) );
 
-/* act_olc.c */
-bool    run_olc_editor  args( ( DESCRIPTOR_DATA *d ) );
-char    *olc_ed_name    args( ( CHAR_DATA *ch ) );
-char    *olc_ed_vnum    args( ( CHAR_DATA *ch ) );
-bool	is_builder	args( ( CHAR_DATA *ch, AREA_DATA *area ) );
-
 /* act_wiz.c */
 RID *	find_location	args( ( CHAR_DATA *ch, char *arg ) );
 
@@ -3240,16 +3234,15 @@ char *	fix_string		args ( ( const char *str ) );
 #undef	HHF
 
 
+#define MAX_DIR			      6
+#define NO_FLAG			    -99		/* Must not be used in flags or stats */
+
 /***************************************************************************
- *                                                                         *
- *                                    OLC                                  *
- *                   (Start of section ... start here)                     *
- *                                                                         *
+ *                                  MADNESS                                *
  ***************************************************************************/
 
 /*
- * This structure is used in spec_*.c to lookup spec funs and
- * also in act_olc.c to display listings of spec funs.
+ * This structure is used in spec_*.c to lookup spec funs.
  */
 struct spec_mob_type
 {
@@ -3294,37 +3287,11 @@ struct flag_type
  * Area flags.
  */
 #define AREA_NONE	     	      0
-#define AREA_CHANGED		   BV00		/* Area has been modified    */
-#define AREA_ADDED		   BV01		/* Area has been added to    */
-#define AREA_LOADING		   BV02		/* Used for counting in db.c */
+#define AREA_CHANGED		   BV00
+#define AREA_ADDED		   BV01
+#define AREA_LOADING		   BV02
 #define AREA_VERBOSE		   BV03
 #define AREA_PROTO		   BV04
-
-#define MAX_DIR			      6
-#define NO_FLAG			    -99		/* Must not be used in flags or stats */
-
-
-/*
- * Command functions.
- * Defined in act_olc.c
- */
-DECLARE_DO_FUN( do_aedit        );
-DECLARE_DO_FUN( do_redit        );
-DECLARE_DO_FUN( do_oedit        );
-DECLARE_DO_FUN( do_medit        );
-DECLARE_DO_FUN( do_asave        );
-DECLARE_DO_FUN( do_alist        );
-DECLARE_DO_FUN( do_resets       );
-
-
-/*
- * Interpreter prototypes.
- */
-void    aedit   args( ( CHAR_DATA * ch, char *argument ) );
-void    redit   args( ( CHAR_DATA * ch, char *argument ) );
-void    medit   args( ( CHAR_DATA * ch, char *argument ) );
-void    oedit   args( ( CHAR_DATA * ch, char *argument ) );
-void    mpedit  args( ( CHAR_DATA * ch, char *argument ) );
 
 /*
  * Global Constants
@@ -3436,8 +3403,5 @@ extern	const	struct	mob_cmd_type	mob_cmd_table		[ ];
 
 
 /***************************************************************************
- *                                                                         *
- *                                    OLC                                  *
- *                   (End of this section ... stop here)                   *
- *                                                                         *
+ *                               /MADNESS                                  *
  ***************************************************************************/

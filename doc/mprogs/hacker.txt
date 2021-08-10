@@ -14,7 +14,6 @@ TABLE OF CONTENTS
 	Adding New MOBcommands
 	Adding New Trigger Events
 	Adding New If_checks
-	About OLC and MOBprograms
 
 ---------------------- How MOBprograms Are Implemented --------------------
 
@@ -39,7 +38,7 @@ of type MPROG_LIST:
 linked to MOBprogram commands through a vnum lookup to the global list.
 MOBprograms are designed to be permanently allocated, so the address of the
 actual code is copied both to the global list and to the mobile prototype's
-mprog_list (see "About OLC and MOBprograms"). 
+mprog_list. 
 
 	When a trigger event occurs, the mobile is checked for the event
 trigger. If a trigger is found, the trigger phrase (converted to a number if
@@ -114,12 +113,5 @@ before trying to add new if_checks. This is how you do it:
 - Determine the if_check type (there are five different types of if_check,
   see MOBPROG.DOC). Add a line to the appropriate place in function
   cmd_eval().
-
------------------------ About OLC and MOBprograms ------------------------
-
-	Bear in mind that the addresses of MOBprogram code are copied both
-in the MOBprogram definitions of mobile prototypes AND in the global list.
-If you change the code via free_string() and str_dup(), you must update
-both the pointer in each mobile prototype and in the global list.
 
 --------------------------------------------------------------------------

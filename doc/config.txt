@@ -127,8 +127,8 @@ dump of all clan files.
 PULSE_AUCTION is the number of game pulses required for the auction bid times.
 
 PULSE_DB_DUMP is the approximate number of game pulses required for each
-database dump (OLC feature). When this happens the entire world database is
-saved.
+database dump. When this happens the entire world database is
+saved. Maybe.
 
 If you were to change these numbers, be sure to 'make clean' and
 recompile the entire mud.

@@ -87,22 +87,6 @@ different authors.
 
 
 
-=== New GreedMud area format and O.L.C. info
-
-The server can still load old Envy areas and then you can do an 'asave world'
-to save the entire database in the new format.
-
-If you want to do area editing using OLC, remember you need authorization to do
-it.  This means one of two things:
-
-1)  Your 'security' field (saved in the 'Security' line on the pfile) is higher
-      than the security level of the given area (use 'alist' to see this).
-2)  Your name is in the 'Builders' line on the area file's #AREADATA section.
-
-					- Zen
-
-
-
 === How to convert the standard EnvyMud 2.2 areas
 
 If converting the EnvyMud 2.2 areas remove don't copy 'gamehelp.are'

@@ -41,7 +41,7 @@
     Games: Version 2.0, now has support for cheating and bankrolls
 	Written by The Maniac from Mythran Mud
 
-    Radically changed game data structures in memory, OLC code and
+    Radically changed game data structures in memory, and
     introduced several other enhancements including new style
     bankrolls. Older bankrolls used croupier->gold, and that wasn't
     Thelonius's idea from what i can see. Basically, 95% or so of

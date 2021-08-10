@@ -639,7 +639,6 @@ const	FLAG_TYPE		affect_flags	[ ]	=
 
 /*
  * Used when adding an affect to tell where it goes.
- * See addaffect and delaffect in act_olc.c
  */
 const	FLAG_TYPE		apply_flags	[ ]	=
 {
@@ -931,7 +930,7 @@ struct wear_type
     int	wear_bit;
 };
 
-const	struct	wear_type	wear_table_olc	[ ]	=
+const	struct	wear_type	wear_table	[ ]	=
 {
     {	WEAR_NONE, 		ITEM_TAKE		},
     {	WEAR_LIGHT, 		ITEM_LIGHT		},
@@ -960,9 +959,9 @@ int wear_loc( int bits, int count )
 {
     int flag;
 
-    for ( flag = 0; wear_table_olc[flag].wear_bit != NO_FLAG; flag++ )
-	if ( IS_SET( bits, wear_table_olc[flag].wear_bit ) && --count < 1 )
-	    return wear_table_olc[flag].wear_loc;
+    for ( flag = 0; wear_table[flag].wear_bit != NO_FLAG; flag++ )
+	if ( IS_SET( bits, wear_table[flag].wear_bit ) && --count < 1 )
+	    return wear_table[flag].wear_loc;
 
     return NO_FLAG;
 }
@@ -972,9 +971,9 @@ int wear_bit( int loc )
 {
     int flag;
 
-    for ( flag = 0; wear_table_olc[flag].wear_loc != NO_FLAG; flag++ )
-	if ( loc == wear_table_olc[flag].wear_loc )
-	    return wear_table_olc[flag].wear_bit;
+    for ( flag = 0; wear_table[flag].wear_loc != NO_FLAG; flag++ )
+	if ( loc == wear_table[flag].wear_loc )
+	    return wear_table[flag].wear_bit;
 
     return 0;
 }
