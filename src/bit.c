@@ -24,10 +24,6 @@
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
- *                                                                         *
- *  This code was written by Jason Dinkel and inspired by Russ Taylor,     *
- *  and has been used here for OLC - OLC would not be what it is without   *
- *  all the previous coders who released their source code.                *
  ***************************************************************************/
 
 #include <sys/types.h>
@@ -38,19 +34,53 @@
 
 
 
-/*
- * The code below uses a table lookup system that is based on suggestions
- * from Russ Taylor.  There are many routines in handler.c that would benefit
- * with the use of tables.  You may consider simplifying your code base by
- * implementing a system like below with such functions - Jason Dinkel
- */
+const char *act_xbv( const FLAG_TYPE *table, const XBV vector )
+{
+    static char buf [ MAX_STRING_LENGTH ];
+    int         pos;
+
+    buf[0] = '\0';
+
+    for ( pos = 0; *table[pos].name; pos++ )
+    {
+	if ( xIS_SET( vector, table[pos].bit ) )
+	{
+	    strcat( buf, " " );
+	    strcat( buf, table[pos].name );
+	}
+    }
+    return ( buf[0] != '\0' ) ? buf+1 : "none";
+}
+
+
+const char *write_xbv( const FLAG_TYPE *table, const XBV vector )
+{
+    static char buf [ MAX_STRING_LENGTH ];
+    int         pos;
+
+    buf[0] = '\0';
+
+    for ( pos = 0; *table[pos].name; pos++ )
+    {
+	if ( !table[pos].settable )
+	    continue;
+
+	if ( xIS_SET( vector, table[pos].bit ) )
+	{
+	    strcat( buf, " " );
+	    strcat( buf, table[pos].name );
+	}
+    }
+    return ( buf[0] != '\0' ) ? buf+1 : "";
+}
+
+
 
 struct flag_stat_type
 {
     const FLAG_TYPE	*structure;
     bool		 stat;
 };
-
 
 const	struct	flag_stat_type	flag_stat_table	[ ]	=
 {
@@ -102,11 +132,6 @@ bool is_stat( const FLAG_TYPE *flag_table )
 }
 
 
-/*
- * This function is Russ Taylor's creation.  Thanks Russ!
- * all code copyright (C) Russ Taylor, permission to use and/or distribute
- * has NOT been granted.  Use only in this OLC package has been granted.
- */
 int flag_lookup( const char *name, const FLAG_TYPE *flag_table )
 {
     int flag;
@@ -180,7 +205,7 @@ int fread_flag( FILE *fp, const FLAG_TYPE *flag_table )
     int    bit;
     int    marked	= 0;
     int    stat;
-    bool   found	= FALSE;
+/*    bool   found	= FALSE;*/
 
     buf = temp_fread_string( fp, &stat );
     argument = &buf[0];
@@ -203,11 +228,42 @@ int fread_flag( FILE *fp, const FLAG_TYPE *flag_table )
 	if ( ( bit = flag_slookup( word, flag_table ) ) != NO_FLAG )
 	{
 	    SET_BIT( marked, bit );
-	    found = TRUE;
+/*	    found = TRUE;*/
 	}
     }
 
     return marked;
+}
+
+
+/*
+ * Coded by Zen.
+ */
+XBV fread_xbv( FILE *fp, const FLAG_TYPE *table )
+{
+    static char  arg      [MAX_INPUT_LENGTH];
+           char *buf;
+	   int   status;
+           int   bit;
+    static XBV   vector;
+
+    xCLEAR_BITS( vector );
+    buf = temp_fread_string( fp, &status );
+
+    for ( ; ; )
+    {
+	buf = one_argument( buf, arg );
+
+	if ( *arg == '\0' )
+	    break;
+
+	if ( ( bit = flag_slookup( arg, table ) ) != NO_FLAG )
+	    xSET_BIT( vector, bit );
+	else
+	   bugf ("Fread_xbv: Unknown bit '%s'", arg);
+    }
+
+    return vector;
 }
 
 
@@ -258,75 +314,6 @@ const char *flag_strings( const FLAG_TYPE *flag_table, int bits )
 	    strcat( buf, " " );
 	    strcat( buf, flag_table[flag].name );
 	    break;
-	}
-    }
-    return ( buf[0] != '\0' ) ? buf+1 : "";
-}
-
-
-XBV fread_xbv( FILE *fp, const FLAG_TYPE *table )
-{
-    static char  arg      [MAX_INPUT_LENGTH];
-           char *buf;
-	   int   status;
-           int   bit;
-    static XBV   vector;
-
-    xCLEAR_BITS( vector );
-    buf = temp_fread_string( fp, &status );
-
-    for ( ; ; )
-    {
-	buf = one_argument( buf, arg );
-
-	if ( *arg == '\0' )
-	    break;
-
-	if ( ( bit = flag_slookup( arg, table ) ) != NO_FLAG )
-	    xSET_BIT( vector, bit );
-	else
-	   bugf ("Fread_xbv: Unknown bit '%s'", arg);
-    }
-
-    return vector;
-}
-
-
-const char *act_xbv( const FLAG_TYPE *table, const XBV vector )
-{
-    static char buf [ MAX_STRING_LENGTH ];
-    int         pos;
-
-    buf[0] = '\0';
-
-    for ( pos = 0; *table[pos].name; pos++ )
-    {
-	if ( xIS_SET( vector, table[pos].bit ) )
-	{
-	    strcat( buf, " " );
-	    strcat( buf, table[pos].name );
-	}
-    }
-    return ( buf[0] != '\0' ) ? buf+1 : "none";
-}
-
-
-const char *write_xbv( const FLAG_TYPE *table, const XBV vector )
-{
-    static char buf [ MAX_STRING_LENGTH ];
-    int         pos;
-
-    buf[0] = '\0';
-
-    for ( pos = 0; *table[pos].name; pos++ )
-    {
-	if ( !table[pos].settable )
-	    continue;
-
-	if ( xIS_SET( vector, table[pos].bit ) )
-	{
-	    strcat( buf, " " );
-	    strcat( buf, table[pos].name );
 	}
     }
     return ( buf[0] != '\0' ) ? buf+1 : "";
