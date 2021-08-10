@@ -771,7 +771,6 @@ void new_descriptor( int control )
     dnew->connected	= CON_GET_NAME;
     dnew->showstr_head  = str_dup( "" );
     dnew->showstr_point = 0;
-    dnew->olc_editing	= NULL;
     dnew->str_editing	= NULL;
     dnew->outsize	= 2000;
     dnew->outbuf	= (char *) alloc_mem( dnew->outsize );

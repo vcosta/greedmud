@@ -541,7 +541,7 @@ struct	descriptor_data
     char *		outbuf;
     int			outsize;
     int			outtop;
-    void *              olc_editing;
+
     char **             str_editing;
 #ifdef USE_PTHREADS
     name_lookup_t	lookup_status;
