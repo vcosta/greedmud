@@ -185,8 +185,8 @@ void save_char_obj( CHAR_DATA *ch )
 	if ( ch->carrying )
 	    fwrite_obj( ch, ch->carrying, fp, 0 );
 	fprintf( fp, "#END\n" );
+	fclose( fp );
     }
-    fclose( fp );
     fpReserve = fopen( NULL_FILE, "r" );
 
 #if defined( USE_GZIP )
