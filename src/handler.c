@@ -87,6 +87,7 @@ int get_curr_str( CHAR_DATA *ch )
     int value;
 
     mod   = race_table[ch->race].str_mod;
+
     value = 13 + mod;
 
     if ( IS_NPC ( ch ) || ch->cclass[0]->attr_prime == APPLY_STR )
