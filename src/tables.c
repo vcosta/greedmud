@@ -1066,7 +1066,7 @@ void do_makeclan( CHAR_DATA *ch, char *argument )
     CHAR_DATA *rch;
     CLAN_DATA *clan;
     char       filename [ MAX_STRING_LENGTH ];
-    char       who_name [ MAX_STRING_LENGTH ];
+    char       who_name [ MAX_INPUT_LENGTH ];
 
     rch = get_char( ch );
 
