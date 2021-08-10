@@ -2061,7 +2061,7 @@ void do_scan( CHAR_DATA *ch, char *argument )
         return;	
     }
 
-    sprintf( buf, distance_name[0] );
+    strcpy( buf, distance_name[0] );
     if ( scan_room( ch, ch->in_room, buf ) == 0 )
         strcat( buf, "Noone\n\r" );
     act( buf, ch, NULL, NULL, TO_CHAR );
