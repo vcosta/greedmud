@@ -1,7 +1,7 @@
-GreedMud Release 1.0
-Thursday, 8th May 2003
+GreedMud Release 1.0.1
+Thuesday, 10th August 2021
 
-Zen             <greedmud@yahoogroups.com>
+Zen             <vasco.costa@tecnico.ulisboa.pt>
 
 
 
@@ -15,10 +15,10 @@ you enjoy playing the game as much as I did developing it.
 
 === Copyright and License Terms
 
-GreedMud 0.99.16 is a derivative of EnvyMud, version 2.2, and is subject to 
+GreedMud 1.0.1 is a derivative of EnvyMud, version 2.2, and is subject to 
 the copyright and license agreements for Diku Mud, Merc Diku Mud and Envy Mud.
 The modifications and improvements from EnvyMud version 2.2 contained 
-in GreedMud are copyright (C) 1997-2002 by Vasco Costa.
+in GreedMud are copyright (C) 1997-2021 by Vasco Costa.
 
 In order to use GreedMud you must follow the Diku license, the Merc license,
 the Envy license and my license.  The exact terms of the Diku license are in the
@@ -85,3 +85,4 @@ them, feel free to run some other software, or write your own.
 
 
 - Zen
+

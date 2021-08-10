@@ -16,7 +16,7 @@ Enjoy the mud.  May your visit here be ... Profitable.
 An ANSI C compiler is required. GCC works fine.
 
 I decided to put the areas back in the distribution and drop the ANSI C++ code
-due to popular demand. Hence the GOLD.
+due to popular demand.
 
 
 === Contents of the Release
