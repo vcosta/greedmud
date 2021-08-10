@@ -740,7 +740,7 @@ void new_descriptor( int control )
            BAN_DATA        *pban;
     char                    buf [ MAX_STRING_LENGTH ];
     int                     desc;
-    size_t                  size;
+    socklen_t               size;
     int                     addr;
     int			    i;
 

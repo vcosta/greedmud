@@ -507,7 +507,7 @@ void load_area_file( )
     }
     else
     {
-	char strsave [ MAX_INPUT_LENGTH ];
+	char strsave [ MAX_INPUT_LENGTH+8 ];
 
 	sprintf( strsave, "%s%s", AREA_DIR, strArea );
 
