@@ -98,6 +98,7 @@ AFFECT_DATA *		affect_free;
 NOTE_DATA *		note_free;
 OBJ_DATA *		obj_free;
 PC_DATA *		pcdata_free;
+EXTRA_DESCR_DATA *	extra_descr_free;
 
 char                    bug_buf                 [ MAX_INPUT_LENGTH*2 ];
 CHAR_DATA *		char_list;

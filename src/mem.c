@@ -24,10 +24,6 @@
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
- *                                                                         *
- *  This code was freely distributed with the The Isles 1.1 source code,   *
- *  and has been used here for OLC - OLC would not be what it is without   *
- *  all the previous coders who released their source code.                *
  ***************************************************************************/
 
 #include <sys/types.h>
@@ -43,27 +39,7 @@
 /*
  * Globals
  */
-EXTRA_DESCR_DATA *	extra_descr_free;
 HHF_DATA *		hhf_free;
-
-
-void free_extra_descr( EXTRA_DESCR_DATA *pExtra )
-{
-    free_string( pExtra->keyword );
-    free_string( pExtra->description );
-
-    pExtra->next	= extra_descr_free;
-    extra_descr_free	= pExtra;
-    return;
-}
-
-
-void free_affect( AFFECT_DATA *pAf )
-{
-    pAf->next	= affect_free;
-    affect_free	= pAf;
-    return;
-}
 
 
 HHF_DATA *new_hhf_data( void )
