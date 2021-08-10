@@ -1809,7 +1809,7 @@ void do_compare( CHAR_DATA *ch, char *argument )
     {
 	if ( !( obj2 = get_obj_carry( ch, arg2 ) ) )
 	{
-	    char new_arg2 [ MAX_INPUT_LENGTH ];
+	    char new_arg2 [ MAX_INPUT_LENGTH+12 ];
 	    int  number;
 
 	    /*  Strip off number argument, subtract one, paste it together */

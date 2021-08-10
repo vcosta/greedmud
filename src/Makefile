@@ -4,8 +4,8 @@
 CC      = gcc
 PROF    =
 DEBUG   = -g
-DEFINES = #-DUSE_PTHREADS
-O_FLAGS = -O2
+DEFINES = #-Wall -Wextra -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wdeclaration-after-statement #-DUSE_PTHREADS
+O_FLAGS = #-O2
 C_FLAGS = $(O_FLAGS) -Wall	$(DEBUG) $(PROF) $(DEFINES)
 L_FLAGS = $(O_FLAGS)		$(DEBUG) $(PROF) -lcrypt# -lpthread
 
