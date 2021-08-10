@@ -1355,8 +1355,8 @@ void obj_update( void )
 	    {
 	    	default:              message = "$p vanishes.";         break;
     		case ITEM_FOUNTAIN:   message = "$p dries up.";         break;
-    		case ITEM_CORPSE_NPC: message = "$p decays into dust."; break;
-    		case ITEM_CORPSE_PC:  message = "$p decays into dust."; break;
+		case ITEM_CORPSE_NPC: message = number_range(0, 13) ? "$p decays into dust." : "$p's corpse is feasted upon by crows."; break;
+    		case ITEM_CORPSE_PC:  message = number_range(0, 13) ? "$p decays into dust." : "$p's corpse is feasted upon by crows."; break;
     		case ITEM_FOOD:       message = "$p decomposes.";       break;
 		case ITEM_PORTAL:     message = "$p fades out of existence."; 
 									break;
