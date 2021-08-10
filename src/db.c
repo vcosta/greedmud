@@ -706,16 +706,15 @@ void envy_load_area( FILE *fp )
 
 
 /* 
- * OLC
  * Snarf an 'area' header line.   Check this format.  MUCH better.  Add fields
  * too.
  *
  * #AREAFILE
- * Name   -Newbie School~
- * Author Locke~
- * Levels 1 54
- * Recall 3001
- * Reset You hear hitting a pencil on paper.~
+ * Name   MudConnector~
+ * Author World~
+ * Levels 1 12
+ * Recall 2
+ * Reset You hear slithering snakes crawling over the ground.~
  * End
  *
  * The first character of the name ( '-' or '*' ) signs, that the area
