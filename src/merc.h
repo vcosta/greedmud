@@ -2394,6 +2394,7 @@ DECLARE_DO_FUN(	do_rent		);
 DECLARE_DO_FUN(	do_reply	);
 DECLARE_DO_FUN(	do_report	);
 DECLARE_DO_FUN(	do_rescue	);
+DECLARE_DO_FUN(	do_reset	);		/* by Zen */
 DECLARE_DO_FUN(	do_rest		);
 DECLARE_DO_FUN(	do_restore	);
 DECLARE_DO_FUN(	do_return	);

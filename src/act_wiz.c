@@ -2881,6 +2881,27 @@ void do_rset( CHAR_DATA *ch, char *argument )
 
 
 
+void do_reset( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *rch;
+    AREA_DATA *pArea;
+	
+    rch = get_char( ch );
+
+    if ( !authorized( rch, "reset" ) )
+        return;
+
+    if ( rch->in_room && ( pArea = rch->in_room->area ) )
+    {
+	    send_to_char( "You wave your hand and the area is reset.\n\r", ch );
+	    reset_area(pArea);
+    }
+
+    return;
+}
+
+
+
 void do_users( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA       *rch;

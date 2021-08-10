@@ -289,6 +289,7 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "purge",		do_purge,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
     { "reboo",		do_reboo,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
     { "reboot",		do_reboot,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
+    { "reset",		do_reset,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
     { "restore",	do_restore,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
     { "shutdow",	do_shutdow,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
     { "shutdown",	do_shutdown,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
