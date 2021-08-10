@@ -1086,11 +1086,15 @@ void do_makeclan( CHAR_DATA *ch, char *argument )
 
     clan = (CLAN_DATA *) alloc_mem ( sizeof( CLAN_DATA ) );
     if ( !clan_first )
+    {
 	clan_first		= clan;
+    }
     else
+    {
 	clan_last->next		= clan;
-	clan->next		= NULL;
-	clan_last		= clan;
+    }
+    clan->next		= NULL;
+    clan_last		= clan;
 
     clan->filename		= str_dup( filename );
     clan->who_name		= str_dup( who_name );
