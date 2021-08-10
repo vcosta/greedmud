@@ -667,7 +667,7 @@ void envy_load_area( FILE *fp )
 
     pArea->name		= str_dup( name );
     pArea->author	= str_dup( capitalize( author ) );
-    pArea->resetmsg	= str_dup( "You hear the patter of little feet." );
+    pArea->resetmsg	= str_dup( "*tick*" /*"You hear the patter of little feet."*/ );
     pArea->note		= str_dup( "" );
 
     pArea->recall       = ROOM_VNUM_TEMPLE;
