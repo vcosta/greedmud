@@ -1325,8 +1325,6 @@ void envy_load_mobiles( FILE *fp )
 	pMobIndex->alignment		= fread_number( fp, &stat );
 	letter				= fread_letter( fp );
 	pMobIndex->level		= fread_number( fp, &stat );
-        /* Took number_fuzzy out of above line to store mob levels
-           at a constant due to OLC resaving areas  --Stoked */
 
 	/*
 	 * The unused stuff is for imps who want to use the old-style
@@ -1777,10 +1775,11 @@ void envy_load_objects( FILE *fp )
 
 
 /*
- * Snarf an obj section. This supports the new obj format with value[4]...
- * So much work just to support a new value! This was why i ported OLC!
- * This way OLC acts as a file converter for your old Envy areas.
- * - Zen
+ * Snarf an obj section.
+ *
+ * This is the loader for the #OBJECT section.
+ * It supports loading older Envy areas and the new UE obj format with value[4]...
+ * -Zen
  */
 void ue_load_objects( FILE *fp )
 {
@@ -1950,8 +1949,7 @@ void ue_load_objects( FILE *fp )
 
 
 /*
- * Adds a reset to a room.  OLC
- * Similar to add_reset in olc.c
+ * Adds a reset to a room in an area with a delimited vnum interval range.
  */
 void new_reset( ROOM_INDEX_DATA *pR, RESET_DATA *pReset )
 {
@@ -1980,8 +1978,7 @@ void new_reset( ROOM_INDEX_DATA *pR, RESET_DATA *pReset )
 
 
 /*
- * Adds a reset to a room.  OLC
- * Similar to add_reset in olc.c
+ * Adds a reset to a room in a general purpose area.
  */
 void new_envy_reset( ROOM_INDEX_DATA *pR, RESET_DATA *pReset )
 {
