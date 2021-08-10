@@ -159,11 +159,6 @@ SOURCE=.\act_obj.c
 "act_obj.obj" : $(SOURCE)
 
 
-SOURCE=.\act_olc.c
-
-"act_olc.obj" : $(SOURCE)
-
-
 SOURCE=.\act_wiz.c
 
 "act_wiz.obj" : $(SOURCE)
