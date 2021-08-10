@@ -29,7 +29,6 @@ OBJS=\
 	"act_lang.obj"\
 	"act_move.obj"\
 	"act_obj.obj"\
-	"act_olc.obj"\
 	"act_wiz.obj"\
 	"bit.obj"\
 	"board.obj"\

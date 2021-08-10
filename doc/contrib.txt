@@ -109,6 +109,7 @@ Slash:		Falling code (esnible@goodnet.com)  Also know for his most
 
 Christopher S:	OLC for Envy20 port and a nice e-mail reminding me of his new
 		  release and its changes. Thanks! (stoked@iastate.edu)
+		PS: This feature has since been removed.
 
 
 Stimpy:		Whirlwind skill for Warriors
@@ -121,11 +122,13 @@ MOBPrograms:	v0.98g by Markku Nylander.
 
 MOM_Envy:	A couple of OLC features were ported from this Envy10 based
 		  source. (xerxes@primenet.com)
+		PS: This feature has since been removed.
 
 
 ILAB OLC B1.1:	By Jason Dinkel (jdinkel@mines.colorado.edu)
 		  Original by Surreality (cxw197@psu.edu) and
 		  Locke (locke@lm.com) of TheIsles.
+		PS: This feature has since been removed.
 
 
 Mythran 3.1.11:	WIZNET.

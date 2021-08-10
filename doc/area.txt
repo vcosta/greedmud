@@ -93,7 +93,7 @@ If converting the EnvyMud 2.2 areas remove don't copy 'gamehelp.are'
 and 'help.are'.  The first has been made redundant, and the help file in the
 latter has been much changed... You don't want your players to have less info
 than they need do you?  Oh yes, and remember to also copy 'AREA.LST',
-remove 'gamehelp.are' and put 'olc.are' in it's place.
+remove 'gamehelp.are'.
 
 * The main thing to remember is:
 
