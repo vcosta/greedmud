@@ -34,7 +34,6 @@
 #include <time.h>
 #include <stdarg.h>
 #include "merc.h"
-#include "olc.h"
 
 extern  int     _filbuf	        args( (FILE *) );
 

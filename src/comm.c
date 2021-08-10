@@ -76,7 +76,6 @@ char version_str [] = "$VER: GreedMud 0.99.11 *NIX";
 #include <signal.h>
 
 #include "merc.h"
-#include "olc.h"
 
 
 /*
@@ -455,11 +454,6 @@ void game_loop_unix( int control )
 		switch ( d->connected )
 		{
 		case CON_PLAYING:   interpret( d->character, d->incomm ); break;
-		case CON_AEDITOR:   aedit    ( d->character, d->incomm ); break;
-		case CON_REDITOR:   redit    ( d->character, d->incomm ); break;
-		case CON_OEDITOR:   oedit    ( d->character, d->incomm ); break;
-		case CON_MEDITOR:   medit    ( d->character, d->incomm ); break;
-		case CON_MPEDITOR:  mpedit   ( d->character, d->incomm ); break;
 		default:	    nanny               ( d, d->incomm ); break;
 		}
 
@@ -1475,10 +1469,6 @@ void bust_a_prompt( DESCRIPTOR_DATA *d )
             else
                sprintf( buf2, " "                                      );
             i = buf2; break;
-         case 'c' :
-            i = olc_ed_name( d->character ); break;
-         case 'C' :
-            i = olc_ed_vnum( d->character ); break;
          case '%' :
             sprintf( buf2, "%%"                                        );
             i = buf2; break;

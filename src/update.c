@@ -1538,8 +1538,6 @@ void time_update( void )
     }
     if ( current_time > down_time )
     {
-	if ( IS_SET( sysdata.act, MUD_AUTOSAVE_DB ) )
-	    do_asave( NULL, "" );
         sprintf( buf, "%s by system.\n\r", Reboot ? "Reboot" : "Shutdown" );
 	send_to_all_char( buf );
 	log_string( buf );
@@ -1723,7 +1721,6 @@ void update_handler( void )
 	wiznet( NULL, WIZ_TICKS, L_DIR, "Dump Area pulse [OLC]" );
 
 	pulse_db_dump   = PULSE_DB_DUMP;
-	do_asave( NULL, "" );
 
 	/* Maniac, added this warning so it can be delayed on time... */
 	switch ( pulse_db_dump )

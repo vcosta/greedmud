@@ -33,7 +33,6 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
-#include "olc.h"
 
 #if defined( sun )
 #include <memory.h>

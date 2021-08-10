@@ -25,7 +25,6 @@
 #include <ctype.h>
 #include <time.h>
 #include "merc.h"
-#include "olc.h"
 
 
 

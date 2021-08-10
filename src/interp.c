@@ -309,24 +309,20 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "pload",		do_pload,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
     { "punload",	do_punload,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
 
-    { "astat",		do_astat,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "echo",		do_echo,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
     { "makeimm",	do_makeimm,	POS_DEAD,        0,  LOG_ALWAYS, 0 },
     { "memory",		do_memory,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "mclone",		do_mclone,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
     { "mload",		do_mload,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
     { "mfind",		do_mfind,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
-    { "mstat",		do_mstat,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "mwhere",		do_mwhere,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "newlock",	do_newlock,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
     { "ofind",		do_ofind,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
-    { "ostat",		do_ostat,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "owhere",		do_owhere,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "peace",		do_peace,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "recho",		do_recho,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
     { "return",		do_return,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "rset",		do_rset,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
-    { "rstat",		do_rstat,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1 },
     { "cinfo",		do_cinfo,	POS_DEAD,    L_APP,  LOG_NORMAL, 1 },
     { "cpose",		do_cpose,	POS_DEAD,    L_APP,  LOG_NORMAL, 1 },
     { "cslist",		do_cslist,	POS_DEAD,    L_APP,  LOG_NORMAL, 1 },
@@ -370,17 +366,6 @@ const	struct	cmd_type	cmd_table	[ ] =
      */
     { "mpdump",         do_mpdump,      POS_DEAD,    L_APP,  LOG_NORMAL, 1 },
     { "mpstat",         do_mpstat,      POS_DEAD,    L_APP,  LOG_NORMAL, 1 },
-
-    { "aedit",          do_aedit,       POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "redit",          do_redit,       POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "oedit",          do_oedit,       POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "medit",          do_medit,       POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "asave",          do_asave,       POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "alist",          do_alist,       POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "resets",         do_resets,      POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "mpedit",         do_mpedit,      POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "qhelp",		do_qhelp,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
-    { "?",		do_qhelp,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
 
     /*
      * End of list.

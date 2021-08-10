@@ -32,7 +32,6 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
-#include "olc.h"
 
 
 
@@ -115,8 +114,7 @@ void move_char( CHAR_DATA *ch, int door )
 	return;
     }
 
-    if ( ch->desc && IS_SET( to_room->area->act, AREA_PROTO )
-	&& !is_builder( ch, to_room->area ) )
+    if ( ch->desc && IS_SET( to_room->area->act, AREA_PROTO ) )
     {
 	send_to_char( "That area is under construction.\n\r", ch );
 	return;

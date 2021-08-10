@@ -33,7 +33,6 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
-#include "olc.h"
 
 
 char *	const	where_name	[] =

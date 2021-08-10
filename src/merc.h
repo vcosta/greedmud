@@ -2017,6 +2017,8 @@ void	xbv_remove_bits	args( ( XBV *dest, const XBV *src ) );
 				                ? ( c ) + 'a' - 'A' : ( c ) )
 #define UPPER( c )		( ( c ) >= 'a' && ( c ) <= 'z'                \
 				                ? ( c ) + 'A' - 'a' : ( c ) )
+
+/* Bitvector macros, by Zen (UE) and Thorin (SMAUG). */
 #define xMASK( bit )		( 1 << ( ( bit ) & XBM ) )
 
 #define xIS_SET( var, bit )	( (var).bits[(bit) >> RSV] &   xMASK( bit ) )
@@ -3396,6 +3398,11 @@ char *  spec_room_string args( ( ROOM_FUN *fun ) );
 char *  game_string     args( ( GAME_FUN *fun ) );
 
 /* bit.c */
+const char *	flag_string	args( ( const FLAG_TYPE *flag_table, int bits ) );
+const char *	flag_strings	args( ( const FLAG_TYPE *flag_table, int bits ) );
+int		flag_value	args( ( const FLAG_TYPE *flag_table, char *argument ) );
+int		fread_flag	args( ( FILE *fp, const FLAG_TYPE *flag_table ) );
+
 extern	const	struct	flag_type	connected_flags		[ ];
 extern	const	struct	flag_type	area_flags		[ ];
 extern	const	struct	flag_type	sex_flags		[ ];
