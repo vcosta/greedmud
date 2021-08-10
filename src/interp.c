@@ -236,7 +236,6 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "group",		do_group,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "heighten senses",do_heighten,    POS_STANDING,    0,  LOG_NORMAL, 1 },
     { "hide",		do_hide,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
-    { "leave",		do_leave,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
     { "poison weapon",	do_poison_weapon,POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "practice",	do_practice,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "qui",		do_qui,		POS_DEAD,	 0,  LOG_NORMAL, 1 },
@@ -262,8 +261,6 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "wake",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "where",		do_where,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "track",		do_track,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
-    { "mount",		do_mount,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
-    { "dismount",	do_dismount,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
 
     /*
      * Immortal commands.
@@ -361,6 +358,8 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "clans",		do_clans,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "wartalk",	do_wartalk,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
   
+    { "summon",		do_summon_ride,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
+
     /*
      * MOBprogram commands.
      */

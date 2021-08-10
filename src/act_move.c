@@ -2251,7 +2251,17 @@ void do_enter( CHAR_DATA * ch, char *argument )
 }
 
 
+void do_summon_ride( CHAR_DATA *ch, char *argument )
+{
+	send_to_char("You whistle and call for your motorcycle.\n\r", ch);
+	send_to_char("Your motorcycle swoops in and stops next to you.\n\r", ch);
 
+	send_to_char("It vanishes in mid air.\n\r", ch);
+
+	return;
+}
+
+#if 0
 void do_mount( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *victim;
@@ -2332,7 +2342,6 @@ void do_mount( CHAR_DATA *ch, char *argument )
 }
 
 
-
 void do_dismount( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *victim;
@@ -2408,3 +2417,6 @@ void do_leave( CHAR_DATA *ch, char *argument )
     act( "$n steps out of $p.", ch, obj, NULL, TO_ROOM );
     return;
 }
+#endif
+
+

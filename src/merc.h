@@ -945,7 +945,7 @@ struct attack_type
 #define ACT_MOBINVIS		     13         /* Player invis mobs    */
 #define ACT_MOVED                    17         /* Dont ever set!       */
 #define	ACT_NOKILL		     28		/* PC's can't kill mob	*/
-#define ACT_MOUNTABLE                29         /* Can be mounted       */
+#define ACT_BONDABLE                 29         /* Can be bonded to     */
 
 /* 
  * Body parts.
@@ -1975,6 +1975,7 @@ extern  int     gsn_mass_vortex_lift;		/* by Zen */
 extern	int	gsn_track;
 extern	int	gsn_whirlwind;
 extern	int	gsn_plague;
+
 extern	int	gsn_mount;
 
 extern	int	gsn_hit;
@@ -2476,8 +2477,6 @@ DECLARE_DO_FUN(	do_wartalk	);
 DECLARE_DO_FUN(	do_sober	);
 DECLARE_DO_FUN(	do_track	);
 DECLARE_DO_FUN(	do_whirlwind	);
-DECLARE_DO_FUN(	do_mount	);
-DECLARE_DO_FUN(	do_dismount	);
 
 DECLARE_DO_FUN(	do_initiate	);
 DECLARE_DO_FUN(	do_exil		);
@@ -2512,6 +2511,8 @@ DECLARE_DO_FUN(	do_ctitle	);
 DECLARE_DO_FUN(	do_cpose	);
 DECLARE_DO_FUN(	do_cinfo	);
 DECLARE_DO_FUN(	do_cslist	);
+
+DECLARE_DO_FUN(	do_summon_ride	);
 
 
 /*

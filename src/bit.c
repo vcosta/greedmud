@@ -546,10 +546,15 @@ const	FLAG_TYPE		act_flags	[ ]	=
     {	"practice", 		ACT_PRACTICE, 		TRUE	},
     {	"mobinvis", 		ACT_MOBINVIS, 		TRUE	},
     {	"nokill",		ACT_NOKILL,		TRUE	},
-    {	"mountable", 		ACT_MOUNTABLE, 		TRUE	},
     {	"", 			0, 			0	}
 };
 
+
+const	FLAG_TYPE		npc_flags	[ ]	=
+{
+    {	"bondable", 		ACT_BONDABLE, 		TRUE	},
+    {	"", 			0, 			0	}
+};
 
 const	FLAG_TYPE		plr_flags	[ ]	=
 {
