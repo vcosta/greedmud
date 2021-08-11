@@ -794,6 +794,12 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	    sprintf( buf, "in %s", arg );
 	    do_look( ch, buf );
 	}
+
+	if ( IS_IMMORTAL( ch ) )
+	{
+		send_to_char( "\n\r", ch );
+		spell_identify( skill_blookup( "identify", 0, MAX_SPELL ), ch->level, ch, obj );
+	}
     }
 
     return;
