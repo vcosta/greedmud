@@ -4700,7 +4700,7 @@ struct imm_type
 
 const struct  imm_type	imm_table   [ ] =
 {/*
-    {	"Aioros",   L_DIR   },*/
+    {	"Aioros",   L_JUN   },*/
     {	"", 	    0	    }
 };
 

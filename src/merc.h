@@ -3220,8 +3220,8 @@ void	wiznet		args ( ( CHAR_DATA *ch, int chan,
 				int level, const char * string ) );
 
 /* db2.c */
-char *	fix_string		args ( ( const char *str ) );
-void	save_world		args( ( void ) );
+char *	fix_string	args ( ( const char *str ) );
+void	save_world	args( ( void ) );
 
 #undef	CD
 #undef	MID

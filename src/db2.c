@@ -447,5 +447,15 @@ void save_area( AREA_DATA *pArea )
 
 void save_world( )
 {
+    AREA_DATA *pArea;
+    int        iArea;
+
+    pArea = area_first;
+
+    for ( iArea = 0; iArea < top_area; iArea++ )
+    {
+	pArea = pArea->next;
+	save_area( pArea );
+    }
 }
 
