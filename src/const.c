@@ -724,9 +724,7 @@ const	struct	attack_type	attack_table	[MAX_ATTACK]	=
     {  "grep",      &gsn_pierce,   DAM_PIERCE,	NULL             },
     {  "bite",      &gsn_pierce,   DAM_PIERCE,	NULL             },  /*  10  */
     {  "pierce",    &gsn_pierce,   DAM_PIERCE,	NULL             },
-    {  "suction",   &gsn_suction,  DAM_BASH,	hit_suck_disarm  },
     {  "chop",      &gsn_slash,    DAM_SLASH,	NULL             },
-    {  "vorpal",    &gsn_slash,    DAM_SLASH,	hit_vorpal       },
     {  "cleave",    &gsn_slash,    DAM_SLASH,	NULL             },  /*  15  */
     {  "wail",      &gsn_hit,      DAM_BASH,	NULL             }
 };
