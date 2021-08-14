@@ -282,7 +282,6 @@ void string_add( CHAR_DATA *ch, char *argument )
 
 /*
  *  Thanks to Kalgen for the new procedure (no more bug!)
- *  Original wordwrap() written by Surreality. --- XXXXXXXXXXXXXXXX
  */
 char *format_string( char *oldstring /*, bool fSpace */)
 {
