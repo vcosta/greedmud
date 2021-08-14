@@ -4222,8 +4222,8 @@ void do_shoot( CHAR_DATA *ch, char *argument )
 void do_reload( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA *weapon;
-    OBJ_DATA *ammo;
-    OBJ_DATA *ammo_next;
+    OBJ_DATA *magazine;
+    OBJ_DATA *magazine_next;
     char      buf [MAX_STRING_LENGTH];
 
     if ( IS_NPC( ch ) && xIS_SET( ch->act, ACT_PET ) )
@@ -4241,21 +4241,21 @@ void do_reload( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    for ( ammo = ch->carrying; ammo; ammo = ammo_next )
+    for ( magazine = ch->carrying; magazine; magazine = magazine_next )
     {
-	ammo_next = ammo->next_content;
+	magazine_next = magazine->next_content;
 
-	if ( ammo->deleted )
+	if ( magazine->deleted )
 	    continue;
 	    
-	if (   ammo->item_type == ITEM_AMMO
-	    && ammo->value[0] == weapon->value[3] )
+	if (   magazine->item_type == ITEM_MAGAZINE
+	    && magazine->value[0] == weapon->value[3] )
 	    break;
     }
 
-    if ( !ammo )
+    if ( !magazine )
     {
-        send_to_char( "You do not have ammo for this weapon.\n\r", ch );
+        send_to_char( "You do not have magazine for this weapon.\n\r", ch );
         return;
     }
 
@@ -4266,14 +4266,18 @@ void do_reload( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    weapon->value[0] = ammo->pIndexData->vnum;
+    weapon->value[0] = magazine->pIndexData->vnum;
 
-    act( "You get $p.", ch, ammo, weapon, TO_CHAR );
-    act( "$n get $p.", ch, ammo, weapon, TO_ROOM );
+    act( "You use $p.", ch, magazine, weapon, TO_CHAR );
+    act( "$n uses $p.", ch, magazine, weapon, TO_ROOM );
 
-    act( "You load $P with $p.", ch, ammo, weapon, TO_CHAR );
-    act( "$n loads $P with $p.", ch, ammo, weapon, TO_ROOM );
+    magazine->value[1]--;
 
-    extract_obj( ammo );
+    act( "You load $P with a $p round.", ch, magazine, weapon, TO_CHAR );
+    act( "$n loads $P with a $p round.", ch, magazine, weapon, TO_ROOM );
+
+    if ( magazine->value[1] <= 0 ) {
+        extract_obj( magazine );
+    }
     return;
 }

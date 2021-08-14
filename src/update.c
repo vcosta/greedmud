@@ -1720,16 +1720,9 @@ void update_handler( void )
     {
 	wiznet( NULL, WIZ_TICKS, L_DIR, "Dump Area pulse [Maybe]" );
 
-	pulse_db_dump   = PULSE_DB_DUMP;
+	save_world();
 
-	/* Maniac, added this warning so it can be delayed on time... */
-	switch ( pulse_db_dump )
-	{
-	case   5: wiznet( NULL, WIZ_TICKS, L_JUN,
-			 "Dump Area pulse coming soon... beware of lag" );
-	case 100: wiznet( NULL, WIZ_TICKS, L_SEN,
-			 "Dump Area Pulse in 100 pulses..." );
-	}
+	pulse_db_dump   = PULSE_DB_DUMP;
     }
 
     if ( --pulse_area     <= 0 )
@@ -1743,7 +1736,7 @@ void update_handler( void )
     {
 	pulse_save	= PULSE_SAVE;
 	clan_update	( );
-	notes_update	( );
+	notes_update( );
     }
 
     if ( --pulse_violence <= 0 )

@@ -3915,7 +3915,7 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, int level )
     case ITEM_FOUNTAIN:
     case ITEM_PORTAL:
     case ITEM_WARP_STONE:
-    case ITEM_AMMO:
+    case ITEM_MAGAZINE:
     case ITEM_GEM:
 	break;
 

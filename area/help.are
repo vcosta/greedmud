@@ -4144,10 +4144,10 @@ If you wish to reset the room then use 'RRESET'.
    value[4]    unused
 ~
 
-63 ITEM_AMMO~
+63 ITEM_MAGAZINE~
 .   value[0]	ammo type (see '? ranged_weapon')
    value[1]    add to damage
-   value[2]    unused
+   value[2]    rounds
    value[3]    unused
    value[4]    unused
 ~

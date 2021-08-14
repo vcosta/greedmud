@@ -479,7 +479,7 @@ const	FLAG_TYPE		type_flags	[ ]	=
     {	"warp_stone", 		ITEM_WARP_STONE, 	TRUE	},
     {	"clothing", 		ITEM_CLOTHING, 		TRUE	},
     {	"ranged_weapon", 	ITEM_RANGED_WEAPON, 	TRUE	},
-    {	"ammo", 		ITEM_AMMO, 		TRUE	},
+    {	"magazine", 		ITEM_MAGAZINE, 		TRUE	},
     {	"gem",	 		ITEM_GEM, 		TRUE	},
     {	"vehicle", 		ITEM_VEHICLE, 		TRUE	},
     {	"", 			0, 			0	}

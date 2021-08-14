@@ -1092,7 +1092,7 @@ struct attack_type
 #define ITEM_WARP_STONE		     29
 #define ITEM_CLOTHING		     30
 #define ITEM_RANGED_WEAPON           31
-#define ITEM_AMMO                    32
+#define ITEM_MAGAZINE                32
 #define ITEM_GEM                     33
 #define ITEM_VEHICLE                 34
 
@@ -3221,6 +3221,7 @@ void	wiznet		args ( ( CHAR_DATA *ch, int chan,
 
 /* db2.c */
 char *	fix_string		args ( ( const char *str ) );
+void	save_world		args( ( void ) );
 
 #undef	CD
 #undef	MID

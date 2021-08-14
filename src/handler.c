@@ -1821,7 +1821,7 @@ char *item_type_name( OBJ_DATA *obj )
     case ITEM_WARP_STONE:	return "warp stone";
     case ITEM_CLOTHING:		return "clothing";
     case ITEM_RANGED_WEAPON:	return "ranged weapon";
-    case ITEM_AMMO:		return "ammo";
+    case ITEM_MAGAZINE:		return "magazine";
     case ITEM_GEM:		return "gem";
     case ITEM_VEHICLE:	      	return "vehicle";
     }
