@@ -100,7 +100,7 @@ remove 'gamehelp.are'.
 DON'T REPLACE 'limbo.are' WITH THE ENVYMUD 2.2 ONE!
 THE MUD WILL CRASH SOONER OR LATTER IF YOU DO THIS!
 
-Boot the mud and so an 'asave world'.
+Boot the mud and so a 'dump'.
 
 Now the old areas should be properly converted.
 
