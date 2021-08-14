@@ -3221,7 +3221,7 @@ void	wiznet		args ( ( CHAR_DATA *ch, int chan,
 
 /* db2.c */
 char *	fix_string	args ( ( const char *str ) );
-void	save_world	args( ( void ) );
+void	save_database	args( ( void ) );
 
 #undef	CD
 #undef	MID

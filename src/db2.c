@@ -445,7 +445,7 @@ void save_area( AREA_DATA *pArea )
     return;
 }
 
-void save_world( )
+void save_database( )
 {
     AREA_DATA *pArea;
     int        iArea;
