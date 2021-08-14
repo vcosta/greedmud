@@ -4735,3 +4735,19 @@ void do_makeimm( CHAR_DATA *ch, char *argument )
 
     send_to_char( "Huh?\n\r", ch );
 }
+
+/*
+ * Dump area database.
+ */
+void do_dump( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *rch;
+
+    rch = get_char( ch );
+
+    if ( !authorized( rch, "dump" ) )
+        return;
+
+    save_database();
+}
+

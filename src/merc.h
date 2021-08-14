@@ -2454,6 +2454,7 @@ DECLARE_DO_FUN(	do_wizhelp	);
 DECLARE_DO_FUN( do_wizify       );
 DECLARE_DO_FUN( do_wizlist      );
 DECLARE_DO_FUN(	do_wizlock	);
+DECLARE_DO_FUN(	do_dump		);
 DECLARE_DO_FUN(	do_yell		);
 DECLARE_DO_FUN(	do_zap		);
 

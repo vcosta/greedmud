@@ -306,6 +306,7 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "makeclan",	do_makeclan,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1 },
     { "pload",		do_pload,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
     { "punload",	do_punload,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
+    { "dump",		do_dump,	POS_DEAD,    L_SEN,  LOG_ALWAYS, 1 },
 
     { "echo",		do_echo,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1 },
     { "makeimm",	do_makeimm,	POS_DEAD,        0,  LOG_ALWAYS, 0 },
