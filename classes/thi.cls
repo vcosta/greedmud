@@ -10,6 +10,7 @@ Hpmin       8
 Hpmax       13
 Mana        0
 Skll          1   1  70 'bludgeons'
+Skll          6   1  95 'cammo'
 Skll         18   1  95 'circle'
 Skll          1   1  99 'common'
 Skll         20   4  95 'dirt kicking'
