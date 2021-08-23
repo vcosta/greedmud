@@ -259,6 +259,7 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "wake",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "where",		do_where,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "track",		do_track,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
+    { "meditate",	do_meditate,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
 
     /*
      * Immortal commands.

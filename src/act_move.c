@@ -2248,6 +2248,47 @@ void do_enter( CHAR_DATA * ch, char *argument )
 }
 
 
+void do_meditate( CHAR_DATA *ch, char *argument )
+{
+    AFFECT_DATA af;
+
+    /* Dont allow charmed mobiles to do this, check player's skill */
+    if ( ( IS_NPC( ch ) && IS_AFFECTED( ch, AFF_CHARM ) )
+	|| !can_use( ch, gsn_meditate ) )
+    {
+        send_to_char( "Huh?\n\r", ch );
+	return;
+    }
+
+    send_to_char( "You attempt to meditate.\n\r", ch );
+
+    if ( IS_NPC( ch ) || number_percent( ) < ch->pcdata->learned[gsn_meditate] )
+    {
+	af.type      = gsn_meditate;
+	af.duration  = ch->level;
+	af.modifier  = APPLY_NONE;
+	af.location  = 0;
+	xCLEAR_BITS( af.bitvector );
+
+	affect_to_char( ch, &af );
+/*
+	send_to_char( "You are in harmony with your surroundings.\n\r", ch );
+	send_to_char( "You feel closer to the gods.\n\r", ch );
+	send_to_char( "You circulate your inner qi.\n\r", ch );
+*/
+	learn( ch, gsn_meditate, TRUE );
+    }
+    else
+    {
+        send_to_char( "You are too tense. You failed.\n\r", ch );
+/*        send_to_char( "You experience qigong deviation.\n\r", ch );*/
+	learn( ch, gsn_meditate, FALSE );
+    }
+
+    return;
+}
+
+
 void do_summon_ride( CHAR_DATA *ch, char *argument )
 {
 	send_to_char("You whistle and call for your motorcycle.\n\r", ch);

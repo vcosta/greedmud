@@ -2295,6 +2295,7 @@ DECLARE_DO_FUN(	do_goto		);
 DECLARE_DO_FUN(	do_group	);
 DECLARE_DO_FUN(	do_gtell	);
 DECLARE_DO_FUN( do_heighten     );		/* by Thelonius */
+DECLARE_DO_FUN( do_meditate     );		/* by Zen */
 DECLARE_DO_FUN(	do_help		);
 DECLARE_DO_FUN(	do_hide		);
 DECLARE_DO_FUN(	do_holylight	);
