@@ -225,7 +225,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	if ( ch->fighting != victim )
 	    return;
     }
-
+/*
     chance = IS_NPC( ch ) ? ch->level
                           : ch->pcdata->learned[gsn_fifth_attack] / 8;
     if ( number_percent( ) < chance )
@@ -235,7 +235,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	if ( ch->fighting != victim )
 	    return;
     }
-
+*/
     chance = IS_NPC( ch ) ? ch->level / 2
                           : 0;
     if ( number_percent( ) < chance )
