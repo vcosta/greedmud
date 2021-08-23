@@ -251,6 +251,8 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
                                                 strcat( buf, "{o{c(Invis){r "      );
     if ( IS_AFFECTED( victim, AFF_HIDE )        )
                                                 strcat( buf, "{o{y(Hide){r "       );
+    if ( IS_AFFECTED( victim, AFF_CAMMO )       )
+                                                strcat( buf, "{o{y(Cammo){r "      );
     if ( IS_AFFECTED( victim, AFF_CHARM )       )
                                                 strcat( buf, "{o{g(Charmed){r "    );
     if ( IS_AFFECTED( victim, AFF_PASS_DOOR )
@@ -1950,6 +1952,7 @@ void do_where( CHAR_DATA *ch, char *argument )
 	{
 	    if ( !victim->in_room
 		|| IS_AFFECTED( victim, AFF_HIDE ) 
+		|| IS_AFFECTED( victim, AFF_CAMMO ) 
 		|| IS_AFFECTED( victim, AFF_SNEAK ) )
 	        continue;
 

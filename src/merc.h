@@ -1015,6 +1015,7 @@ struct attack_type
 #define AFF_PLAGUE		     30
 #define AFF_FROST_SHIELD             31
 #define AFF_SHOCK_SHIELD             32
+#define AFF_CAMMO		     33
 
 /*
  * Sex.
@@ -1939,7 +1940,6 @@ extern	int	gsn_turn_undead;
 /*
  * Psionicist gsn's (by Thelonius).
  */
-extern  int     gsn_chameleon;
 extern  int     gsn_domination;
 extern  int     gsn_heighten;
 extern  int     gsn_shadow;
@@ -1975,6 +1975,7 @@ extern  int     gsn_mass_vortex_lift;		/* by Zen */
 extern	int	gsn_track;
 extern	int	gsn_whirlwind;
 extern	int	gsn_plague;
+extern	int	gsn_cammo;
 
 extern	int	gsn_mount;
 
@@ -2253,8 +2254,8 @@ DECLARE_DO_FUN(	do_brandish	);
 DECLARE_DO_FUN( do_brief        );
 DECLARE_DO_FUN(	do_bug		);
 DECLARE_DO_FUN(	do_buy		);
+DECLARE_DO_FUN(	do_cammo	);		/* By Zen */
 DECLARE_DO_FUN(	do_cast		);
-DECLARE_DO_FUN( do_chameleon    );		/* by Thelonius */
 DECLARE_DO_FUN(	do_channels	);
 DECLARE_DO_FUN(	do_chat		);
 DECLARE_DO_FUN(	do_circle 	);		/* by Thelonius */

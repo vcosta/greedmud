@@ -2515,14 +2515,6 @@ struct	skill_type	skill_table	[]	=
     },
 
     {
-        "chameleon power",
-        spell_null,             TAR_IGNORE,             POS_STANDING,
-        &gsn_chameleon,         0,     12,
-        "",                     "!Chameleon Power!",
-        MANA_NONE,		""
-    },
-
-    {
         "circle",
         spell_null,		TAR_IGNORE,		POS_FIGHTING,
         &gsn_circle,		0,	24,
@@ -2992,7 +2984,16 @@ struct	skill_type	skill_table	[]	=
 	&gsn_whirlwind,		0,	 12,
 	"WhirlWind",		"!Whirlwind!",
         MANA_NONE,		""
+    },
+
+    {
+	"cammo",
+	spell_null,		TAR_IGNORE,		POS_RESTING,
+	&gsn_cammo,		 0,	12,
+	"",			"!Cammo!",
+	MANA_NONE,		""
     }
+
 };
 
 

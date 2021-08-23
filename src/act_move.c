@@ -1252,6 +1252,39 @@ void do_hide( CHAR_DATA *ch, char *argument )
 }
 
 
+void do_cammo( CHAR_DATA *ch, char *argument )
+{
+    /* Dont allow charmed mobiles to do this, check player's skill */
+    if ( ( IS_NPC( ch ) && IS_AFFECTED( ch, AFF_CHARM ) )
+	|| !can_use( ch, gsn_cammo ) )
+    {
+        send_to_char( "Huh?\n\r", ch );
+	return;
+    }
+
+    if ( ch->riding )
+    {
+        send_to_char( "You can't do that while mounted.\n\r", ch );
+        return;
+    }
+
+    send_to_char( "You attempt to camouflage yourself.\n\r", ch );
+
+    if ( IS_AFFECTED( ch, AFF_CAMMO ) )
+	xREMOVE_BIT( ch->affected_by, AFF_CAMMO );
+
+    if ( IS_NPC( ch ) || number_percent( ) < ch->pcdata->learned[gsn_cammo] )
+    {
+        xSET_BIT( ch->affected_by, AFF_CAMMO );
+	learn( ch, gsn_cammo, TRUE );
+    }
+    else
+	learn( ch, gsn_cammo, FALSE );
+
+    return;
+}
+
+
 
 /*
  * Contributed by Alander.
@@ -1265,6 +1298,7 @@ void do_visible( CHAR_DATA *ch, char *argument )
     xREMOVE_BIT  ( ch->affected_by, AFF_HIDE		);
     xREMOVE_BIT  ( ch->affected_by, AFF_INVISIBLE	);
     xREMOVE_BIT  ( ch->affected_by, AFF_SNEAK		);
+    xREMOVE_BIT  ( ch->affected_by, AFF_CAMMO		);
     send_to_char( "Ok.\n\r", ch );
     return;
 }
@@ -1551,47 +1585,15 @@ void do_train( CHAR_DATA *ch, char *argument )
     return;
 }
 
-
-void do_chameleon ( CHAR_DATA *ch, char *argument )
-{
-    /* Dont allow charmed mobiles to do this, check player's skill */
-    if ( ( IS_NPC( ch ) && IS_AFFECTED( ch, AFF_CHARM ) )
-	|| !can_use( ch, gsn_chameleon ) )
-    {
-        send_to_char( "Huh?\n\r", ch );
-	return;
-    }
-
-    if ( ch->riding )
-    {
-        send_to_char( "You can't do that while mounted.\n\r", ch );
-        return;
-    }
-
-    send_to_char( "You attempt to blend in with your surroundings.\n\r", ch );
-
-    if ( IS_AFFECTED( ch, AFF_HIDE ) )
-        xREMOVE_BIT( ch->affected_by, AFF_HIDE );
-
-    if ( IS_NPC( ch ) || number_percent( ) < ch->pcdata->learned[gsn_chameleon] )
-    {
-        xSET_BIT( ch->affected_by, AFF_HIDE );
-	learn( ch, gsn_chameleon, TRUE );
-    }
-    else
-	learn( ch, gsn_chameleon, FALSE );
-
-    return;
-}
-
-void do_heighten ( CHAR_DATA *ch, char *argument )
+void do_heighten( CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA af;
 
-    if ( !can_use( ch, gsn_heighten ) )
+    if ( !IS_NPC( ch )
+        && !can_use( ch, gsn_heighten ) )
     {
         send_to_char( "Huh?\n\r", ch );
-	return;
+        return;
     }
 
     if ( is_affected( ch, gsn_heighten ) )
@@ -1599,34 +1601,29 @@ void do_heighten ( CHAR_DATA *ch, char *argument )
 
     if ( IS_NPC( ch ) || number_percent( ) < ch->pcdata->learned[gsn_heighten] )
     {
-	af.type      = gsn_heighten;
-	af.duration  = 24;
-	af.modifier  = 0;
-	af.location  = APPLY_NONE;
+        af.type      = gsn_heighten;
+        af.duration  = 24;
+        af.modifier  = 0;
+        af.location  = APPLY_NONE;
 	af.bitvector = new_xbv( AFF_DETECT_INVIS, -1 );
-
-	affect_to_char( ch, &af );
+        affect_to_char( ch, &af );
 
 	af.bitvector = new_xbv( AFF_DETECT_HIDDEN, -1 );
+        affect_to_char( ch, &af );
 
-	affect_to_char( ch, &af );
-	
 	af.bitvector = new_xbv( AFF_INFRARED, -1 );
+        affect_to_char( ch, &af );
 
-	affect_to_char( ch, &af );
-	
-	send_to_char( "Your senses are heightened.\n\r", ch );
+	af.bitvector = new_xbv( AFF_CAMMO, -1 );
+        affect_to_char( ch, &af );
 
-	learn( ch, gsn_heighten, TRUE );
+        send_to_char( "Your senses are heightened.\n\r", ch );
     }
-    else
-	learn( ch, gsn_heighten, FALSE );
-
     return;
 
 }
 
-void do_shadow ( CHAR_DATA *ch, char *argument )
+void do_shadow( CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA af;
 

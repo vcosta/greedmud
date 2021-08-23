@@ -1738,9 +1738,11 @@ void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo )
 	affect_strip ( ich, gsn_mass_invis		);
 	affect_strip ( ich, gsn_sneak			);
 	affect_strip ( ich, gsn_shadow			);
+	affect_strip ( ich, gsn_cammo			);
 	xREMOVE_BIT  ( ich->affected_by, AFF_HIDE	);
 	xREMOVE_BIT  ( ich->affected_by, AFF_INVISIBLE	);
 	xREMOVE_BIT  ( ich->affected_by, AFF_SNEAK	);
+	xREMOVE_BIT  ( ich->affected_by, AFF_CAMMO	);
 	act( "$n is revealed!", ich, NULL, NULL, TO_ROOM );
 	send_to_char( "You are revealed!\n\r", ich );
     }

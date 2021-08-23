@@ -625,6 +625,7 @@ const	FLAG_TYPE		affect_flags	[ ]	=
     {	"detect_good", 		AFF_DETECT_GOOD, 	TRUE	},
     {	"protect_good",		AFF_PROTECT_GOOD, 	TRUE	},
     {	"plague",		AFF_PLAGUE, 		TRUE	},
+    {	"cammo", 		AFF_CAMMO, 		TRUE	},
     {	"", 			0, 			0	}
 };
 

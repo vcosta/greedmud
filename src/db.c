@@ -161,7 +161,6 @@ int			gsn_turn_undead;
 /*
  * Psionicist gsn's (by Thelonius).
  */
-int                     gsn_chameleon;
 int                     gsn_domination;
 int                     gsn_heighten;
 int                     gsn_shadow;
@@ -197,6 +196,7 @@ int			gsn_mass_vortex_lift;	/* by Zen */
 int			gsn_track;
 int			gsn_whirlwind;
 int			gsn_plague;
+int			gsn_cammo;		/* by Zen */
 
 int			gsn_hit;
 int			gsn_slash;

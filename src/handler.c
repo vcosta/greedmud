@@ -1731,6 +1731,12 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
 	&& !victim->fighting )
 	return FALSE;
 
+    if ( IS_AFFECTED( victim, AFF_CAMMO )
+	&& !( ( IS_SET( race_table[ ch->race ].race_abilities, RACE_DETECT_HIDDEN ) || IS_AFFECTED( ch, AFF_DETECT_HIDDEN ) )
+	    && ( IS_SET( race_table[ ch->race ].race_abilities, RACE_INFRAVISION ) || IS_AFFECTED( ch, AFF_INFRARED ) ) )
+	&& !victim->fighting )
+	return FALSE;
+
     return TRUE;
 }
 
