@@ -226,6 +226,7 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "bet",            do_bet,         POS_STANDING,    0,  LOG_NORMAL, 1 },
     { "cammo",		do_cammo,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "enter",		do_enter,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
+    { "chameleon power",do_chameleon,   POS_STANDING,    0,  LOG_NORMAL, 1 },
     { "follow",		do_follow,	POS_RESTING,	 0,  LOG_NORMAL, 1 },
     { "group",		do_group,	POS_SLEEPING,	 0,  LOG_NORMAL, 1 },
     { "heighten senses",do_heighten,    POS_STANDING,    0,  LOG_NORMAL, 1 },

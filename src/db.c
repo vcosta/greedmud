@@ -161,6 +161,7 @@ int			gsn_turn_undead;
 /*
  * Psionicist gsn's (by Thelonius).
  */
+int			gsn_chameleon;
 int                     gsn_domination;
 int                     gsn_heighten;
 int                     gsn_shadow;

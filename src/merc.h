@@ -1924,6 +1924,7 @@ extern	int	gsn_turn_undead;
 /*
  * Psionicist gsn's (by Thelonius).
  */
+extern	int	gsn_chameleon;
 extern  int     gsn_domination;
 extern  int     gsn_heighten;
 extern  int     gsn_shadow;
@@ -2241,6 +2242,7 @@ DECLARE_DO_FUN(	do_buy		);
 DECLARE_DO_FUN(	do_cammo	);		/* By Zen */
 DECLARE_DO_FUN(	do_cast		);
 DECLARE_DO_FUN(	do_channels	);
+DECLARE_DO_FUN(	do_chameleon 	);		/* by Thelonius */
 DECLARE_DO_FUN(	do_chat		);
 DECLARE_DO_FUN(	do_circle 	);		/* by Thelonius */
 DECLARE_DO_FUN(	do_close	);

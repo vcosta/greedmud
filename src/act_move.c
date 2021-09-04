@@ -1585,6 +1585,38 @@ void do_train( CHAR_DATA *ch, char *argument )
     return;
 }
 
+void do_chameleon ( CHAR_DATA *ch, char *argument )
+{
+    /* Dont allow charmed mobiles to do this, check player's skill */
+    if ( ( IS_NPC( ch ) && IS_AFFECTED( ch, AFF_CHARM ) )
+        && !can_use( ch, gsn_chameleon ) )
+    {
+        send_to_char( "Huh?\n\r", ch );
+        return;
+    }
+
+    if ( ch->riding )
+    {
+        send_to_char( "You can't do that while mounted.\n\r", ch );
+        return;
+    }
+
+    send_to_char( "You attempt to blend in with your surroundings.\n\r", ch);
+
+    if ( IS_AFFECTED( ch, AFF_HIDE ) )
+	xREMOVE_BIT( ch->affected_by, AFF_HIDE );
+
+    if ( IS_NPC( ch ) || number_percent( ) < ch->pcdata->learned[gsn_chameleon] )
+    {
+        xSET_BIT( ch->affected_by, AFF_HIDE );
+	learn( ch, gsn_chameleon, TRUE );
+    }
+    else
+	learn( ch, gsn_chameleon, FALSE );
+
+    return;
+}
+
 void do_heighten( CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA af;
