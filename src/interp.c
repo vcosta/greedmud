@@ -145,8 +145,6 @@ const	struct	cmd_type	cmd_table	[ ] =
     /*
      * Configuration commands.
      */
-    { "alia",		do_alia,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
-    { "alias",		do_alias,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "auto",           do_auto,        POS_DEAD,        0,  LOG_NORMAL, 1 },
     { "autoexit",       do_autoexit,    POS_DEAD,        0,  LOG_NORMAL, 1 },
     { "autogold",       do_autogold,    POS_DEAD,        0,  LOG_NORMAL, 1 },
@@ -162,8 +160,6 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "password",	do_password,	POS_DEAD,	 0,  LOG_NEVER,  1 },
     { "prompt",         do_prompt,      POS_DEAD,        0,  LOG_NORMAL, 1 },
     { "title",		do_title,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
-    { "unalia",		do_unalia,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
-    { "unalias",	do_unalias,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "wimpy",		do_wimpy,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
     { "history",	do_history,	POS_DEAD,	 0,  LOG_NORMAL, 1 },
 
@@ -821,148 +817,3 @@ int strexg( char *dst, char *src, const char *c, const char *t )
     return i;
 }
 
-
-/*
- * "alia" command is a trap to the "alias" command.
- */
-void do_alia( CHAR_DATA *ch, char *argument )
-{
-    send_to_char( "If you want to ALIAS, you have to spell it out.\n\r", ch );
-    return;
-}
-
-
-void do_alias( CHAR_DATA *ch, char *argument )
-{
-    char        buf  [ MAX_STRING_LENGTH ];
-    char        buf1 [ MAX_STRING_LENGTH ];
-    char        name [ MAX_INPUT_LENGTH  ];
-    ALIAS_DATA *alias;
-    int         num;
-
-    if ( IS_NPC( ch ) )
-    {
-	send_to_char( "Mobiles can't have aliases.\n\r", ch );
-	return;
-    }
-
-    alias    = ch->pcdata->alias_list;
-    argument = one_argument( argument, name );
-
-    if ( name[0] == '\0' )
-    {
-	if ( !alias )
-	{
-	    send_to_char( "You have no aliases defined.\n\r", ch );
-	    return;
-	}
-
-	buf1[0] = '\0';
-
-	strcat( buf1, "Your current aliases are:\n\r" );
-	for ( ; alias; alias = alias->next )
-	{
-	    sprintf( buf, "%s = \n\r\"%s\";\n\r", alias->cmd, alias->subst );
-	    strcat( buf1, buf );
-	}
-
-	send_to_char_bw( buf1, ch );
-	return;
-    }
-
-    if (   !str_cmp( name, "alias"   )
-	|| !str_cmp( name, "unalias" ) )
-    {
-	send_to_char( "Sorry, that word is reserved.\n\r", ch );
-	return;
-    }
-
-    num = 0;
-    for ( alias = ch->pcdata->alias_list; alias; alias = alias->next )
-    {
-	if ( !str_cmp( alias->cmd, name ) )
-	{
-	    send_to_char( "You already have that alias!  Remove it first.\n\r", ch );
-	    return;
-	}
-
-	num++;
-    }
-
-    if ( num >= MAX_ALIAS )
-    {
-	send_to_char( "You have reached the alias limit.\n\r", ch );
-	return;
-    }
-
-    /*
-     * Add alias to alias_list.
-     */
-    alias = (ALIAS_DATA *) alloc_mem( sizeof( ALIAS_DATA ) );
-
-    alias->next            = ch->pcdata->alias_list;
-    alias->cmd             = str_dup( name );
-    alias->subst           = str_dup( "" );
-    ch->pcdata->alias_list = alias;
-
-    string_append( ch, &alias->subst );
-    return;
-}
-
-
-/*
- * "unalia" command is a trap to the "unalias" command.
- */
-void do_unalia( CHAR_DATA *ch, char *argument )
-{
-    send_to_char( "If you want to UNALIAS, you have to spell it out.\n\r", ch );
-    return;
-}
-
-
-void do_unalias( CHAR_DATA *ch, char *argument )
-{
-    ALIAS_DATA *alias;
-    ALIAS_DATA *prev;
-    char        buf [ MAX_STRING_LENGTH ];
-    char        arg [ MAX_INPUT_LENGTH  ];
-
-    if ( IS_NPC( ch ) )
-    {
-	send_to_char( "Mobiles can't have aliases.\n\r", ch );
-	return;
-    }
-
-    argument = one_argument( argument, arg );
-
-    /*
-     * Remove alias from alias_list.
-     */
-    prev = NULL;
-    for ( alias = ch->pcdata->alias_list; alias; alias = alias->next )
-    {
-	if ( !str_cmp( alias->cmd, arg ) )
-	    break;
-	prev = alias;
-    }
-    
-    if ( !alias )
-    {
-	send_to_char( "No alias of that name to remove.\n\r", ch );
-	return;
-    }	
-
-    if ( !prev )
-	ch->pcdata->alias_list = alias->next;
-    else
-	prev->next             = alias->next;
-
-    free_string( alias->cmd );
-    free_string( alias->subst );
-
-    free_mem( alias, sizeof( ALIAS_DATA ) );
-
-    sprintf( buf, "Alias '%s' removed.\n\r", arg );
-    send_to_char( buf, ch );
-    return;
-}

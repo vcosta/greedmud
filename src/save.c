@@ -204,7 +204,6 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 {
     AFFECT_DATA *paf;
     int          sn;
-    ALIAS_DATA  *alias;
 
     fprintf( fp, "#%s\n", IS_NPC( ch ) ? "MOB" : "PLAYER"		);
 
@@ -316,10 +315,6 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fprintf( fp, "MDeaths     %d\n",   ch->pcdata->mdeaths		);
 
 	fprintf( fp, "Pglen       %d\n",   ch->pcdata->pagelen		);
-
-        for ( alias = ch->pcdata->alias_list; alias; alias = alias->next )
-	    fprintf( fp, "NAlias      '%s' %s~\n", alias->cmd,
-	    					   fix_string( alias->subst ) );
 
 	for ( sn = 0; sn < MAX_SKILL; sn++ )
 	{
@@ -908,34 +903,6 @@ int fread_char( CHAR_DATA *ch, FILE *fp )
 		  bugf( "Fread_char: unknown PClan: %s.", clan_name );
 		  ch->pcdata->rank      = 0;
 	      }
-	  }
-
-	else if ( !str_cmp( word, "NAlias" ) )
-	  {
-	      ALIAS_DATA *alias;
-	      int         num;
-
-	      num = 0;
-
-	      for ( alias = ch->pcdata->alias_list; alias; alias = alias->next )
-		  num++;
-
-	      if ( num >= MAX_ALIAS )
-		  continue;
-
-	      alias                  = (ALIAS_DATA *) alloc_mem( sizeof( ALIAS_DATA ) );
-	      alias->cmd             = str_dup( fread_word( fp, &status1 ) );
-	      alias->subst           = fread_string( fp, &status );
-
-	      if ( status || status1 )
-	      {
-		  bugf( "Fread_char: Error reading NAlias." );
-		  fread_to_eol( fp );
-		  continue;
-	      }
-
-	      alias->next            = ch->pcdata->alias_list;
-	      ch->pcdata->alias_list = alias;
 	  }
 
         else if ( !str_cmp( word, "Skll" ) )

@@ -446,11 +446,8 @@ void game_loop_unix( int control )
 		d->fcommand	= TRUE;
 		stop_idling( d->character );
 
-		     if ( d->showstr_point )
-			show_string( d, d->incomm );
-		else if ( d->str_editing )
-			string_add( d->character, d->incomm );
-		else
+		if ( d->showstr_point )
+		    show_string( d, d->incomm );
 		switch ( d->connected )
 		{
 		case CON_PLAYING:   interpret( d->character, d->incomm ); break;
@@ -771,7 +768,6 @@ void new_descriptor( int control )
     dnew->connected	= CON_GET_NAME;
     dnew->showstr_head  = str_dup( "" );
     dnew->showstr_point = 0;
-    dnew->str_editing	= NULL;
     dnew->outsize	= 2000;
     dnew->outbuf	= (char *) alloc_mem( dnew->outsize );
 
@@ -1226,39 +1222,6 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     inbuf[0] = '\0';
     j	     = 0;
 
-    /*
-     * Do alias substitution.
-     */
-    if ( IS_PLAYING( d ) && ch )
-    {
-	ALIAS_DATA *alias;
-	char *      arg1;
-	char        cmd	 [ MAX_INPUT_LENGTH ];
-
-	arg1 = one_argument( d->incomm, cmd );
-
-	for ( alias = ch->pcdata->alias_list; alias; alias = alias->next )
-	    if ( !str_cmp( cmd, alias->cmd ) ) break;
-
-	if ( alias )
-	{
-	    char  arg [ MAX_INPUT_LENGTH ];
-	    int   n;
-	    char *e;
-
-	    strcpy( arg, arg1 );
-	    n = strexg( d->incomm, alias->subst, "$", arg );
-
-	    if ( ( e = strstr( d->incomm, "\n\r" ) ) )
-	    {
-	      *e = '\0';
-	      e += 2;
-	      strcpy( inbuf, e );
-	      j = n - (e - d->incomm);
-	    }
-	}
-    }
-
     if ( MAX_INPUT_LENGTH-j > 0 )
       strncat( inbuf, &d->inbuf[i], MAX_INPUT_LENGTH-j );
     strcpy( d->inbuf, inbuf );
@@ -1301,7 +1264,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 	    write_to_buffer( d, buf, 0 );
 	}
 	else
-	  if ( d->connected > CON_PASSWD_GET_OLD && ! d->str_editing )
+	  if ( d->connected > CON_PASSWD_GET_OLD )
 	  {
 	    CHAR_DATA *ch;
 

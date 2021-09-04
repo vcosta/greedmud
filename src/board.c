@@ -575,7 +575,7 @@ void do_note( CHAR_DATA *ch, char *argument )
     if ( !str_cmp( arg, "edit" ) )
     {
 	note_attach( ch );
-	string_append( ch, &ch->pcdata->note->text );
+/* ch->pcdata->note->text */
 	return;
     }
 

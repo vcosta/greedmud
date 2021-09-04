@@ -4070,7 +4070,7 @@ void do_setclan( CHAR_DATA *ch, char *argument )
     }
     if ( !str_cmp( arg2, "desc" ) )
     {
-	string_append( ch, &clan->description );
+/* clan->description */
         return;
     }
 

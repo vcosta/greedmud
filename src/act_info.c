@@ -898,7 +898,6 @@ void do_score( CHAR_DATA *ch, char *argument )
     char         buf  [ MAX_STRING_LENGTH ];
     char         buf1 [ MAX_STRING_LENGTH ];
     char         buf2 [ MAX_STRING_LENGTH ];
-    char        *ptr;
     int          ln;
 
     buf1[0] = '\0';
@@ -1132,9 +1131,7 @@ void do_score( CHAR_DATA *ch, char *argument )
     strcat( buf, "{x\n\r" );
 
     /* Kludge to avoid memory leak */
-    ptr = format_string( str_dup( buf ) );
-    strcat( buf1, ptr );
-    free_string( ptr );
+    strcat( buf1, buf );
 
     if ( !IS_NPC( ch ) &&
 	( xIS_SET( ch->act, PLR_REGISTER ) ||
@@ -2107,10 +2104,38 @@ void do_title( CHAR_DATA *ch, char *argument )
 
 void do_description( CHAR_DATA *ch, char *argument )
 {
+    char buf [ MAX_STRING_LENGTH ];
+
     if ( IS_NPC( ch ) )
         return;
 
-    string_append( ch, &ch->description );
+    if ( argument[0] != '\0' )
+    {
+	buf[0] = '\0';
+	smash_tilde( argument );
+	if ( argument[0] == '+' )
+	{
+	    if ( ch->description )
+		strcat( buf, ch->description );
+	    argument++;
+	    while ( isspace( *argument ) )
+		argument++;
+	}
+
+	if ( strlen( buf ) + strlen( argument ) >=  MAX_STRING_LENGTH  - 2 )
+	{
+	    send_to_char( "Description too long.\n\r", ch );
+	    return;
+	}
+
+	strcat( buf, argument );
+	strcat( buf, "\n\r" );
+	free_string( ch->description );
+	ch->description = str_dup( buf );
+    }
+
+    send_to_char( "Your description is:\n\r", ch );
+    send_to_char( ch->description ? ch->description : "(None).\n\r", ch );
     return;
 }
 

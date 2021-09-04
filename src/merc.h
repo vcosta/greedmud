@@ -177,7 +177,6 @@ typedef struct	clan_data		CLAN_DATA;
 typedef struct	hunt_hate_fear		HHF_DATA;
 typedef struct	system_data		SYSTEM_DATA;
 typedef struct	game_data		GAME_DATA;
-typedef struct	alias_data		ALIAS_DATA;
 typedef struct	board_data		BOARD_DATA;
 typedef	struct	auction_data		AUCTION_DATA;
 typedef	struct	mprog_list		MPROG_LIST;
@@ -541,8 +540,6 @@ struct	descriptor_data
     char *		outbuf;
     int			outsize;
     int			outtop;
-
-    char **             str_editing;
 #ifdef USE_PTHREADS
     name_lookup_t	lookup_status;
     pthread_t		thread_id;
@@ -763,18 +760,6 @@ struct	who_data
     WHO_DATA *	prev;
     WHO_DATA *	next;
     char *	text;
-};
-
-
-
-/*
- * For alias output.
- */
-struct	alias_data
-{
-    ALIAS_DATA * next;
-    char *	 cmd;
-    char *	 subst;
 };
 
 
@@ -1592,7 +1577,6 @@ struct	pc_data
     int_16		pagelen;
     int_16 *		learned;
     bool                switched;
-    ALIAS_DATA *	alias_list;
     int_16		security;
     CLAN_DATA *		clan;
     int			rank;
@@ -2472,9 +2456,6 @@ DECLARE_DO_FUN(	do_leave	);
 DECLARE_DO_FUN(	do_retir	);
 DECLARE_DO_FUN(	do_retire	);
 DECLARE_DO_FUN(	do_alia		);
-DECLARE_DO_FUN(	do_alias	);
-DECLARE_DO_FUN(	do_unalia	);
-DECLARE_DO_FUN(	do_unalias	);
 DECLARE_DO_FUN(	do_dirt		);
 DECLARE_DO_FUN(	do_grats	);
 DECLARE_DO_FUN(	do_wartalk	);
