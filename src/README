@@ -93,7 +93,7 @@ handler.c	- Contains procedures for data element handling
 hunt.c		- Contains procedures for hunt/track
 interp.c	- Contains procedures and tables for game user commands
 magic.c		- Contains procedures for spells
-mem.c		- Contains procedures for OLC mem operations
+mem.c		- Contains procedures for tracking mem operations
 merc.h		- Contains data types/prototypes/macros used within the game
 mob_comm.c	- Contains procedures for mob commands (used by MobPrograms)
 mob_prog.c	- Contains procedures for MobPrograms
@@ -102,7 +102,6 @@ spec_mob.c	- Contains procedures for mobile special abilities
 spec_obj.c	- Contains procedures for object special abilities
 spec_rom.c	- Contains procedures for room special abilities
 ssm.c		- Contains procedures for string management
-string.c	- Contains procedures for OLC's string editor
 tables.c	- Contains tables/procs used for class/social loading/saving
 update.c	- Contains procedures for game operation
 wiznet.c	- Contains procedures for wiznet
