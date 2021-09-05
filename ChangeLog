@@ -1,6 +1,10 @@
 2021-07-10  Vasco Costa <vasco.costa@gmail.com>
 	* Started exterminating all traces of "The Isles 1.1 OLC" code.
 
+	* added cammo skill.
+
+	* fixed several crashes.
+
 2020-05-10  Vasco Costa <vasco.costa@gmail.com>
 
 	* fix crashes after creating dual class characters.
